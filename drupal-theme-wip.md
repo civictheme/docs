@@ -2,7 +2,7 @@
 
 ### About <a href="#drupaltheme-wip-about" id="drupaltheme-wip-about"></a>
 
-CivicTheme is built to be CMS-agnostic. This means it is not dependent on any specific CMS (such as Wordpress or Drupal). Technically, you can use CivicTheme in and project that already uses Twig templates and CSS/HTML.
+CivicTheme is built to be CMS-agnostic. This means it is not dependent on any specific CMS (such as Wordpress or Drupal). Technically, you can use CivicTheme in a project that already uses Twig templates and CSS/HTML.
 
 However, the first build of CivicTheme was released to support GovCMS and Drupal. Future builds will support React and Vue.
 
@@ -14,13 +14,10 @@ The CivicTheme Drupal theme can be found [here](https://www.drupal.org/project/c
 
 Some of our contribution channels are:
 
-[Slack Channel](https://drupal.slack.com/archives/C039UV0CQBZ)
-
-[Design Contributions](https://www.figma.com/file/BMpoyUv9tXv91GXI8jRLJ3/CivicTheme.io%3A-Design-System-v1.1.0?node-id=1009%3A19330\&t=pe1ZX88EJctz6C8W-0)
-
-Email: [civictheme@salsa.digital](mailto:civictheme@salsa.digital)
-
-[Code Contributions](https://github.com/salsadigitalauorg/civictheme\_source/issues) (Github)
+* [Slack Channel](https://drupal.slack.com/archives/C039UV0CQBZ)
+* [Design Contributions](https://www.figma.com/file/BMpoyUv9tXv91GXI8jRLJ3/CivicTheme.io%3A-Design-System-v1.1.0?node-id=1009%3A19330\&t=pe1ZX88EJctz6C8W-0)
+* Email: [civictheme@salsa.digital](mailto:civictheme@salsa.digital)
+* [Code Contributions](https://github.com/salsadigitalauorg/civictheme\_source/issues) (Github)
 
 ### Reporting Issues <a href="#drupaltheme-wip-reportingissues" id="drupaltheme-wip-reportingissues"></a>
 
