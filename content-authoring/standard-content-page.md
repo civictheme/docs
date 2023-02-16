@@ -4,11 +4,11 @@
 
 This article will guide you through creating a Standard Content Page.
 
-A Standard Content page can be a simple page with a title and body or it can be complex if you were to [add components](broken-reference).
+A Standard Content Page can be a simple page with a title and body or it can be complex if you were to [add components](broken-reference).
 
 ### Step 1 - Go to the admin content area <a href="#creatingastandardcontentpage-step1-gototheadmincontentarea" id="creatingastandardcontentpage-step1-gototheadmincontentarea"></a>
 
-There are two ways that you can access the admin content area in Drupal.
+There are two ways to access the admin content area in Drupal.
 
 Option 1 - Go directly to _\[your domain]/admin/content_
 
