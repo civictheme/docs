@@ -49,7 +49,7 @@ The available fields are shown in Figure 4. We have numbered the fields and expl
 
 
 1. Banner type - You can specify the size of the banner here with choices of Inherit, Default or Large. Currently, there is [bug which prevents the “Inherit” option from having any effect.](https://github.com/salsadigitalauorg/civictheme\_source/issues/897)
-2. Banner theme - You can specify the theme colour. “Inherit” will inherit the value defined for your custom banner block which you can find at _\[your\_domain]/admin/structure/block/block-content_
+2. Banner theme - You can specify the theme colour. “Inherit” will inherit the value defined for your custom banner block which you can find at _\[your\_domain]/admin/structure/block/block-content._
 3. Banner title - you can override the page title here.
 4. Hide breadcrumb - if your homepage has a breadcrumb, checking this box will hide it. Typically, homepages do not have breadcrumbs so toggling this checkbox may not have any effect on your homepage.
 5. Background image - as the name suggests, this will update the background image in the banner area.
