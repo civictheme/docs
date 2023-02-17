@@ -54,11 +54,11 @@ The available fields are shown in Figure 4. We have numbered the fields and expl
 
 
 
-    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Figure 5</p></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Figure 5</p></figcaption></figure>
 
 7\. Content component - This is an example component added for illustrations purposes. There are many other components to choose from. Components added here are presented in the area shown in Figure 6 below.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Figure 6</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p>Figure 6</p></figcaption></figure>
 
 8\. Manual list component - This is another example of a component. Components added to the “Banner bottom components” appear under the banner as shown in Figure 7 below.
 
