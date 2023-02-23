@@ -12,11 +12,11 @@ The CivicTheme component library has the following 3 key elements:
 
 * User-centred design is imperative to the development process.
 * Built and assessed to comply with WCAG accessibility standards 2.1 AA out-of-the-box.
-* A neutral design system that’s not tied to a specific technology, framework, platform or system.
+* A neutral design system that’s not tied to a specific technology, framework, platform or system
 
 ### Viewing the Component Library <a href="#componentlibrary-wip-viewingthecomponentlibrary" id="componentlibrary-wip-viewingthecomponentlibrary"></a>
 
-CivicTheme uses [Storybook](https://storybook.js.org/) which is a frontend UI to visualise the components. Having prior knowledge of Storybook is not a prerequisite.
+CivicTheme uses [Storybook](https://storybook.js.org/) which is a frontend UI to visualize the components. Having prior knowledge of Storybook is not a prerequisite.
 
 [View the CivicTheme component library here](https://www.civictheme.io/storybook).
 

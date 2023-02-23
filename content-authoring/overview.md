@@ -10,6 +10,12 @@ Out-of-the-box, CivicTheme comes with 3 content types:
 
 These are the most common content types that you would need to start of as a base. You can add more content types as you wish.
 
+* Alert
+* Event
+* Page.&#x20;
+
+These are the most common content types that you would need to start of as a base. You can add more content types as you wish.
+
 ### Alert <a href="#contentauthoring-overview-alert" id="contentauthoring-overview-alert"></a>
 
 Use alerts to provide information for site users using a status bar. Common examples are announcements, notices, warning, downtime alerts or any other alerts that you want your site visitor to see right away at the top of the page.
@@ -26,7 +32,7 @@ The final output is shown in Figure 1 and shows where it is placed on the page. 
 
 
 
-Depending on which “type” you select, the Alert background colour can be different. Figure 2 shows the different Alert types and their associated colours.
+Depending on which “type” you select, the Alert background colour can be different. Figure 2 shows the different Alert types and it’s associated colours.
 
 
 
