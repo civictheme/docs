@@ -37,8 +37,8 @@ See [Colors](../content-authoring/site-wide-configuration/theme-settings/colors.
 The Components sections are split into multiple sections. Click the links below to read further documentation on these sections.
 
 * [Logo](../content-authoring/site-wide-configuration/logos.md)
-* [Header](broken-reference)
-* [Footer](broken-reference)
+* [Header](header.md)
+* [Footer](footer.md)
 * Navigation
 * Link
 * Skip Link
