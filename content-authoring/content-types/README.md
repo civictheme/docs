@@ -20,7 +20,7 @@ The fields for the Content tab:
 
 The fields for the Banner tab:
 
-<figure><img src="../../.gitbook/assets/0b8a23ab-14c4-40ef-b2af-fe163b0e92ba (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/0b8a23ab-14c4-40ef-b2af-fe163b0e92ba (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 While you can add various components to the page and banner, the most simplistic Page output with a Content component is shown below:
 
@@ -42,7 +42,7 @@ The fields for the Event tab:
 
 The final output for an Event with a Map component:
 
-<figure><img src="../../.gitbook/assets/01e6585c-ceac-4f80-b663-d97001f7e266 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/01e6585c-ceac-4f80-b663-d97001f7e266.png" alt=""><figcaption></figcaption></figure>
 
 ### Alert <a href="#contentauthoring-overview-alert" id="contentauthoring-overview-alert"></a>
 

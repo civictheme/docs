@@ -11,10 +11,10 @@
 
 * [Introduction](content-authoring/introduction.md)
 * [Site-wide configuration](content-authoring/global-configuration/README.md)
-  * [Header](content-authoring/site-wide-configuration/header/README.md)
-    * [Logos](content-authoring/site-wide-configuration/header/logos.md)
+  * [Header](content-authoring/site-wide-configuration/header.md)
   * [Footer](content-authoring/footer.md)
-  * [Site-wide Banner](content-authoring/site-wide-banner.md)
+  * [Logos](content-authoring/site-wide-configuration/logos.md)
+  * [Banner](content-authoring/site-wide-configuration/banner.md)
   * [Topics](content-authoring/topics.md)
   * [Theme settings](configuration/overview.md)
     * [Header](configuration/header.md)

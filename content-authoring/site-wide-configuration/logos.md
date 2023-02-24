@@ -18,13 +18,13 @@ Please see the [documentation on how to access the CivicTheme configuration page
 
 Find the Components section and click on the “Logo” tab.
 
-![](../../../.gitbook/assets/2642903077.png)
+![](../../.gitbook/assets/2642903077.png)
 
 ### Step 3 - Updating the Primary logo <a href="#updatinglogos-step3-updatingtheprimarylogo" id="updatinglogos-step3-updatingtheprimarylogo"></a>
 
 Expand the “Primary Logo” tab.
 
-![](../../../.gitbook/assets/2643034144.png)
+![](../../.gitbook/assets/2643034144.png)
 
 Here you can update primary logos for:
 
@@ -39,7 +39,7 @@ CivicTheme will automatically show the appropriate logo (desktop or mobile) base
 
 Expand the “Secondary logo” tab.
 
-![](../../../.gitbook/assets/2642640930.png)
+![](../../.gitbook/assets/2642640930.png)
 
 Here you can update secondary logos for:
 
@@ -54,4 +54,4 @@ CivicTheme will automatically show the appropriate logo (desktop or mobile) base
 
 The logos are placed above the header section across all pages as shown in Figure 4.
 
-![](../../../.gitbook/assets/2642640938.png)
+![](../../.gitbook/assets/2642640938.png)
