@@ -17,7 +17,7 @@
     * [Colors](content-authoring/site-wide-configuration/theme-settings/colors.md)
     * [Header](configuration/header.md)
     * [Footer](configuration/footer.md)
-    * [Logos](content-authoring/site-wide-configuration/theme-settings/logos.md)
+    * [Logos](content-authoring/site-wide-configuration/logos.md)
 * [Homepage](content-authoring/homepage.md)
 * [Content types](content-authoring/content-types/README.md)
   * [Standard Content Page](content-authoring/content-types/standard-content-page.md)
