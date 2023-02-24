@@ -13,9 +13,10 @@
 * [Site-wide configuration](content-authoring/global-configuration/README.md)
   * [Header](content-authoring/site-wide-configuration/header.md)
   * [Footer](content-authoring/footer.md)
+  * [Banner](content-authoring/site-wide-configuration/banner.md)
   * [Theme settings](configuration/overview.md)
     * [Colors](content-authoring/site-wide-configuration/theme-settings/colors.md)
-    * [Logo](content-authoring/site-wide-configuration/theme-settings/logo.md)
+    * [Logo](content-authoring/site-wide-configuration/logos.md)
     * [Header](configuration/header.md)
     * [Footer](configuration/footer.md)
 * [Homepage](content-authoring/homepage.md)
@@ -36,6 +37,7 @@
     * [Publication card](content-authoring/landing-page/adding-components-wip/manual-list/publication-card.md)
     * [Subject card](content-authoring/landing-page/adding-components-wip/manual-list/subject-card.md)
     * [Service card](content-authoring/landing-page/adding-components-wip/manual-list/service-card.md)
+* [Roles](content-authoring/roles.md)
 
 ## 🛠 Development
 

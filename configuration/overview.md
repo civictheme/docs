@@ -8,6 +8,8 @@ Most of the settings you find here are applied globally across your site.
 
 ### Accessing the CivicTheme configuration page <a href="#civicthemeconfiguration-accessingthecivicthemeconfigurationpage" id="civicthemeconfiguration-accessingthecivicthemeconfigurationpage"></a>
 
+NOTE: You must be logged in as a user with a "Site administrator" role to access this page.
+
 1. Click on Appearance as shown in Figure 1.
 
 <figure><img src="../.gitbook/assets/64eb74bb-6571-4cca-b032-891db0a53412.png" alt=""><figcaption></figcaption></figure>
@@ -34,7 +36,7 @@ See [Colors](../content-authoring/site-wide-configuration/theme-settings/colors.
 
 The Components sections are split into multiple sections. Click the links below to read further documentation on these sections.
 
-* [Logo](../content-authoring/site-wide-configuration/theme-settings/logo.md)
+* [Logo](../content-authoring/site-wide-configuration/logos.md)
 * [Header](broken-reference)
 * [Footer](broken-reference)
 * Navigation
