@@ -1,14 +1,12 @@
 # Accordion
 
-### Summary <a href="#accordioncomponent-summary" id="accordioncomponent-summary"></a>
-
 The Accordion component allows you to add a collapsible grouping of content.
 
 The Accordion settings allow you to specify the default state (expanded or collapsed).
 
-This article will guide you how to add an Accordion component and configure its settings.
 
-Figure 1 shows the final output of two Accordions. The first Accordion is shown in the expanded state.
+
+Final output of two Accordions. The first Accordion is shown in the expanded state.
 
 ![](../../../.gitbook/assets/2639724594.png)
 

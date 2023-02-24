@@ -1,9 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [About CivicTheme Design System (wip)](about-civictheme-design-system-wip.md)
+* [Design System](design-system.md)
 * [Component Library (wip)](component-library-wip.md)
 * [Drupal theme (wip)](drupal-theme-wip.md)
+* [Contributing](contributing.md)
 
 ## 📝 Content Authoring
 
