@@ -1,17 +1,28 @@
 # Colors
 
+CivicTheme allows to change colour of all elements from the configuration page without additional development.
 
+To enable this functionality, check "Use Color Selector". If not selected, the default CSS will be used.
 
+<figure><img src="../../../.gitbook/assets/cf078ead-480c-434e-9eae-2b172661ab33.png" alt=""><figcaption></figcaption></figure>
 
+There are 2 visual themes available: `Light` and `Dark`. These are the visual themes consisting of Palette Colors that every component can be shown as.
 
-The expanded Colors settings are shown in Figure 5 below.
+Palette Colors are named after the purpose of the color: `Heading` defines the color of all headings, while `Background` defines the background color.
 
+Some colors represented in different variants: `Border light`, `Border`, `Border dark`. This is to allow more visual variety on component colors.
 
+Every component has a mapping to a set of designated colors based on the element this component uses.
 
-The most important setting is the “Use Color Selector” checkbox (highlighted in Figure 5).
+#### **Brand colors**
 
-If **checked**, then you can edit the colors by using the color palette. Additionally, you can also override some colors with CSS code although this is not recommended.
+The Brand colors use predefined formulas that automatically update the Palette colors. In other words, if you change the brand colors, then its corresponding dependents will automatically update.&#x20;
 
-If **unchecked**, all colors will be overridden from your CSS code.
+This is used as a short-hand to set 14 Palette colors using only 3 Brand colors. And it also allows to quickly produce Palette colors in case if only Brand colors are provided.
 
-The Brand colors use predefined formulas that automatically update the palette colors. In other words, if you change the brand colors, then its corresponding dependents will automatically update. Click on “show dependants” to see the relationship.
+Brand colors is only a "helper" tool. Every Palette color value produced from the Brand color can be overridden.
+
+To see which Brand colors drive which Palette color, check "Show dependants" checkbox under the Brand color.
+
+<figure><img src="../../../.gitbook/assets/dc72415f-f89f-447b-adbe-3d2c717b4b91.png" alt=""><figcaption></figcaption></figure>
+
