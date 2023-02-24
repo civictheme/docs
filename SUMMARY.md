@@ -1,9 +1,6 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [UI kit](ui-kit.md)
-* [Component Library (wip)](component-library-wip.md)
-* [Drupal theme (wip)](drupal-theme-wip.md)
 * [Contributing](contributing.md)
 
 ## 📝 Content Authoring
