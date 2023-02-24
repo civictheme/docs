@@ -8,41 +8,25 @@ Most of the settings you find here are applied globally across your site.
 
 ### Accessing the CivicTheme configuration page <a href="#civicthemeconfiguration-accessingthecivicthemeconfigurationpage" id="civicthemeconfiguration-accessingthecivicthemeconfigurationpage"></a>
 
-There are two ways to get to the theme configuration page:
+1. Click on Appearance as shown in Figure 1.
 
-**Option 1**
+<figure><img src="../.gitbook/assets/64eb74bb-6571-4cca-b032-891db0a53412.png" alt=""><figcaption></figcaption></figure>
 
-1.  Click on Appearance as shown in Figure 1.
+2. Click on “Settings” next to your installed CIvicTheme.
 
-
-2.  Click on “Settings” next to your installed CIvicTheme.\
-
-
-
-
-**Option 2**
-
-You can go directly to the theme configuration page at:
-
-_\[your\_domain]/admin/appearance/settings/civictheme\_demo_
+<figure><img src="../.gitbook/assets/31b2eea2-e4b8-48bc-bcfc-e7fbf344735c.png" alt=""><figcaption></figcaption></figure>
 
 ### Overview of the CivicTheme configuration page <a href="#civicthemeconfiguration-overviewofthecivicthemeconfigurationpage" id="civicthemeconfiguration-overviewofthecivicthemeconfigurationpage"></a>
 
-Figure 3 shows an overview screenshot of the theme configuration page.
+<figure><img src="../.gitbook/assets/65d7dac1-5441-4e71-88dc-eb1c6512a111.png" alt=""><figcaption></figcaption></figure>
 
 
 
-We will go into more details about each of the highlighted sections. For the sections below, please refer to Figure 3.
-
-### Helpful external links <a href="#civicthemeconfiguration-helpfulexternallinks" id="civicthemeconfiguration-helpfulexternallinks"></a>
-
-These self-explanatory links are placed here for your convenience.
-
-### Page element display and Favicon <a href="#civicthemeconfiguration-pageelementdisplayandfavicon" id="civicthemeconfiguration-pageelementdisplayandfavicon"></a>
+Page element display and Favicon
 
 The expanded versions of these sections are shown in Figure 4.
 
-
+<figure><img src="../.gitbook/assets/0d81c5b7-33ef-4137-af48-91296556965c.png" alt=""><figcaption></figcaption></figure>
 
 Once the checkbox “Shortcut icon” is checked, then the Favicon options become available. You can upload your custom Favicon here.
 
@@ -82,18 +66,12 @@ Event card, Navigation card, Publication card, Promo card - Set the default summ
 
 Migration - “Expose migration metadata” exposes metadata as data attributes on HTML elements.
 
-### Content Provisioning <a href="#civicthemeconfiguration-contentprovisioning" id="civicthemeconfiguration-contentprovisioning"></a>
+### Storybook <a href="#civicthemeconfiguration-storybookfor-your_theme-theme" id="civicthemeconfiguration-storybookfor-your_theme-theme"></a>
 
+Storybook demonstrates components used in your site as a standalone library.
 
+The components in the Storybook are visual representation and they are not connected to the Drupal components.
 
-You can use this feature if you would like to quickly create dummy content during your development. Every time you provision content, old dummy content will be removed and replaced with new dummy content.
+Each component has properties that allow to change component and see how it visually changes.
 
-You can use this feature to demo what your site would look like with sample content.
-
-### Storybook for \[your\_theme] Theme <a href="#civicthemeconfiguration-storybookfor-your_theme-theme" id="civicthemeconfiguration-storybookfor-your_theme-theme"></a>
-
-Storybook is used to provide a UI so that components and other features can be easily demonstrated right from within your theme.
-
-Read more about [CivicTheme and Storybook](https://www.civictheme.io/about/storybook).
-
-[View published version of StoryBook for CivicTheme.](https://www.civictheme.io/themes/custom/civictheme\_launchpad/storybook-static/index.html)
+While being primarily a development tool, the Storybook allows everyone to see all components at-a-glance without creating any special content for it.

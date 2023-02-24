@@ -14,8 +14,6 @@
   * [Header](content-authoring/site-wide-configuration/header.md)
   * [Footer](content-authoring/footer.md)
   * [Logos](content-authoring/site-wide-configuration/logos.md)
-  * [Banner](content-authoring/site-wide-configuration/banner.md)
-  * [Topics](content-authoring/topics.md)
   * [Theme settings](configuration/overview.md)
     * [Header](configuration/header.md)
     * [Footer](configuration/footer.md)
