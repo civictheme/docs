@@ -42,7 +42,7 @@ The fields for the Event tab:
 
 The final output for an Event with a Map component:
 
-<figure><img src="../../.gitbook/assets/01e6585c-ceac-4f80-b663-d97001f7e266.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/01e6585c-ceac-4f80-b663-d97001f7e266 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Alert <a href="#contentauthoring-overview-alert" id="contentauthoring-overview-alert"></a>
 

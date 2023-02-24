@@ -36,7 +36,7 @@ Please see the [documentation page](content-types/landing-page.md) explaining ea
 
 The “Banner” tab allows you to edit any information in the banner section (this is the section above the “edit” button as shown in Figure 3).
 
-Please note that these are **per-page** overrides of a [site-wide banner](site-wide-configuration/site-wide-banner.md) and they do not need to be updated on every page if the site-wide banner configuration is sufficient.
+Please note that these are **per-page** overrides of a [site-wide banner](site-wide-banner.md) and they do not need to be updated on every page if the site-wide banner configuration is sufficient.
 
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption><p>Figure 3</p></figcaption></figure>
 
