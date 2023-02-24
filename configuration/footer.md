@@ -1,33 +1,30 @@
 # Footer
 
-### Summary <a href="#footer-summary" id="footer-summary"></a>
+Footer setting allow to select the Theme, Logo type and Background image\
+![](<../.gitbook/assets/de554d48-2a81-44ed-922a-3f6f898cbdc8 (1).png>)
 
-This article will guide you through updating the Footer settings of your CivicTheme site.
+### Theme
 
-### Step 1 - Go to the theme configuration page <a href="#footer-step1-gotothethemeconfigurationpage" id="footer-step1-gotothethemeconfigurationpage"></a>
+Footer can be shown in Light or Dark theme.
 
-Please see the [documentation on how to access the CivicTheme configuration page](https://salsadigital.atlassian.net/wiki/spaces/CIVIC/pages/2640249019/CivicTheme+Configuration+wip#Accessing-the-CivicTheme-configuration-page).
+### Logo type <a href="#header-logotype" id="header-logotype"></a>
 
-### Step 2 - Access the Footer tab <a href="#footer-step2-accessthefootertab" id="footer-step2-accessthefootertab"></a>
+Depending on the space within a Footer of your site, you can selected how the Logo (with one or two images) is shown. The space could be limited due to a high number of Primary Navigation links that sit inline with the logo.
 
-Find the Components section and click on the “Footer” tab.
+The following table outlines the Logo type using example logos:
 
+| **Logo type**  | **Final Output (Desktop)**             | **Final Output (mobile)**              |
+| -------------- | -------------------------------------- | -------------------------------------- |
+| Default        | ![](../.gitbook/assets/2642903128.png) | ![](../.gitbook/assets/2642903128.png) |
+| Stacked        | ![](../.gitbook/assets/2643329071.png) | ![](../.gitbook/assets/2643329071.png) |
+| Inline         | ![](../.gitbook/assets/2642640970.png) | ![](../.gitbook/assets/2642903128.png) |
+| Inline Stacked | ![](../.gitbook/assets/2643329079.png) | ![](../.gitbook/assets/2643329071.png) |
 
+As you can see, only "Inline Stacked" has a different behaviour on Desktop and mobile.
 
-Here you can set the theme color, logo type and upload a footer background image.
+### Background image <a href="#footer-footerbackgroundimage" id="footer-footerbackgroundimage"></a>
 
-### Logo type <a href="#footer-logotype" id="footer-logotype"></a>
+Background image allows to specify the URL or upload a custom image that will be shown as a Footer background:
 
-The following table outlines the default Logo type settings as it pertains to a default CivicTheme site. It may vary on your site.
-
-| **Logo type**  | **Final Output (desktop)** | **Final Output (mobile)** |
-| -------------- | -------------------------- | ------------------------- |
-| Default        |                            |                           |
-| Stacked        |                            |                           |
-| Inline         |                            |                           |
-| Inline Stacked |                            |                           |
-
-### Footer Background image <a href="#footer-footerbackgroundimage" id="footer-footerbackgroundimage"></a>
-
-If you upload a footer background image, it will appear as shown in Figure 2.
+<figure><img src="../.gitbook/assets/146fdf21-d0a4-4b4b-9a35-a7b0937933d3.png" alt=""><figcaption></figcaption></figure>
 

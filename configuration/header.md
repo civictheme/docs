@@ -1,12 +1,7 @@
 # Header
 
-Header setting allow to select the Theme and Logo type.
-
-### Access the Header tab <a href="#header-summary" id="header-summary"></a>
-
-Find the Components section and click on the “Header” tab.
-
-![](../.gitbook/assets/2642903116.png)
+Header setting allow to select the Theme and Logo type.\
+<img src="../.gitbook/assets/bc69a940-5fc9-4a6f-bbd1-0b68d7714478 (1).png" alt="" data-size="original">
 
 ### Theme
 
