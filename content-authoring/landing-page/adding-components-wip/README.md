@@ -1,4 +1,4 @@
-# Adding Components (WIP)
+# Components
 
 ### Summary <a href="#addingcomponents-wip-summary" id="addingcomponents-wip-summary"></a>
 

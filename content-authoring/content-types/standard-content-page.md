@@ -14,13 +14,13 @@ Option 1 - Go directly to _\[your domain]/admin/content_
 
 Option 2 - At the top left of the admin navigation bar, click on “Manage” to expand the second menu bar, then click on “Content”. This is shown in Figure 1 below.
 
-<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Figure 1</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Figure 1</p></figcaption></figure>
 
 ### Step 2 - Click on “Add content” <a href="#creatingastandardcontentpage-step2-clickon-addcontent" id="creatingastandardcontentpage-step2-clickon-addcontent"></a>
 
 Once you are in the admin content area, at the top left, click on the “Add content” button as shown in Figure 2.
 
-<figure><img src="../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Figure 2</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption><p>Figure 2</p></figcaption></figure>
 
 ### Step 3 - Add a Page <a href="#creatingastandardcontentpage-step3-addapage" id="creatingastandardcontentpage-step3-addapage"></a>
 
@@ -28,7 +28,7 @@ CivicTheme comes with 3 content types by default. These are Alert, Event and Pag
 
 Click on Page as shown in Figure 3.
 
-<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Figure 3</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Figure 3</p></figcaption></figure>
 
 ### Step 4 - Insert your content <a href="#creatingastandardcontentpage-step4-insertyourcontent" id="creatingastandardcontentpage-step4-insertyourcontent"></a>
 
@@ -42,11 +42,11 @@ CivicTheme has “Components” that you can add to the Page. Each “Component�
 
 For a simple text area, you can click on “Add Content” from the Components dropdown (see Figure 4).
 
-<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Figure 4</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Figure 4</p></figcaption></figure>
 
 The “Add Content” component will give you a text area as shown in Figure 5. Enter your custom text into the text area.
 
-<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption><p>Figure 5</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption><p>Figure 5</p></figcaption></figure>
 
 Click on “Save” when you are finished.
 

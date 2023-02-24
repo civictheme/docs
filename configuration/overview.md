@@ -1,4 +1,4 @@
-# Overview
+# Theme settings
 
 ### Summary <a href="#civicthemeconfiguration-summary" id="civicthemeconfiguration-summary"></a>
 
