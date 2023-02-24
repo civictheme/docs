@@ -54,6 +54,9 @@
   * [Subject card](content-authoring/components/subject-card.md)
   * [Subject reference card](content-authoring/components/subject-reference-card.md)
   * [Webform](content-authoring/components/webform.md)
+* [Vocabularies](content-authoring/vocabularies/README.md)
+  * [Topics](content-authoring/vocabularies/topics.md)
+  * [Site sections](content-authoring/vocabularies/site-sections.md)
 * [Roles](content-authoring/roles.md)
 
 ## 🛠 Development
