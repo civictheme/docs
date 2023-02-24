@@ -30,7 +30,7 @@ We have added 3 examples components. These are #4, #5, and #6 as seen in Figures
 
 7\. Click on this dropdown to add more components (see Figure 2).
 
-Please see the [documentation page](content-types/page/landing-page.md) explaining each of these components in more detail.&#x20;
+Please see the [documentation page](content-types/landing-page.md) explaining each of these components in more detail.&#x20;
 
 ### Step 3 - The “Banner” tab <a href="#editingthehomepage-step3-the-banner-tab" id="editingthehomepage-step3-the-banner-tab"></a>
 
