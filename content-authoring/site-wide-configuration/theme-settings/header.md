@@ -12,7 +12,7 @@ Please see the [documentation on how to access the CivicTheme configuration page
 
 Find the Components section and click on the “Header” tab.
 
-![](../.gitbook/assets/2642903116.png)
+![](../../../.gitbook/assets/2642903116.png)
 
 You can set the theme color and logo type.
 
@@ -20,9 +20,9 @@ You can set the theme color and logo type.
 
 The following table outlines the default Logo type settings as it pertains to a default CivicTheme site. It may vary on your site.
 
-| **Logo type**  | **Final Output (Desktop)**             | **Final Output (mobile)**              |
-| -------------- | -------------------------------------- | -------------------------------------- |
-| Default        | ![](../.gitbook/assets/2642903128.png) | ![](../.gitbook/assets/2642903128.png) |
-| Stacked        | ![](../.gitbook/assets/2643329071.png) | ![](../.gitbook/assets/2643329071.png) |
-| Inline         | ![](../.gitbook/assets/2642640970.png) | ![](../.gitbook/assets/2642903128.png) |
-| Inline Stacked | ![](../.gitbook/assets/2643329079.png) | ![](../.gitbook/assets/2643329071.png) |
+| **Logo type**  | **Final Output (Desktop)**                   | **Final Output (mobile)**                    |
+| -------------- | -------------------------------------------- | -------------------------------------------- |
+| Default        | ![](../../../.gitbook/assets/2642903128.png) | ![](../../../.gitbook/assets/2642903128.png) |
+| Stacked        | ![](../../../.gitbook/assets/2643329071.png) | ![](../../../.gitbook/assets/2643329071.png) |
+| Inline         | ![](../../../.gitbook/assets/2642640970.png) | ![](../../../.gitbook/assets/2642903128.png) |
+| Inline Stacked | ![](../../../.gitbook/assets/2643329079.png) | ![](../../../.gitbook/assets/2643329071.png) |
