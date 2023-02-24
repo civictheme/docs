@@ -15,6 +15,7 @@
 ## 📝 Content Authoring
 
 * [Introduction](content-authoring/introduction.md)
+* [Global configuration](content-authoring/global-configuration.md)
 * [Content types](content-authoring/content-types.md)
 * [Homepage](content-authoring/homepage.md)
 * [Standard Content Page](content-authoring/standard-content-page.md)
