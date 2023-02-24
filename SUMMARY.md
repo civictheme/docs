@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Design System](design-system.md)
+* [UI kit](ui-kit.md)
 * [Component Library (wip)](component-library-wip.md)
 * [Drupal theme (wip)](drupal-theme-wip.md)
 * [Contributing](contributing.md)
