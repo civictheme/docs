@@ -7,41 +7,36 @@
 
 ## ⚙ Configuration
 
-* [Overview](configuration/overview.md)
-* [Header](configuration/header.md)
-* [Footer](configuration/footer.md)
-* [Logos](configuration/logos.md)
-
 ## 📝 Content Authoring
 
 * [Introduction](content-authoring/introduction.md)
-* [Global configuration](content-authoring/global-configuration.md)
+* [Global configuration](content-authoring/global-configuration/README.md)
+  * [Header](content-authoring/global-configuration/header.md)
+  * [Footer](content-authoring/global-configuration/footer.md)
+  * [Site-wide Banner](content-authoring/global-configuration/site-wide-banner.md)
+  * [Topics](content-authoring/global-configuration/topics.md)
+  * [Theme settings](content-authoring/global-configuration/theme-settings/README.md)
+    * [Logos](content-authoring/global-configuration/theme-settings/logos.md)
+    * [Header](content-authoring/global-configuration/theme-settings/header.md)
+    * [Footer](content-authoring/global-configuration/theme-settings/footer.md)
 * [Content types](content-authoring/content-types.md)
 * [Homepage](content-authoring/homepage.md)
 * [Standard Content Page](content-authoring/standard-content-page.md)
-* [Landing Page](content-authoring/landing-page/README.md)
-  * [Adding Components (WIP)](content-authoring/landing-page/adding-components-wip/README.md)
-    * [Accordion](content-authoring/landing-page/adding-components-wip/accordion.md)
-    * [Automated list](content-authoring/landing-page/adding-components-wip/automated-list.md)
-    * [Content](content-authoring/landing-page/adding-components-wip/content.md)
-    * [Manual List](content-authoring/landing-page/adding-components-wip/manual-list/README.md)
-      * [Promo card](content-authoring/landing-page/adding-components-wip/manual-list/promo-card.md)
-      * [Promo reference card](content-authoring/landing-page/adding-components-wip/manual-list/promo-reference-card.md)
-      * [Event card](content-authoring/landing-page/adding-components-wip/manual-list/event-card.md)
-      * [Event reference card](content-authoring/landing-page/adding-components-wip/manual-list/event-reference-card.md)
-      * [Navigation card](content-authoring/landing-page/adding-components-wip/manual-list/navigation-card.md)
-      * [Navigation reference card](content-authoring/landing-page/adding-components-wip/manual-list/navigation-reference-card.md)
-      * [Publication card](content-authoring/landing-page/adding-components-wip/manual-list/publication-card.md)
-      * [Subject card](content-authoring/landing-page/adding-components-wip/manual-list/subject-card.md)
-      * [Service card](content-authoring/landing-page/adding-components-wip/manual-list/service-card.md)
-* [Header](content-authoring/header.md)
-* [Footer](content-authoring/footer.md)
-* [Site-wide Banner](content-authoring/site-wide-banner.md)
-* [Topics](content-authoring/topics.md)
-
-***
-
-* [Page 1](page-1.md)
+* [Landing Page](content-authoring/landing-page.md)
+* [Components](content-authoring/components/README.md)
+  * [Accordion](content-authoring/components/accordion.md)
+  * [Automated list](content-authoring/components/automated-list.md)
+  * [Content](content-authoring/components/content.md)
+  * [Manual List](content-authoring/components/manual-list/README.md)
+    * [Promo card](content-authoring/components/manual-list/promo-card.md)
+    * [Promo reference card](content-authoring/components/manual-list/promo-reference-card.md)
+    * [Event card](content-authoring/components/manual-list/event-card.md)
+    * [Event reference card](content-authoring/components/manual-list/event-reference-card.md)
+    * [Navigation card](content-authoring/components/manual-list/navigation-card.md)
+    * [Navigation reference card](content-authoring/components/manual-list/navigation-reference-card.md)
+    * [Publication card](content-authoring/components/manual-list/publication-card.md)
+    * [Subject card](content-authoring/components/manual-list/subject-card.md)
+    * [Service card](content-authoring/components/manual-list/service-card.md)
 
 ## 🛠 Development
 
