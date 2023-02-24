@@ -1,6 +1,6 @@
 # Logo
 
-Logo is used in Header and Footer. See sub-sections about how to choose the type of Logo for [Header](../../configuration/header.md) and [Footer](../../configuration/footer.md).
+Logo is used in Header and Footer. See sub-sections about how to choose the type of Logo for [Header](header.md) and [Footer](../../configuration/footer.md).
 
 This section explains how to upload different logos to be available in Header and Footer.
 
@@ -34,4 +34,4 @@ CivicTheme will automatically show the appropriate logo (desktop or mobile) base
 
 ### Choosing logos for Header and Footer <a href="#updatinglogos-step4-updatingthesecondarylogo" id="updatinglogos-step4-updatingthesecondarylogo"></a>
 
-Logo is used in Header and Footer. See sub-sections about how to choose the type of Logo for [Header](../../configuration/header.md) and [Footer](../../configuration/footer.md).
+Logo is used in Header and Footer. See sub-sections about how to choose the type of Logo for [Header](header.md) and [Footer](../../configuration/footer.md).

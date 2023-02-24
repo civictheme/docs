@@ -1,24 +1,22 @@
 # Header
 
-### Summary <a href="#header-summary" id="header-summary"></a>
+Header setting allow to select the Theme and Logo type.
 
-This article will guide you through updating the Header settings of your CivicTheme site.
-
-### Step 1 - Go to the theme configuration page <a href="#header-step1-gotothethemeconfigurationpage" id="header-step1-gotothethemeconfigurationpage"></a>
-
-Please see the [documentation on how to access the CivicTheme configuration page](https://salsadigital.atlassian.net/wiki/spaces/CIVIC/pages/2640249019/CivicTheme+Configuration+wip#Accessing-the-CivicTheme-configuration-page).
-
-### Step 2 - Access the Header tab <a href="#header-step2-accesstheheadertab" id="header-step2-accesstheheadertab"></a>
+### Access the Header tab <a href="#header-summary" id="header-summary"></a>
 
 Find the Components section and click on the “Header” tab.
 
 ![](../.gitbook/assets/2642903116.png)
 
-You can set the theme color and logo type.
+### Theme
+
+Header can be shown in Light or Dark theme.
 
 ### Logo type <a href="#header-logotype" id="header-logotype"></a>
 
-The following table outlines the default Logo type settings as it pertains to a default CivicTheme site. It may vary on your site.
+Depending on the space within a Header of your site, you can selected how the Logo (with one or two images) is shown. The space could be limited due to a high number of Primary Navigation links that sit inline with the logo.
+
+The following table outlines the Logo type using example logos:
 
 | **Logo type**  | **Final Output (Desktop)**             | **Final Output (mobile)**              |
 | -------------- | -------------------------------------- | -------------------------------------- |
@@ -26,3 +24,5 @@ The following table outlines the default Logo type settings as it pertains to a 
 | Stacked        | ![](../.gitbook/assets/2643329071.png) | ![](../.gitbook/assets/2643329071.png) |
 | Inline         | ![](../.gitbook/assets/2642640970.png) | ![](../.gitbook/assets/2642903128.png) |
 | Inline Stacked | ![](../.gitbook/assets/2643329079.png) | ![](../.gitbook/assets/2643329071.png) |
+
+As you can see, only "Inline Stacked" has a different behaviour on Desktop and mobile.
