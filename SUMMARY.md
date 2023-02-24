@@ -5,7 +5,7 @@
 
 ## 📝 Content Authoring
 
-* [Introduction](content-authoring/introduction.md)
+* [Overview](content-authoring/overview.md)
 * [Site-wide configuration](content-authoring/global-configuration/README.md)
   * [Header](content-authoring/site-wide-configuration/header.md)
   * [Footer](content-authoring/footer.md)
