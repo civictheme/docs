@@ -34,7 +34,7 @@
   * [Accordion](content-authoring/landing-page/adding-components-wip/accordion.md)
   * [Automated list](content-authoring/landing-page/adding-components-wip/automated-list.md)
   * [Content](content-authoring/landing-page/adding-components-wip/content.md)
-  * [Manual List](content-authoring/components/manual-list.md)
+  * [Manual List](content-authoring/landing-page/adding-components-wip/manual-list/README.md)
   * [Attachment](content-authoring/components/attachment.md)
   * [Callout](content-authoring/components/callout.md)
   * [Campaign](content-authoring/components/campaign.md)
