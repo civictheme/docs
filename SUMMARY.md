@@ -5,7 +5,7 @@
 
 ## 📝 Content Authoring
 
-* [Overview](content-authoring/overview.md)
+* [Overview](content-authoring/introduction.md)
 * [Site-wide configuration](content-authoring/global-configuration/README.md)
   * [Header](content-authoring/site-wide-configuration/header.md)
   * [Footer](content-authoring/footer.md)
@@ -57,4 +57,4 @@
 
 ## 🛠 Development
 
-* [WIP](development/wip.md)
+* [Overview](development/overview.md)
