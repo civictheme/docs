@@ -15,7 +15,7 @@
 ## 📝 Content Authoring
 
 * [Introduction](content-authoring/introduction.md)
-* [Overview](content-authoring/overview.md)
+* [Content types](content-authoring/content-types.md)
 * [Homepage](content-authoring/homepage.md)
 * [Standard Content Page](content-authoring/standard-content-page.md)
 * [Landing Page](content-authoring/landing-page/README.md)
