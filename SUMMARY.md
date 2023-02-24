@@ -5,8 +5,6 @@
 * [Component Library (wip)](component-library-wip.md)
 * [Drupal theme (wip)](drupal-theme-wip.md)
 
-## ⚙ Configuration
-
 ## 📝 Content Authoring
 
 * [Introduction](content-authoring/introduction.md)
