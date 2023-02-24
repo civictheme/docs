@@ -20,11 +20,7 @@ Most of the settings you find here are applied globally across your site.
 
 <figure><img src="../.gitbook/assets/65d7dac1-5441-4e71-88dc-eb1c6512a111.png" alt=""><figcaption></figcaption></figure>
 
-
-
-Page element display and Favicon
-
-The expanded versions of these sections are shown in Figure 4.
+### Page element display and Favicon <a href="#civicthemeconfiguration-pageelementdisplayandfavicon" id="civicthemeconfiguration-pageelementdisplayandfavicon"></a>
 
 <figure><img src="../.gitbook/assets/0d81c5b7-33ef-4137-af48-91296556965c.png" alt=""><figcaption></figcaption></figure>
 
@@ -32,39 +28,20 @@ Once the checkbox “Shortcut icon” is checked, then the Favicon options becom
 
 ### Colors <a href="#civicthemeconfiguration-colors" id="civicthemeconfiguration-colors"></a>
 
-The expanded Colors settings are shown in Figure 5 below.
-
-
-
-The most important setting is the “Use Color Selector” checkbox (highlighted in Figure 5).
-
-If **checked**, then you can edit the colors by using the color palette. Additionally, you can also override some colors with CSS code although this is not recommended.
-
-If **unchecked**, all colors will be overridden from your CSS code.
-
-The Brand colors use predefined formulas that automatically update the palette colors. In other words, if you change the brand colors, then its corresponding dependents will automatically update. Click on “show dependants” to see the relationship.
-
-
+See [Colors](../content-authoring/site-wide-configuration/theme-settings/colors.md) sub-section.
 
 ### Components <a href="#civicthemeconfiguration-components" id="civicthemeconfiguration-components"></a>
 
 The Components sections are split into multiple sections. Click the links below to read further documentation on these sections.
 
-[Logo](broken-reference)
-
-[Header](broken-reference)
-
-[Footer](broken-reference)
-
-Navigation - Edit the dropdown type for menus and its related settings.
-
-Link - Global settings for links
-
-Skip Link - Set the theme color for the Skip Link. [What is a Skip Link?](https://en.wikipedia.org/wiki/Skip\_link)
-
-Event card, Navigation card, Publication card, Promo card - Set the default summary length.
-
-Migration - “Expose migration metadata” exposes metadata as data attributes on HTML elements.
+* [Logo](../content-authoring/site-wide-configuration/theme-settings/logo.md)
+* [Header](broken-reference)
+* [Footer](broken-reference)
+* Navigation
+* Link
+* Skip Link
+* Event card, Navigation card, Publication card, Promo card
+* Migration
 
 ### Storybook <a href="#civicthemeconfiguration-storybookfor-your_theme-theme" id="civicthemeconfiguration-storybookfor-your_theme-theme"></a>
 

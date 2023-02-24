@@ -23,7 +23,7 @@ b. Update the text in the Slogan field and click "Save configuration" button.
 
 ### 2. Updating the primary and secondary logos <a href="#updatingtheheader-2.updatingtheprimaryandsecondarylogos" id="updatingtheheader-2.updatingtheprimaryandsecondarylogos"></a>
 
-Read [documentation](logos.md) on how to update Header and Footer logos.
+Read [documentation](theme-settings/logo.md) on how to update Header and Footer logos.
 
 ### 3. Updating the Secondary menu <a href="#updatingtheheader-3.updatingthesecondarymenu" id="updatingtheheader-3.updatingthesecondarymenu"></a>
 
