@@ -39,11 +39,12 @@ The Components sections are split into multiple sections. Click the links below 
 * [Logo](../content-authoring/site-wide-configuration/logos.md)
 * [Header](header.md)
 * [Footer](footer.md)
-* Navigation
-* Link
-* Skip Link
-* Event card, Navigation card, Publication card, Promo card
-* Migration
+* [Navigation](../content-authoring/site-wide-configuration/theme-settings/navigation.md)
+* [Link](../content-authoring/site-wide-configuration/theme-settings/link.md)
+* [Skip Link](../content-authoring/site-wide-configuration/theme-settings/skip-link.md)
+* [Event card, Navigation card, Publication card, Promo card](../content-authoring/site-wide-configuration/theme-settings/cards.md)
+
+
 
 ### Storybook <a href="#civicthemeconfiguration-storybookfor-your_theme-theme" id="civicthemeconfiguration-storybookfor-your_theme-theme"></a>
 
