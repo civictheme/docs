@@ -14,6 +14,7 @@
 
 ## 📝 Content Authoring
 
+* [Introduction](content-authoring/introduction.md)
 * [Overview](content-authoring/overview.md)
 * [Homepage](content-authoring/homepage.md)
 * [Standard Content Page](content-authoring/standard-content-page.md)

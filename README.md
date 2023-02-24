@@ -4,10 +4,6 @@
 
 CivicTheme is an open source, inclusive and component-based design system. It was created so governments and corporations can rapidly assemble modern, consistent and compliant digital experiences.
 
-### CivicTheme’s Documentation <a href="#introduction-civicthemesdocumentation" id="introduction-civicthemesdocumentation"></a>
-
-This guide is the documentation for CivicTheme. It is split into various sections and sub-sections. Please use the menu for easier navigation.
-
 ### Intended Audience <a href="#introduction-intendedaudience" id="introduction-intendedaudience"></a>
 
 This documentation is written with Site Editors, Content Administrators and Site Builders in mind.
