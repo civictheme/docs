@@ -1,7 +1,7 @@
 # Footer
 
 Footer setting allow to select the Theme, Logo type and Background image\
-![](<../.gitbook/assets/de554d48-2a81-44ed-922a-3f6f898cbdc8 (1).png>)
+![](../.gitbook/assets/de554d48-2a81-44ed-922a-3f6f898cbdc8.png)
 
 ### Theme
 
