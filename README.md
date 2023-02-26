@@ -10,7 +10,7 @@ It consists of 3 main assets:
 2. [CMS-agnostic component library](./#componentlibrary-wip-about)
 3. [Drupal theme](./#drupal-theme)
 
-## UI kit
+### UI kit
 
 CivicTheme is a true design system based on atomic design principles.
 
