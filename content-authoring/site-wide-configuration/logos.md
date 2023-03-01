@@ -2,11 +2,11 @@
 
 Logo is used in Header and Footer. See sub-sections about how to choose the type of Logo for [Header](../../configuration/header.md) and [Footer](../../configuration/footer.md).
 
-This section explains how to upload different logos to be available in Header and Footer.
+This section explains how to upload different logos so they're available in Header and Footer.
 
-Logo may consist of Primary and Secondary images. This is useful in cases where a logo consist of 2 images: your logo and Commonwealth Coat of Arms, for example.
+Logo may consist of Primary and Secondary images. This is useful in cases where a logo consists of 2 images, e.g. your logo and the Commonwealth Coat of Arms.
 
-Then, Primary and Secondary images can exist in Desktop and Mobile sizes to make the logos fit the design better.
+Then, Primary and Secondary images can exist in desktop and mobile sizes to make the logos fit the design better.
 
 Finally, each logo size exists in `Light` and `Dark` theme. This is to make logos contrast enough to be seen in the Header or Footer of the same theme.
 
@@ -22,7 +22,7 @@ Expand the “Primary Logo” tab.
 
 CivicTheme will automatically show the appropriate logo (desktop or mobile) based on the visitor’s viewport size.
 
-### Updating the Secondary Logo <a href="#updatinglogos-step4-updatingthesecondarylogo" id="updatinglogos-step4-updatingthesecondarylogo"></a>
+### Updating the Secondary logo <a href="#updatinglogos-step4-updatingthesecondarylogo" id="updatinglogos-step4-updatingthesecondarylogo"></a>
 
 Expand the “Secondary logo” tab.
 
@@ -32,4 +32,4 @@ CivicTheme will automatically show the appropriate logo (desktop or mobile) base
 
 ### Choosing logos for Header and Footer <a href="#updatinglogos-step4-updatingthesecondarylogo" id="updatinglogos-step4-updatingthesecondarylogo"></a>
 
-Logo is used in Header and Footer. See sub-sections about how to choose the type of Logo for [Header](../../configuration/header.md) and [Footer](../../configuration/footer.md).
+Logo is used in Header and Footer. See sub-sections about how to choose the type of logo for [Header](../../configuration/header.md) and [Footer](../../configuration/footer.md).

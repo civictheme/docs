@@ -2,7 +2,7 @@
 
 ### Summary <a href="#updatingtheheader-summary" id="updatingtheheader-summary"></a>
 
-This article will guide you on how to update the header section of your site.
+This article shows you how to update the header section of your site.
 
 The header section comprises of 4 subsections.
 
@@ -17,7 +17,7 @@ The header section comprises of 4 subsections.
 
 a. Go to `/admin/config/system/site-information` __ or click on Configuration > Basic site settings
 
-b. Update the text in the Slogan field and click "Save configuration" button.
+b. Update the text in the Slogan field and click on the "Save configuration" button.
 
 <figure><img src="../../.gitbook/assets/472d96c9-b7ff-4bc6-93f1-4224ba3d2d2f.png" alt=""><figcaption></figcaption></figure>
 
@@ -27,7 +27,7 @@ Read [documentation](logos.md) on how to update Header and Footer logos.
 
 ### 3. Updating the Secondary menu <a href="#updatingtheheader-3.updatingthesecondarymenu" id="updatingtheheader-3.updatingthesecondarymenu"></a>
 
-a. Go to `/admin/structure/menu/manage/civictheme-secondary-navigation` or Structure > Menus and then click on “Edit menu” next to Secondary navigation (Figure 3).
+a. Go to `/admin/structure/menu/manage/civictheme-secondary-navigation` or Structure > Menus and then click on “Edit menu” next to Secondary navigation.
 
 <figure><img src="../../.gitbook/assets/22b1bcc4-5808-4ab9-a459-2bcb6f17800c.png" alt=""><figcaption></figcaption></figure>
 
@@ -43,12 +43,12 @@ Whether you clicked on “Add link” or “Edit”, you will be presented with 
 
 Updating the Primary menu is similar to updating the secondary menu as in the previous section.
 
-a. Go to `/admin/structure/menu/manage/civictheme-primary-navigation` or Structure > Menus and then click on “Edit menu” next to Primary navigation (Figure 6).
+a. Go to `/admin/structure/menu/manage/civictheme-primary-navigation` or Structure > Menus and then click on “Edit menu” next to Primary navigation.
 
 <figure><img src="../../.gitbook/assets/ec69f844-832b-484b-aaf5-6cd5924b5bca.png" alt=""><figcaption></figcaption></figure>
 
-b. See Section 3.b. on this page and follow the same pattern to update the menu links.
+b. See Section 3b on this page and follow the same pattern to update the menu links.
 
 ### Tip <a href="#updatingtheheader-tip" id="updatingtheheader-tip"></a>
 
-There are some extra Header settings that can be updated from within the CivicTheme configuration. [Please read our documentation here about that](broken-reference).
+There are some extra Header settings that can be updated from within the CivicTheme configuration. [Please read our documentation on extra Header settings](broken-reference).

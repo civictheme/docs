@@ -2,11 +2,11 @@
 
 When you add a Page, there are 2 tabs: Content and Banner.
 
-The fields for the Content tab:
+The fields for the Content tab can be seen below:
 
 <figure><img src="../../../.gitbook/assets/b31134e1-1296-456a-9031-b6e46f871eda (1).png" alt=""><figcaption></figcaption></figure>
 
-The fields for the Banner tab:
+The fields for the Banner tab can be seen below:
 
 <figure><img src="../../../.gitbook/assets/0b8a23ab-14c4-40ef-b2af-fe163b0e92ba (1) (1).png" alt=""><figcaption></figcaption></figure>
 

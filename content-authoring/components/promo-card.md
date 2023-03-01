@@ -2,34 +2,34 @@
 
 ### Summary <a href="#promocardcomponent-summary" id="promocardcomponent-summary"></a>
 
-This article will guide you how to add a Promo card sub-component to your Manual list component.
+The Promo card is a good way to highlight content and take users to that content. It consists of a title, image, date, summary text, and a link.
 
-The Promo card consists of a title, image, date, summary text and a link.
+This article shows you how to add a Promo card component to a Manual list component.
 
-Figure 1 shows one promo card.
+Below is a promo card.
 
 
 
-Figure 2 shows four promo cards in a row.
+And this is what four promo cards in a row looks like.
 
 
 
 ### Step 1 - Add the Promo card <a href="#promocardcomponent-step1-addthepromocard" id="promocardcomponent-step1-addthepromocard"></a>
 
-Inside of your Manual list component under List items, click on the dropdown and select Promo card as shown in Figure 3.
+Within the Manual list component under List items, click on the dropdown and select Promo card as shown below.
 
 
 
-Figure 4 shows the various fields which are numbered and highlighted.
-
-.
+In the screenshot below you can see the Promo card fields, which are numbered and highlighted.
 
 
 
-The end result is shown in Figure 5.
+
+
+The end result is shown below.
 
 
 
 ### Tip <a href="#promocardcomponent-tip" id="promocardcomponent-tip"></a>
 
-You can configure the number of Promo cards in one row by adjusting the “Column count” under the “Appearance“ tab as shown in Figure 6.
+You can configure the number of Promo cards in one row by adjusting the “Column count” under the “Appearance“ tab as shown below.

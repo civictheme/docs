@@ -2,9 +2,9 @@
 
 ### Summary <a href="#updatingthefooter-summary" id="updatingthefooter-summary"></a>
 
-This article will guide you on how to update the footer section of your site.
+This article shows you how to update the footer section of your site.
 
-The footer section comprises 5 blocks and a menu as shown in Figure 1.
+The footer section comprises 5 blocks and a menu as shown below.
 
 <figure><img src="../.gitbook/assets/2647162990.png" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ To edit this block:
 
 1.  Go to Structure >> Block layout >> Custom block library\
     The URL is _\[your\_site]/admin/structure/block/block-content_\
-    Then click on “Edit” next in the row of the Signup block.
+    Then click on “Edit” in the row of the Signup block.
 
 
 
@@ -36,8 +36,7 @@ To edit this block:
 2.  Click on “Configure”.
 
 
-
-    3\. On the “edit” screen, you can toggle the branding elements to be shown.\
+3.  On the “edit” screen, you can toggle the branding elements to be shown.\
 
 
 
@@ -52,7 +51,7 @@ To edit this block:
 
 1.  Go to Structure >> Block layout >> Custom block library\
     The URL is _\[your\_site]/admin/structure/block/block-content_\
-    Then click on “Edit” next in the row of the Social link block.
+    Then click on “Edit” in the row of the Social link block.
 
 
 
@@ -63,7 +62,7 @@ To edit this block:
 
 ### Footer menu <a href="#updatingthefooter-footermenu" id="updatingthefooter-footermenu"></a>
 
-The Footer is one menu but it is split into 4 sub menus at the block level.
+The Footer is one menu but it is split into 4 submenus at the block level.
 
 First, here is how to access the entire menu:
 
@@ -73,7 +72,7 @@ First, here is how to access the entire menu:
 
 
     <figure><img src="../.gitbook/assets/2647490613.png" alt=""><figcaption></figcaption></figure>
-2. On the “edit” screen, you can update the menus as needed. Notice the hierarchy as this is important for the splitting of the menus in the next step. Essentially, each submenu has a parent and child menus. You can drag/drop the handles to rearrange the menu items.
+2. On the “edit” screen, you can update the menus as needed. Notice the hierarchy, as this is important for splitting the menus in the next step. Essentially, each submenu has a parent and child menus. You can drag/drop the handles to rearrange the menu items.
 
 <figure><img src="../.gitbook/assets/627b0b49-2564-4ed9-ae4b-00ed46ca0b12.png" alt=""><figcaption></figcaption></figure>
 
@@ -85,13 +84,13 @@ Now let’s demonstrate how these 4 blocks are set up.
 
 1. Go to Structure >> Block layout\
    The URL is _\[your\_site]/admin/structure/block_
-2.  Find the Footer middle 1, Footer middle 2, Footer middle 3 and Footer middle 4 regions. In each of these regions, we have placed the **same Footer menu** but the configuration of each is what changes the output.\
+2.  Find the Footer middle 1, Footer middle 2, Footer middle 3 and Footer middle 4 regions. In each of these regions, we have placed the **same Footer menu** but the configuration changes the output.\
 
 
 
 
     <figure><img src="../.gitbook/assets/2647523431.png" alt=""><figcaption></figcaption></figure>
-3. Click on “Configure” for Footer menu 1. As shown in Figure 12, we have set the parent item to “About Us”. So this menu block will only show child menu items of the “About Us” parent menu. The same technique applies to Footer menu 2, Footer menu 3 and Footer menu 4. The setting of the “Parent” is crucial and it differs for each menu block.
+3. Click on “Configure” for Footer menu 1. As shown below, we have set the parent item to “About Us”. So this menu block will only show child menu items of the “About Us” parent menu. The same technique applies to Footer menu 2, Footer menu 3 and Footer menu 4. The setting of the “Parent” is crucial and it differs for each menu block.
 
 <figure><img src="../.gitbook/assets/0a3764ca-6277-4fd0-8162-7acfa8f245cf.png" alt=""><figcaption></figcaption></figure>
 
@@ -113,10 +112,10 @@ To edit these blocks:
 
 <figure><img src="../.gitbook/assets/9c6e236c-9fc1-436a-960c-ec7c4ea02b9f.png" alt=""><figcaption></figcaption></figure>
 
-2. Click on “Edit” for either block. Then update the text as needed and click on Save.
+2. Click on “Edit” for either block, then update the text as needed and click on Save.
 
 <figure><img src="../.gitbook/assets/81f62162-0902-4004-967d-38a805a757ce.png" alt=""><figcaption></figcaption></figure>
 
 ### Tip <a href="#updatingthefooter-tip" id="updatingthefooter-tip"></a>
 
-There are some extra Footer settings that can be updated from within the CivicTheme configuration. [Please read our documentation here about that](broken-reference).
+There are some extra Footer settings that can be updated from within the CivicTheme configuration. [Please read our documentation about extra Footer settings](broken-reference).

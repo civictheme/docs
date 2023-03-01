@@ -2,15 +2,15 @@
 
 ### Summary <a href="#civicthemeconfiguration-summary" id="civicthemeconfiguration-summary"></a>
 
-This article will guide you on the different theme configurations that are available for CivicTheme.
+This article shows you the different theme configurations available for CivicTheme.
 
 Most of the settings you find here are applied globally across your site.
 
 ### Accessing the CivicTheme configuration page <a href="#civicthemeconfiguration-accessingthecivicthemeconfigurationpage" id="civicthemeconfiguration-accessingthecivicthemeconfigurationpage"></a>
 
-NOTE: You must be logged in as a user with a "Site administrator" role to access this page.
+**Note**: You must be logged in as a user with a "Site administrator" role to access this page.
 
-1. Click on Appearance as shown in Figure 1.
+1. Click on Appearance as shown in below.
 
 <figure><img src="../.gitbook/assets/64eb74bb-6571-4cca-b032-891db0a53412.png" alt=""><figcaption></figcaption></figure>
 
@@ -50,8 +50,8 @@ The Components sections are split into multiple sections. Click the links below 
 
 Storybook demonstrates components used in your site as a standalone library.
 
-The components in the Storybook are visual representation and they are not connected to the Drupal components.
+The components in the Storybook are a visual representation and they are not connected to the Drupal components.
 
-Each component has properties that allow to change component and see how it visually changes.
+Each component has properties that allow you to change the component and see how it visually changes.
 
 While being primarily a development tool, the Storybook allows everyone to see all components at-a-glance without creating any special content for it.

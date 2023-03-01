@@ -2,13 +2,11 @@
 
 ### Summary <a href="#promoreferencecardcomponent-summary" id="promoreferencecardcomponent-summary"></a>
 
-This article will guide you how to add a Promo reference card sub-component to your Manual list component.
+The Promo reference card is a Promo card that links to previously created content. This component is ideal if you wanted to create a list of content that's displayed as Promo cards.&#x20;
 
-This component is ideal if you wanted to create a listing of previously created Promo cards.
+This article shows you how to add a Promo reference card to your Manual list component.
 
-The Promo reference card consists of an autocomplete text field.
-
-Figure 1 shows an example of a Promo reference card
+Below you can see an example of a Promo reference card.
 
 
 

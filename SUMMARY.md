@@ -22,7 +22,7 @@
 * [Homepage](content-authoring/homepage.md)
 * [Content types](content-authoring/content-types/README.md)
   * [Page](content-authoring/content-types/page/README.md)
-    * [Content Page](content-authoring/content-types/standard-content-page.md)
+    * [Content page](content-authoring/content-types/standard-content-page.md)
     * [Landing Page](content-authoring/content-types/landing-page.md)
   * [Event](content-authoring/content-types/event.md)
   * [Alert](content-authoring/content-types/alert.md)

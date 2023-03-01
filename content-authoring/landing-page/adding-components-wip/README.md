@@ -1,10 +1,10 @@
 # Components
 
-Each component has specific fields that relates to it. Click on the links within each component below for further documentation. You can preview the component by clicking on the Storybook link.
+Each component has specific fields that relate to it. Click on the links within each component below for further information. You can preview the component by clicking on the Storybook link.
 
 ### How do you know which component to use? <a href="#addingcomponents-wip-howdoyouknowwhichcomponenttouse" id="addingcomponents-wip-howdoyouknowwhichcomponenttouse"></a>
 
-There is no right or wrong component to use. The decision should be based on what you are trying to output. To get started, we recommend clicking on the Storybook links below to visualize each component. At that point, you can decide which component fits the needs of your specific scenario.
+There is no right or wrong component to use. The decision should be based on what you are trying to output. To get started, we recommend clicking on the Storybook links below to visualise each component. At that point, you can decide which component fits the needs of your specific situation.
 
 | Component                                                                  | Description                                                                         | Storybook |
 | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | --------- |
