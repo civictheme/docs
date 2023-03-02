@@ -1,5 +1,7 @@
 # Page
 
+The Page content type can be used to create most of your website pages.&#x20;
+
 When you add a Page, there are 2 tabs: Content and Banner.
 
 The fields for the Content tab can be seen below:

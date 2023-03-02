@@ -2,9 +2,11 @@
 
 ### Summary <a href="#updatingtheheader-summary" id="updatingtheheader-summary"></a>
 
+The header section appears at the top of your website.&#x20;
+
 This article shows you how to update the header section of your site.
 
-The header section comprises of 4 subsections.
+The header section comprises of 4 subsections:
 
 1. The site slogan
 2. The primary and secondary logos
@@ -35,7 +37,7 @@ b. Click on “Add link” to add a new link or click on “Edit” next to an e
 
 <figure><img src="../../.gitbook/assets/ad95678d-a812-454b-9bf7-3e3e0fe07438.png" alt=""><figcaption></figcaption></figure>
 
-Whether you clicked on “Add link” or “Edit”, you will be presented with the edit screen . Fill in the various fields and then click on “Save”.
+Whether you clicked on “Add link” or “Edit”, you will be presented with the edit screen. Fill in the various fields and then click on “Save”.
 
 <figure><img src="../../.gitbook/assets/8eae2558-536d-4e44-bf09-2b2591bb459a.png" alt=""><figcaption></figcaption></figure>
 

@@ -12,6 +12,6 @@ The fields for the Event tab are shown below:
 
 <figure><img src="../../.gitbook/assets/c3180a94-fd50-4375-baca-f7ab81af4ab1.png" alt=""><figcaption></figcaption></figure>
 
-The final output for an Event with a Map component:
+You can see the final output for an Event with a Map component below:
 
 <figure><img src="../../.gitbook/assets/01e6585c-ceac-4f80-b663-d97001f7e266.png" alt=""><figcaption></figcaption></figure>

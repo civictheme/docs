@@ -2,19 +2,19 @@
 
 ### Summary <a href="#civicthemeconfiguration-summary" id="civicthemeconfiguration-summary"></a>
 
-This article shows you the different theme configurations available for CivicTheme.
+Most of the theme settings are applied globally across your site.
 
-Most of the settings you find here are applied globally across your site.
+This article shows you the different theme configurations available for CivicTheme.
 
 ### Accessing the CivicTheme configuration page <a href="#civicthemeconfiguration-accessingthecivicthemeconfigurationpage" id="civicthemeconfiguration-accessingthecivicthemeconfigurationpage"></a>
 
 **Note**: You must be logged in as a user with a "Site administrator" role to access this page.
 
-1. Click on Appearance as shown in below.
+1. Click on Appearance as shown below.
 
 <figure><img src="../.gitbook/assets/64eb74bb-6571-4cca-b032-891db0a53412.png" alt=""><figcaption></figcaption></figure>
 
-2. Click on “Settings” next to your installed CIvicTheme.
+2. Click on “Settings” next to your installed CivicTheme.
 
 <figure><img src="../.gitbook/assets/31b2eea2-e4b8-48bc-bcfc-e7fbf344735c.png" alt=""><figcaption></figcaption></figure>
 
@@ -41,7 +41,7 @@ The Components sections are split into multiple sections. Click the links below 
 * [Footer](footer.md)
 * [Navigation](../content-authoring/site-wide-configuration/theme-settings/navigation.md)
 * [Link](../content-authoring/site-wide-configuration/theme-settings/link.md)
-* [Skip Link](../content-authoring/site-wide-configuration/theme-settings/skip-link.md)
+* [Skip link](../content-authoring/site-wide-configuration/theme-settings/skip-link.md)
 * [Event card, Navigation card, Publication card, Promo card](../content-authoring/site-wide-configuration/theme-settings/cards.md)
 
 

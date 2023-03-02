@@ -2,7 +2,7 @@
 
 ### Summary <a href="#navigationcardcomponent-summary" id="navigationcardcomponent-summary"></a>
 
-The Navigation card provides a visual way to highlight content and helps users navigate to content.  The card includes a title, image, summary text and link.
+The Navigation card provides a visual way to highlight content and helps users navigate to content. The card includes a title, image, summary text and link.
 
 This article shows you how to add a Navigation card to the Manual list component.
 
@@ -22,12 +22,12 @@ The available fields are shown and numbered below.
 
 
 
-1. Title - Set the card title
-2. Image - Upload an image (or select one from your media library)
-3. Show image as icon - Check this box to resize the image to an icon size (40x40px)
-4. Summary - Enter your custom text
-5. Link URL - The URL entered here will be the final destination if the end user clicks anywhere in the navigation card
-6. Size - Set the image size (the options are None, Small or Large)
+1. Title - Set the card title.
+2. Image - Upload an image (or select one from your media library).
+3. Show image as icon - Check this box to resize the image to an icon size (40x40px).
+4. Summary - Enter your custom text.
+5. Link URL - The URL entered here will be the final destination if the end user clicks anywhere in the navigation card.
+6. Size - Set the image size (the options are None, Small or Large).
 7. Theme - Select the light or dark theme.
 
 The output is shown below.

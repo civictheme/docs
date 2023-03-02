@@ -1,8 +1,8 @@
 # Event card
 
-Event cards are used to highlight events. &#x20;
+Event cards are used to highlight events and are created within the Manual list component. &#x20;
 
-This section shows you how to an Event card.
+This section shows you how to add an Event card.
 
 ![](../../.gitbook/assets/2650308729.png)
 
@@ -14,7 +14,7 @@ Within the Manual list component under List items, click on the dropdown and sel
 
 ### Step 2 - Add details to the Event card <a href="#eventcardcomponent-step1-addtheeventcard" id="eventcardcomponent-step1-addtheeventcard"></a>
 
-Fill in the event details. You can see the fields in the screenshot below.&#x20;
+You can see the fields in the screenshot below.&#x20;
 
 ![](../../.gitbook/assets/2650243193.png)
 
@@ -22,6 +22,6 @@ Most of the highlighted fields are simple, self-explanatory text fields. Some of
 
 4\. Date - You can click on the calendar icon to select a date from the popup date widget.
 
-5\. URL - This is an autocomplete field. Start by typing the title of the internal page content type or enter an external URL.
+5\. URL - This is an autocomplete field. Start by typing the title of the internal page or enter an external URL.
 
 6\. Topic (optional) - This is an autocomplete field. Terms must first exist in your [Topics](../vocabularies/topics.md) vocabulary.

@@ -1,6 +1,6 @@
 # Footer
 
-The Footer setting allows you to select the Theme, Logo type and Background image.\
+The Footer setting allows you to select the Theme, Logo type and Background image for the Footer.\
 ![](../.gitbook/assets/de554d48-2a81-44ed-922a-3f6f898cbdc8.png)
 
 ### Theme
@@ -24,7 +24,7 @@ As you can see, only "Inline stacked" has a different behaviour on desktop and m
 
 ### Background image <a href="#footer-footerbackgroundimage" id="footer-footerbackgroundimage"></a>
 
-Background image allows to specify the URL or upload a custom image that will be shown as a Footer background. Below is an example:
+Background image allows you to specify the URL of a custom image or upload a custom image that will be shown as a Footer background. Below is an example:
 
 <figure><img src="../.gitbook/assets/146fdf21-d0a4-4b4b-9a35-a7b0937933d3.png" alt=""><figcaption></figcaption></figure>
 

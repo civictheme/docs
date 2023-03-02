@@ -1,12 +1,12 @@
 # Logo
 
-Logo is used in Header and Footer. See sub-sections about how to choose the type of Logo for [Header](../../configuration/header.md) and [Footer](../../configuration/footer.md).
+Logo is used in the Header and Footer. See sub-sections about how to choose the type of Logo for [Header](../../configuration/header.md) and [Footer](../../configuration/footer.md).
 
 This section explains how to upload different logos so they're available in Header and Footer.
 
 Logo may consist of Primary and Secondary images. This is useful in cases where a logo consists of 2 images, e.g. your logo and the Commonwealth Coat of Arms.
 
-Then, Primary and Secondary images can exist in desktop and mobile sizes to make the logos fit the design better.
+Then, Primary and Secondary images can exist in desktop _and_ mobile sizes to make the logos fit the design better.
 
 Finally, each logo size exists in `Light` and `Dark` theme. This is to make logos contrast enough to be seen in the Header or Footer of the same theme.
 

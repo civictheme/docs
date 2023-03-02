@@ -24,8 +24,8 @@ Add content for your Accordion using the fields shown below.
 
 ![](../../../.gitbook/assets/2639757366.png)
 
-1. Accordion title - Add the title
-2. Content - Add the body text
-3. Expanded - Check this box to force the Accordion to be expanded by default
+1. Accordion title - Add the title.
+2. Content - Add the body text.
+3. Expanded - Check this box to force the Accordion to be expanded by default.
 4. Add another Accordion - Click this button to add additional Accordions.
 5. Expand all - Check this box to force all Accordions to be expanded by default.

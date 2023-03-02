@@ -1,6 +1,6 @@
 # Header
 
-The Header setting allows you to select the Theme and Logo type.\
+The Header setting allows you to select the Theme and Logo type for the Header.\
 <img src="../.gitbook/assets/bc69a940-5fc9-4a6f-bbd1-0b68d7714478.png" alt="" data-size="original">
 
 ### Theme

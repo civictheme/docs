@@ -1,6 +1,6 @@
 # Content
 
-The Content component is used to add normal text via a WYSIWYG editor.&#x20;
+The Content component is used to add content via a WYSIWYG editor.&#x20;
 
 This section shows you how to add a Content component.
 

@@ -2,7 +2,9 @@
 
 ### Summary <a href="#updatingthefooter-summary" id="updatingthefooter-summary"></a>
 
-This article shows you how to update the footer section of your site.
+The footer section is at the bottom of your website.&#x20;
+
+This article shows you how to update the footer.
 
 The footer section comprises 5 blocks and a menu as shown below.
 
@@ -36,7 +38,7 @@ To edit this block:
 2.  Click on “Configure”.
 
 
-3.  On the “edit” screen, you can toggle the branding elements to be shown.\
+3.  On the edit screen, you can toggle the branding elements that you want displayed in the footer.\
 
 
 
@@ -45,24 +47,24 @@ To edit this block:
 
 ### Social links custom block <a href="#updatingthefooter-sociallinkscustomblock" id="updatingthefooter-sociallinkscustomblock"></a>
 
-The social links block is a custom block of type “Social Links”.
+The social links block is a custom block called “Social links”.
 
 To edit this block:
 
 1.  Go to Structure >> Block layout >> Custom block library\
     The URL is _\[your\_site]/admin/structure/block/block-content_\
-    Then click on “Edit” in the row of the Social link block.
+    Then click on “Edit” in the row of the Social links block.
 
 
 
     <figure><img src="../.gitbook/assets/2647162978.png" alt=""><figcaption></figcaption></figure>
-2. On the “edit” screen, you can update the icons.
+2. On the edit screen, you can update the icons.
 
 <figure><img src="../.gitbook/assets/a9ab8f0a-a4a9-4516-a6af-6241ac404d2c.png" alt=""><figcaption></figcaption></figure>
 
 ### Footer menu <a href="#updatingthefooter-footermenu" id="updatingthefooter-footermenu"></a>
 
-The Footer is one menu but it is split into 4 submenus at the block level.
+The Footer is one menu but it's split into 4 submenus at the block level.
 
 First, here is how to access the entire menu:
 
@@ -72,7 +74,7 @@ First, here is how to access the entire menu:
 
 
     <figure><img src="../.gitbook/assets/2647490613.png" alt=""><figcaption></figcaption></figure>
-2. On the “edit” screen, you can update the menus as needed. Notice the hierarchy, as this is important for splitting the menus in the next step. Essentially, each submenu has a parent and child menus. You can drag/drop the handles to rearrange the menu items.
+2. On the edit screen, you can update the menus as needed. Notice the hierarchy, as this is important for splitting the menus in the next step. Essentially, each submenu has a parent and child menus. You can drag/drop the handles (they look like a plus sign with arrows) to rearrange the menu items.
 
 <figure><img src="../.gitbook/assets/627b0b49-2564-4ed9-ae4b-00ed46ca0b12.png" alt=""><figcaption></figcaption></figure>
 
@@ -90,7 +92,7 @@ Now let’s demonstrate how these 4 blocks are set up.
 
 
     <figure><img src="../.gitbook/assets/2647523431.png" alt=""><figcaption></figcaption></figure>
-3. Click on “Configure” for Footer menu 1. As shown below, we have set the parent item to “About Us”. So this menu block will only show child menu items of the “About Us” parent menu. The same technique applies to Footer menu 2, Footer menu 3 and Footer menu 4. The setting of the “Parent” is crucial and it differs for each menu block.
+3. Click on “Configure” for Footer menu 1. As shown below, we have set the parent item to “About us”. So this menu block will only show child menu items of the “About us” parent menu. The same technique applies to Footer menu 2, Footer menu 3 and Footer menu 4. The setting of the “Parent” is crucial and it differs for each menu block.
 
 <figure><img src="../.gitbook/assets/0a3764ca-6277-4fd0-8162-7acfa8f245cf.png" alt=""><figcaption></figcaption></figure>
 

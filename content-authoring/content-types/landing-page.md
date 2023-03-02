@@ -30,9 +30,9 @@ The screenshot below shows some of the available fields. We have numbered them f
 
 1. Title - Enter the page title.
 2. Add components - Add components as needed. See [section about Components](../landing-page/adding-components-wip/).
-3. Generate automatic URL alias - Uncheck this box if you would like to add a custom URL alias. The URL alias is what site visitors will see in the browser address bar and also this will show up in search engine results.
-4. Custom URL alias - If you unchecked the box as in point #3 above, then this field becomes available. Enter the custom URL alias. Be mindful that it must start with a forward slash. For e.g. /your-custom-url
-5. Menu settings - If you need to add a Menu, click here to expand this section. Once expanded, you will be shown the fields as below. Enter the Menu link title and select the Parent link it will fall under. The Weight determines the ordering of the Menu item being created compared to the other existing Menu items. A bigger weight will place it lower in the Parent menu.
+3. Generate automatic URL alias - Uncheck this box if you'd like to add a custom URL alias. The URL alias is what site visitors will see in the browser address bar. It's also displayed in search engine results.
+4. Custom URL alias - If you unchecked the box as in point #3 above, then this field becomes available. Enter the custom URL alias. Be mindful that it must start with a forward slash, e.g.  /your-custom-url
+5. Menu settings - If you need to add a Menu, click here to expand this section. Once expanded, you will be shown the fields as below. Enter the Menu link title and select the Parent link it will fall under. The Weight determines the ordering of the Menu item being created compared to the existing Menu items. A bigger weight will place it lower in the Parent menu.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
@@ -42,7 +42,7 @@ Please note that these are **per-page** overrides of a [site-wide banner](../sit
 
 <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-The available fields are shown below. We have numbered the fields and explained each below.
+The available fields are shown below. We have numbered the fields and explained each.
 
 <figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -51,14 +51,14 @@ The available fields are shown below. We have numbered the fields and explained 
 3. Banner title - You can override the page title here.
 4. Hide breadcrumb - If your homepage has a breadcrumb, checking this box will hide it.&#x20;
 5. Background image - As the name suggests, this will update the background image in the banner area.
-6.  Featured image - You can apply a featured image,which will appear on the right side of your banner.\
+6.  Featured image - You can apply a featured image, which will appear on the right side of your banner.\
 
 
 
 
     <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-7\. Content component - This is an example component added for illustrations purposes. There are many other components to choose from.
+7\. Content component - Below is an example component added for illustration purposes. There are many other components to choose from.
 
 <figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
