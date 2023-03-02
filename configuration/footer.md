@@ -9,7 +9,7 @@ The Footer can be shown in Light or Dark theme.
 
 ### Logo type <a href="#header-logotype" id="header-logotype"></a>
 
-Depending on the space within your site's Footer, you can select how the Logo (with one or two images) is shown. The space could be limited due to a high number of Primary Navigation links that sit inline with the logo.
+Depending on the space within your site's Footer, you can select how the Logo (with one or two images) is shown.
 
 The following table outlines the Logo type using example logos:
 
