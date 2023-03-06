@@ -2,7 +2,7 @@
 
 CivicTheme is an open source project. There are numerous ways to contribute to CivicTheme whether you’re a developer, designer or a non-technical user.
 
-### What kind of contributions do we need?[#](https://docs.lagoon.sh/contributing/#what-kind-of-contributions-do-we-need)
+### What kind of contributions do we need?
 
 CivicTheme benefits from any kind of contribution - whether it's a bugfix, new feature, documentation update, design update, or simply some queue maintenance - we're happy that you want to help!
 
