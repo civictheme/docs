@@ -1,7 +1,11 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Contributing](contributing.md)
+* [Contributing](contributing/README.md)
+  * [RFC process](contributing/rfc-process.md)
+  * [Code of conduct](contributing/code-of-conduct.md)
+  * [Participation guidelines](contributing/participation-guidelines.md)
+  * [Moderation guidelines](contributing/moderation-guidelines.md)
 
 ## 📝 Content Authoring
 
