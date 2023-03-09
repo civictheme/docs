@@ -10,7 +10,7 @@ CivicTheme benefits from any kind of contribution - whether it's a bugfix, new f
 
 To ensure that contributions are accepted, they must meet the following requirements:
 
-1. The pull request should include a clear problem description and a proposed resolution.
+1. The pull request should include a clear feature or problem description and a proposed resolution.
 2. The code should comply with Drupal's coding standards for consistency and readability.
 3. Automated tests, such as PHPUnit tests and/or Behat tests, should be added to verify the code's functionality.
 4. The continuous integration process should pass all checks to ensure that the code is stable and meets the project's quality standards.
