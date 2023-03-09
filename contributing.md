@@ -8,7 +8,15 @@ CivicTheme benefits from any kind of contribution - whether it's a bugfix, new f
 
 #### Contributing to CivicTheme codebase
 
-There's a whole section on how to get CivicTheme development environment running on your local machine using Docker over at [Development](https://docs.civictheme.io/development/overview).
+To ensure that contributions are accepted, they must meet the following requirements:
+
+1. The pull request should include a clear problem description and a proposed resolution.
+2. The code should comply with Drupal's coding standards for consistency and readability.
+3. Automated tests, such as PHPUnit tests and/or Behat tests, should be added to verify the code's functionality.
+4. The continuous integration process should pass all checks to ensure that the code is stable and meets the project's quality standards.
+5. The pull request should undergo a thorough code review by project maintainers, who must approve the changes before they can be merged into the codebase.
+
+There is a detailed section on how to set up the CivicTheme development environment on your local machine using Docker, available in the [Development](https://docs.civictheme.io/development/overview) section.
 
 #### Contributing to CivicTheme UI Kit
 
