@@ -11,7 +11,7 @@ download the [latest version](https://www.drupal.org/project/civictheme/releases
 
 ### Usage
 
-CivicTheme can be used as a no-code Drupal theme with some of the configurations done on [theme settings](../content-authoring/site-wide-configuration/theme-settings/) page.
+CivicTheme can be used as a no-code Drupal theme with some of the configurations done on [theme settings](../../content-authoring/site-wide-configuration/theme-settings/) page.
 
 Enable the theme in UI or with Drush:
 

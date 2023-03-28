@@ -9,7 +9,7 @@ This section explains working with assets in the context of your custom sub-them
 All assets are compiled using `npm run dist` based on the supplied [Webpack configuration](https://github.com/salsadigitalauorg/civictheme\_source/blob/develop/docroot/themes/contrib/civictheme/civictheme\_starter\_kit/webpack/webpack.common.js).&#x20;
 
 {% hint style="info" %}
-The Webpack and Storybook configuration may change between versions, so make sure to follow instructions in [Version update](updating.md) section.
+The Webpack and Storybook configuration may change between versions, so make sure to follow instructions in [Version update](version-update.md) section.
 {% endhint %}
 
 Assets are served from the `dist` directory and are inter-linked within your sub-theme.
@@ -83,12 +83,12 @@ See the [Fonts addition example](https://github.com/salsadigitalauorg/civictheme
 
 #### Backgrounds and logos
 
-Backgrounds and Logos are content uploaded through [theme settings ](../content-authoring/site-wide-configuration/theme-settings/)form for you sub-theme, therefore files placed in `assets/backgrounds` and `assets/logos` are used only in your sub-theme's Storybook for visual representation.
+Backgrounds and Logos are content uploaded through [theme settings ](../../content-authoring/site-wide-configuration/theme-settings/)form for you sub-theme, therefore files placed in `assets/backgrounds` and `assets/logos` are used only in your sub-theme's Storybook for visual representation.
 
 #### Icons
 
 {% hint style="info" %}
-Icons discussed here are the icons used in the UI elements and not the icons that can be uploaded as a content in components such as [Navigation card](../content-authoring/components/manual-list/navigation-card.md) or [Social links](../content-authoring/site-wide-configuration/social-links.md)
+Icons discussed here are the icons used in the UI elements and not the icons that can be uploaded as a content in components such as [Navigation card](../../content-authoring/components/manual-list/navigation-card.md) or [Social links](../../content-authoring/site-wide-configuration/social-links.md)
 {% endhint %}
 
 CivicTheme UI kit provides an several icons out of the box.&#x20;

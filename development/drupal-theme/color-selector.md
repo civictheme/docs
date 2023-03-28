@@ -8,7 +8,7 @@ Website colors can be specified via:
 * [CSS code](https://github.com/salsadigitalauorg/civictheme\_source/blob/develop/docroot/themes/contrib/civictheme/civictheme\_starter\_kit/components/variables.base.scss#L42)
 * CSS code with Color Selector overrides
 
-See [theme settings](../content-authoring/site-wide-configuration/theme-settings/) for more details about colors and to set colors via Color Selector.
+See [theme settings](../../content-authoring/site-wide-configuration/theme-settings/) for more details about colors and to set colors via Color Selector.
 
 #### Disabling Color Selector
 
