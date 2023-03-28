@@ -12,7 +12,7 @@ Below is a promo card.
 
 And this is what four promo cards in a row looks like.
 
-![](<../../../.gitbook/assets/image (53).png>)
+<figure><img src="../../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -20,11 +20,11 @@ And this is what four promo cards in a row looks like.
 
 Within the Manual list component under List items, click on the dropdown and select Promo card as shown below.
 
-![](<../../../.gitbook/assets/image (44).png>)
+<figure><img src="../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
 In the screenshot below you can see the Promo card fields, which are numbered and highlighted.
 
-![](<../../../.gitbook/assets/image (8).png>)
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 1. Title - Add the card title.
 2. Subtitle - Add a subtitled if desired.
@@ -38,4 +38,4 @@ In the screenshot below you can see the Promo card fields, which are numbered an
 
 You can configure the number of Promo cards in one row by adjusting the “Column count” under the “Appearance“ tab as shown below.
 
-![](<../../../.gitbook/assets/image (59).png>)
+<figure><img src="../../../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>

@@ -8,17 +8,17 @@ This section shows you how to add a Callout.&#x20;
 
 Below is an Callout.
 
-![](<../../.gitbook/assets/image (99).png>)
+<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a callout
 
 Step 1: Go to the page you'd like to add the Callout to (or create a new page) and in the Content tab, Components section, select Callout from the dropdown list.&#x20;
 
-![](<../../.gitbook/assets/image (42).png>)
+<figure><img src="../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Fill in the fields as per below.
 
-![](<../../.gitbook/assets/image (24).png>)
+<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 1. Title - Type in the title for the Callout.
 2. Content - Type in your content.

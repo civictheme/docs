@@ -8,15 +8,15 @@ This article shows you how to add a Subject card to a Manual list component.
 
 Below you can see two Subject cards set to display as one per row (one with an image, one without).
 
-![](<../../../.gitbook/assets/image (23).png>)
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 You can also have up to four Subject cards in one 'row'. Below you can see four Subject cards (with images) set up to display four per row.
 
-![](<../../../.gitbook/assets/image (31).png>)
+<figure><img src="../../../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
 
 Finally, you can also set up the cards with a block colour background, like the example below.&#x20;
 
-![](<../../../.gitbook/assets/image (47).png>)
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -24,13 +24,13 @@ Finally, you can also set up the cards with a block colour background, like the 
 
 Within your Manual list component under List items, click on the dropdown and select Subject card as shown below.
 
-![](<../../../.gitbook/assets/image (66).png>)
+<figure><img src="../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Fill in the various fields <a href="#subjectcardcomponent-step2-fillinthevariousfields" id="subjectcardcomponent-step2-fillinthevariousfields"></a>
 
 The available fields are shown and numbered below.
 
-![](<../../../.gitbook/assets/image (56).png>)
+<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 1. Image - Upload an image (or select one from your media library).
 2. Title - Enter the card title.
