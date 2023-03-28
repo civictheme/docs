@@ -1,5 +1,9 @@
 # Requirements and constraints
 
+{% hint style="info" %}
+Requirement levels (MUST, SHOULD, MAY) are used in accordance with [RFC2119](https://www.ietf.org/rfc/rfc2119.txt)
+{% endhint %}
+
 ### Requirements and constraints
 
 * CivicTheme Drupal theme MAY be used out of the box without any customisations.
@@ -13,16 +17,16 @@
 
 ### Agreements
 
-* Config is stored in the `civictheme` theme's `config/install` and `config/optional` directories.
-* All machine names are prefixed with `civictheme_` for:
+* Configuration MUST be stored in the `civictheme` theme's `config/install` and `config/optional` directories.
+* All machine names MUST be prefixed with `civictheme_` for:
   * Content types
   * Vocabularies
   * Text formats
   * User roles
-* All labels do not use `CivicTheme` in UI.
-* Field names are:
-  * Prefixed with `field_c_<first_letter_of_entity_type>`.
-  * Given generic names based on their purpose and should be shared across multiple bundles.
+* UI MUST NOT refer to `CivicTheme` .
+* Field names MUST be:
+  * Prefixed with `field_c_<first_letter_of_entity_type>_`.
+  * Given generic names based on their purpose and SHOULD be shared across multiple bundles.
   * Named using singular nouns
-* Vocabularies are:
+* Vocabularies MUST be:
   * Named using plural nouns

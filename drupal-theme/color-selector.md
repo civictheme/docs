@@ -14,7 +14,7 @@ See [theme settings](../content-authoring/site-wide-configuration/theme-settings
 
 If colors managed in CSS code only, make sure that Color Selector is disabled in UI or with Drush command:
 
-```
+```sh
 drush config-set civictheme.settings colors.use_color_selector 0
 ```
 
@@ -22,7 +22,7 @@ drush config-set civictheme.settings colors.use_color_selector 0
 
 Palette colors can be set in bulk via Drush command by providing Brand colors:
 
-```
+```sh
 # Enable Color Selector.
 drush config-set civictheme.settings colors.use_color_selector 1
 
@@ -38,7 +38,7 @@ drush --include=docroot/themes/contrib/civictheme/src/Drush civictheme:clear-cac
 
 **Example**
 
-```
+```sh
 drush -y config-set civictheme.settings colors.use_color_selector 1
 drush -y config-set civictheme.settings colors.use_brand_colors 1
 drush --include=docroot/themes/contrib/civictheme/src/Drush civictheme:set-brand-colors "#00698f" "#e6e9eb" "#121313" "#61daff" "#003a4f" "#00698f"
