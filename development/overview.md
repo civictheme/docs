@@ -4,7 +4,7 @@ The Development section covers:
 
 * [UI kit](../ui-kit/)
 * [Drupal theme](../drupal-theme/)
-* [Maintenance](../maintenance/)
+* [Maintenance](../maintenance.md)
 
 ### Terminology
 

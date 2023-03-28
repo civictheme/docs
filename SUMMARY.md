@@ -67,6 +67,7 @@
 ***
 
 * [UI kit](ui-kit/README.md)
+  * [Browser support](ui-kit/browser-support.md)
   * [Extending components](ui-kit/extending-components.md)
 * [Drupal theme](drupal-theme/README.md)
   * [Sub-theme](drupal-theme/sub-theme.md)
@@ -74,6 +75,6 @@
   * [Using in GovCMS SaaS](drupal-theme/using-in-govcms-saas.md)
   * [Color selector](drupal-theme/color-selector.md)
   * [Altering Automated list](drupal-theme/altering-automated-list.md)
-* [Maintenance](maintenance/README.md)
+* [Maintenance](maintenance.md)
   * [Code naming conventions](maintenance/code-naming-conventions.md)
-  * [Requirements and constraints](maintenance/requirements-and-constraints.md)
+  * [Requirements and constraints](drupal-theme/requirements-and-constraints.md)
