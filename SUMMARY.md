@@ -70,6 +70,7 @@
   * [Storybook](development/ui-kit/storybook.md)
   * [Components](development/ui-kit/extending-components.md)
     * [Variables](development/ui-kit/components/variables.md)
+    * [Spacing](development/ui-kit/components/spacing.md)
     * [Grid](development/ui-kit/components/grid.md)
     * [Typography](development/ui-kit/components/typography.md)
 * [Drupal theme](development/drupal-theme/README.md)
