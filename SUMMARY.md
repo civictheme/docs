@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Getting help](getting-help.md)
 * [Contributing](contributing/README.md)
   * [RFC process](contributing/rfc-process.md)
   * [Code of conduct](contributing/code-of-conduct.md)
