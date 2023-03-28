@@ -8,7 +8,7 @@ Landing pages can be created using the Page content type and one or more compone
 
 From the main toolbar menu at the top of the page, click on “Content”.
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (2).png" alt=""><figcaption></figcaption></figure>
 
 Optionally, you can go directly to _\[your\_domain]/admin/content_
 
@@ -20,13 +20,13 @@ Optionally, you can go directly to _\[your\_domain]/admin/content_
 
 Click on Page as shown below.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 4 - Fill in the various fields under the “Content” tab <a href="#creatingalandingpage-step4-fillinthevariousfieldsunderthe-content-tab" id="creatingalandingpage-step4-fillinthevariousfieldsunderthe-content-tab"></a>
 
 The screenshot below shows some of the available fields. We have numbered them for easier explanations.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 1. Title - Enter the page title.
 2. Add components - Add components as needed. See [section about Components](../landing-page/adding-components-wip/).
@@ -34,7 +34,7 @@ The screenshot below shows some of the available fields. We have numbered them f
 4. Custom URL alias - If you unchecked the box as in point #3 above, then this field becomes available. Enter the custom URL alias. Be mindful that it must start with a forward slash, e.g.  /your-custom-url
 5. Menu settings - If you need to add a Menu, click here to expand this section. Once expanded, you will be shown the fields as below. Enter the Menu link title and select the Parent link it will fall under. The Weight determines the ordering of the Menu item being created compared to the existing Menu items. A bigger weight will place it lower in the Parent menu.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 5 - Optionally modify Banner per-page overrides <a href="#creatingalandingpage-step4-fillinthevariousfieldsunderthe-content-tab" id="creatingalandingpage-step4-fillinthevariousfieldsunderthe-content-tab"></a>
 

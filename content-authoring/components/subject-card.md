@@ -18,7 +18,7 @@ You can also have up to 4 Subject cards in one 'row'. Below you can see 4 Subjec
 
 Within your Manual list component under List items, click on the dropdown and select Subject card as shown below.
 
-
+![](<../../.gitbook/assets/image (26).png>)
 
 ### Step 2 - Fill in the various fields <a href="#subjectcardcomponent-step2-fillinthevariousfields" id="subjectcardcomponent-step2-fillinthevariousfields"></a>
 

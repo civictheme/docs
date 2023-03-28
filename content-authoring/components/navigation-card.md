@@ -6,21 +6,21 @@ The Navigation card provides a visual way to highlight content and helps users n
 
 This article shows you how to add a Navigation card to the Manual list component.
 
-Below you can see four navigation cards (one per row) with different variations of field settings applied to each.
+Below you can see three navigation cards (one per row).
 
-
+![](<../../.gitbook/assets/image (15).png>)
 
 ### Step 1 - Add the Navigation card <a href="#navigationcardcomponent-step1-addthenavigationcard" id="navigationcardcomponent-step1-addthenavigationcard"></a>
 
 Within the Manual list component under List items, click on the dropdown and select Navigation card as shown below.
 
-
+![](<../../.gitbook/assets/image (8).png>)
 
 ### Step 2 - Fill in the various fields <a href="#navigationcardcomponent-step2-fillinthevariousfields" id="navigationcardcomponent-step2-fillinthevariousfields"></a>
 
 The available fields are shown and numbered below.
 
-
+![](<../../.gitbook/assets/image (28).png>)
 
 1. Title - Set the card title.
 2. Image - Upload an image (or select one from your media library).
@@ -30,7 +30,7 @@ The available fields are shown and numbered below.
 6. Size - Set the image size (the options are None, Small or Large).
 7. Theme - Select the light or dark theme.
 
-The output is shown below.
+
 
 
 

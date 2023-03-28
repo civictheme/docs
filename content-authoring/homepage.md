@@ -10,7 +10,7 @@ This article will show you how to edit the homepage (and other landing-style pag
 
 Once logged in, go to the homepage and click on the “Edit” button just below the banner as shown below.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Figure 1</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Figure 1</p></figcaption></figure>
 
 In the editorial interface you will notice there are 2 tabs: “Content” and “Banner”.
 
@@ -18,17 +18,17 @@ In the editorial interface you will notice there are 2 tabs: “Content” and �
 
 Under the “Content” tab, you can edit various fields. Below you can see the highlighting and numbering that we'll use to explain the fields.
 
-<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p>Figure 2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption><p>Figure 2</p></figcaption></figure>
 
 1. Title - This is the title text that appears at the top of the page.
 2. Summary text - This text appears in teasers: cards and lists.
 3. Show Table of Contents - If this box is checked, then any H2 HTML tags will be linked to in a tabular format. This is great for readability as it allows your site visitors to easily jump to sections further down the page.
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption><p>Figure 3</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>Figure 3</p></figcaption></figure>
 
 We have added 3 example components. These are #4, #5, and #6 from the screenshot under the Content tab heading above. Below you can see the final output of these components.
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Figure 4</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption><p>Figure 4</p></figcaption></figure>
 
 7\. Click on the "Add to components" dropdown to add more components.
 

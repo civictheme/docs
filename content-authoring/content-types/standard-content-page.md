@@ -14,7 +14,7 @@ At the top left of the admin navigation bar, click on “Manage” to expand the
 
 Once you are in the admin content area, click on the “Add content” button in the top left area, as shown below.
 
-<figure><img src="../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3 - Add a Page <a href="#creatingastandardcontentpage-step3-addapage" id="creatingastandardcontentpage-step3-addapage"></a>
 
@@ -36,8 +36,8 @@ CivicTheme has “Components” that you can add to the Page. Each “Component�
 
 For simple WYSIWYG content click on “Add Content” from the Components dropdown.
 
-<figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on “Save” when you are finished.

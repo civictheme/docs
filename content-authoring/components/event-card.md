@@ -1,5 +1,7 @@
 # Event card
 
+### Summary
+
 Event cards are used to highlight events and are created within the Manual list component. &#x20;
 
 This section shows you how to add an Event card.

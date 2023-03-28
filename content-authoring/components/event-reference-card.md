@@ -2,27 +2,28 @@
 
 ### Summary <a href="#eventreferencecardcomponent-summary" id="eventreferencecardcomponent-summary"></a>
 
-The Event reference card creates an Event card based on a previously created event.&#x20;
+The Event reference card creates an Event card based on a previously created event or page.&#x20;
 
 This article shows you how to add an Event reference card to the Manual list component.
 
 Below is an example of an Event reference card.
 
-
+![](<../../.gitbook/assets/image (21).png>)
 
 ### Step 1 - Add the Event reference card <a href="#eventreferencecardcomponent-step1-addtheeventreferencecard" id="eventreferencecardcomponent-step1-addtheeventreferencecard"></a>
 
 Within the Manual list component under List items, click on the dropdown and select Event reference card.
 
-
+![](<../../.gitbook/assets/image (40).png>)
 
 ### Step 2 - Fill in the various fields <a href="#eventreferencecardcomponent-step2-fillinthevariousfields" id="eventreferencecardcomponent-step2-fillinthevariousfields"></a>
 
 There are only 2 fields.
 
-
+![](<../../.gitbook/assets/image (9).png>)
 
 1. Reference - This is an autocomplete text field that will suggest **Event content type** titles as you type. Event content must exist in your site. You can create Events here: _\[your\_site]/node/add/civictheme\_event_
 2. Theme - Select whether you want light or dark theme settings.
 
-The image below shows what happens as you type the first character into the Reference text field. The site will automatically search page titles of Event content type containing the typed character(s).
+
+
