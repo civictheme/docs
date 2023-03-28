@@ -12,7 +12,7 @@ It consists of 3 main assets:
 
 ### UI kit
 
-CivicTheme is a true design system, based on atomic design principles.
+CivicTheme is a true design system, based on [atomic design](https://atomicdesign.bradfrost.com/chapter-2/) principles.
 
 [UI kit](https://civictheme.io/figma) is a Figma file that provides a visual representation of components and templates. It follows the same versions as the Component Library and Drupal theme.
 
