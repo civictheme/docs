@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Features](features.md)
 * [Getting help](getting-help.md)
 * [Contributing](contributing/README.md)
   * [RFC process](contributing/rfc-process.md)
@@ -68,6 +69,7 @@
 
 * [UI kit](ui-kit/README.md)
   * [Browser support](ui-kit/browser-support.md)
+  * [Storybook](ui-kit/storybook.md)
   * [Extending components](ui-kit/extending-components.md)
 * [Drupal theme](drupal-theme/README.md)
   * [Sub-theme](drupal-theme/sub-theme.md)
