@@ -62,3 +62,12 @@
 ## 🛠 Development
 
 * [Overview](development/overview.md)
+
+***
+
+* [UI kit](ui-kit/README.md)
+  * [Extending components](ui-kit/extending-components.md)
+* [Drupal theme](drupal-theme/README.md)
+  * [Altering Automated list](drupal-theme/altering-automated-list.md)
+* [Maintenance](maintenance/README.md)
+  * [Local environment setup](maintenance/local-environment-setup.md)
