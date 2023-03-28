@@ -72,5 +72,6 @@
   * [Updating](drupal-theme/updating.md)
   * [Using in GovCMS SaaS](drupal-theme/using-in-govcms-saas.md)
   * [Requirements and constraints](drupal-theme/requirements-and-constraints.md)
+  * [Color selector](drupal-theme/color-selector.md)
   * [Altering Automated list](drupal-theme/altering-automated-list.md)
 * [Maintenance](maintenance.md)
