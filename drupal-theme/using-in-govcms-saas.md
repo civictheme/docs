@@ -199,9 +199,11 @@ The provisioning would need to be ran 2 times:
 Run locally:
 
 1. Login to the local instance of your site.
-2. Navigate to /admin/appearance/settings/\<SUBTHEME\_MACHINE\_NAME>\
+2.  Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`\
 
-3. Press Provision content button.
+
+    <figure><img src="../.gitbook/assets/fff86df5-0dcb-4c88-9e8d-c6f3ea17eb21.png" alt=""><figcaption></figcaption></figure>
+3. Press "Provision content" button.
 4. Navigate to the homepage and observe that all blocks and menus are present.
 5.  Export config for created entities:
 
@@ -210,30 +212,36 @@ Run locally:
     ```
 6. Commit and push to remote.
 7. Wait for deployment to finish and login to the Drupal instance.
-8. Navigate to /admin/appearance/settings/\<SUBTHEME\_MACHINE\_NAME>.
-9. Press Provision content button.
+8. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`.
+9. Press "Provision content" button.
 10. Navigate to the homepage and observe that all blocks and menus are present.
 
+{% hint style="success" %}
 After deployment and provisioning your remote **feature** environment should look like a default CivicTheme site without homepage content.
+{% endhint %}
 
 ### 3. Deployment
 
 #### 3.1 Deploy to (pre-)production
 
-1. Merge feature branch to master (or develop and then to master).
+1. Merge feature branch to `master` (or `develop` and then to `master`).
 2. Commit and push to remote.
 3. Wait for deployment to finish and login to the Drupal instance.
-4. Navigate to /admin/appearance/settings/\<yourtheme>.
-5. Press Provision content button.
+4. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`.
+5. Press "Provision content" button.
 6. Navigate to the homepage and observe that all blocks and menus are present.
 
+{% hint style="success" %}
 After deployment and provisioning your remote **(pre-)production** environment should look like a default CivicTheme site without homepage content
+{% endhint %}
 
 #### 3.2 Cleanup
 
+{% hint style="warning" %}
 Only run this step once everything is working and looking as expected.
+{% endhint %}
 
-1. ```
+1. ```sh
    # Remove unnecessary files.
    rm themes/civictheme/civictheme_create_subtheme.php
    rm -Rf themes/civictheme/civictheme_starter_kit
@@ -242,51 +250,17 @@ Only run this step once everything is working and looking as expected.
 
 ### 4. Customising CivicTheme
 
-1. Replace sub-theme logos in repository themes/\<SUBTHEME\_MACHINE\_NAME>/assets/logos with site-specific versions.
-2. Update the colour palette with your sub-theme.
-3. Update sub-theme screenshot.png with something more appropriate (optional).
-4. npm run build and commit changes.
-
-For more information about how to customise CivicTheme, please see:
-
-1. [CivicTheme Drupal documentation](https://github.com/salsadigitalauorg/civictheme/blob/master/docs/README.md)
-2. [CivicTheme Library documentation](https://github.com/salsadigitalauorg/civictheme\_library/blob/master/docs/README.md)
+1. Replace sub-theme logos in repository `themes/<SUBTHEME_MACHINE_NAME>/assets/logos` with site-specific versions.
+2. [Update the colour palette](../content-authoring/site-wide-configuration/theme-settings/colors.md) with your sub-theme.
+3. Update sub-theme `screenshot.png` with something more appropriate (optional).
+4. `npm run build` and commit changes.
 
 ### 5. Updating CivicTheme
 
-#### 5.1 Updating theme files
+See [Version update](updating.md)
 
-1. Download the latest release of CivicTheme
-2. Replace the whole directory themes/civictheme with a newly downloaded version.
+## Resolving issues with roles
 
-#### 5.2 Updating configuration with a script
-
-1. Check that your custom theme has 2 files:
-   1. update\_config.php - script to update configurations.
-   2. example.site\_custom\_configs.txt - file with configuration exclusions that are considered to be custom for the current site. This file contains some generic defaults.
-2. Copy example.site\_custom\_configs.txt to \<SUBTHEME\_MACHINE\_NAME>.site\_custom\_configs.txt
-3. Adjust custom configurations in \<SUBTHEME\_MACHINE\_NAME>.site\_custom\_configs.txt. These configurations will not be compared against configurations provided by the CivicTheme. Wildcards are supported.
-4.  Run in CLI container (ahoy cli):
-
-    ```
-    php \
-      /app/web/themes/custom/<SUBTHEME_MACHINE_NAME>/scripts/update_config.php \
-      /app/web/themes/custom/civictheme/config \
-      /app/web/config/default \
-      /app/web/themes/custom/<SUBTHEME_MACHINE_NAME>/scripts/<SUBTHEME_MACHINE_NAME>.site_custom_configs.txt
-    ```
-5. Check updated configuration with a diff tool of your choice.
-6. Resolve configuration overrides one-by-one.
-7. Re-build local environment with updated configuration.
-8. Check that everything looks good
-9. If there are issues - repeat steps 3-8 until desired result is achieved.
-
-***
-
-## Resolving issues with roles (WIP)
-
-These steps needs to be validated more.
-
-1. Enable Role Delegation module and allow Site Administrators to delegate both GovCMS and CivicTheme roles. Ensure that CivicTheme roles have the same permissions with their GovCMS counterparts.
+1. Enable `Role Delegation` module and allow `Site Administrator` to delegate both GovCMS and CivicTheme roles. Ensure that CivicTheme roles have the same permissions with their GovCMS counterparts.
 2. Login to the site and re-assign existing users from GovCMS roles to relevant CivicTheme roles.
 3. Remove GovCMS admin roles and re-export configuration.
