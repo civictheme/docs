@@ -8,7 +8,7 @@ This article shows you how to update the footer.
 
 The footer section comprises 5 blocks and a menu as shown below.
 
-<figure><img src="../../.gitbook/assets/2647162990.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/CivicTheme Footer.png" alt=""><figcaption></figcaption></figure>
 
 ### Signup block <a href="#updatingthefooter-signupblock" id="updatingthefooter-signupblock"></a>
 
