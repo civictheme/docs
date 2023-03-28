@@ -69,5 +69,4 @@
   * [Extending components](ui-kit/extending-components.md)
 * [Drupal theme](drupal-theme/README.md)
   * [Altering Automated list](drupal-theme/altering-automated-list.md)
-* [Maintenance](maintenance/README.md)
-  * [Local environment setup](maintenance/local-environment-setup.md)
+* [Maintenance](maintenance.md)
