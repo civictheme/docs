@@ -68,7 +68,7 @@
 * [UI kit](development/ui-kit/README.md)
   * [Browser support](development/ui-kit/browser-support.md)
   * [Storybook](development/ui-kit/storybook.md)
-  * [Extending components](development/ui-kit/extending-components.md)
+  * [Components](development/ui-kit/components.md)
 * [Drupal theme](development/drupal-theme/README.md)
   * [Sub-theme](development/drupal-theme/sub-theme.md)
   * [Version update](development/drupal-theme/version-update.md)

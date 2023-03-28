@@ -6,7 +6,7 @@
 4. Adheres to Drupal coding standards
 5. [CMS-agnostic component library](development/ui-kit/) with Storybook integration of 50+ components organised in atomic component structure supporting Light and Dark visual themes for every component
 6. [Configuring colors](content-authoring/site-wide-configuration/theme-settings/colors.md) from within Drupal (from 1.1.0)
-7. [Extending components](development/ui-kit/extending-components.md) using slots or referencing upstream components
+7. [Extending components](development/ui-kit/components.md) using slots or referencing upstream components
 8. Working with or without a Drupal [sub-theme](development/drupal-theme/sub-theme.md) (created provided using starter kit for Drupal sub-themes)
 9. [Storybook](development/ui-kit/storybook.md) for every custom Drupal sub-theme
 10. [Page](content-authoring/content-types/page/) content type to embed different types of components
