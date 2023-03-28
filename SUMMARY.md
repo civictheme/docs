@@ -69,7 +69,7 @@
   * [Extending components](ui-kit/extending-components.md)
 * [Drupal theme](drupal-theme/README.md)
   * [Sub-theme](drupal-theme/sub-theme.md)
-  * [Updating](drupal-theme/updating.md)
+  * [Version update](drupal-theme/version-update.md)
   * [Using in GovCMS SaaS](drupal-theme/using-in-govcms-saas.md)
   * [Requirements and constraints](drupal-theme/requirements-and-constraints.md)
   * [Color selector](drupal-theme/color-selector.md)
