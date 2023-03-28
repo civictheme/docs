@@ -8,19 +8,19 @@ This article shows you how to add an Event reference card to the Manual list com
 
 Below is an example of an Event reference card.
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../../.gitbook/assets/image (45).png>)
 
 ### Step 1 - Add the Event reference card <a href="#eventreferencecardcomponent-step1-addtheeventreferencecard" id="eventreferencecardcomponent-step1-addtheeventreferencecard"></a>
 
 Within the Manual list component under List items, click on the dropdown and select Event reference card.
 
-![](<../../.gitbook/assets/image (62).png>)
+![](<../../../.gitbook/assets/image (62).png>)
 
 ### Step 2 - Fill in the various fields <a href="#eventreferencecardcomponent-step2-fillinthevariousfields" id="eventreferencecardcomponent-step2-fillinthevariousfields"></a>
 
 There are only 2 fields.
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../../.gitbook/assets/image (29).png>)
 
 1. Reference - This is an autocomplete text field that will suggest **Event content type** titles as you type. Event content must exist in your site. You can create Events here: _\[your\_site]/node/add/civictheme\_event_
 2. Theme - Select whether you want light or dark theme settings.

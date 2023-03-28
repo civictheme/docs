@@ -8,7 +8,7 @@ This article shows you how to add a Promo reference card to a Manual list compon
 
 Below you can see an example of a Promo reference card.
 
-![](<../../.gitbook/assets/image (40).png>)
+![](<../../../.gitbook/assets/image (40).png>)
 
 
 
@@ -16,13 +16,13 @@ Below you can see an example of a Promo reference card.
 
 Within your Manual list component under List items, click on the dropdown and select Promo reference card as shown below.
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
 ### Step 2 - Fill in the various fields <a href="#promoreferencecardcomponent-step2-fillinthevariousfields" id="promoreferencecardcomponent-step2-fillinthevariousfields"></a>
 
 There are only 2 fields as shown below.
 
-![](<../../.gitbook/assets/image (39).png>)
+![](<../../../.gitbook/assets/image (39).png>)
 
 
 
