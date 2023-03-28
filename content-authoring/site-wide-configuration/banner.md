@@ -8,7 +8,7 @@ This article shows you how to set up and edit the banner.&#x20;
 
 The image below shows the homepage of civictheme.io. The banner section includes the page title, a content component with a call-to-action button, a feature image and four 'cards' sitting below the banner.&#x20;
 
-![](<../../.gitbook/assets/image (74).png>)
+![](<../../.gitbook/assets/image (88).png>)
 
 
 
@@ -16,15 +16,15 @@ The image below shows the homepage of civictheme.io. The banner section includes
 
 To edit the banner, click on the Edit tab.
 
-![](<../../.gitbook/assets/image (76).png>)
+![](<../../.gitbook/assets/image (72).png>)
 
 This will take you into the standard page layout. Next, select the Banner tab.
 
-![](<../../.gitbook/assets/image (23).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 From there, all banner elements can be added or edited.
 
-![](<../../.gitbook/assets/image (75).png>)
+![](<../../.gitbook/assets/image (70).png>)
 
 1. Banner type - Select inherit (to use the site-wide banner type set in Blocks), Default (to keep default visual type) or large for a bigger banner.&#x20;
 2. Banner theme - Select inherit (to inherit default theme), light or dark.

@@ -8,17 +8,17 @@ This section shows you how to add a Campaign.&#x20;
 
 Below is an Campaign with the image on the left.&#x20;
 
-![](<../../.gitbook/assets/image (31).png>)
+![](<../../.gitbook/assets/image (20).png>)
 
 ### How to add a Campaign
 
 **Step 1**: Go to the page you'd like to add the Campaign to (or create a new page) and in the Content tab, Components section, select Campaign from the dropdown list.&#x20;
 
-![](<../../.gitbook/assets/image (77).png>)
+![](<../../.gitbook/assets/image (91).png>)
 
 **Step 2**: Fill in the fields as per below.
 
-![](<../../.gitbook/assets/image (79).png>)
+![](<../../.gitbook/assets/image (78).png>)
 
 1. Title - Add in the campaign title.
 2. Image - Add an image for the campaign.

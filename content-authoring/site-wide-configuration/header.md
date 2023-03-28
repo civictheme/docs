@@ -25,13 +25,13 @@ b. Update the text in the Slogan field and click on the "Save configuration" but
 
 ### 2. Updating the primary and secondary logos <a href="#updatingtheheader-2.updatingtheprimaryandsecondarylogos" id="updatingtheheader-2.updatingtheprimaryandsecondarylogos"></a>
 
-Read [documentation](logos.md) on how to update Header and Footer logos.
+Read [documentation](theme-settings/logo.md) on how to update Header and Footer logos.
 
 ### 3. Updating the Secondary menu <a href="#updatingtheheader-3.updatingthesecondarymenu" id="updatingtheheader-3.updatingthesecondarymenu"></a>
 
 a. Go to `/admin/structure/menu/manage/civictheme-secondary-navigation` or Structure > Menus and then click on “Edit menu” next to Secondary navigation.
 
-<figure><img src="../../.gitbook/assets/22b1bcc4-5808-4ab9-a459-2bcb6f17800c.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/22b1bcc4-5808-4ab9-a459-2bcb6f17800c (1).png" alt=""><figcaption></figcaption></figure>
 
 b. Click on “Add link” to add a new link or click on “Edit” next to an existing link to update it.
 

@@ -8,17 +8,17 @@ This section shows you how to add the Next Step component.&#x20;
 
 Below is an example of the Next Step component.
 
-![](<../../.gitbook/assets/image (12).png>)
+![](<../../.gitbook/assets/image (28).png>)
 
 ### How to add a Next Step
 
 **Step 1**: Go to the page you'd like to add the Next Step to (or create a new page) and in the Content tab, Components section, select Next Step from the dropdown list.
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (95).png>)
 
 Step 2: Fill in the fields as per below.
 
-![](<../../.gitbook/assets/image (49).png>)
+![](<../../.gitbook/assets/image (18).png>)
 
 1. Title - Add in the Next Step's title
 2. Content - Add in any additional content you'd like to include.

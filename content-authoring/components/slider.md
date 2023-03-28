@@ -8,17 +8,17 @@ This section shows you how to add the Slider component.&#x20;
 
 Below is an example of the Slider component.
 
-![](<../../.gitbook/assets/image (53).png>)
+![](<../../.gitbook/assets/image (60).png>)
 
 ### How to add a Slider
 
 Step 1: Go to the page you'd like to add the Quote to (or create a new page) and in the Content tab, Components section, select Quote from the dropdown list.
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
 Step 2: Fill in the fields as per below.
 
-![](<../../.gitbook/assets/image (19).png>)
+![](<../../.gitbook/assets/image (21).png>)
 
 1. Title - Type in the title for your 'slideshow'.
 2. Slides - Use the dropdown here to add slides. You can either add slides manually (Add Slider slide) or using automation (Add Slider reference slide).
@@ -28,7 +28,7 @@ Step 2: Fill in the fields as per below.
 
 Step 3: Fill in the information for each slide - see below.&#x20;
 
-![](<../../.gitbook/assets/image (22).png>)
+![](../../.gitbook/assets/image.png)
 
 1. Title - Add the title for _this_ slide.
 2. Image - Add an image for the slide.
@@ -48,7 +48,7 @@ You can also add 'Slider reference slides'. These slides pull content automatica
 
 Below is a screenshot of the fields for the Slider reference slides.&#x20;
 
-![](<../../.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
 1. Reference - Start typing the page title of the page you'd like to reference, and then select the page/content.&#x20;
 2. Link text - Add in link text, if desired.

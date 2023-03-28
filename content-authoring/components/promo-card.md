@@ -8,11 +8,11 @@ This article shows you how to add a Promo card component to a Manual list compon
 
 Below is a promo card.
 
-![](<../../.gitbook/assets/image (42).png>)
+![](<../../.gitbook/assets/image (52).png>)
 
 And this is what four promo cards in a row looks like.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../../.gitbook/assets/image (53).png>)
 
 
 
@@ -20,11 +20,11 @@ And this is what four promo cards in a row looks like.
 
 Within the Manual list component under List items, click on the dropdown and select Promo card as shown below.
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (44).png>)
 
 In the screenshot below you can see the Promo card fields, which are numbered and highlighted.
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../../.gitbook/assets/image (8).png>)
 
 1. Title - Add the card title.
 2. Subtitle - Add a subtitled if desired.
@@ -38,4 +38,4 @@ In the screenshot below you can see the Promo card fields, which are numbered an
 
 You can configure the number of Promo cards in one row by adjusting the “Column count” under the “Appearance“ tab as shown below.
 
-![](<../../.gitbook/assets/image (47).png>)
+![](<../../.gitbook/assets/image (59).png>)

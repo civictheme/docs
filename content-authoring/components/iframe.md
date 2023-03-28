@@ -10,11 +10,11 @@ This section shows you how to add an iFrame.&#x20;
 
 Step 1: Go to the page you'd like to add the iFrame to (or create a new page) and in the Content tab, Components section, select iFrame from the dropdown list.
 
-![](<../../.gitbook/assets/image (57).png>)
+![](<../../.gitbook/assets/image (96).png>)
 
 **Step 2**: Fill in the fields as per below.
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
 1. URL - Type or copy and paste in the URL.
 2. Width - Type in the width of the iFrame.
