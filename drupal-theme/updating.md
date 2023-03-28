@@ -4,8 +4,6 @@
 Ensure that you always review the [release notes](https://www.drupal.org/project/civictheme/releases) prior to beginning the update process.
 {% endhint %}
 
-### Updating code
-
 1.  Update CivicTheme base theme:
 
     ```sh
