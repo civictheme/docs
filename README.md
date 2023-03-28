@@ -38,7 +38,23 @@ The components have been built and assessed to comply with WCAG accessibility st
 
 The theme contains all necessary configurations and code to connect the CMS data with the components.
 
+
+
 ### Useful links <a href="#introduction-usefullinks" id="introduction-usefullinks"></a>
+
+#### Demo sites <a href="#introduction-usefullinks" id="introduction-usefullinks"></a>
+
+[https://default.civictheme.io/](https://default.civictheme.io/) - latest stable build. Use "Generated content" menu item to view components in multiple variants.
+
+[https://government.civictheme.io/](https://government.civictheme.io/) - example of CivicTheme with the government industry content&#x20;
+
+[https://higher-education-university.civictheme.io/](https://higher-education-university.civictheme.io/) - example of CivicTheme with the higher education industry content&#x20;
+
+[https://corporate.civictheme.io/](https://corporate.civictheme.io/) - example of CivicTheme with the corporate industry content&#x20;
+
+[https://health.civictheme.io/](https://health.civictheme.io/) - example of CivicTheme with the health industry content&#x20;
+
+#### Other links
 
 * [CivicTheme official site](https://www.civictheme.io/)
 * [CivicTheme Github repo for development](https://github.com/salsadigitalauorg/civictheme\_source)
