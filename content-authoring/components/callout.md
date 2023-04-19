@@ -8,7 +8,7 @@ This section shows you how to add a Callout.&#x20;
 
 Below is an Callout.
 
-<figure><img src="../../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (99) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a callout
 

@@ -28,7 +28,7 @@ Step 2: Fill in the fields as per below.
 
 Step 3: Fill in the information for each slide - see below.&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 1. Title - Add the title for _this_ slide.
 2. Image - Add an image for the slide.

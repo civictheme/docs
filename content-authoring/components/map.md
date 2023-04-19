@@ -14,7 +14,7 @@ Below is a Map.&#x20;
 
 Step 1: Go to the page you'd like to add the Map to (or create a new page) and in the Content tab, Components section, select Map from the dropdown list.
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (67) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Fill in the fields as per below.
 

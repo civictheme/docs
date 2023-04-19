@@ -20,7 +20,7 @@ Within your Manual list component under List items, click on the dropdown and se
 
 The available fields are shown and numbered below.
 
-<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Title - Add title text
 2. Image - Upload an image or select one from your library.

@@ -64,4 +64,4 @@ The available fields are shown below. We have numbered the fields and explained 
 
 8\. Manual list component - This is another example of a component. Components added to the “Banner bottom components” appear under the banner as shown below.
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>

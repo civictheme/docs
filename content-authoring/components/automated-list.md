@@ -10,7 +10,7 @@ Below is an automated list. The content is being pulled from existing pages and 
 
 &#x20;
 
-<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add an automated list
 

@@ -20,7 +20,7 @@ To edit the banner, click on the Edit tab.
 
 This will take you into the standard page layout. Next, select the Banner tab.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 From there, all banner elements can be added or edited.
 

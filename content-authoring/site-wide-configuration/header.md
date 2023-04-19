@@ -17,7 +17,7 @@ The header section comprises of 4 subsections:
 
 ### 1. Updating the site slogan <a href="#updatingtheheader-1.updatingthesiteslogan" id="updatingtheheader-1.updatingthesiteslogan"></a>
 
-a. Go to `/admin/config/system/site-information` __ or click on Configuration > Basic site settings
+a. Go to `/admin/config/system/site-information` or click on Configuration > Basic site settings
 
 b. Update the text in the Slogan field and click on the "Save configuration" button.
 

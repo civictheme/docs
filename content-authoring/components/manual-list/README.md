@@ -28,7 +28,7 @@ Step 2: Select the list type (card) you'd like from the Content tab.
 
 Step 3: Fill out the information that correspond to your card choice. Please see the other sections of this manual for more information on specific cards.&#x20;
 
-Step 4: Fill in the **Fields tab** information **** as per below.
+Step 4: Fill in the **Fields tab** information as per below.
 
 <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
