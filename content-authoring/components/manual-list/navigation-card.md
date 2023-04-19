@@ -8,7 +8,7 @@ This article shows you how to add a Navigation card to the Manual list component
 
 Below you can see three navigation cards (one per row).
 
-<figure><img src="../../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (41) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 1 - Add the Navigation card <a href="#navigationcardcomponent-step1-addthenavigationcard" id="navigationcardcomponent-step1-addthenavigationcard"></a>
 

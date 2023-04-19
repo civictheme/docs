@@ -44,7 +44,7 @@ Please note that these are **per-page** overrides of a [site-wide banner](../../
 
 The available fields are shown below. We have numbered the fields and explained each.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Banner type - You can specify the size of the banner here with choices of Inherit, Default or Large.&#x20;
 2. Banner theme - You can specify the theme colour. “Inherit” will inherit the value defined for your custom banner block, which you can find at _\[your\_domain]/admin/structure/block/block-content._

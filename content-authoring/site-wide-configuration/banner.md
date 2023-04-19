@@ -16,11 +16,11 @@ The image below shows the homepage of civictheme.io. The banner section includes
 
 To edit the banner, click on the Edit tab.
 
-<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72) (1).png" alt=""><figcaption></figcaption></figure>
 
 This will take you into the standard page layout. Next, select the Banner tab.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 From there, all banner elements can be added or edited.
 

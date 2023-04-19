@@ -8,7 +8,7 @@ This article shows you how to add a Promo reference card to a Manual list compon
 
 Below you can see an example of a Promo reference card.
 
-<figure><img src="../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (40) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
