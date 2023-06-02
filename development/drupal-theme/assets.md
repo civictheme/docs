@@ -2,7 +2,7 @@
 
 Site assets refer to the collection of files and resources that are essential for the visual appearance, functionality, and overall user experience of a website.
 
-This section explains working with assets in the context of your custom sub-theme. All commands and path are releated to your sub-theme directory.
+This section explains working with assets in the context of your custom sub-theme. All commands and path are related to your sub-theme directory.
 
 ## Compiling and serving assets
 
@@ -34,7 +34,7 @@ This distinction is made to provide a clear separation between UI kit-specific s
 
 #### UI kit overrides or additions styles
 
-These reside in `components` directory and repeat the structure of the UI kit library. This allows to create new or extend existing UI kit components.&#x20;
+These reside in `components` directory and repeat the structure of the UI kit library. This allows you to create new or extend existing UI kit components.&#x20;
 
 See the [Demo button example](https://github.com/salsadigitalauorg/civictheme\_source/tree/develop/docroot/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button) for more details.
 
@@ -67,7 +67,7 @@ See the [Demo button example](https://github.com/salsadigitalauorg/civictheme\_s
 
 #### Drupal JS files
 
-These reside in `assets/js` directory and are intended to override or provide additionally behaviours for the Drupal functionality.
+These reside in `assets/js` directory and are intended to override or provide additional behaviours for the Drupal functionality.
 
 ## Fonts
 
@@ -83,19 +83,19 @@ See the [Fonts addition example](https://github.com/salsadigitalauorg/civictheme
 
 #### Backgrounds and logos
 
-Backgrounds and Logos are content uploaded through [theme settings ](../../content-authoring/site-wide-configuration/theme-settings/)form for you sub-theme, therefore files placed in `assets/backgrounds` and `assets/logos` are used only in your sub-theme's Storybook for visual representation.
+Backgrounds and Logos are content uploaded through the [theme settings ](../../content-authoring/site-wide-configuration/theme-settings/)form for you sub-theme, therefore files placed in `assets/backgrounds` and `assets/logos` are used only in your sub-theme's Storybook for visual representation.
 
 #### Icons
 
 {% hint style="info" %}
-Icons discussed here are the icons used in the UI elements and not the icons that can be uploaded as a content in components such as [Navigation card](../../content-authoring/components/manual-list/navigation-card.md) or [Social links](../../content-authoring/site-wide-configuration/social-links.md)
+Icons discussed here are the icons used in the UI elements and not the icons that can be uploaded as content in components such as [Navigation card](../../content-authoring/components/manual-list/navigation-card.md) or [Social links](../../content-authoring/site-wide-configuration/social-links.md)
 {% endhint %}
 
-CivicTheme UI kit provides an several icons out of the box.&#x20;
+CivicTheme UI kit provides several icons out of the box.&#x20;
 
-The [design system file](https://civictheme.io/figma) provides more open source icons that can be exported in SVG format and added to your sub-theme
+The [design system file](https://civictheme.io/figma) provides more open source icons that can be exported in SVG format and added to your sub-theme.
 
-Place or replace icons in `assets/icons` directory: new icons can be referred to from the SASS styles of your custom components; replaced icons will be picked-up by the existing components provided that their name has not changed.
+Place or replace icons in `assets/icons` directory: new icons can be referred to from the SASS styles of your custom components; replaced icons will be picked up by the existing components, provided that their name has not changed.
 
 If the icon file is referenced in the template but does not exist in the above directory, the icon will not render.
 

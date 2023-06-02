@@ -11,10 +11,10 @@ Requirement levels (MUST, SHOULD, MAY) are used in accordance with [RFC2119](htt
   * Text formats
   * User roles
 * UI MUST NOT refer to `CivicTheme` .
-* `page` or `article` SHOULD NOT be used as a prefix the name of the content types unless absolutely necessary: `News article` , `Blog page`
+* `page` or `article` SHOULD NOT be used as a prefix for the name of a content type unless absolutely necessary, instead: `News article` , `Blog page`
 * Field names MUST be:
-  * Prefixed with `field_c_<first_letter_of_entity_type>_`.
-  * Given generic names based on their purpose and SHOULD be shared across multiple bundles.
+  * Prefixed with `field_c_<first_letter_of_entity_type>_`
+  * Given generic names based on their purpose and SHOULD be shared across multiple bundles
   * Named using singular nouns
 * Vocabularies MUST be:
   * Named using plural nouns

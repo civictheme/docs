@@ -38,7 +38,7 @@ The screenshot below shows some of the available fields. We have numbered them f
 
 ### Step 5 - Optionally modify Banner per-page overrides <a href="#creatingalandingpage-step4-fillinthevariousfieldsunderthe-content-tab" id="creatingalandingpage-step4-fillinthevariousfieldsunderthe-content-tab"></a>
 
-Please note that these are **per-page** overrides of a [site-wide banner](../../site-wide-configuration/banner.md) and they do not need to be updated on every page if the site-wide banner configuration is sufficient.
+Please note that these are **per-page** overrides of a [site-wide banner](../../site-wide-configuration/site-wide-banner.md) and they do not need to be updated on every page if the site-wide banner configuration is sufficient.
 
 <figure><img src="../../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure>
 

@@ -15,7 +15,7 @@
 * [Site-wide configuration](content-authoring/site-wide-configuration/README.md)
   * [Header](content-authoring/site-wide-configuration/header.md)
   * [Footer](content-authoring/site-wide-configuration/footer.md)
-  * [Banner](content-authoring/site-wide-configuration/banner.md)
+  * [Site-wide banner](content-authoring/site-wide-configuration/site-wide-banner.md)
   * [Social links](content-authoring/site-wide-configuration/social-links.md)
   * [Theme settings](content-authoring/site-wide-configuration/theme-settings/README.md)
     * [Colors](content-authoring/site-wide-configuration/theme-settings/colors.md)

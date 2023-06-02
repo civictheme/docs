@@ -14,7 +14,7 @@ Below is an example of the Slider component.
 
 Step 1: Go to the page you'd like to add the Quote to (or create a new page) and in the Content tab, Components section, select Quote from the dropdown list.
 
-<figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (35) (1).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Fill in the fields as per below.
 

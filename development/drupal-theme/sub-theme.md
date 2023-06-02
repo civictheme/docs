@@ -25,9 +25,10 @@ drush theme:enable theme_machine_name
 Run the following command from within your sub-theme directory:
 
 ```sh
+nvm use
 npm run build
 ```
 
 {% hint style="info" %}
-NodeJS version 16 is required to compile front-end assets.
+NodeJS version >=18.14 is required to compile front-end assets.
 {% endhint %}

@@ -191,7 +191,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 
 CivicTheme comes with pre-set Block Content blocks configuration. Since Drupal does not support running install hooks in themes, a custom content provisioning script has to be used.
 
-The provisioning would need to be ran 2 times:
+The provisioning needs to be run twice:
 
 1. Locally - to capture created configuration for config entities (blocks, menus etc.)
 2. In production - to populate the configuration with the default content. This step will be covered in the “Deployment” section below.

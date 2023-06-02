@@ -3,11 +3,10 @@
 ### Installation
 
 ```
-composer require salsadigitalauorg/civictheme
+composer require drupal/civictheme
 ```
 
-or\
-download the [latest version](https://www.drupal.org/project/civictheme/releases) from Drupal.org and place into the desired location
+Alternatively, you can download the [latest version](https://www.drupal.org/project/civictheme/releases) from Drupal.org and place into the desired location.
 
 ### Usage
 

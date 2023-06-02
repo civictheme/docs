@@ -75,11 +75,11 @@ div {
 
 Breakpoints should be applied from smallest to largest, with all shared rules defined before the breakpoints.
 
-All breakpoints use `min-width` only. Options for `min and max`, or `max` width has been omitted to avoid over-complicating breakpoint logic and readability.
+All breakpoints use `min-width` only. Options for `min and max`, or `max` width have been omitted to avoid over-complicating breakpoint logic and readability.
 
 ### Containers and rows
 
-Containers are used to contain and center content to a `max-width` per breakpoint. These are set via the `$ct-breakpoints` map.
+Containers are used to contain and centre content to a `max-width` per breakpoint. These are set via the `$ct-breakpoints` map.
 
 If no container is set then columns spread full-width - this is utilised in CivicTheme Page without sidebar where we have full-width components and constraining of content is done on the component level.
 
@@ -91,14 +91,14 @@ There are 12 columns available per row, allowing you to create different combina
 
 Column classes indicate the number of template columns to span (e.g., `col-4` spans four). Widths are set in percentages so you always have the same relative sizing.
 
-### Nested Grids
+### Nested grids
 
 The grid system allows for nested grids. If a parent is 50% width (`col-xs-12`) and a container, row and column is placed inside of this column then the max-width of the child column (with `col-xs-12` class) is 50% of the parent.
 
 ### Utilities
 
-CivicTheme component library come with a variety of Grid utility mixins including `offset`, `row-reverse`, `flex-column` among others.
+CivicTheme component library comes with a variety of grid utility mixins including `offset`, `row-reverse`, `flex-column` among others.
 
 ### Advanced
 
-For more advanced modification and overriding, the grid system internals are defined within `_variables.base.scss`, which provides plenty of options to change the grid system, however, this is not recommended as it can have significant changes to the design system which may not be apparent at first.
+For more advanced modification and overriding, the grid system internals are defined within `_variables.base.scss`. This provides plenty of options to change the grid system, however, this is not recommended as it can result in significant changes to the design system which may not be apparent at first.

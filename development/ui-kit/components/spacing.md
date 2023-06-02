@@ -2,11 +2,11 @@
 
 ### Particle
 
-Particle is the most basic unit of measurement,  using pixels to tie to the design grid which is in pixels as well.&#x20;
+Particle is the most basic unit of measurement, using pixels to tie to the design grid which is in pixels as well.&#x20;
 
 Depending on the context, most of the values will be using conversion to rem with the `rem()` function.&#x20;
 
-`ct-particle()` function can be used to baseelement measurements off the particle.
+`ct-particle()` function can be used to base element measurements off the particle.
 
 For spacing, use `ct-spacing()` function instead.
 
