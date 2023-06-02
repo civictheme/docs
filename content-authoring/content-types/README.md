@@ -2,7 +2,7 @@
 
 Out-of-the-box, CivicTheme comes with 3 content types:
 
-* [Page](page/)
+* [Page](page-content-type/)
 * [Event](event.md)
 * [Alert](alert.md)
 

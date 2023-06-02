@@ -8,7 +8,7 @@ This section shows you how to add a Webform component into  page. &#x20;
 
 Below you can see an example webform.&#x20;
 
-<img src="../../.gitbook/assets/image (13).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (13) (1).png" alt="" data-size="original">
 
 ### How to add a Webform
 

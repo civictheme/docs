@@ -23,7 +23,7 @@ The block allows you to select an image display type, set a theme, add a backgro
 3.  Look for 'Banner' in the list of blocks (or use the 'Block type' filter and filter for 'Banner') and select 'Edit'.\
 
 
-    <figure><img src="../../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 #### Banner block fields
 

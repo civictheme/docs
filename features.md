@@ -9,10 +9,10 @@
 7. [Extending components](development/ui-kit/extending-components.md) using slots or referencing upstream components
 8. Working with or without a Drupal [sub-theme](development/drupal-theme/sub-theme.md) (created provided using starter kit for Drupal sub-themes)
 9. [Storybook](development/ui-kit/storybook.md) for every custom Drupal sub-theme
-10. [Page](content-authoring/content-types/page/) content type to embed different types of components
+10. [Page](content-authoring/content-types/page-content-type/) content type to embed different types of components
 11. [Event](content-authoring/content-types/event.md) content type to work with events
 12. Site-wide [alert](content-authoring/content-types/alert.md) banner system
-13. Highly configurable banner component ([site-wide](content-authoring/site-wide-configuration/site-wide-banner.md) and [per-page](content-authoring/content-types/page/))
+13. Highly configurable banner component ([site-wide](content-authoring/site-wide-configuration/banner.md) and [per-page](content-authoring/content-types/page-content-type/))
 14. Multiple ways to present content with cards in [Manual list](content-authoring/components/manual-list/) and [Automated list](content-authoring/components/automated-list.md) components.
 15. Automated list to configure dynamic queries with an ability to override and [developer-friendly API](development/drupal-theme/automated-list.md)
 16. Separate [Primary](content-authoring/site-wide-configuration/header.md), [Secondary](content-authoring/site-wide-configuration/header.md) and [Footer](content-authoring/site-wide-configuration/theme-settings/footer.md) navigations
