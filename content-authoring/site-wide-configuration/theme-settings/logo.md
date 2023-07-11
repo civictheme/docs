@@ -1,35 +1,40 @@
+---
+description: Learn how to add the site logos
+---
+
 # Logo
 
-Logo is used in the Header and Footer. See sub-sections about how to choose the type of Logo for [Header](header.md) and [Footer](footer.md).
+The site logo/s display in the Header and the Footer of the site.
 
-This section explains how to upload different logos so they're available in Header and Footer.
+<figure><img src="../../../.gitbook/assets/dark-header.png" alt=""><figcaption><p>Fig. 1 -  Example of a Inline logo on a Dark themed header</p></figcaption></figure>
 
-Logo may consist of Primary and Secondary images. This is useful in cases where a logo consists of 2 images, e.g. your logo and the Commonwealth Coat of Arms.
+<figure><img src="../../../.gitbook/assets/footer-light.png" alt=""><figcaption><p>Fig. 2 - Example of Inline logo on Light themed footer</p></figcaption></figure>
 
-Then, Primary and Secondary images can exist in desktop _and_ mobile sizes to make the logos fit the design better.
+### Logos for Light and Dark theme <a href="#updatinglogos-summary" id="updatinglogos-summary"></a>
 
-Finally, each logo size exists in `Light` and `Dark` theme. This is to make logos contrast enough to be seen in the Header or Footer of the same theme.
+You must upload appropriate logos for use in the `Light` and/or `Dark` theme.&#x20;
 
+If you use the `Dark` theme, you need to ensure you're logo is light enough that it will be visually accessible on a dark background  (see fig. 1). If you use the `Light` theme, your logo needs to be dark enough to be seen on the light background  (see fig. 2).&#x20;
 
+### Primary vs Secondary logo <a href="#updatinglogos-summary" id="updatinglogos-summary"></a>
 
-![](../../../.gitbook/assets/2642903077.png)
+You can add a Primary and a Secondary logo to your CivicTheme site. This is useful in the case of dual branding, e.g. your logo and the Commonwealth Coat of Arms (see Figs. 1 & 2).
 
-### Updating the Primary logo <a href="#updatinglogos-step3-updatingtheprimarylogo" id="updatinglogos-step3-updatingtheprimarylogo"></a>
+Once you have uploaded your logo you can then select how you want the logo/s to display in the Header and the Footer. This can be done in the [Header settings](header-settings.md#header-logotype) and the [Footer settings](footer-settings.md#header-logotype-1).
 
-Expand the “Primary Logo” tab.
+### Adding / updating the Primary & Secondary logos <a href="#updatinglogos-step3-updatingtheprimarylogo" id="updatinglogos-step3-updatingtheprimarylogo"></a>
 
-![](../../../.gitbook/assets/2643034144.png)
+The process is the same for the Primary and the Secondary logo.
 
-CivicTheme will automatically show the appropriate logo (desktop or mobile) based on the visitor’s viewport size.
+We're using the Primary logo as the example here, follow the same steps for the Secondary logo.
 
-### Updating the Secondary logo <a href="#updatinglogos-step4-updatingthesecondarylogo" id="updatinglogos-step4-updatingthesecondarylogo"></a>
+<figure><img src="../../../.gitbook/assets/2642903077.png" alt=""><figcaption><p>Fig. 3 - Logo settings</p></figcaption></figure>
 
-Expand the “Secondary logo” tab.
+1. Select 'Logo' in the list of Components.
+2. Fill in the alt text for the logo.
+3. Open the 'Primary logo' dropdown and carefully note which logos need to be added for which use - Light and Dark theme, and desktop and mobile use.
+4. Do this for the 'Secondary logo' if you are using one.&#x20;
+5. Scroll to the bottom and select 'Save configuration'.
+6. Now go to [Header settings](header-settings.md#header-logotype) and the [Footer settings](footer-settings.md#header-logotype-1) to configure the way the logo displays in each of those places.
 
-![](../../../.gitbook/assets/2642640930.png)
-
-CivicTheme will automatically show the appropriate logo (desktop or mobile) based on the visitor’s viewport size.
-
-### Choosing logos for Header and Footer <a href="#updatinglogos-step4-updatingthesecondarylogo" id="updatinglogos-step4-updatingthesecondarylogo"></a>
-
-Logo is used in Header and Footer. See sub-sections about how to choose the type of logo for [Header](header.md) and [Footer](footer.md).
+<figure><img src="../../../.gitbook/assets/2643034144.png" alt=""><figcaption><p>Fig. 4 - Primary logo fields</p></figcaption></figure>

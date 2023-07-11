@@ -251,7 +251,7 @@ Only run this step once everything is working and looking as expected.
 ### 4. Customising CivicTheme
 
 1. Replace sub-theme logos in repository `themes/<SUBTHEME_MACHINE_NAME>/assets/logos` with site-specific versions.
-2. [Update the colour palette](../../content-authoring/site-wide-configuration/theme-settings/colors.md) with your sub-theme.
+2. [Update the colour palette](../../content-authoring/site-wide-configuration/theme-settings/colours.md) with your sub-theme.
 3. Update sub-theme `screenshot.png` with something more appropriate (optional).
 4. `npm run build` and commit changes.
 

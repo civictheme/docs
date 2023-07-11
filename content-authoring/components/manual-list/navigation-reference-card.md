@@ -14,7 +14,7 @@ Below is an example of a Navigation reference card
 
 Within the Manual list component under List items, click on the dropdown and select Navigation reference card as shown below.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Fill in the various fields <a href="#navigationreferencecardcomponent-step2-fillinthevariousfields" id="navigationreferencecardcomponent-step2-fillinthevariousfields"></a>
 

@@ -1,56 +1,53 @@
+---
+description: This article outlines how to update the header of your site.
+---
+
 # Header
 
 ### Summary <a href="#updatingtheheader-summary" id="updatingtheheader-summary"></a>
 
-The header section appears at the top of your website.&#x20;
-
-This article shows you how to update the header section of your site.
-
-The header section comprises of 4 subsections:
+The header section appears at the top of your website. It comprises:
 
 1. The site slogan
-2. The primary and secondary logos
+2. The primary and secondary logos (this example illustrates a primary logo only)
 3. The secondary menu
 4. The primary menu
 
-<figure><img src="../../.gitbook/assets/105b4d00-cfff-4cce-8d0d-786f867df463.png" alt=""><figcaption></figcaption></figure>
+Some of the settings for the header are configured in the 'Settings' section of your CivicTheme site such as [Theme and Logo settings](theme-settings/header-settings.md), others are configured in the 'Structure' section.
 
-### 1. Updating the site slogan <a href="#updatingtheheader-1.updatingthesiteslogan" id="updatingtheheader-1.updatingthesiteslogan"></a>
+<figure><img src="../../.gitbook/assets/header.png" alt=""><figcaption><p>Fig. 1 - 'Light' theme header</p></figcaption></figure>
 
-a. Go to `/admin/config/system/site-information` or click on Configuration > Basic site settings
+<figure><img src="../../.gitbook/assets/dark-header.png" alt=""><figcaption><p>Fig. 2 - 'Dark' theme header</p></figcaption></figure>
 
-b. Update the text in the Slogan field and click on the "Save configuration" button.
+### Site slogan
 
-<figure><img src="../../.gitbook/assets/472d96c9-b7ff-4bc6-93f1-4224ba3d2d2f.png" alt=""><figcaption></figcaption></figure>
+The Site slogan is optional. This is configured in the Settings area. See [Site slogan](theme-settings/site-slogan.md) for instructions.
 
-### 2. Updating the primary and secondary logos <a href="#updatingtheheader-2.updatingtheprimaryandsecondarylogos" id="updatingtheheader-2.updatingtheprimaryandsecondarylogos"></a>
+### Update the primary and secondary logos <a href="#updatingtheheader-2.updatingtheprimaryandsecondarylogos" id="updatingtheheader-2.updatingtheprimaryandsecondarylogos"></a>
 
-Read [documentation](theme-settings/logo.md) on how to update Header and Footer logos.
+There are a couple of steps to configure the logo/s:
 
-### 3. Updating the Secondary menu <a href="#updatingtheheader-3.updatingthesecondarymenu" id="updatingtheheader-3.updatingthesecondarymenu"></a>
+1. [Add your logos](theme-settings/logo.md#updatinglogos-step3-updatingtheprimarylogo) to the site.
+2. [Configure the logos](theme-settings/header-settings.md#header-logotype) in the header settings (select the 'Light' or 'Dark' theme, and choose how the logo displays in the header on desktop and mobile).
 
-a. Go to `/admin/structure/menu/manage/civictheme-secondary-navigation` or Structure > Menus and then click on “Edit menu” next to Secondary navigation.
+### Update the menus <a href="#updatingtheheader-3.updatingthesecondarymenu" id="updatingtheheader-3.updatingthesecondarymenu"></a>
 
-<figure><img src="../../.gitbook/assets/22b1bcc4-5808-4ab9-a459-2bcb6f17800c (1).png" alt=""><figcaption></figcaption></figure>
+#### Secondary menu <a href="#updatingtheheader-3.updatingthesecondarymenu" id="updatingtheheader-3.updatingthesecondarymenu"></a>
 
-b. Click on “Add link” to add a new link or click on “Edit” next to an existing link to update it.
+1. Go to `/admin/structure/menu/manage/civictheme-secondary-navigation` or Structure > Menus
+2.  Select 'Edit menu' for the Secondary navigation \
 
-<figure><img src="../../.gitbook/assets/ad95678d-a812-454b-9bf7-3e3e0fe07438.png" alt=""><figcaption></figcaption></figure>
 
-Whether you clicked on “Add link” or “Edit”, you will be presented with the edit screen. Fill in the various fields and then click on “Save”.
+    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+3.  Select 'Add link' to add a new link or click on “Edit” next to an existing link to update it.
 
-<figure><img src="../../.gitbook/assets/8eae2558-536d-4e44-bf09-2b2591bb459a.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image.png" alt="Image of Secondary menu settings in Drupal back end"><figcaption><p>Edit the Secondary menu</p></figcaption></figure>
+4. Whether you clicked on “Add link” or “Edit”, you will be presented with the edit screen. Fill in the various fields and then click on “Save”.
 
-### 4. Updating the Primary menu <a href="#updatingtheheader-4.updatingtheprimarymenu" id="updatingtheheader-4.updatingtheprimarymenu"></a>
+#### Primary menu <a href="#updatingtheheader-4.updatingtheprimarymenu" id="updatingtheheader-4.updatingtheprimarymenu"></a>
 
 Updating the Primary menu is similar to updating the secondary menu as in the previous section.
 
-a. Go to `/admin/structure/menu/manage/civictheme-primary-navigation` or Structure > Menus and then click on “Edit menu” next to Primary navigation.
+Follow the instructions above, but select 'Edit menu' for the Primary menu instead.
 
-<figure><img src="../../.gitbook/assets/ec69f844-832b-484b-aaf5-6cd5924b5bca.png" alt=""><figcaption></figcaption></figure>
-
-b. See Section 3b on this page and follow the same pattern to update the menu links.
-
-### Tip <a href="#updatingtheheader-tip" id="updatingtheheader-tip"></a>
-
-There are some extra Header settings that can be updated from within the CivicTheme configuration. [Please read our documentation on extra Header settings](broken-reference).
+<figure><img src="../../.gitbook/assets/prim-menu.png" alt="Image of Menus page in Drupal back end"><figcaption><p>Menus</p></figcaption></figure>

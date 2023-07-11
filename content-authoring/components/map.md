@@ -8,7 +8,7 @@ This section shows you how to add a Map.&#x20;
 
 Below is a Map.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a Map&#x20;
 

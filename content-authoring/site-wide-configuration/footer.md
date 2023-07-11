@@ -1,29 +1,39 @@
+---
+description: Learn how to create and edit the site-wide footer
+---
+
 # Footer
 
-### Summary <a href="#updatingthefooter-summary" id="updatingthefooter-summary"></a>
+Some footer settings, such as adding a background image and choosing the light or dark theme are configured in the Settings area of your site. Go to [Footer settings](theme-settings/footer-settings.md) for more information on theme settings.&#x20;
 
-The footer section is at the bottom of your website.&#x20;
+The remainder of the footer is created using custom blocks and menus.&#x20;
 
-This article shows you how to update the footer.
+**Note:** In the example below, the 'Sign up' section is not part of the footer. It's a 'Custom block' that been added to the 'Component bottom' section of the site, making it a site-wide component and appearing like part of the footer.
 
-The footer section comprises 5 blocks and a menu as shown below.
+The footer example below contains the following custom blocks:
 
-<figure><img src="../../.gitbook/assets/CivicTheme Footer.png" alt=""><figcaption></figcaption></figure>
+* _Component custom_ block, used for:
+  * &#x20;Sign up
+  * Acknowledgement of Country
+  * Copyright
+* _Social links_ custom block, used for Social links
+* _System_ block, used for the Logo.
+
+<figure><img src="../../.gitbook/assets/footer.png" alt=""><figcaption><p>CivicTheme footer</p></figcaption></figure>
 
 ### Signup block <a href="#updatingthefooter-signupblock" id="updatingthefooter-signupblock"></a>
 
-The signup block is a custom block of type “Component”.
+The signup block is a custom 'Component' block.
 
 To edit this block:
 
-1.  Go to Structure >> Block layout >> Custom block library\
-    The URL is _\[your\_site]/admin/structure/block/block-content_\
-    Then click on “Edit” in the row of the Signup block.
+1. Go to Structure > Block layout > Custom block library or `/admin/structure/block/block-content`
+2.  Select “Edit” in the row of the Signup block.
 
 
 
     <figure><img src="../../.gitbook/assets/2647064667.png" alt=""><figcaption></figcaption></figure>
-2. On the block edit page, you can update the text fields as needed.
+3. On the block edit page, you can update the text fields as needed.
 
 <figure><img src="../../.gitbook/assets/7a1ba065-7404-480a-b838-4922dc2a88ba.png" alt=""><figcaption></figcaption></figure>
 
