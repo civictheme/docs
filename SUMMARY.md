@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Getting started](getting-started.md)
 * [Features](features.md)
 * [Getting help](getting-help.md)
 * [Contributing](contributing/README.md)
