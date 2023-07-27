@@ -6,15 +6,15 @@ It was created so governments and corporations can rapidly assemble modern, cons
 
 It consists of 3 main assets:
 
-1. [UI kit](./#ui-kit)
-2. [CMS-agnostic component library](./#componentlibrary-wip-about)
-3. [Drupal theme](./#drupal-theme)
+1. Design theme
+2. UI kit
+3. Drupal theme
 
-### UI kit
+### Design system
 
 CivicTheme is a true design system, based on [atomic design](https://atomicdesign.bradfrost.com/chapter-2/) principles.
 
-[UI kit](https://civictheme.io/figma) is a Figma file that provides a visual representation of components and templates. It follows the same versions as the Component Library and Drupal theme.
+[Design System](https://civictheme.io/figma) is a Figma file that provides a visual representation of components and templates. It follows the same versions as the Component Library and Drupal theme.
 
 #### What is atomic design? <a href="#aboutcivicthemedesignsystem-wip-whatisatomicdesign" id="aboutcivicthemedesignsystem-wip-whatisatomicdesign"></a>
 
@@ -26,9 +26,9 @@ Atomic design is breaking common website components into a finite set of element
 
 Each of these elements plays a key role in the hierarchy of the interface design system.
 
-### Component library <a href="#componentlibrary-wip-about" id="componentlibrary-wip-about"></a>
+### UI kit <a href="#componentlibrary-wip-about" id="componentlibrary-wip-about"></a>
 
-The [Component library ](https://civictheme.io/storybook)is a CMS-agnostic library of components built with HTML, CSS and JavaScript.
+The [UI Kit ](https://civictheme.io/storybook)is a CMS-agnostic library of components built with HTML, CSS and JavaScript.
 
 The components have been built and assessed to comply with WCAG accessibility standards 2.1 AA out-of-the-box.
 
@@ -37,8 +37,6 @@ The components have been built and assessed to comply with WCAG accessibility st
 [Drupal theme](https://www.drupal.org/project/civictheme) is an implementation of the Component Library for Drupal CMS.
 
 The theme contains all necessary configurations and code to connect the CMS data with the components.
-
-
 
 ### Useful links <a href="#introduction-usefullinks" id="introduction-usefullinks"></a>
 
