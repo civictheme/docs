@@ -12,7 +12,7 @@
 10. [Page](content-authoring/content/page-content-type/) content type to embed different types of components
 11. [Event](content-authoring/content/event-content-type.md) content type to work with events
 12. Site-wide [alert](content-authoring/content/alert.md) banner system
-13. Highly configurable banner component ([site-wide](content-authoring/site-wide-configuration/banner.md) and [per-page](content-authoring/content/page-content-type/))
+13. Highly configurable banner component ([site-wide](content-authoring/content/custom-blocks/banner-block.md) and [per-page](content-authoring/content/page-content-type/))
 14. Multiple ways to present content with cards in [Manual list](content-authoring/components/manual-list/) and [Automated list](content-authoring/components/automated-list.md) components.
 15. Automated list to configure dynamic queries with an ability to override and [developer-friendly API](development/drupal-theme/automated-list.md)
 16. Separate [Primary](content-authoring/site-wide-configuration/header.md), [Secondary](content-authoring/site-wide-configuration/header.md) and [Footer](content-authoring/site-wide-configuration/theme-settings/footer-settings.md) navigations

@@ -14,7 +14,7 @@ By default all pages on your site will inherit the site-wide banner settings.&#x
 
 ### Banner type and Banner theme&#x20;
 
-Refer to the [site-wide banner](../../site-wide-configuration/banner.md) settings page for explanations and examples of these banner features.&#x20;
+Refer to the [site-wide banner](../custom-blocks/banner-block.md) settings page for explanations and examples of these banner features.&#x20;
 
 If you want to deviate from either of these site-wide settings, select the relevant radio button.
 

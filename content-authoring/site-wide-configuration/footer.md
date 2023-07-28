@@ -57,20 +57,7 @@ To edit this block:
 
 ### Social links custom block <a href="#updatingthefooter-sociallinkscustomblock" id="updatingthefooter-sociallinkscustomblock"></a>
 
-The social links block is a custom block called “Social links”.
-
-To edit this block:
-
-1.  Go to Structure >> Block layout >> Custom block library\
-    The URL is _\[your\_site]/admin/structure/block/block-content_\
-    Then click on “Edit” in the row of the Social links block.
-
-
-
-    <figure><img src="../../.gitbook/assets/2647162978.png" alt=""><figcaption></figcaption></figure>
-2. On the edit screen, you can update the icons.
-
-<figure><img src="../../.gitbook/assets/a9ab8f0a-a4a9-4516-a6af-6241ac404d2c.png" alt=""><figcaption></figcaption></figure>
+Go to [Social links block](../content/custom-blocks/social-links-block.md) to learn how to build and configure a Social media links section for your site.
 
 ### Footer menu <a href="#updatingthefooter-footermenu" id="updatingthefooter-footermenu"></a>
 
