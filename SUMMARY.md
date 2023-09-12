@@ -67,7 +67,7 @@
 * [Vocabularies](content-authoring/vocabularies/README.md)
   * [Topics](content-authoring/vocabularies/topics.md)
   * [Site sections](content-authoring/vocabularies/site-sections.md)
-* [Roles](content-authoring/roles.md)
+* [User accounts &  roles](content-authoring/user-accounts-and-roles.md)
 
 ## 🛠 Development
 
