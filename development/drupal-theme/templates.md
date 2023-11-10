@@ -12,11 +12,11 @@ The idea of separating the CivicTheme UI kit and Drupal templates is to create a
 Read more about [Components](../ui-kit/extending-components.md) to understand how to create or extend components before reading how to connect these components with Drupal. \*\*
 {% endhint %}
 
-After setting up a component and structuring the twig file (see [Demo button example](https://github.com/salsadigitalauorg/civictheme\_source/tree/develop/docroot/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button)), you can include this new component in a Drupal template with an `include` statement. See the `civictheme/templates` directory for how CivicTheme components have been included.
+After setting up a component and structuring the twig file (see [Demo button example](https://github.com/salsadigitalauorg/civictheme\_source/tree/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button)), you can include this new component in a Drupal template with an `include` statement. See the `civictheme/templates` directory for how CivicTheme components have been included.
 
 #### Overriding CivicTheme templates
 
-For example, if you were wanting to utilise the new [demo button](https://github.com/salsadigitalauorg/civictheme\_source/tree/develop/docroot/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button) in your theme as a submit button, you may override CivicTheme submit button template `civictheme/templates/input--submit.html.twig`, changing the include in the template file to `@atoms/demo-button/demo-button.twig`.
+For example, if you were wanting to utilise the new [demo button](https://github.com/salsadigitalauorg/civictheme\_source/tree/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button) in your theme as a submit button, you may override CivicTheme submit button template `civictheme/templates/input--submit.html.twig`, changing the include in the template file to `@atoms/demo-button/demo-button.twig`.
 
 If you need to provide custom variables to your component, you derive these variables through the preprocess hook system Drupal provides. Look at the files in `civictheme/includes` directory for how the CivicTheme components are preprocesed in Drupal.
 

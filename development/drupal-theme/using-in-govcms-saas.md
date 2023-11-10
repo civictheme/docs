@@ -108,11 +108,6 @@ ahoy drush config-set -y media.settings standalone_url true
 # Enable admin theme and set as default (optional).
 ahoy drush theme:enable -y adminimal_theme
 ahoy drush config-set -y system.theme admin adminimal_theme
-
-# Uninstall obsolete themes (optional).
-ahoy drush theme:uninstall -y claro || true
-ahoy drush theme:uninstall -y govcms_bartik || true
-ahoy drush theme:uninstall -y bartik || true
 ```
 
 #### 2.4 Remove GovCMS content types
@@ -181,6 +176,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 
     ```sh
     cd themes/<SUBTHEME_MACHINE_NAME>
+    nvm use
     npm install
     npm run build
     ```
@@ -217,7 +213,7 @@ Run locally:
 10. Navigate to the homepage and observe that all blocks and menus are present.
 
 {% hint style="success" %}
-After deployment and provisioning your remote **feature** environment should look like a default CivicTheme site without homepage content.
+After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.
 {% endhint %}
 
 ### 3. Deployment
@@ -232,7 +228,7 @@ After deployment and provisioning your remote **feature** environment should loo
 6. Navigate to the homepage and observe that all blocks and menus are present.
 
 {% hint style="success" %}
-After deployment and provisioning your remote **(pre-)production** environment should look like a default CivicTheme site without homepage content
+After deployment and provisioning your remote **(pre-)production** environment should look like a [default CivicTheme](https://default.civictheme.io/)[ site](https://default.civictheme.io/) without homepage content
 {% endhint %}
 
 #### 3.2 Cleanup
