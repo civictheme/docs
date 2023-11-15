@@ -183,7 +183,20 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 2. Check that directory `themes/<SUBTHEME_MACHINE_NAME>/dist` was created.
 3. Navigate to your site and assert that default styling was applied.
 
-#### 2.8 Provision content
+#### 2.8 Commit built assets
+
+1.  Modify `.gitignore` file in your new theme and remove the following lines\
+
+
+    ```
+    storybook-static
+    dist
+    components_combined
+    .components-civictheme
+    ```
+2. Commit built assets.
+
+#### 2.9 Provision content
 
 CivicTheme comes with pre-set Block Content blocks configuration. Since Drupal does not support running install hooks in themes, a custom content provisioning script has to be used.
 
