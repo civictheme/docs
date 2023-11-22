@@ -19,7 +19,7 @@ See [Getting help](../../getting-help.md) section
 
 #### 1.1 Setup local
 
-1. Clone the GitLab project locally.he
+1. Clone the GitLab project locally.
 2. Create a new branch `develop` from `master`.
 3. ```sh
    # Login to GovCMS image repository
