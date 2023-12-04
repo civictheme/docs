@@ -148,10 +148,10 @@ Consider naming your theme as close as possible to the name of the site. Do not 
 Run in CLI container (`ahoy cli`):
 
 ```sh
-# Generate sub-theme. 
+# Generate sub-theme (example overrides are removed using --remove-examples flag). 
 # See php civictheme_create_subtheme.php --help
 cd web/themes/custom/civictheme
-php civictheme_create_subtheme.php <SUBTHEME_MACHINE_NAME> "<SUBTHEME HUMAN NAME>" "<SUBTHEME HUMAN DESCRIPTION>" ../<SUBTHEME_MACHINE_NAME>
+php civictheme_create_subtheme.php <SUBTHEME_MACHINE_NAME> "<SUBTHEME HUMAN NAME>" "<SUBTHEME HUMAN DESCRIPTION>" ../<SUBTHEME_MACHINE_NAME> --remove-examples
 ```
 
 This should result in 2 directories:
