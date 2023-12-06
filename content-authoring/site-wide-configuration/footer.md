@@ -4,7 +4,7 @@ description: Learn how to create and edit the site-wide footer
 
 # Footer
 
-Some footer settings, such as adding a background image and choosing the light or dark theme are configured in the Settings area of your site. Go to [Footer settings](theme-settings/footer-settings.md) for more information on theme settings.&#x20;
+Some footer settings, such as adding a background image and choosing the light or dark theme are configured in the Settings area of your site. Go to [Footer settings](theme-settings/footer.md) for more information on theme settings.&#x20;
 
 The remainder of the footer is created using custom blocks and menus.&#x20;
 

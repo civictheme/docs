@@ -13,7 +13,7 @@ The header section appears at the top of your website. It comprises:
 3. The secondary menu
 4. The primary menu
 
-Some of the settings for the header are configured in the 'Settings' section of your CivicTheme site such as [Theme and Logo settings](theme-settings/header-settings.md), others are configured in the 'Structure' section.
+Some of the settings for the header are configured in the 'Settings' section of your CivicTheme site such as [Theme and Logo settings](theme-settings/header.md), others are configured in the 'Structure' section.
 
 <figure><img src="../../.gitbook/assets/header.png" alt=""><figcaption><p>Fig. 1 - 'Light' theme header</p></figcaption></figure>
 
@@ -28,7 +28,7 @@ The Site slogan is optional. This is configured in the Settings area. See [Site 
 There are a couple of steps to configure the logo/s:
 
 1. [Add your logos](theme-settings/logo.md#updatinglogos-step3-updatingtheprimarylogo) to the site.
-2. [Configure the logos](theme-settings/header-settings.md#header-logotype) in the header settings (select the 'Light' or 'Dark' theme, and choose how the logo displays in the header on desktop and mobile).
+2. [Configure the logos](theme-settings/header.md#header-logotype) in the header settings (select the 'Light' or 'Dark' theme, and choose how the logo displays in the header on desktop and mobile).
 
 ### Update the menus <a href="#updatingtheheader-3.updatingthesecondarymenu" id="updatingtheheader-3.updatingthesecondarymenu"></a>
 

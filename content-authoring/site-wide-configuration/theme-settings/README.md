@@ -4,14 +4,14 @@ description: This article explains the theme settings available for CivicTheme
 
 # Theme settings
 
-Site-wide settings such as colours, logos, header and footer themes, character count on cards, and more, can be configured in the Settings section.
+Site-wide settings such as colours, logos, header and footer themes, character count on cards, and more, can be configured in the 'Settings' section.
 
 ### Accessing the CivicTheme settings page <a href="#civicthemeconfiguration-accessingthecivicthemeconfigurationpage" id="civicthemeconfiguration-accessingthecivicthemeconfigurationpage"></a>
 
 **Note**: You must be logged in as a user with a "Site administrator" role to access this page.
 
-1. Go to `/admin/appearance/settings/<site-name>`
-2. Click on “Settings” next to your installed CivicTheme site.
+1. Go to `/admin/appearance/settings/<theme-name>`
+2. Click on 'Settings' next to your installed CivicTheme site.
 
 <figure><img src="../../../.gitbook/assets/31b2eea2-e4b8-48bc-bcfc-e7fbf344735c.png" alt=""><figcaption></figcaption></figure>
 
@@ -21,7 +21,7 @@ Site-wide settings such as colours, logos, header and footer themes, character c
 
 ### Page element display <a href="#civicthemeconfiguration-colors" id="civicthemeconfiguration-colors"></a>
 
-This section allows to upload a Favicon to your site. See [Favicon](favicon.md).
+This section allows to upload a favicon to your site. See [Favicon](favicon.md).
 
 ### Colours <a href="#civicthemeconfiguration-colors" id="civicthemeconfiguration-colors"></a>
 
@@ -35,8 +35,8 @@ Learn more using the links below:
 
 * [Logo](logo.md)
 * [Site Slogan](site-slogan.md)
-* [Header](header-settings.md)
-* [Footer](footer-settings.md)
+* [Header](header.md)
+* [Footer](footer.md)
 * [Navigation](navigation.md)
 * [Link](link.md)
 * [Skip link](skip-link.md)

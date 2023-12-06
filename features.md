@@ -15,6 +15,6 @@
 13. Highly configurable banner component ([site-wide](content-authoring/content/custom-blocks/banner-block.md) and [per-page](content-authoring/content/page-content-type/))
 14. Multiple ways to present content with cards in [Manual list](content-authoring/components/manual-list/) and [Automated list](content-authoring/components/automated-list.md) components.
 15. Automated list to configure dynamic queries with an ability to override and [developer-friendly API](development/drupal-theme/automated-list.md)
-16. Separate [Primary](content-authoring/site-wide-configuration/header.md), [Secondary](content-authoring/site-wide-configuration/header.md) and [Footer](content-authoring/site-wide-configuration/theme-settings/footer-settings.md) navigations
+16. Separate [Primary](content-authoring/site-wide-configuration/header.md), [Secondary](content-authoring/site-wide-configuration/header.md) and [Footer](content-authoring/site-wide-configuration/theme-settings/footer.md) navigations
 17. Single-level, mega and dropdown Primary navigation and Secondary navigation components
 18. Light and Dark multi-image [Logo](content-authoring/site-wide-configuration/theme-settings/logo.md) component variants for desktop and mobile
