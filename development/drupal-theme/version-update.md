@@ -25,9 +25,10 @@ Ensure that you always review the [release notes](https://www.drupal.org/project
     drush cex
     ```
 4. Check updated configuration files with a diff tool of your choice: resolve configuration overrides one-by-one; there could be cases where fields are renamed or removed -  these will be handled automatically in the update hooks.
-5. Re-build local environment with updated configuration.
-6. Check that everything looks good
-7. If there are issues - repeat steps 2-6 until desired result is achieved.
+5. Run the configuration update script in your sub-theme (`scripts/update_config.php`) to bring in any new configurations from the base theme into your theme. Follow the instructions provided in the script. Note the file `scripts/<yourtheme>.site_custom_configs.txt` - it allows you to maintain a list of configuration update exclusion to make the review process easier.
+6. Re-build local environment with updated configuration.
+7. Check that everything looks good.
+8. If there are issues - repeat steps 2-7 until desired result is achieved.
 
 ### Tooling update
 
