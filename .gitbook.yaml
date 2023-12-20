@@ -1,0 +1,5 @@
+root: ./
+
+redirects:
+  upgrade: development/drupal-theme/version-update.md
+  update: development/drupal-theme/version-update.md
