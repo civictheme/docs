@@ -67,7 +67,7 @@
 * [Vocabularies](content-authoring/vocabularies/README.md)
   * [Topics](content-authoring/vocabularies/topics.md)
   * [Site sections](content-authoring/vocabularies/site-sections.md)
-* [User accounts &  roles](content-authoring/user-accounts-and-roles.md)
+* [User accounts & roles](content-authoring/user-accounts-and-roles.md)
 
 ## 🛠 Development
 
@@ -93,3 +93,4 @@
 * [Maintenance](development/maintenance/README.md)
   * [Code naming conventions](development/maintenance/code-naming-conventions.md)
   * [Requirements and constraints](development/maintenance/requirements-and-constraints.md)
+  * [Authoring documentation](development/maintenance/authoring-documentation.md)
