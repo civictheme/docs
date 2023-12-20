@@ -29,3 +29,8 @@ This section describes the agreed practices on how to author documentation.
 4. Do not include screenshots of Admin UI pointing to the fields with numbered arrows and then referencing those numbers in text. Instead, use the text provided in the screenshot to reference elements - this will force to have smaller and more precise screenshots that users will find it navigate easier.
 5. Make screenshots of the CivicTheme components front-end using only default colour scheme (that is the scheme of [https://default.civictheme.io/](https://default.civictheme.io/)). Using other colours schemes will confuse users.
 
+### Examples
+
+[generic-page-example.md](generic-page-example.md "mention")
+
+[content-component-page-example.md](content-component-page-example.md "mention")

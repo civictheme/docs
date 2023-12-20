@@ -93,4 +93,6 @@
 * [Maintenance](development/maintenance/README.md)
   * [Code naming conventions](development/maintenance/code-naming-conventions.md)
   * [Requirements and constraints](development/maintenance/requirements-and-constraints.md)
-  * [Authoring documentation](development/maintenance/authoring-documentation.md)
+  * [Authoring documentation](development/maintenance/authoring-documentation/README.md)
+    * [Generic page example](development/maintenance/authoring-documentation/generic-page-example.md)
+    * [Content component page example](development/maintenance/authoring-documentation/content-component-page-example.md)
