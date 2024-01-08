@@ -1,6 +1,6 @@
 # Introduction
 
-[CivicTheme](https://civictheme.io) is an open source, inclusive and component-based design system.&#x20;
+[CivicTheme](https://civictheme.io) is an open source, inclusive and component-based design system.
 
 It was created so governments and corporations can rapidly assemble modern, consistent and compliant digital experiences.
 
@@ -26,7 +26,7 @@ Atomic design is breaking common website components into a finite set of element
 
 Each of these elements plays a key role in the hierarchy of the interface design system.
 
-### UI kit <a href="#componentlibrary-wip-about" id="componentlibrary-wip-about"></a>
+### UI Kit <a href="#componentlibrary-wip-about" id="componentlibrary-wip-about"></a>
 
 The [UI Kit ](https://civictheme.io/storybook)is a CMS-agnostic library of components built with HTML, CSS and JavaScript.
 
@@ -44,13 +44,13 @@ The theme contains all necessary configurations and code to connect the CMS data
 
 [https://default.civictheme.io/](https://default.civictheme.io/) - latest stable build. Use "Generated content" menu item to view components in multiple variants.
 
-[https://government.civictheme.io/](https://government.civictheme.io/) - example of CivicTheme with the government industry content&#x20;
+[https://government.civictheme.io/](https://government.civictheme.io/) - example of CivicTheme with the government industry content
 
-[https://higher-education-university.civictheme.io/](https://higher-education-university.civictheme.io/) - example of CivicTheme with the higher education industry content&#x20;
+[https://higher-education-university.civictheme.io/](https://higher-education-university.civictheme.io/) - example of CivicTheme with the higher education industry content
 
-[https://corporate.civictheme.io/](https://corporate.civictheme.io/) - example of CivicTheme with the corporate industry content&#x20;
+[https://corporate.civictheme.io/](https://corporate.civictheme.io/) - example of CivicTheme with the corporate industry content
 
-[https://health.civictheme.io/](https://health.civictheme.io/) - example of CivicTheme with the health industry content&#x20;
+[https://health.civictheme.io/](https://health.civictheme.io/) - example of CivicTheme with the health industry content
 
 #### Other links
 
