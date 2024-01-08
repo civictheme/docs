@@ -55,5 +55,5 @@ The theme contains all necessary configurations and code to connect the CMS data
 #### Other links
 
 * [CivicTheme official site](https://www.civictheme.io/)
-* [CivicTheme Github repo for development](https://github.com/salsadigitalauorg/civictheme\_source)
+* [CivicTheme GitHub monorepo for development](https://github.com/salsadigitalauorg/civictheme\_source)
 * [CivicTheme Slack Channel](https://drupal.slack.com/archives/C039UV0CQBZ)
