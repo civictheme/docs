@@ -14,7 +14,7 @@ It consists of 3 main assets:
 
 CivicTheme is a true design system, based on [atomic design](https://atomicdesign.bradfrost.com/chapter-2/) principles.
 
-[Design System](https://civictheme.io/figma) is a Figma file that provides a visual representation of components and templates. It follows the same versions as the Component Library and Drupal theme.
+[Design System](https://civictheme.io/figma) is a Figma file that provides a visual representation of components and templates. It follows the same versions as the UI Kit and Drupal theme.
 
 #### What is atomic design? <a href="#aboutcivicthemedesignsystem-wip-whatisatomicdesign" id="aboutcivicthemedesignsystem-wip-whatisatomicdesign"></a>
 
