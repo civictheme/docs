@@ -25,4 +25,4 @@ This illustrates the Light theme skip link and a Dark theme menu.
 3. Select the Theme.
 4. Scroll down and select 'Save configuration'.
 
-<figure><img src="../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (127).png" alt=""><figcaption></figcaption></figure>

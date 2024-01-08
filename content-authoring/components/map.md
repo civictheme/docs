@@ -8,17 +8,17 @@ This section shows you how to add a Map.&#x20;
 
 Below is a Map.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a Map&#x20;
 
 Step 1: Go to the page you'd like to add the Map to (or create a new page) and in the Content tab, Components section, select Map from the dropdown list.
 
-<figure><img src="../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Fill in the fields as per below.
 
-<figure><img src="../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 1. Embed URL - Add the URL of the map in this field.
 2. Address - Add the physical address in this field.&#x20;

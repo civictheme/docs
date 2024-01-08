@@ -8,7 +8,7 @@ Vocabularies allow you to sort and filter content, and display tags. For example
 
 You can navigate to the vocabularies/taxonmy section of CivicTheme/Drupal by going to Structure>Taxonomy.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 ### Topics and site sections
 

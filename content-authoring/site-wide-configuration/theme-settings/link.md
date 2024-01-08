@@ -26,4 +26,4 @@ There might be a reason to treat an external link like an internal link and open
 2. Scroll down to the 'Component' section.
 3. Select 'link'.
 
-<figure><img src="../../../.gitbook/assets/image (119).png" alt="Link settings in the theme setting area"><figcaption><p>Fig. 1 - Link settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (60).png" alt="Link settings in the theme setting area"><figcaption><p>Fig. 1 - Link settings</p></figcaption></figure>

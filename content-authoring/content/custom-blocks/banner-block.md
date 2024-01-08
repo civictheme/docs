@@ -27,7 +27,7 @@ If you create a site-wide banner that includes an image, you can't switch the im
 3.  Look for 'Banner' in the list of blocks (or use the 'Block type' filter and filter for 'Banner') and select 'Edit'.\
 
 
-    <figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Fig. 1 - Custom block library</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (114).png" alt=""><figcaption><p>Fig. 1 - Custom block library</p></figcaption></figure>
 
 #### Banner block fields
 

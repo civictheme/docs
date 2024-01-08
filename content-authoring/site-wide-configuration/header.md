@@ -38,10 +38,10 @@ There are a couple of steps to configure the logo/s:
 2.  Select 'Edit menu' for the Secondary navigation \
 
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 3.  Select 'Add link' to add a new link or click on “Edit” next to an existing link to update it.
 
-    <figure><img src="../../.gitbook/assets/image.png" alt="Image of Secondary menu settings in Drupal back end"><figcaption><p>Edit the Secondary menu</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (9).png" alt="Image of Secondary menu settings in Drupal back end"><figcaption><p>Edit the Secondary menu</p></figcaption></figure>
 4. Whether you clicked on “Add link” or “Edit”, you will be presented with the edit screen. Fill in the various fields and then click on “Save”.
 
 #### Primary menu <a href="#updatingtheheader-4.updatingtheprimarymenu" id="updatingtheheader-4.updatingtheprimarymenu"></a>

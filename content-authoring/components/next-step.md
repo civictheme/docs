@@ -14,11 +14,11 @@ Below is an example of the Next Step component.
 
 **Step 1**: Go to the page you'd like to add the Next Step to (or create a new page) and in the Content tab, Components section, select Next Step from the dropdown list.
 
-<figure><img src="../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Fill in the fields as per below.
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 
 1. Title - Add in the Next Step's title
 2. Content - Add in any additional content you'd like to include.

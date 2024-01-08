@@ -14,11 +14,11 @@ This content type allows you to choose from a wide range of CivicTheme out-of-th
 2.  Select `Add content`\
 
 
-    <figure><img src="../../../.gitbook/assets/image (7).png" alt="Add Content page in the Drupal back end edit interface "><figcaption><p>Add content</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (98).png" alt="Add Content page in the Drupal back end edit interface "><figcaption><p>Add content</p></figcaption></figure>
 3.  Select 'Page'\
 
 
-    <figure><img src="../../../.gitbook/assets/image (5) (1).png" alt="Back end edit interface for the Add content screen"><figcaption><p>Add Page</p></figcaption></figure>
+    <figure><img src="../../../.gitbook/assets/image (94).png" alt="Back end edit interface for the Add content screen"><figcaption><p>Add Page</p></figcaption></figure>
 
 
 

@@ -19,4 +19,4 @@ The Primary and Secondary navigation are configured the same way in the respecti
 * Fill the width (only displayed if Drawer selected) - Check the box if you want the last column of the drawer to fill the width.
 * Animate (only displayed for Dropdown and Drawer) - Check the box if you'd like the menus animated. &#x20;
 
-<figure><img src="../../../.gitbook/assets/image (117).png" alt=""><figcaption><p>Fig. 1 - Navigation settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (106).png" alt=""><figcaption><p>Fig. 1 - Navigation settings</p></figcaption></figure>

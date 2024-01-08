@@ -16,7 +16,7 @@ To apply the Light or Dark theme to the Header, and to select the Logo type, sim
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/bc69a940-5fc9-4a6f-bbd1-0b68d7714478.png" alt="" width="375"><figcaption><p>Header theme settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bc69a940-5fc9-4a6f-bbd1-0b68d7714478 (1).png" alt="" width="375"><figcaption><p>Header theme settings</p></figcaption></figure>
 
 </div>
 

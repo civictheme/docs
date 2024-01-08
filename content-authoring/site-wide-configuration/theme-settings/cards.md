@@ -28,4 +28,4 @@ If you choose to add a summary to your cards, follow these steps to individually
 3. Enter the 'Summary length'.
 4. Scroll down and select 'Save configuration'.
 
-<figure><img src="../../../.gitbook/assets/image (72).png" alt=""><figcaption><p>Fig. 2 - Event card summary back end</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (58).png" alt=""><figcaption><p>Fig. 2 - Event card summary back end</p></figcaption></figure>

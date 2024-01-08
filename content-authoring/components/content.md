@@ -6,7 +6,7 @@ The Content component is used to add content via a WYSIWYG editor.&#x20;
 
 This section shows you how to add a Content component. Below is some sample content that uses the Content component.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 1 - Add the Content  Component <a href="#contentcomponent-step1-addthecontentcomponent" id="contentcomponent-step1-addthecontentcomponent"></a>
 

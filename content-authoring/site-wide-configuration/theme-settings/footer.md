@@ -11,7 +11,7 @@ description: >-
 1. Go to `/admin/appearance/settings/` find your site and select 'Settings'.
 2. Scroll down the page until you see the 'Components' section, and select 'Footer'.
 
-<figure><img src="../../../.gitbook/assets/de554d48-2a81-44ed-922a-3f6f898cbdc8 (1).png" alt=""><figcaption><p>Footer theme settings</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/de554d48-2a81-44ed-922a-3f6f898cbdc8.png" alt=""><figcaption><p>Footer theme settings</p></figcaption></figure>
 
 ### Theme
 
