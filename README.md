@@ -20,9 +20,9 @@ CivicTheme is a true design system, based on [atomic design](https://atomicdesig
 
 Atomic design is breaking common website components into a finite set of elements such as:
 
-* Atoms - these are the smallest building blocks on a site. They are usually the basic HTML elements such as Buttons, Links, Tables, Labels, Checkboxes and Text fields. Breaking these down any smaller will make them non-functional.
-* Molecules - these can consist of a simple grouping of atoms to form slightly bigger and common UI **reusable** components such as Accordions, Attachments, Calls to Action (CTAs or Callouts), and Tables of Contents.
-* Organisms - These are slightly more complex groupings of molecules that form even bigger (and common) components on a site. They mostly form distinct sections of the site. Examples are Alerts, Back to Top, Banner, Footer, Header, List, Navigation and Sliders.
+* **Atoms** - these are the smallest building blocks on a site. They are usually the basic HTML elements such as Buttons, Links, Tables, Labels, Checkboxes and Text fields. Breaking these down any smaller will make them non-functional.
+* **Molecules** - these can consist of a simple grouping of atoms to form slightly bigger and common UI **reusable** components such as Accordions, Attachments, Calls to Action (CTAs or Callouts), and Tables of Contents.
+* **Organisms** - These are slightly more complex groupings of molecules that form even bigger (and common) components on a site. They mostly form distinct sections of the site. Examples are Alerts, Back to Top, Banner, Footer, Header, List, Navigation and Sliders.
 
 Each of these elements plays a key role in the hierarchy of the interface design system.
 
