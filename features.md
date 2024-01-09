@@ -4,11 +4,11 @@
 2. GovCMS-compatible OOTB
 3. WCAG 2.1 AA compliant
 4. Adheres to Drupal coding standards
-5. [CMS-agnostic component library](development/ui-kit/) with Storybook integration of 50+ components organised in atomic component structure supporting Light and Dark visual themes for every component
+5. [CMS-agnostic UI Kit](development/uikit/) with Storybook integration of 50+ components organised in atomic component structure supporting Light and Dark visual themes for every component
 6. [Configuring colors](content-authoring/site-wide-configuration/theme-settings/colours.md) from within Drupal (from 1.1.0)
-7. [Extending components](development/ui-kit/extending-components/) using slots or referencing upstream components
+7. [Extending components](development/uikit/extending-components/) using slots or referencing upstream components
 8. Working with or without a Drupal [sub-theme](development/drupal-theme/sub-theme.md) (created provided using starter kit for Drupal sub-themes)
-9. [Storybook](development/ui-kit/storybook.md) for every custom Drupal sub-theme
+9. [Storybook](development/uikit/storybook.md) for every custom Drupal sub-theme
 10. [Page](content-authoring/content/page-content-type/) content type to embed different types of components
 11. [Event](content-authoring/content/event-content-type.md) content type to work with events
 12. Site-wide [alert](content-authoring/content/alert.md) banner system

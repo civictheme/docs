@@ -36,11 +36,11 @@ RFCs are accepted when they are approved for implementation in CivicTheme. A mor
 
 ### I found an issue
 
-We're always interested in fixing issues, therefore issue reports are very welcome. Please make sure to check that your issue does not already exist in the [issue queue](https://github.com/salsadigitalauorg/civictheme\_source/issues).
+We're always interested in fixing issues, therefore issue reports are very welcome. Please make sure to check that your issue does not already exist in the [issue queue](https://github.com/civictheme/monorepo-drupal/issues).
 
 ### I have a feature request or idea
 
-Cool! Create an [issue](https://github.com/salsadigitalauorg/civictheme\_source/issues) and we're happy to look over it. We can't guarantee that it will be implemented. But we are always interested in hearing ideas of what we could bring to CivicTheme.
+Cool! Create an [issue](https://github.com/civictheme/monorepo-drupal/issues) and we're happy to look over it. We can't guarantee that it will be implemented. But we are always interested in hearing ideas of what we could bring to CivicTheme.
 
 Another good way is also to talk to us via [#civictheme-designsystem](https://drupal.slack.com/archives/C039UV0CQBZ) Slack about your idea. [Join today](https://drupal.slack.com/archives/C039UV0CQBZ)!
 

@@ -11,7 +11,7 @@ Variables allow for modification of:
 
 Variables set within the CivicTheme UI kit have a corresponding variable with the `!default` flag that indicates conditional assignment to a variable — it assigns a value only if the variable was previously undefined or `null`. This allows consumer themes to override any variable's value without needing to change CivicTheme UI kit SASS.
 
-Copy and paste variables as needed into your child theme, modify their values, and remove the `!default` flag. If a variable has already been assigned in your child theme, then it won’t be re-assigned by the default values in CivicTheme component library.
+Copy and paste variables as needed into your child theme, modify their values, and remove the `!default` flag. If a variable has already been assigned in your child theme, then it won’t be re-assigned by the default values in CivicTheme UI Kit.
 
 #### Maps
 
