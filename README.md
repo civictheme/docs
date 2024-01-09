@@ -34,7 +34,7 @@ The components have been built and assessed to comply with WCAG accessibility st
 
 ### Drupal theme
 
-[Drupal theme](https://www.drupal.org/project/civictheme) is an implementation of the Component Library for Drupal CMS.
+[Drupal theme](https://www.drupal.org/project/civictheme) is an implementation of the UI Kit for Drupal CMS.
 
 The theme contains all necessary configurations and code to connect the CMS data with the components.
 
@@ -55,5 +55,5 @@ The theme contains all necessary configurations and code to connect the CMS data
 #### Other links
 
 * [CivicTheme official site](https://www.civictheme.io/)
-* [CivicTheme GitHub monorepo for development](https://github.com/salsadigitalauorg/civictheme\_source)
+* [CivicTheme GitHub monorepo for development](https://github.com/civictheme/monorepo-drupal)
 * [CivicTheme Slack Channel](https://drupal.slack.com/archives/C039UV0CQBZ)

@@ -1,6 +1,6 @@
 # Typography
 
-CivicTheme component library provides a system for easily consuming and extending
+CivicTheme UI Kit provides a system for easily consuming and extending
 typography mixins and variables.
 
 ## Fonts

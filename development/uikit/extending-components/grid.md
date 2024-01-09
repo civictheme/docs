@@ -97,7 +97,7 @@ The grid system allows for nested grids. If a parent is 50% width (`col-xs-12`) 
 
 ### Utilities
 
-CivicTheme component library comes with a variety of grid utility mixins including `offset`, `row-reverse`, `flex-column` among others.
+CivicTheme UI Kit comes with a variety of grid utility mixins including `offset`, `row-reverse`, `flex-column` among others.
 
 ### Advanced
 

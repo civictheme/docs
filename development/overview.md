@@ -2,7 +2,7 @@
 
 The Development section covers:
 
-* [UI kit](ui-kit/)
+* [UI kit](uikit/)
 * [Drupal theme](drupal-theme/)
 * [Maintenance](maintenance/)
 

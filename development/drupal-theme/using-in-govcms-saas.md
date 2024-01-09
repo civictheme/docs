@@ -122,8 +122,8 @@ Install it locally to automatically remove the configuration from DB to later ha
     cd web/modules/contrib
 
     # Download and extract the helper module.
-    # Ensure to use the latest tag (not Release) https://github.com/salsadigitalauorg/civictheme_govcms/tags
-    wget https://github.com/salsadigitalauorg/civictheme_govcms/archive/refs/tags/<latest-tag>.tar.gz && tar -xvf <latest-tag>.tar.gz && rm <latest-tag>.tar.gz
+    # Ensure to use the latest tag (not Release) https://github.com/civictheme/civictheme_govcms/tags
+    wget https://github.com/civictheme/civictheme_govcms/archive/refs/tags/<latest-tag>.tar.gz && tar -xvf <latest-tag>.tar.gz && rm <latest-tag>.tar.gz
 
     # Enable module, run the command to remove entities and uninstall a module.
     drush pm-enable -y civictheme_govcms

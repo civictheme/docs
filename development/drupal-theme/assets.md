@@ -6,7 +6,7 @@ This section explains working with assets in the context of your custom sub-them
 
 ## Compiling and serving assets
 
-All assets are compiled using `npm run dist` based on the supplied [Webpack configuration](https://github.com/salsadigitalauorg/civictheme\_source/blob/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/webpack/webpack.common.js).&#x20;
+All assets are compiled using `npm run dist` based on the supplied [Webpack configuration](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme_starter_kit/webpack/webpack.common.js).&#x20;
 
 {% hint style="info" %}
 The Webpack and Storybook configuration may change between versions, so make sure to follow instructions in [Version update](version-update.md) section.
@@ -36,13 +36,13 @@ This distinction is made to provide a clear separation between UI kit-specific s
 
 These reside in `components` directory and repeat the structure of the UI kit library. This allows you to create new or extend existing UI kit components.&#x20;
 
-See the [Demo button example](https://github.com/salsadigitalauorg/civictheme\_source/tree/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button) for more details.
+See the [Demo button example](https://github.com/civictheme/monorepo-drupal/tree/develop/web/themes/contrib/civictheme/civictheme_starter_kit/components/01-atoms/demo-button) for more details.
 
 #### Drupal styles
 
 These reside in `assets/sass` directory and are intended to override or additionally style Drupal markup.
 
-See the [Local task block styles override example](https://github.com/salsadigitalauorg/civictheme\_source/blob/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/assets/sass/block/\_local-tasks.scss) for more details.
+See the [Local task block styles override example](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme_starter_kit/assets/sass/block/\_local-tasks.scss) for more details.
 
 {% hint style="info" %}
 Normally, there should be a very minimal number of Drupal style overrides as the whole site front-end output is based on the UI kit.
@@ -63,7 +63,7 @@ This distinction is made to provide a clear separation between UI kit-specific J
 
 These reside in `components` directory and repeat the structure of the UI kit library. This allows to create new or extend existing UI kit components.&#x20;
 
-See the [Demo button example](https://github.com/salsadigitalauorg/civictheme\_source/tree/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button) for more details.
+See the [Demo button example](https://github.com/civictheme/monorepo-drupal/tree/develop/web/themes/contrib/civictheme/civictheme_starter_kit/components/01-atoms/demo-button) for more details.
 
 #### Drupal JS files
 
@@ -77,7 +77,7 @@ They reside in `assets/fonts` directory.
 
 Fonts can replace or extend the current font list provided by the UI kit.
 
-See the [Fonts addition example](https://github.com/salsadigitalauorg/civictheme\_source/blob/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/variables.base.scss#L42) for more details.
+See the [Fonts addition example](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme_starter_kit/components/variables.base.scss#L42) for more details.
 
 ## Images
 

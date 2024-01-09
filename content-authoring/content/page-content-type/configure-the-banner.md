@@ -42,7 +42,7 @@ If there are any pages you don't want a Featured image on, you will need to ensu
 
 There are two types of components you can add to the banner. 'Banner components' which display on the banner itself. And 'Bottom banner components' which display below the banner.
 
-Go to the [Components](../../../development/ui-kit/extending-components/) section of the manual to learn how to configure each component.
+Go to the [Components](../../../development/uikit/extending-components/) section of the manual to learn how to configure each component.
 
 #### Banner components
 
