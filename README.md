@@ -6,9 +6,9 @@ It was created so governments and corporations can rapidly assemble modern, cons
 
 It consists of 3 main assets:
 
-1. Design theme
-2. UI kit
-3. Drupal theme
+1. [Design system](https://civictheme.io/figma)
+2. [UI kit](https://uikit.civictheme.io/)
+3. [Drupal theme](https://www.drupal.org/project/civictheme)
 
 ### Design system
 
