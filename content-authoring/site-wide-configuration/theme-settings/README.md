@@ -40,7 +40,7 @@ Learn more using the links below:
 * [Navigation](navigation.md)
 * [Link](link.md)
 * [Skip link](skip-link.md)
-* [Event card, Navigation card, Publication card, Promo card](cards.md)
+* [Event card, Navigation card, Publication card, Promo card](broken-reference)
 
 ### Storybook <a href="#civicthemeconfiguration-storybookfor-your_theme-theme" id="civicthemeconfiguration-storybookfor-your_theme-theme"></a>
 

@@ -1,35 +1,70 @@
 # Attachment
 
-### Summary
+The Attachment component allows you add a downloadable document. The component displays a title, the last updated date and a [configurable document title](attachment.md#configuring).
 
-The Attachment component allows you to add a formatted 'block' with attachment.&#x20;
+### Add an Attachment
 
-In this section we'll show you how to add an Attachment component.&#x20;
+1. On the page where you want to add the Attachment, open the from the dropdown list.
 
-Below is an example of the Attachment component (dark theme). You can see it uses a document icon and includes the file size and last updated date.&#x20;
+<figure><img src="../../.gitbook/assets/attachment-1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure>
+2. Add a Title to display at the top of the component.
+3. Add Content, optional. Useful to describe the document.
+4. Add one or more files to the Attachment component.
+5. Save.
 
-### How to add the Attachment component
+### Styling
 
-Step 1: Go to the page you'd like to add the attachment to (or create a new page) and in the Content tab, Components section, select Attachment from the dropdown list.&#x20;
+<div align="left">
 
+<figure><img src="../../.gitbook/assets/styling.png" alt="" width="375"><figcaption></figcaption></figure>
 
+</div>
 
-&#x20;
+#### Theme
 
-<figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+Every component in CivicTheme, such as the "Attachment" component, can be shown as a `Light` or `Dark` theme component variant. This allows you to build more engaging landing pages with a mix of light and dark theme components.&#x20;
 
-Step 2: Fill in the fields as per below.
+Use "Theme" radio button selector to change between themes.
 
-<figure><img src="../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+Below illustrates the `Light` theme, using the "Content" field, and the media "Name".
 
-1. Title - Add the title you'd like displayed at the top of the attachment block.
-2. Content - Type in any content you'd like to include (e.g. a description).
-3. Attachments - Upload one or more attachments.
-4. Theme - Choose the light or dark theme.
-5. Vertical spacing - Add vertical spacing on the component (above, below or above AND below).
+<figure><img src="../../.gitbook/assets/attachment-light-content.png" alt=""><figcaption></figcaption></figure>
 
+Below illustrates the `Dark` theme and the document file name.
 
+<figure><img src="../../.gitbook/assets/attachment-dark-no-content.png" alt=""><figcaption></figcaption></figure>
 
-Step 3: Click Save to save your content page with the new Attachment component.&#x20;
+#### Background
+
+**DO NOT USE**. Don't use the "Background" on the "Attachment" component. Selecting `Light` or `Dark` theme adds the appropriate background.
+
+### Configuring
+
+Some site-wide configuration can be made for this component. You need to be logged in as a "Site administrator" role in order to make such changes.
+
+You can configure the "Attachment" component to display the actual file name, or the editable "Name" you give to the file when you upload it.  &#x20;
+
+#### Configure to use the "Name"
+
+1. When you upload the file, ensure you create a descriptive, human-readable "Name".
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/media-name.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+2. Go to `/admin/appearance/settings/<site-name>`
+3. Check the "Use name of media" box.&#x20;
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/attachment-configure.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+#### Configure to use the document file name
+
+1. Go to `/admin/appearance/settings/<site-name>`
+2. Uncheck the "Use name of media" box.&#x20;
