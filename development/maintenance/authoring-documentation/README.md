@@ -12,7 +12,7 @@ This section describes the agreed practices on how to author documentation.
 6. **Clear Definitions:** When introducing new terms or concepts, define them clearly at their first mention.
 7. **Second Person Narrative:** Use the second person ("you") to address the reader directly. This makes instructions more personal and easier to follow.
 8. **Brevity and Precision:** Be brief but precise. Provide enough information to guide the user without overwhelming them with unnecessary details.
-9. **Use of Visuals:** Accompany text with visuals where possible. This includes diagrams, screenshots, or icons to aid understanding. Do not reference the visuals as “Picture 1” or “Fig 1”, but structure the content to be always followed by an image to have a consistent natural flow.
+9. **Use of Visuals:** Accompany text with visuals where possible. This includes diagrams, screenshots, or icons to aid understanding. Do not reference the visuals as “Picture 1” or “Fig 1”, but structure the content to be always followed by an image to have a consistent natural flow. **Note:** much of the current documentation does use Figure references. This will be phased out as documentation is updated and should not be used on new content.&#x20;
 10. **Avoid Ambiguity:** Ensure that instructions and descriptions are unambiguous. Avoid leaving room for misinterpretation.
 
 ### Naming and Formatting Conventions

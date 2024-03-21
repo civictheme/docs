@@ -69,7 +69,7 @@
   * [Site sections](content-authoring/vocabularies/site-sections.md)
 * [User accounts & roles](content-authoring/user-accounts-and-roles.md)
 
-## 🛠 Development
+## 🛠️ Development
 
 * [Overview](development/overview.md)
 * [UI kit](development/uikit/README.md)
