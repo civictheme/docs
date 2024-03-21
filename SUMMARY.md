@@ -13,7 +13,7 @@
 ## 📝 Content Authoring
 
 * [Overview](content-authoring/overview.md)
-* [Site-wide configuration](content-authoring/site-wide-configuration/README.md)
+* [Global settings](content-authoring/site-wide-configuration/README.md)
   * [Theme settings](content-authoring/site-wide-configuration/theme-settings/README.md)
     * [Favicon](content-authoring/site-wide-configuration/theme-settings/favicon.md)
     * [Site slogan](content-authoring/site-wide-configuration/theme-settings/site-slogan.md)
@@ -29,10 +29,10 @@
   * [Banner](content-authoring/site-wide-configuration/banner.md)
   * [Footer](content-authoring/site-wide-configuration/footer.md)
 * [Homepage](content-authoring/homepage.md)
-* [Content](content-authoring/content/README.md)
-  * [Page content type](content-authoring/content/page-content-type/README.md)
+* [Content types](content-authoring/content/README.md)
+  * [Page](content-authoring/content/page-content-type/README.md)
     * [Configure the banner](content-authoring/content/page-content-type/configure-the-banner.md)
-  * [Event content type](content-authoring/content/event-content-type.md)
+  * [Event](content-authoring/content/event-content-type.md)
   * [Alert](content-authoring/content/alert.md)
   * [Custom blocks](content-authoring/content/custom-blocks/README.md)
     * [Banner block](content-authoring/content/custom-blocks/banner-block.md)

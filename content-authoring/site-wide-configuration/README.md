@@ -1,8 +1,8 @@
 ---
 description: >-
-  Learn how to configure site-wide setting such as Colours, Logos, Favicon,
-  Banners and more
+  Learn how to configure global setting such as Header, Footer, Banner, and
+  Colours.
 ---
 
-# Site-wide configuration
+# Global settings
 
