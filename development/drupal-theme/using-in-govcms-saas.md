@@ -185,8 +185,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 
 #### 2.8 Commit built assets
 
-1.  Modify `.gitignore` file in your new theme and remove the following lines\
-
+1.  Modify `.gitignore` file in your new theme and remove the following lines\\
 
     ```
     storybook-static
@@ -208,8 +207,7 @@ The provisioning needs to be run twice:
 Run locally:
 
 1. Login to the local instance of your site.
-2.  Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`\
-
+2.  Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`\\
 
     <figure><img src="../../.gitbook/assets/fff86df5-0dcb-4c88-9e8d-c6f3ea17eb21.png" alt=""><figcaption></figcaption></figure>
 3. Press "Provision content" button.
@@ -260,7 +258,7 @@ Only run this step once everything is working and looking as expected.
 ### 4. Customising CivicTheme
 
 1. Replace sub-theme logos in repository `themes/<SUBTHEME_MACHINE_NAME>/assets/logos` with site-specific versions.
-2. [Update the colour palette](../../content-authoring/site-wide-configuration/theme-settings/colours.md) with your sub-theme.
+2. [Update the colour palette](../../content-authoring/site-wide-configuration/colours.md) with your sub-theme.
 3. Update sub-theme `screenshot.png` with something more appropriate (optional).
 4. `npm run build` and commit changes.
 

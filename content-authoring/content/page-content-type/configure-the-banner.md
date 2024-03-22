@@ -8,13 +8,13 @@ description: >-
 
 Select the 'Banner' tab to customise the banner on a per-page basis.
 
-By default all pages on your site will inherit the site-wide banner settings.&#x20;
+By default all pages on your site will inherit the site-wide banner settings.
 
 <figure><img src="../../../.gitbook/assets/banner-1.png" alt=""><figcaption><p>Banner configuration fields</p></figcaption></figure>
 
-### Banner type and Banner theme&#x20;
+### Banner type and Banner theme
 
-Refer to the [site-wide banner](../custom-blocks/banner-block.md) settings page for explanations and examples of these banner features.&#x20;
+Refer to the [site-wide banner](../../site-wide-configuration/banner-block.md) settings page for explanations and examples of these banner features.
 
 If you want to deviate from either of these site-wide settings, select the relevant radio button.
 
@@ -30,7 +30,7 @@ The breadcrumb displays by default. Check 'Hide breadcrumb' to hide it.
 
 ### Background
 
-Your site will inherit the site-wide background. If you want to change this on your page, open the Background widget and upload a new background. You can also update the 'Blend mode' on the background.&#x20;
+Your site will inherit the site-wide background. If you want to change this on your page, open the Background widget and upload a new background. You can also update the 'Blend mode' on the background.
 
 ### Featured image
 
@@ -49,7 +49,7 @@ Go to the [Components](../../../development/uikit/extending-components/) section
 You can add the following components to the banner and they will display within the banner itself:
 
 * [Content](../../components/content.md)
-* [Manual list](../../components/manual-list/)
+* [Manual list](../../components/manual-list.md)
 * [iFrame](../../components/iframe.md)
 * [Map](../../components/map.md)
 * [Slider](../../components/slider.md)
@@ -66,9 +66,9 @@ You can add the following components to the bottom of the banner.
 * [Callout](../../components/callout.md)
 * [Campaign](../../components/campaign.md)
 * [iFrame](../../components/iframe.md)
-* [Manual list](../../components/manual-list/)
+* [Manual list](../../components/manual-list.md)
 * [Map](../../components/map.md)
-* [Promo](../../components/manual-list/promo-card.md)
+* [Promo](../../components/promo-card.md)
 * [Slider](../../components/slider.md)
 * [Webform](../../components/webform.md)
 

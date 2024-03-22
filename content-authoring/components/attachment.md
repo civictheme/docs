@@ -35,9 +35,15 @@ Below illustrates the `Dark` theme and the document file name.
 
 <figure><img src="../../.gitbook/assets/attachment-dark-no-content.png" alt=""><figcaption></figcaption></figure>
 
+#### Vertical spacing
+
+Vertical spacing adds space before, after or both before and after a component. It is used to visually separate a component from other components when they are vertically stacked on the page. Use "Vertical spacing" dropdown to chose the appropriate values.&#x20;
+
+You may need to adjust the vertical spacing on adjacent components to create visual balance.
+
 #### Background
 
-**DO NOT USE**. Don't use the "Background" on the "Attachment" component. Selecting `Light` or `Dark` theme adds the appropriate background.
+**DO NOT USE**. Don't use the "Background" on the "Attachment" component Selecting `Light` or `Dark` theme adds the appropriate background.
 
 ### Configuring
 

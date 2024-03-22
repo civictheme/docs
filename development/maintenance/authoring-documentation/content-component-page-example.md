@@ -14,8 +14,6 @@ This note and other notes of this colour would be removed in the real page.
 
 ## Accordion
 
-
-
 {% hint style="info" %}
 * Do not create the "Summary" heading
 * Describe the capabilities of the component. This is to explain what it can do.
@@ -29,14 +27,13 @@ This is ideal for FAQs, instructional content, and for reducing page length.
 
 {% hint style="info" %}
 1. Describe the steps to add a component: provide screenshots on how to choose the component
-2. Do not provide descriptions of the fields that already have an obvious descriptions - these are superfluous and only repeat what is already provided in the UI without adding much value. Also, this adds to the maintenance cost.
-3. Describe what can be done with one or multiple properties _from the point of use_:
+2. Describe what can be done with one or multiple properties _from the point of use_:
    1. Provide a sub-heading
    2. Provide a screenshot of admin + a screenshot of the rendered component
-4. For complex components, provide an "Example" sub-section with a full use-case description and screenshots.
-5. Navigate to the content type add/edit page
-6. Click on Components->Add Accordion button
-7. Add Accordion panels and modify properties.
+3. For complex components, provide an "Example" sub-section with a full use-case description and screenshots.
+4. Navigate to the content type add/edit page
+5. Click on Components->Add Accordion button
+6. Add Accordion panels and modify properties.
 {% endhint %}
 
 The "Title" will appear as a text on the collapsed Accordion panel header.
@@ -53,17 +50,27 @@ This will result in accordion looking like this \[need to update this phrase]\
 
 To expand all panels, check the "Expand all" checkbox. This will override the values set in "Expanded" checkbox for each Accordion panel.
 
-#### Styling
+### Styling
 
 {% hint style="info" %}
 This sub section should be as much generic as possible so it can be copy/pasted for many components with ease as many components have the same properties. we do not need to provide screenshots
 {% endhint %}
 
-Every component in CivicTheme can be shown as a Light or Dark theme component variant. This allows to build more engaging landing pages with a mix of light and dark theme components. Use "Theme" radio button selector to change between themes.
+#### Theme
 
-Vertical spacing adds space before, after or both before and after a component. It is used to visually separate a component from other components when they are vertically stacked on the page. Use "Vertical spacing" dropdown to chose one of the appropriate values.
+Every component in CivicTheme, such as the \["Content"] component, can be shown as a `Light` or `Dark` theme component variant. This allows you to build more engaging landing pages with a mix of light and dark components. Use "Theme" radio button selector to change between themes.
 
-Background of the component allows to make the component visually stand-out on the page. Check the "Background" checkbox to have the background applied.
+#### Vertical spacing
+
+Vertical spacing adds space before, after or both before and after a component. It is used to visually separate a component from other components when they are vertically stacked on the page. Use "Vertical spacing" dropdown to chose the appropriate values.&#x20;
+
+You may need to adjust the vertical spacing on adjacent components to create visual balance.
+
+#### Background
+
+Setting a background on a component can make the component visually stand-out on the page. Check the "Background" checkbox to apply a background to the component.&#x20;
+
+\[Note: not all components have a background, in the case where the Theme sets the background colour of the component. In these cases do not include this section]
 
 ### Configuring
 
@@ -91,4 +98,4 @@ On the theme settings page:
 
 \[screenshot of the admin form with the Promo card tab selected]
 
-\
+\\

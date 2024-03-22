@@ -5,10 +5,10 @@
 Website colors can be specified via:
 
 * Color Selector
-* [CSS code](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme_starter_kit/components/variables.base.scss#L42)
+* [CSS code](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/variables.base.scss#L42)
 * CSS code with Color Selector overrides
 
-See [theme settings](../../content-authoring/site-wide-configuration/theme-settings/) for more details about colors and to set colors via Color Selector.
+See [theme settings](broken-reference) for more details about colors and to set colors via Color Selector.
 
 #### Disabling Color Selector
 
