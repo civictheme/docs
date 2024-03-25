@@ -2,9 +2,9 @@
 
 ### Summary
 
-The Slider component allows you to add a 'slider' where users can move through multiple full-width 'cards' that include images.&#x20;
+The Slider component allows your users to move through multiple panels that include images and content.
 
-This section shows you how to add the Slider component.&#x20;
+This section shows you how to add the Slider component.
 
 Below is an example of the Slider component.
 
@@ -12,7 +12,7 @@ Below is an example of the Slider component.
 
 ### How to add a Slider
 
-Step 1: Go to the page you'd like to add the Quote to (or create a new page) and in the Content tab, Components section, select Quote from the dropdown list.
+Step 1: Go to the page you'd like to add the Slider to (or create a new page) and in the Content tab, Components section, select Slider from the dropdown list.
 
 <figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +26,7 @@ Step 2: Fill in the fields as per below.
 4. Theme - Choose the light or dark theme.
 5. Vertical spacing - Add vertical spacing on the component (above, below or above AND below).
 
-Step 3: Fill in the information for each slide - see below.&#x20;
+Step 3: Fill in the information for each slide - see below.
 
 <figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 
@@ -40,17 +40,17 @@ Step 3: Fill in the information for each slide - see below.&#x20;
 8. Topics - Add in topics if you'd like the slider to include a topic tag.
 9. Add another (topic) - Add extra topics if desired.
 10. Theme - Select the light or dark theme.
-11. Add Slider slide - Add more slides.&#x20;
+11. Add Slider slide - Add more slides.
 
 ### Slider reference slides
 
-You can also add 'Slider reference slides'. These slides pull content automatically from an existing page.&#x20;
+You can also add 'Slider reference slides'. These slides retrieve the content automatically from an existing page.
 
-Below is a screenshot of the fields for the Slider reference slides.&#x20;
+Below is a screenshot of the fields for the Slider reference slides.
 
 <figure><img src="../../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
 
-1. Reference - Start typing the page title of the page you'd like to reference, and then select the page/content.&#x20;
+1. Reference - Start typing the page title of the page you'd like to reference, and then select the page/content.
 2. Link text - Add in link text, if desired.
 3. Image position - Select right or left for the image. Note: This brings in the xxx image from the page you're linking to.
-4. Theme - Select light or dark theme.&#x20;
+4. Theme - Select light or dark theme.

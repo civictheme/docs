@@ -8,19 +8,19 @@ This article shows you how to add a Navigation card to the Manual list component
 
 Below you can see three navigation cards (one per row).
 
-<figure><img src="../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 1 - Add the Navigation card <a href="#navigationcardcomponent-step1-addthenavigationcard" id="navigationcardcomponent-step1-addthenavigationcard"></a>
 
 Within the Manual list component under List items, click on the dropdown and select Navigation card as shown below.
 
-<figure><img src="../../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Fill in the various fields <a href="#navigationcardcomponent-step2-fillinthevariousfields" id="navigationcardcomponent-step2-fillinthevariousfields"></a>
 
 The available fields are shown and numbered below.
 
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 1. Title - Set the card title.
 2. Image - Upload an image (or select one from your media library).
@@ -29,9 +29,5 @@ The available fields are shown and numbered below.
 5. Link URL - The URL entered here will be the final destination if the end user clicks anywhere in the navigation card.
 6. Size - Set the image size (the options are None, Small or Large).
 7. Theme - Select the light or dark theme.
-
-
-
-
 
 **Note:** If you set the image to show as an Icon (point #3), then this will override the image size set at point #6.

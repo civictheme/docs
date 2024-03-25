@@ -48,8 +48,8 @@ Go to the [Components](../../../development/uikit/extending-components/) section
 
 You can add the following components to the banner and they will display within the banner itself:
 
-* [Content](../../components/content.md)
-* [Manual list](../../components/manual-list/)
+* [Content](../../components/content/)
+* [Manual list](../../components/manual-list.md)
 * [iFrame](../../components/iframe.md)
 * [Map](../../components/map.md)
 * [Slider](../../components/slider.md)
@@ -60,15 +60,15 @@ You can add the following components to the banner and they will display within 
 
 You can add the following components to the bottom of the banner.
 
-* [Content](../../components/content.md)
+* [Content](../../components/content/)
 * [Accordion](../../components/accordion.md)
 * [Automated list](../../../development/drupal-theme/automated-list.md)
 * [Callout](../../components/callout.md)
 * [Campaign](../../components/campaign.md)
 * [iFrame](../../components/iframe.md)
-* [Manual list](../../components/manual-list/)
+* [Manual list](../../components/manual-list.md)
 * [Map](../../components/map.md)
-* [Promo](../../components/manual-list/promo-card.md)
+* [Promo](../../components/promo-card.md)
 * [Slider](../../components/slider.md)
 * [Webform](../../components/webform.md)
 

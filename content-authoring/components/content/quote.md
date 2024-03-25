@@ -12,7 +12,7 @@ Use the "Quote" to highlight a piece of content and provide a reference point. F
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/quote-1.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/quote-1.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -21,19 +21,19 @@ Use the "Quote" to highlight a piece of content and provide a reference point. F
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/quote-small-style.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/quote-small-style.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
 ### Outcome
 
-<figure><img src="../../.gitbook/assets/quote-FE-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/quote-FE-1.png" alt=""><figcaption></figcaption></figure>
 
 ### Styling
 
 <div align="left">
 
-<figure><img src="../../.gitbook/assets/styling.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/styling.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -51,11 +51,11 @@ If you want to create a striking stand alone "Quote" with a background to really
 
 The example below shows three separate "Content" components. The first and third components use the `Light` theme. The second component, housing the "Quote" "uses the `Dark` theme, with the Background checkbox filled.
 
-<figure><img src="../../.gitbook/assets/quote-dark-background.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/quote-dark-background.png" alt=""><figcaption></figcaption></figure>
 
 The example below shows three separate Content components. All three components use the `Light` theme, but the component housing the Quote has the Background checkbox filled.
 
-<figure><img src="../../.gitbook/assets/quote-light-background.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/quote-light-background.png" alt=""><figcaption></figcaption></figure>
 
 #### Vertical spacing
 
