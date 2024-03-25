@@ -11,4 +11,4 @@ CivicTheme provides two base layouts:
 
 These layouts can be built upon and are defined in the `civictheme.info.yml` .
 
-The layout look and feel is a [component from the UI kit](https://default.civictheme.io/themes/contrib/civictheme/storybook-static/index.html?path=/story/base-layout--layout).
+The layout look and feel is a [component from the UI kit](https://uikit.civictheme.io/?path=/story/base-layout--layout).

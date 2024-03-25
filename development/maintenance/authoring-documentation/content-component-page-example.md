@@ -30,10 +30,10 @@ This is ideal for FAQs, instructional content, and for reducing page length.
 2. Describe what can be done with one or multiple properties _from the point of use_:
    1. Provide a sub-heading
    2. Provide a screenshot of admin + a screenshot of the rendered component
-3. For complex components, provide an "Example" sub-section with a full use-case description and screenshots.
-4. Navigate to the content type add/edit page
-5. Click on Components->Add Accordion button
-6. Add Accordion panels and modify properties.
+3. For complex components, provide an "Example" sub-section with a full use-case description and screenshots:
+   1. Navigate to the content type add/edit page
+   2. Click on Components->Add Accordion button
+   3. Add Accordion panels and modify properties.
 {% endhint %}
 
 The "Title" will appear as a text on the collapsed Accordion panel header.
@@ -97,5 +97,3 @@ On the theme settings page:
 3. Press Save configuration
 
 \[screenshot of the admin form with the Promo card tab selected]
-
-\\
