@@ -49,7 +49,7 @@ Go to the [Components](../../../development/uikit/extending-components/) section
 You can add the following components to the banner and they will display within the banner itself:
 
 * [Content](../../components/content.md)
-* [Manual list](../../components/manual-list.md)
+* [Manual list](../../components/manual-list/)
 * [iFrame](../../components/iframe.md)
 * [Map](../../components/map.md)
 * [Slider](../../components/slider.md)
@@ -66,9 +66,9 @@ You can add the following components to the bottom of the banner.
 * [Callout](../../components/callout.md)
 * [Campaign](../../components/campaign.md)
 * [iFrame](../../components/iframe.md)
-* [Manual list](../../components/manual-list.md)
+* [Manual list](../../components/manual-list/)
 * [Map](../../components/map.md)
-* [Promo](../../components/promo-card.md)
+* [Promo](../../components/manual-list/promo-card.md)
 * [Slider](../../components/slider.md)
 * [Webform](../../components/webform.md)
 

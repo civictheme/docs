@@ -88,7 +88,7 @@ Backgrounds and Logos are content uploaded through the [theme settings ](broken-
 #### Icons
 
 {% hint style="info" %}
-Icons discussed here are the icons used in the UI elements and not the icons that can be uploaded as content in components such as [Navigation card](../../content-authoring/components/navigation-card.md) or [Social links](broken-reference/)
+Icons discussed here are the icons used in the UI elements and not the icons that can be uploaded as content in components such as [Navigation card](../../content-authoring/components/manual-list/navigation-card.md) or [Social links](broken-reference/)
 {% endhint %}
 
 CivicTheme UI kit provides several icons out of the box.
