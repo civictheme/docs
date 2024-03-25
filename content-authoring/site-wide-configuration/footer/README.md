@@ -1,6 +1,6 @@
 # Footer
 
-The Footer is a global element that sits at the bottom of every page on your site. Common Footer elements are Logo/s, Social links, Footer navigation, Acknowledgement of Country, Copyright and Privacy information.&#x20;
+The Footer is a global element that sits at the bottom of every page on your site. Common Footer elements are Logos, Social links, Footer navigation, Acknowledgement of Country, Copyright and Privacy information.&#x20;
 
 The Footer is created using a series of Blocks.  Build your footer using Block types of "Component", "Social Links" and "System".
 
