@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [Getting started](getting-started.md)
-* [Features](features.md)
 * [Getting help](getting-help.md)
 * [Contributing](contributing/README.md)
   * [RFC process](contributing/rfc-process.md)

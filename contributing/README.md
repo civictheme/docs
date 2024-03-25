@@ -18,9 +18,9 @@ To ensure that contributions are accepted, they must meet the following requirem
 
 There is a detailed section on how to set up the CivicTheme development environment on your local machine using Docker, available in the [Development](https://docs.civictheme.io/development/overview) section.
 
-#### Contributing to CivicTheme UI Kit
+#### Contributing to CivicTheme Design System
 
-CivicTheme [UI Kit](https://www.civictheme.io/figma) contains contribution instructions.
+CivicTheme [Design System](https://www.civictheme.io/figma) contains contribution instructions.
 
 #### Suggesting new features
 
@@ -47,7 +47,5 @@ Another good way is also to talk to us via [#civictheme-designsystem](https://dr
 ### I wrote some code
 
 Awesome! Please send us a pull request for it, we will do our best to review it and merge it if possible.
-
-
 
 For more information about CivicTheme and how to make contributions, please email [civictheme@salsa.digital](mailto:civictheme@salsa.digital)
