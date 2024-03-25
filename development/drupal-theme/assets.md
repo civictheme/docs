@@ -14,7 +14,7 @@ The Webpack and Storybook configuration may change between versions, so make sur
 
 Assets are served from the `dist` directory and are inter-linked within your sub-theme.
 
-The sub-theme uses 3 types of assets:
+The sub-theme uses 4 types of assets:
 
 1. [CSS](assets.md#css)
 2. [JS](assets.md#js)
@@ -45,7 +45,7 @@ These reside in `assets/sass` directory and are intended to override or addition
 See the [Local task block styles override example](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/assets/sass/block/\_local-tasks.scss) for more details.
 
 {% hint style="info" %}
-Normally, there should be a very minimal number of Drupal style overrides as the whole site front-end output is based on the UI kit.
+Normally, there should be a very minimal number of Drupal style overrides as the whole front-end output is based on the UI kit.
 {% endhint %}
 
 ### JS
