@@ -19,7 +19,7 @@ This section describes the agreed practices on how to author documentation.
 
 1. Use full form of the CivicTheme product: CivicTheme
 2. Use capitalised form of component name: Accordion, Accordion panel, Manual list
-3. Use inline code for values: Light, Dark, Top, Both, Expanded
+3. Use inline code for values: `Light`, `Dark`, `Top`, `Both`, `Expanded`
 
 ### Visuals
 
