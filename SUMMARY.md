@@ -16,7 +16,7 @@
   * [Favicon](content-authoring/site-wide-configuration/favicon.md)
   * [Header](content-authoring/site-wide-configuration/header/README.md)
     * [Site slogan](content-authoring/site-wide-configuration/header/site-slogan.md)
-    * [Header logo/s](content-authoring/site-wide-configuration/header/logo.md)
+    * [Header logos](content-authoring/site-wide-configuration/header/logo.md)
     * [Primary navigation](content-authoring/site-wide-configuration/header/navigation.md)
     * [Seconday navigation](content-authoring/site-wide-configuration/header/seconday-navigation.md)
   * [Banner](content-authoring/site-wide-configuration/banner-block.md)

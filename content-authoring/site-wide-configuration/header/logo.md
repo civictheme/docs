@@ -1,4 +1,4 @@
-# Header logo/s
+# Header logos
 
 CivicTheme allows several Header logo configurations.&#x20;
 
@@ -31,11 +31,7 @@ The process is the same for the Primary and the Secondary logo.
 5. If you're using a Secondary logo, open the Secondary logo dropdown and follow the same steps.&#x20;
 6. Scroll to the bottom and select 'Save configuration'.
 
-### Style <a href="#updatinglogos-summary" id="updatinglogos-summary"></a>
-
-
-
-### Configure the Header logo/s <a href="#updatinglogos-summary" id="updatinglogos-summary"></a>
+### Configure the Header logos <a href="#updatinglogos-summary" id="updatinglogos-summary"></a>
 
 #### Logo type <a href="#header-logotype" id="header-logotype"></a>
 

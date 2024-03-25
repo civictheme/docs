@@ -3,7 +3,7 @@
 The header section appears at the top of your website. It comprises:
 
 1. Site slogan
-2. Logo/s
+2. Logos
 3. Secondary navigation
 4. Primary navigation
 
