@@ -264,7 +264,7 @@ Only run this step once everything is working and looking as expected.
 
 ### 5. Updating CivicTheme
 
-See [Version update](version-update.md)
+See [Version update](updating-theme.md)
 
 ## Resolving issues with roles
 

@@ -9,7 +9,7 @@ This section explains working with assets in the context of your custom sub-them
 All assets are compiled using `npm run dist` based on the supplied [Webpack configuration](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/webpack/webpack.common.js).
 
 {% hint style="info" %}
-The Webpack and Storybook configuration may change between versions, so make sure to follow instructions in [Version update](version-update.md) section.
+The Webpack and Storybook configuration may change between versions, so make sure to follow instructions in [Version update](updating-theme.md) section.
 {% endhint %}
 
 Assets are served from the `dist` directory and are inter-linked within your sub-theme.

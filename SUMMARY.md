@@ -80,7 +80,7 @@
     * [Typography](development/uikit/extending-components/typography.md)
 * [Drupal theme](development/drupal-theme/README.md)
   * [Sub-theme](development/drupal-theme/sub-theme.md)
-  * [Updating theme](development/drupal-theme/version-update.md)
+  * [Updating theme](development/drupal-theme/updating-theme.md)
   * [Using in GovCMS SaaS](development/drupal-theme/using-in-govcms-saas.md)
   * [Color selector](development/drupal-theme/color-selector.md)
   * [Namespaces](development/drupal-theme/namespaces.md)
