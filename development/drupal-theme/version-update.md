@@ -1,4 +1,8 @@
-# Updating them
+---
+description: How to update Drupal theme and tooling
+---
+
+# Updating theme
 
 {% hint style="info" %}
 Ensure that you always review the [release notes](https://www.drupal.org/project/civictheme/releases) prior to beginning the update process.
