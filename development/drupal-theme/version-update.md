@@ -1,12 +1,28 @@
-# Version update
+# Updating them
 
 {% hint style="info" %}
 Ensure that you always review the [release notes](https://www.drupal.org/project/civictheme/releases) prior to beginning the update process.
 {% endhint %}
 
-### Drupal update
+{% hint style="warning" %}
+Always test your updates in non-production environments first.
+{% endhint %}
 
-1.  Update CivicTheme base theme:
+### Drupal theme update
+
+{% hint style="info" %}
+The updates may contain both _configuration_ and _content_ updates.
+
+Updates would need to run in production environment.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+If configuration is managed through files, make sure that your database updates run **before** your configuration import in your **production** environment.
+{% endhint %}
+
+Run the below steps locally:
+
+1.  Update CivicTheme base theme code:
 
     ```sh
     composer update drupal/civictheme
@@ -14,32 +30,34 @@ Ensure that you always review the [release notes](https://www.drupal.org/project
 
     or\
     download the [latest version](https://www.drupal.org/project/civictheme/releases) from Drupal.org and place into the desired location
-2.  Run updates
+2.  Run updates and export the configuration
 
     ```sh
     drush updb
-    ```
-3.  Run configuration export
-
-    ```sh
     drush cex
     ```
-4. Check updated configuration files with a diff tool of your choice: resolve configuration overrides one-by-one; there could be cases where fields are renamed or removed -  these will be handled automatically in the update hooks.
-5. Run the configuration update script in your sub-theme (`scripts/update_config.php`) to bring in any new configurations from the base theme into your theme. Follow the instructions provided in the script. Note the file `scripts/<yourtheme>.site_custom_configs.txt` - it allows you to maintain a list of configuration update exclusion to make the review process easier.
-6. Re-build local environment with updated configuration.
-7. Check that everything looks good.
-8. If there are issues - repeat steps 2-7 until desired result is achieved.
+
+    **Important! Do not skip this step or you may miss the important schema changes.**
+3. Re-provision the site with updated configuration.
+4. Check that everything looks good.
+5. Commit exported configuration files and deploy to the non-production environment for testing.
 
 ### Tooling update
 
-Starter kit comes with Storybook and Webpack configuration (tooling). When performing a version update, refer to update notes and update tooling configuration as described.
+CivicTheme comes with a starter kit, which contains tooling required to build and integrate sub-theme TWIG, CSS and JS assets into Drupal. This tooling is mostly JS-based and requires regular maintenance.
+
+CivicTheme may ship an update to tooling requiring your sub-themes to update their own tooling. Refer to update notes and update tooling configuration as described.
 
 {% hint style="warning" %}
-Below is required only if release notes list tooling updates as a change
+Below is required only if the release notes explicitly call out tooling updates
 {% endhint %}
 
 Although unique scenarios may arise depending on your sub-theme customisations, the most common use case involves regenerating your sub-theme:
 
-1. Remove your custom theme directory
-2. Run [sub-theme](sub-theme.md) creation script
-3. Use your git diff tool to accept/decline changes
+1. Move your custom sub-theme directory elsewhere
+2. Run [sub-theme](sub-theme.md) creation script to create a new sub-theme with the same name
+3. Commit changes
+4. Copy your custom sub-theme back
+5. Use your git diff tool to accept/decline changes
+
+Usually, you would preserve your own `components` and `assets` directories, as they would contain most of the sub-theme customisations, and accept the rest of changed files as updates.
