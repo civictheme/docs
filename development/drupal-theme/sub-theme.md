@@ -25,7 +25,6 @@ drush theme:enable theme_machine_name
 Run the following command from within your sub-theme directory:
 
 ```sh
-nvm use
 npm run build
 ```
 
