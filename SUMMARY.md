@@ -60,6 +60,7 @@
     * [Snippet](content-authoring/components/manual-list/snippet.md)
   * [Map](content-authoring/components/map.md)
   * [Next step](content-authoring/components/next-step.md)
+  * [Promo](content-authoring/components/promo.md)
   * [Slider](content-authoring/components/slider.md)
   * [Webform](content-authoring/components/webform.md)
 * [Vocabularies](content-authoring/vocabularies/README.md)
