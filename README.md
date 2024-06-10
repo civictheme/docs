@@ -20,7 +20,7 @@ Design System is implemented as a [Figma file](https://civictheme.io/figma) that
 
 The [UI Kit](https://uikit.civictheme.io/) is a library of components built with HTML, CSS and JavaScript.
 
-The components have been built and assessed to comply with WCAG accessibility standards 2.1 AA out-of-the-box.
+The components have been built and assessed to comply with WCAG accessibility standards 2.2 AA out-of-the-box.
 
 ### Drupal theme
 
