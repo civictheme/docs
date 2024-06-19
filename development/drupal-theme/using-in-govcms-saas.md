@@ -100,13 +100,15 @@ CivicTheme MUST be enabled before your custom theme is enabled
 {% endhint %}
 
 ```bash
+# Clear Drupal cache.
+ahoy drush cr
 # Enable CivicTheme and set as default.
-ahoy drush theme:enable -y civictheme
+ahoy drush theme:enable civictheme
 ahoy drush config-set -y system.theme default civictheme
 ahoy drush config-set -y media.settings standalone_url true
 
 # Enable admin theme and set as default (optional).
-ahoy drush theme:enable -y adminimal_theme
+ahoy drush theme:enable adminimal_theme
 ahoy drush config-set -y system.theme admin adminimal_theme
 ```
 
