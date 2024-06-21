@@ -93,7 +93,17 @@ Using an automated script to discover required modules from theme dependencies (
 ahoy drush ev "require_once dirname(\Drupal::getContainer()->get('theme_handler')->rebuildThemeData()['civictheme']->getPathname()) . '/theme-settings.provision.inc'; civictheme_enable_modules();"
 ```
 
-#### 2.3 Enable admin and CivicTheme
+#### 2.3 Clear caches
+
+{% hint style="warning" %}
+Do not skip this step
+{% endhint %}
+
+```sh
+ahoy drush cr
+```
+
+#### 2.4 Enable admin and CivicTheme
 
 {% hint style="warning" %}
 CivicTheme MUST be enabled before your custom theme is enabled
@@ -110,7 +120,7 @@ ahoy drush theme:enable -y adminimal_theme
 ahoy drush config-set -y system.theme admin adminimal_theme
 ```
 
-#### 2.4 Remove GovCMS content types
+#### 2.5 Remove GovCMS content types
 
 CivicTheme GovCMS helper module `civictheme_govcms` serves the purpose to remove unnecessary entities and configuration that ships with GovCMS.
 
@@ -139,7 +149,7 @@ Install it locally to automatically remove the configuration from DB to later ha
     ahoy drush cex -y
     ```
 
-#### 2.5 Generate a sub-theme
+#### 2.6 Generate a sub-theme
 
 {% hint style="info" %}
 Consider naming your theme as close as possible to the name of the site. Do not include `civic` or `civictheme` into name to avoid confusions in code when maintaining a theme in the future.
@@ -161,7 +171,7 @@ themes/civictheme
 themes/<SUBTHEME_MACHINE_NAME>
 ```
 
-#### 2.6 Install sub-theme and set as default
+#### 2.7 Install sub-theme and set as default
 
 ```sh
 # Enable sub-theme.
@@ -170,7 +180,7 @@ ahoy drush theme:enable <SUBTHEME_MACHINE_NAME> -y
 ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 ```
 
-#### 2.7 Build front-end assets
+#### 2.8 Build front-end assets
 
 1.  Run on your host:
 
@@ -183,7 +193,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 2. Check that directory `themes/<SUBTHEME_MACHINE_NAME>/dist` was created.
 3. Navigate to your site and assert that default styling was applied.
 
-#### 2.8 Commit built assets
+#### 2.9 Commit built assets
 
 1.  Modify `.gitignore` file in your new theme and remove the following lines\\
 
@@ -195,7 +205,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
     ```
 2. Commit built assets.
 
-#### 2.9 Provision content
+#### 2.10 Provision content
 
 CivicTheme comes with pre-set Block Content blocks configuration. Since Drupal does not support running install hooks in themes, a custom content provisioning script has to be used.
 

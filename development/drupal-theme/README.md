@@ -22,6 +22,12 @@ Enable required modules (Drupal [allows themes to declare module dependencies](h
 drush ev "require_once dirname(\Drupal::getContainer()->get('theme_handler')->rebuildThemeData()['civictheme']->getPathname()) . '/theme-settings.provision.inc'; civictheme_enable_modules();"
 ```
 
+Clear caches
+
+```sh
+drush cr
+```
+
 Enable the theme in UI or with Drush:
 
 ```sh
