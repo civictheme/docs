@@ -1,15 +1,33 @@
 # Table of contents
 
-* [Introduction](README.md)
-* [Getting started](getting-started.md)
-* [Getting help](getting-help.md)
-* [Contributing](contributing/README.md)
-  * [RFC process](contributing/rfc-process.md)
-  * [Code of conduct](contributing/code-of-conduct.md)
-  * [Participation guidelines](contributing/participation-guidelines.md)
-  * [Moderation guidelines](contributing/moderation-guidelines.md)
+## Getting started
 
-## 📝 Content Authoring
+* [Introduction](README.md)
+* [Installation](getting-started/installation.md)
+* [Getting help](getting-started/getting-help.md)
+* [Security policy](getting-started/security-policy.md)
+* [Partnerships](getting-started/partnerships.md)
+
+## Installation
+
+* [Drupal Theme](installation/drupal-theme.md)
+
+## Contributing
+
+* [Contribution model](contributing/contribution-model.md)
+* [Contribution basics](contributing/contribution-basics.md)
+* [Small contribution spec](contributing/small-contribution-spec.md)
+* [Medium contribution spec](contributing/medium-contribution-spec.md)
+* [Major (RFC-level) contribution spec](contributing/major-rfc-level-contribution-spec.md)
+* [Code of conduct](contributing/code-of-conduct.md)
+* [Figma contributions](contributing/figma-contributions.md)
+
+## Components
+
+* [Atoms](components/atoms/README.md)
+  * [Button](components/atoms/button.md)
+
+## Content Authoring
 
 * [Overview](content-authoring/overview.md)
 * [Global settings](content-authoring/site-wide-configuration/README.md)
@@ -68,12 +86,9 @@
   * [Site sections](content-authoring/vocabularies/site-sections.md)
 * [User accounts & roles](content-authoring/user-accounts-and-roles.md)
 
-## 🛠️ Development
+## Development
 
-* [Overview](development/overview.md)
 * [UI kit](development/uikit/README.md)
-  * [Browser support](development/uikit/browser-support.md)
-  * [Storybook](development/uikit/storybook.md)
   * [Components](development/uikit/extending-components/README.md)
     * [Variables](development/uikit/extending-components/variables.md)
     * [Spacing](development/uikit/extending-components/spacing.md)
@@ -81,7 +96,6 @@
     * [Typography](development/uikit/extending-components/typography.md)
 * [Drupal theme](development/drupal-theme/README.md)
   * [Sub-theme](development/drupal-theme/sub-theme.md)
-  * [Updating theme](development/drupal-theme/updating-theme.md)
   * [Using in GovCMS SaaS](development/drupal-theme/using-in-govcms-saas.md)
   * [Color selector](development/drupal-theme/color-selector.md)
   * [Namespaces](development/drupal-theme/namespaces.md)

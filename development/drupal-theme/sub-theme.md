@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Sub-theme
 
 ### Creating a sub-theme from the CivicTheme theme

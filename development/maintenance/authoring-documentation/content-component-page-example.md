@@ -79,7 +79,7 @@ Setting a background on a component can make the component visually stand-out on
 2. Describe the path to the configuration location as an intro paragraph. Try to make this as much generic as possible.
 3. Describe the steps to perform such configuration with screenshots of the the admin changes + screenshot of front-end result\
    \
-   _The Accordion component does not have any settings, so the example below will use Promo card component settings as an example._
+   &#xNAN;_&#x54;he Accordion component does not have any settings, so the example below will use Promo card component settings as an example._
 {% endhint %}
 
 The component can be configured on the theme settings page located at `/admin/appearance/settings/<site-name>`. You would need to be logged in as a user with a Site administrator role in order to making such changes.

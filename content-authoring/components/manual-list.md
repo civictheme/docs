@@ -8,7 +8,7 @@ This section shows you how to add a Manual list.
 
 Below is a Manual list of Promo cards (with images).
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 And here is a Manual list of Navigation cards (without images).
 
@@ -28,7 +28,7 @@ Step 3: Fill out the information that correspond to your card choice. Please see
 
 Step 4: Fill in the **Fields tab** information as per below.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Title - Type in the title for your Manual List.
 2. Content - Type in any introductory content you'd like displayed between the title and the cards.

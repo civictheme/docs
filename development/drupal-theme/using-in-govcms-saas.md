@@ -11,7 +11,7 @@
 
 ## Where to get help
 
-See [Getting help](../../getting-help.md) section
+See [Getting help](../../getting-started/getting-help.md) section
 
 ## Steps overview
 
@@ -274,7 +274,7 @@ Only run this step once everything is working and looking as expected.
 
 ### 5. Updating CivicTheme
 
-See [Version update](updating-theme.md)
+See [Version update](broken-reference)
 
 ## Resolving issues with roles
 
