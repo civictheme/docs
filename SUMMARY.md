@@ -26,6 +26,7 @@
 
 * [Atoms](components/atoms/README.md)
   * [Button](components/atoms/button.md)
+* [List](components/list.md)
 
 ## Content Authoring
 

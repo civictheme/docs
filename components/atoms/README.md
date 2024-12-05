@@ -2,6 +2,7 @@
 description: >-
   Atoms are the smallest component in an atomic design system. This page
   outlines their purpose.
+hidden: true
 ---
 
 # Atoms
