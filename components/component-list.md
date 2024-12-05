@@ -4,11 +4,13 @@ description: >-
   grow as the community and adoption grows!
 ---
 
-# List
+# Component list
 
 ## CivicTheme Component Library
 
 CivicTheme is built using **atomic design principles**, offering a hierarchy of components ranging from foundational styles to complex, reusable patterns. Below, you'll find a complete breakdown of the components, categorised into **Base**, **Atoms**, **Molecules**, and **Organisms**.
+
+For a visual list of our components, please check out the [Figma file](https://www.civictheme.io/figma).
 
 ***
 
