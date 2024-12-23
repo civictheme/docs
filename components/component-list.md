@@ -6,7 +6,7 @@ description: >-
 
 # Component list
 
-## CivicTheme Component Library
+## CivicTheme component library
 
 CivicTheme is built using **atomic design principles**, offering a hierarchy of components ranging from foundational styles to complex, reusable patterns. Below, you'll find a complete breakdown of the components, categorised into **Base**, **Atoms**, **Molecules**, and **Organisms**.
 
@@ -14,7 +14,7 @@ For a visual list of our components, please check out the [Figma file](https://w
 
 ***
 
-### **Base Components**
+### **Base components**
 
 The foundation of CivicTheme includes variables and tokens that ensure consistency in design, enabling scalable, maintainable, and reusable components.
 
@@ -25,7 +25,7 @@ The foundation of CivicTheme includes variables and tokens that ensure consisten
 * Grid
 * Icon
 * Image
-* Item List
+* Item list
 * Layout
 * Spacing
 
@@ -37,14 +37,14 @@ These base elements define the **core design framework**, supporting the styling
 
 Atoms are the simplest, most basic building blocks in CivicTheme. They represent single UI elements and are designed for **high reusability** across various contexts.
 
-* Back To Top
+* Back to top
 * Button
 * Chip
-* Content Link
-* Form Control
+* Content link
+* Form control
   * Checkbox
-  * Field Description
-  * Field Message
+  * Field description
+  * Field message
   * Fieldset
   * Label
   * Radio
@@ -58,7 +58,7 @@ Atoms are the simplest, most basic building blocks in CivicTheme. They represent
 * Quote
 * Table
 * Tag
-* Text List
+* Text list
 * Toggle
 
 ***
@@ -71,28 +71,28 @@ Molecules combine two or more atoms to form **functional UI elements**. These co
 * Attachment
 * Breadcrumb
 * Callout
-* Event Card
+* Event card
 * Field
 * Figure
-* Group Filter
+* Group filter
 * Logo
 * Map
-* Navigation Card
+* Navigation card
 * Next Step
 * Pagination
-* Price Card
-* Promo Card
-* Publication Card
+* Price card
+* Promo card
+* Publication card
 * Search
-* Service Card
-* Single Filter
+* Service card
+* Single filter
 * Snippet
-* Subject Card
-* Table of Contents
+* Subject card
+* Table of contents
 * Tabs
-* Tag List
+* Tag list
 * Tooltip
-* Video Player
+* Video player
 
 ***
 
@@ -108,17 +108,17 @@ Organisms are **highly structured, composite components** consisting of multiple
 * Header
 * List
 * Message
-* Mobile Navigation
+* Mobile navigation
 * Navigation
 * Promo
-* Side Navigation
-* Skip Link
+* Side navigation
+* Skip link
 * Slider
-* Social Links
+* Social links
 
 ***
 
-### **Why This Hierarchy Matters**
+### **Why this hierarchy matters**
 
 The clear categorisation of components within CivicTheme supports:
 
