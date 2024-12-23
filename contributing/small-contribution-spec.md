@@ -6,7 +6,7 @@ description: The following page outlines the process of a light contribution to 
 
 ### Component overview
 
-<table data-full-width="false"><thead><tr><th width="411">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Component name</strong></td><td>[Insert Component Name]</td></tr><tr><td><strong>Type</strong></td><td>[Atom, Molecule, Organism, etc.]</td></tr><tr><td><strong>Intended purpose</strong></td><td>Short description of the purpose of the component (e.g., "To ensure proper alignment of text in mobile views.")</td></tr><tr><td><strong>Primary use case</strong></td><td>[Describe the primary scenario where this component is used.]</td></tr><tr><td><strong>Secondary use case</strong></td><td>[Optional, additional scenarios where it could be applied.]</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="411">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Component name</strong></td><td>[Insert component name]</td></tr><tr><td><strong>Type</strong></td><td>[Atom, Molecule, Organism, etc.]</td></tr><tr><td><strong>Intended purpose</strong></td><td>Short description of the purpose of the component (e.g., "To ensure proper alignment of text in mobile views.")</td></tr><tr><td><strong>Primary use case</strong></td><td>[Describe the primary scenario where this component is used.]</td></tr><tr><td><strong>Secondary use case</strong></td><td>[Optional, additional scenarios where it could be applied.]</td></tr></tbody></table>
 
 ### Existing patterns/components
 
@@ -30,7 +30,7 @@ description: The following page outlines the process of a light contribution to 
 
 ### Submission details
 
-<table data-full-width="false"><thead><tr><th width="405">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Submitted by</strong></td><td>[Contributor's Name]</td></tr><tr><td><strong>Date</strong></td><td>[Submission Date]</td></tr><tr><td><strong>Contact information</strong></td><td>[Name, Email or GitHub username]</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="405">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Submitted by</strong></td><td>[Contributor's nName]</td></tr><tr><td><strong>Date</strong></td><td>[Submission date]</td></tr><tr><td><strong>Contact information</strong></td><td>[Name, Email or GitHub username]</td></tr></tbody></table>
 
 
 

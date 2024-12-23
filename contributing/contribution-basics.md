@@ -61,11 +61,11 @@ git push origin feature/your-feature-name
 
 ***
 
-### Creating a Pull Request (PR)
+### Creating a pull request (PR)
 
 After pushing your branch, create a **pull request (PR)** on GitHub to submit your contribution. This will initiate the review process.
 
-1. Navigate to the CivicTheme repository and click **New Pull Request**.
+1. Navigate to the CivicTheme repository and click **new rull request**.
 2. **Title** your PR clearly to describe what it addresses.
 3. **Link any related issues** (e.g., "Fixes #123") to provide context.
 4. **Describe the changes** in detail, explaining what was changed and why.

@@ -38,7 +38,7 @@ Consider the criteria below before submitting your contribution for consideratio
 
 Once you've established the type of contribution you wish to make, submit your design idea via GitHub to ensure transparency and community discussion.
 
-1. **Create a** [**GitHub**](https://www.github.com) **Account** (if you don’t have one).
+1. **Create a** [**GitHub**](https://www.github.com) **account** (if you don’t have one).
 2. **Go to the** [**CivicTheme UI Kit Project**](https://github.com/orgs/civictheme/projects/1/views/1) and check for existing issues related to your idea.
 3. If your idea isn't listed, [**create a new issue**](https://github.com/civictheme/uikit/issues), using the relevant specification, and we’ll review it.
 
@@ -72,23 +72,23 @@ When saving the file, please use the prefix <mark style="color:blue;">CivicTheme
 
 **Submitting via GitHub:**
 
-1. **Select Contribution Type**:
-   * If it’s a **small contribution**, such as minor tweaks or updates, select "Bug" or "Minor Enhancement" as the issue type.
+1. **Select contribution type**:
+   * If it’s a **small contribution**, such as minor tweaks or updates, select "Bug" or "Minor enhancement" as the issue type.
    * For **medium or major contributions**, select "Feature request."
 2. **Title**:
-   * Include "Design Contribution" in the title, along with the specific focus of your contribution. For example:
-     * _“Design Contribution - Template - Homepage - Mobile”_ or,
-     * _“Design Contribution - Navigation Component - Desktop”_
-3. **User Story**:
+   * Include "Design contribution" in the title, along with the specific focus of your contribution. For example:
+     * _“Design contribution - Template - Homepage - Mobile”_ or,
+     * _“Design contribution - Navigation component - Desktop”_
+3. **User story**:
    * Fill out the "User Story" section in the issue template to describe the context and reasoning for your contribution. Be clear about the **problem** you're addressing and the **proposed solution**.
 4. **Description**:
    * Provide a **detailed description** of your contribution. Include:
-     * **Page and Name**: Reference the page and component name from the Figma file where changes have been made. For example:&#x20;
+     * **Page and name**: Reference the page and component name from the Figma file where changes have been made. For example:&#x20;
        * _Page 05 Mobile Templates | Template - Homepage - Mobile_.
      * **Rationale**: Explain the reasoning behind your change. Why is it necessary? How does it improve CivicTheme's design system?
-     * **Supporting Evidence**: If your contribution is research-backed (e.g., user testing, accessibility standards), provide relevant links or documentation.
+     * **Supporting evidence**: If your contribution is research-backed (e.g., user testing, accessibility standards), provide relevant links or documentation.
      * **Testing**: Indicate whether the change has been tested and provide results if applicable (e.g., design QA, browser/device testing).
-5.  **Contribution Type**:
+5.  **Contribution type**:
 
     * For **small contributions**, provide a brief summary of changes.
     * For **medium contributions**, specify if the component can be reused or extended.

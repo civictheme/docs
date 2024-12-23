@@ -10,7 +10,7 @@
 
 ## Installation
 
-* [Drupal Theme](installation/drupal-theme.md)
+* [Drupal theme](installation/drupal-theme.md)
 
 ## Contributing
 

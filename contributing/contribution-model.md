@@ -14,9 +14,9 @@ Before you start contributing to CivicTheme, review our contribution model. This
 
 CivicTheme welcomes contributions in various forms, from small enhancements to more complex components. The process is designed to assess whether an existing component fulfils the needs, or if a new contribution is necessary. Contributions are categorised into three levels:
 
-* [Small Contribution ](contribution-model.md#light-contribution)
-* [Medium Contribution ](contribution-model.md#medium-contribution)
-* [Major Contribution ](contribution-model.md#heavy-contribution)
+* [Small contribution ](contribution-model.md#light-contribution)
+* [Medium contribution ](contribution-model.md#medium-contribution)
+* [Major contribution ](contribution-model.md#heavy-contribution)
 
 This document outlines each level of contribution and provides guidance on how to determine the most appropriate level for your proposed changes.
 
@@ -37,7 +37,7 @@ A small contribution typically involves minimal changes, such as small adjustmen
 * **Testing**: Ensure your changes do not break existing functionality. Provide tests or manual testing instructions, and ensure you've thoroughly tested prior to submitting.
 * **Code quality**: Maintain consistent code style with the existing CivicTheme codebase.
 
-#### When to Propose a small contribution:
+#### When to propose a small contribution:
 
 * If a component or solution already exists and only minor tweaks are needed.
 * If the functionality of a component is extended without affecting its broader use.
@@ -238,7 +238,7 @@ For most contributions, you’ll need:
 
 * **GitHub account**: To create issues, submit pull requests, and participate in discussions.
 * **Figma**: For design-related contributions (a free tier account is available).
-* **Local Development Environment**: If you're contributing to the codebase, you’ll need to clone the CivicTheme repository and set up the project on your local machine. A tool like VSCode is sufficient.
+* **Local development environment**: If you're contributing to the codebase, you’ll need to clone the CivicTheme repository and set up the project on your local machine. A tool like VSCode is sufficient.
 
 </details>
 

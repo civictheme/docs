@@ -24,19 +24,19 @@ For every citizen.
 
 CivicTheme's development is shaped by contributions from the community, ensuring it evolves to meet the needs of various sectors. Initially developed as a **Drupal theme**, CivicTheme aspires to support a broader range of **languages and frameworks** in the future.
 
-#### Key Components of CivicTheme
+#### Key components of CivicTheme
 
 CivicTheme is comprised of three key components:
 
-1. [**Design System**](./#id-1.-design-system)
-2. [**Supporting Tools, Policies, and Guidelines**](./#id-2.-supporting-tools-policies-and-guidelines)
-3. [**Community of Practice**](./#id-3.-community-of-practice)
+1. [**Design system**](./#id-1.-design-system)
+2. [**Supporting tools, policies, and guidelines**](./#id-2.-supporting-tools-policies-and-guidelines)
+3. [**Community of practice**](./#id-3.-community-of-practice)
 
 
 
 ***
 
-### 1. Design System
+### 1. Design system
 
 CivicTheme is built around the principles of **atomic design**, meaning it provides a scalable, reusable set of components that can be combined to build digital interfaces. The **Design System** exists as both a **visual guide in Figma** and a **component library in Storybook**.
 
@@ -48,7 +48,7 @@ CivicTheme is built around the principles of **atomic design**, meaning it provi
 
 ***
 
-### 2. Supporting Tools, Policies, and Guidelines
+### 2. Supporting tools, policies, and guidelines
 
 CivicTheme is more than just a design system; it also offers a set of **supporting tools**, **policies**, and **guidelines** to ensure a smooth development process, maintain consistency, and promote best practices. This includes:
 
@@ -60,7 +60,7 @@ CivicTheme is more than just a design system; it also offers a set of **supporti
 
 ***
 
-### 3. Community of Practice
+### 3. Community of practice
 
 At the heart of CivicTheme is a **community of practice** composed of **government agencies**, **digital agencies**, and **individual contributors**. This community actively uses, maintains, and improves CivicTheme.
 
@@ -71,7 +71,7 @@ At the heart of CivicTheme is a **community of practice** composed of **governme
 
 ***
 
-### Expanding Beyond Drupal
+### Expanding beyond drupal
 
 Although CivicTheme originated as a **Drupal theme**, it is designed to be flexible and adaptable to support other frameworks and content management systems in the future. Currently, the **Drupal theme** provides all the necessary configurations to integrate CivicTheme’s UI Kit components with **Drupal CMS**. The components aim to meet **WCAG 2.2 AA** standards, as compliance and accessibility are core features.
 
@@ -79,14 +79,14 @@ Although CivicTheme originated as a **Drupal theme**, it is designed to be flexi
 
 ***
 
-### Demo Sites
+### Demo sites
 
 To explore CivicTheme in action, you can view a variety of demo sites tailored to different industries:
 
-* [Default CivicTheme Build](https://default.civictheme.io/) – Latest stable build. Use the "Generated content" menu item to explore multiple component variants.
-* [Government Demo](https://government.civictheme.io/) – CivicTheme adapted for government sector content.
-* [Higher Education Demo](https://higher-education-university.civictheme.io/) – Example of CivicTheme tailored for higher education.
-* [Corporate Demo](https://corporate.civictheme.io/) – CivicTheme for corporate industry content.
+* [Default CivicTheme build](https://default.civictheme.io/) – Latest stable build. Use the "generated content" menu item to explore multiple component variants.
+* [Government demo](https://government.civictheme.io/) – CivicTheme adapted for government sector content.
+* [Higher Education demo](https://higher-education-university.civictheme.io/) – Example of CivicTheme tailored for higher education.
+* [Corporate demo](https://corporate.civictheme.io/) – CivicTheme for corporate industry content.
 
 
 
@@ -94,11 +94,11 @@ To explore CivicTheme in action, you can view a variety of demo sites tailored t
 
 ### Resources
 
-* [CivicTheme Official Site](https://www.civictheme.io/)
+* [CivicTheme official site](https://www.civictheme.io/)
 * [CivicTheme Figma file](https://www.figma.com/design/i5NTcjBsg2zVjAxUvOl5oU/CivicTheme%3A-Design-System-v1.8.0?node-id=0-1\&t=8Ku5pqx9XeNMv3s1-0)
-* [UI Kit GitHub Repository](https://github.com/civictheme/civictheme-ui-kit)
-* [Drupal Theme GitHub Repository](https://github.com/civictheme/civictheme-drupal)
-* [CivicTheme Slack Channel](https://drupal.slack.com/archives/C039UV0CQBZ)
+* [UI Kit GitHub repository](https://github.com/civictheme/civictheme-ui-kit)
+* [Drupal Theme GitHub repository](https://github.com/civictheme/civictheme-drupal)
+* [CivicTheme slack channel](https://drupal.slack.com/archives/C039UV0CQBZ)
 * [CivicTheme Storybook](https://uikit.civictheme.io/?path=/story/welcome--welcome)
 
 

@@ -21,11 +21,11 @@ If you're proposing a major feature or substantial change to CivicTheme, your co
 
 ### Component overview
 
-<table data-full-width="false"><thead><tr><th width="411">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Component name</strong></td><td>[Insert Component Name]</td></tr><tr><td><strong>Type</strong></td><td>[Atom, Molecule, Organism, etc.]</td></tr><tr><td><strong>Intended purpose</strong></td><td>Comprehensive explanation of the component’s purpose and its role within CivicTheme.</td></tr><tr><td><strong>Primary use case</strong></td><td>[Define primary scenarios for its use.]</td></tr><tr><td><strong>Secondary use case</strong></td><td>[List other potential uses.]</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="411">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Component name</strong></td><td>[Insert component name]</td></tr><tr><td><strong>Type</strong></td><td>[Atom, Molecule, Organism, etc.]</td></tr><tr><td><strong>Intended purpose</strong></td><td>Comprehensive explanation of the component’s purpose and its role within CivicTheme.</td></tr><tr><td><strong>Primary use case</strong></td><td>[Define primary scenarios for its use.]</td></tr><tr><td><strong>Secondary use case</strong></td><td>[List other potential uses.]</td></tr></tbody></table>
 
 ### Existing patterns/components
 
-<table data-full-width="false"><thead><tr><th width="410">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Do any existing patterns fulfill this need?</strong></td><td>[Yes/No. If yes, reference relevant patterns and explain why they do not suffice.]</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="410">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Do any existing patterns fulfil this need?</strong></td><td>[Yes/No. If yes, reference relevant patterns and explain why they do not suffice.]</td></tr></tbody></table>
 
 ### References and inspiration
 
@@ -57,7 +57,7 @@ If you're proposing a major feature or substantial change to CivicTheme, your co
 
 ### Submission details
 
-<table data-full-width="false"><thead><tr><th width="405">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Submitted By</strong></td><td>[Contributor's Name]</td></tr><tr><td><strong>Date</strong></td><td>[Submission Date]</td></tr><tr><td><strong>Contact Information</strong></td><td>[Name, Email or GitHub username]</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="405">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Submitted By</strong></td><td>[Contributor's name]</td></tr><tr><td><strong>Date</strong></td><td>[Submission date]</td></tr><tr><td><strong>Contact Information</strong></td><td>[Name, Email or GitHub username]</td></tr></tbody></table>
 
 
 

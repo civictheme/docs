@@ -44,7 +44,7 @@ description: >-
 
 ### Submission details
 
-<table data-full-width="false"><thead><tr><th width="405">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Submitted by</strong></td><td>[Contributor's Name]</td></tr><tr><td><strong>Date</strong></td><td>[Submission Date]</td></tr><tr><td><strong>Contact information</strong></td><td>[Name, Email or GitHub username]</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="405">Field</th><th>Description</th></tr></thead><tbody><tr><td><strong>Submitted by</strong></td><td>[Contributor's name]</td></tr><tr><td><strong>Date</strong></td><td>[Submission date]</td></tr><tr><td><strong>Contact information</strong></td><td>[Name, email or GitHub username]</td></tr></tbody></table>
 
 
 
