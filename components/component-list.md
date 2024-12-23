@@ -18,16 +18,16 @@ For a visual list of our components, please check out the [Figma file](https://w
 
 The foundation of CivicTheme includes variables and tokens that ensure consistency in design, enabling scalable, maintainable, and reusable components.
 
-* **Colours**
-* **Background**
-* **Elevation**
-* **Fonts**
-* **Grid**
-* **Icon**
-* **Image**
-* **Item List**
-* **Layout**
-* **Spacing**
+* Colours
+* Background
+* Elevation
+* Fonts
+* Grid
+* Icon
+* Image
+* Item List
+* Layout
+* Spacing
 
 These base elements define the **core design framework**, supporting the styling and layout for all components within CivicTheme.
 
@@ -37,11 +37,11 @@ These base elements define the **core design framework**, supporting the styling
 
 Atoms are the simplest, most basic building blocks in CivicTheme. They represent single UI elements and are designed for **high reusability** across various contexts.
 
-* **Back To Top**
-* **Button**
-* **Chip**
-* **Content Link**
-* **Form Control**
+* Back To Top
+* Button
+* Chip
+* Content Link
+* Form Control
   * Checkbox
   * Field Description
   * Field Message
@@ -51,15 +51,15 @@ Atoms are the simplest, most basic building blocks in CivicTheme. They represent
   * Select
   * Textarea
   * Textfield
-* **Heading**
-* **Link**
-* **Paragraph**
-* **Popover**
-* **Quote**
-* **Table**
-* **Tag**
-* **Text List**
-* **Toggle**
+* Heading
+* Link
+* Paragraph
+* Popover
+* Quote
+* Table
+* Tag
+* Text List
+* Toggle
 
 ***
 
@@ -67,32 +67,32 @@ Atoms are the simplest, most basic building blocks in CivicTheme. They represent
 
 Molecules combine two or more atoms to form **functional UI elements**. These components are slightly more complex and include grouped elements with interactive behaviour.
 
-* **Accordion**
-* **Attachment**
-* **Breadcrumb**
-* **Callout**
-* **Event Card**
-* **Field**
-* **Figure**
-* **Group Filter**
-* **Logo**
-* **Map**
-* **Navigation Card**
-* **Next Step**
-* **Pagination**
-* **Price Card**
-* **Promo Card**
-* **Publication Card**
-* **Search**
-* **Service Card**
-* **Single Filter**
-* **Snippet**
-* **Subject Card**
-* **Table of Contents**
-* **Tabs**
-* **Tag List**
-* **Tooltip**
-* **Video Player**
+* Accordion
+* Attachment
+* Breadcrumb
+* Callout
+* Event Card
+* Field
+* Figure
+* Group Filter
+* Logo
+* Map
+* Navigation Card
+* Next Step
+* Pagination
+* Price Card
+* Promo Card
+* Publication Card
+* Search
+* Service Card
+* Single Filter
+* Snippet
+* Subject Card
+* Table of Contents
+* Tabs
+* Tag List
+* Tooltip
+* Video Player
 
 ***
 
@@ -100,21 +100,21 @@ Molecules combine two or more atoms to form **functional UI elements**. These co
 
 Organisms are **highly structured, composite components** consisting of multiple atoms and molecules working together. These components define the most complex reusable patterns.
 
-* **Alert**
-* **Banner**
-* **Campaign**
-* **Carousel**
-* **Footer**
-* **Header**
-* **List**
-* **Message**
-* **Mobile Navigation**
-* **Navigation**
-* **Promo**
-* **Side Navigation**
-* **Skip Link**
-* **Slider**
-* **Social Links**
+* Alert
+* Banner
+* Campaign
+* Carousel
+* Footer
+* Header
+* List
+* Message
+* Mobile Navigation
+* Navigation
+* Promo
+* Side Navigation
+* Skip Link
+* Slider
+* Social Links
 
 ***
 
