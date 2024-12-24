@@ -4,7 +4,7 @@ The Primary navigation is the main navigation for your website. It appears at th
 
 <figure><img src="../../../.gitbook/assets/primary-menu.png" alt=""><figcaption></figcaption></figure>
 
-### Configuring the Primary navigation
+### Creating menu links
 
 How your roles and permissions have been configured will determine who can access and configure the menus. If your roles and permissions are _out of the box_, then only the Site Administrator (and Administrator) can edit the menus.&#x20;
 
@@ -43,11 +43,32 @@ Weights are also applied to child menu links.
 
 <div><figure><img src="../../../.gitbook/assets/primary-row-weights.png" alt=""><figcaption><p>Use row weights to reorder menu links</p></figcaption></figure> <figure><img src="../../../.gitbook/assets/primary-row-weights-2.png" alt=""><figcaption><p>Select the weight in the dropdown</p></figcaption></figure></div>
 
-### Enable menu links
+### Enabling menu links
 
 To show a menu link item in the navigation the `Enabled` checkbox must be filled.&#x20;
 
 If you want to hide the link from the menu, uncheck the box. If you hide a menu link, any child menu links will also be hidden from the menu.
+
+### Configuring the menu style
+
+CivicTheme has three menu styles:
+
+* None
+* Dropdown
+* Drawer
+
+**Note:** at the time of writing, the styles `None` and `Dropdown` are broken. Examples will be added when these are fixed.&#x20;
+
+To configure the menu style:
+
+1. Go to the Primary navigation setting at `/admin/appearance/settings/[site-name]`
+2. Scroll down and click to open `Navigation`
+3. In the `Dropdown type`  select the desired style
+4. Save the configuration
+
+#### Drawer
+
+<figure><img src="../../../.gitbook/assets/Drawer.png" alt=""><figcaption><p>Drawer style menu displaying child menu links. Note: news &#x26; events has no child menu links.</p></figcaption></figure>
 
 ### Editing menu settings from the node (page) itself
 
