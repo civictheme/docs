@@ -1,3 +1,3 @@
-# Seconday navigation
+# Secondary navigation
 
 This page is in development.

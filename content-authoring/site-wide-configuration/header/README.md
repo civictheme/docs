@@ -4,7 +4,7 @@ The header section appears at the top of your website. It comprises:
 
 1. [Site slogan](site-slogan.md)
 2. [Header logos](logo.md)
-3. [Secondary navigation](secondary-navigation.md)
+3. [Secondary navigation](seconday-navigation.md)
 4. [Primary navigation](navigation.md)
 
 ### Configuring the Header

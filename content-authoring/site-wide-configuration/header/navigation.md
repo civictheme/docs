@@ -1,6 +1,6 @@
 # Primary navigation
 
-The Primary navigation is the main navigation for your website. It appears at the top of the page on the desktop (below the Secondary navgation).&#x20;
+The Primary navigation is the main navigation for your website. It appears at the top of the page on the desktop below the Secondary navigation.&#x20;
 
 <figure><img src="../../../.gitbook/assets/primary-menu.png" alt=""><figcaption></figcaption></figure>
 

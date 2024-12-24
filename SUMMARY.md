@@ -37,7 +37,7 @@
     * [Site slogan](content-authoring/site-wide-configuration/header/site-slogan.md)
     * [Header logos](content-authoring/site-wide-configuration/header/logo.md)
     * [Primary navigation](content-authoring/site-wide-configuration/header/navigation.md)
-    * [Secondary navigation](content-authoring/site-wide-configuration/header/secondary-navigation.md)
+    * [Secondary navigation](content-authoring/site-wide-configuration/header/seconday-navigation.md)
   * [Banner](content-authoring/site-wide-configuration/banner-block.md)
   * [Search](content-authoring/site-wide-configuration/search-block.md)
   * [Link](content-authoring/site-wide-configuration/link.md)
