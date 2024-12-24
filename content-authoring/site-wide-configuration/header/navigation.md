@@ -48,3 +48,16 @@ Weights are also applied to child menu links.
 To show a menu link item in the navigation the `Enabled` checkbox must be filled.&#x20;
 
 If you want to hide the link from the menu, uncheck the box. If you hide a menu link, any child menu links will also be hidden from the menu.
+
+### Editing menu settings from the node (page) itself
+
+You can also access menu settings for an individual page from the page itself.&#x20;
+
+1. Go to the page in question, and enter edit mode
+2. On the right side of the edit interface click to open `Menu settings`
+3. Add a Menu link. This is the link that will display in the navigation. If possible, it should match the page title. If the page title is very long you may consider shortening the Menu link.
+4. Add a description if desired. The description displays when a user hovers over the Menu link.
+5. Select the Parent link by opening the dropdown. If the menu is very large it can be challenging to find the right parent, and it might be easier to do this part in the Primary navigation settings as above.
+6. Assign a weight. Again, if the menu is large it might be easier to go to the Primary navigation settings and use the handles to drag it to the right position or view the row weights for the entire menu to know which weight to assign.&#x20;
+
+<div align="left"><figure><img src="../../../.gitbook/assets/in-page-menu-settings.png" alt="In page menu link settings screenshot" width="375"><figcaption></figcaption></figure></div>
