@@ -45,3 +45,21 @@ The following table illustrates the different Logo styles using example logos:
 * Inline stacked (requires two logos)
 
 <table data-header-hidden><thead><tr><th width="228.33333333333331"></th><th></th><th></th></tr></thead><tbody><tr><td><strong>Logo type</strong></td><td><strong>Desktop output</strong></td><td><strong>Mobile output</strong></td></tr><tr><td><strong>Default</strong><br>Uses the Primary logo only</td><td><img src="../../../.gitbook/assets/2642903128.png" alt=""></td><td><img src="../../../.gitbook/assets/2642903128.png" alt=""></td></tr><tr><td><strong>Stacked</strong><br>Uses both the Primary &#x26; Secondary logos</td><td><img src="../../../.gitbook/assets/2643329071.png" alt=""></td><td><img src="../../../.gitbook/assets/2643329071.png" alt=""></td></tr><tr><td><strong>Inline</strong><br>Desktop uses both Primary &#x26; Secondary.<br>Mobile uses Primary only.</td><td><img src="../../../.gitbook/assets/2642640970.png" alt=""></td><td><img src="../../../.gitbook/assets/2642903128.png" alt=""></td></tr><tr><td><strong>Inline stacked</strong><br>Desktop (inline) &#x26; mobile (stacked) both use both Primary &#x26; Secondary logos.</td><td><img src="../../../.gitbook/assets/2643329079.png" alt=""></td><td><img src="../../../.gitbook/assets/2643329071.png" alt=""></td></tr></tbody></table>
+
+### Logo examples in the Header
+
+#### Light theme desktop
+
+<figure><img src="../../../.gitbook/assets/header-light-default-desktop.png" alt=""><figcaption><p>Light theme desktop Header with Logo set to Default</p></figcaption></figure>
+
+#### Light theme mobile
+
+<div align="left"><figure><img src="../../../.gitbook/assets/header-light-default-mobile.png" alt="" width="375"><figcaption><p>Light theme mobile Header with Logo set to Default</p></figcaption></figure></div>
+
+#### Dark theme Inline stacked (logo) desktop
+
+<figure><img src="../../../.gitbook/assets/header-dark-inline-stacked-desktop.png" alt=""><figcaption><p>Dark theme desktop Header with Logo set to Inline stacked</p></figcaption></figure>
+
+#### Dark theme Inline stacked (logo) mobile
+
+<div align="left"><figure><img src="../../../.gitbook/assets/header-dark-inline-stacked-mobile.png" alt="" width="375"><figcaption><p>Dark theme mobile Header with Logo set to Inline stacked</p></figcaption></figure></div>
