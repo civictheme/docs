@@ -2,7 +2,7 @@
 description: This page explains how to install, update, and manage CivicTheme in Drupal
 ---
 
-# Drupal Theme
+# Drupal theme
 
 ## CivicTheme Drupal installation guide
 
@@ -236,9 +236,10 @@ or download the [latest version](https://www.drupal.org/project/civictheme/relea
     drush updb
     drush cex
     ```
-2. Re-provision the site with updated configuration.
-3. Check that everything looks good.
-4. Commit exported configuration files and deploy to the non-production environment for testing.
+2. Check if any new regions have been introduced.
+3. Re-provision the site with updated configuration.
+4. Check that everything looks good.
+5. Commit exported configuration files and deploy to the non-production environment for testing.
 
 ### Tooling update
 
