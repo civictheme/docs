@@ -110,13 +110,15 @@ CivicTheme MUST be enabled before your custom theme is enabled
 {% endhint %}
 
 ```bash
+# Clear Drupal cache.
+ahoy drush cr
 # Enable CivicTheme and set as default.
-ahoy drush theme:enable -y civictheme
+ahoy drush theme:enable civictheme
 ahoy drush config-set -y system.theme default civictheme
 ahoy drush config-set -y media.settings standalone_url true
 
 # Enable admin theme and set as default (optional).
-ahoy drush theme:enable -y adminimal_theme
+ahoy drush theme:enable adminimal_theme
 ahoy drush config-set -y system.theme admin adminimal_theme
 ```
 
@@ -129,13 +131,18 @@ Install it locally to automatically remove the configuration from DB to later ha
 1.  Run in CLI container (`ahoy cli`):
 
     ```sh
-    cd web/modules/contrib
+    
+    # If `web/modules/contrib` is not writable, you can use an alternative directory `web/themes/custom/civictheme` etc.
+    mkdir -p /app/web/themes/custom/civictheme/modules
+    cd /app/web/themes/custom/civictheme/modules
 
     # Download and extract the helper module.
     # Ensure to use the latest tag (not Release) https://github.com/civictheme/civictheme_govcms/tags
-    wget https://github.com/civictheme/civictheme_govcms/archive/refs/tags/<latest-tag>.tar.gz && tar -xvf <latest-tag>.tar.gz && rm <latest-tag>.tar.gz
+    wget https://github.com/civictheme/civictheme_govcms/archive/refs/tags/<latest-tag>.tar.gz && tar -xvf <latest-tag>.tar.gz && rm <latest-tag>.tar.gz && mv civictheme_govcms-<latest-tag> civictheme_govcms
 
+    
     # Enable module, run the command to remove entities and uninstall a module.
+    drush cr
     drush pm-enable -y civictheme_govcms
     drush civictheme_govcms:remove-config --preserve=user_roles
     drush pm-uninstall -y civictheme_govcms
