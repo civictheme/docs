@@ -1,6 +1,6 @@
-# Drupal theme
+# Drupal theme Installation and Setup
 
-### Installation
+## Install CivicTheme
 
 ```
 composer require drupal/civictheme
@@ -12,26 +12,54 @@ Alternatively, you can download the [latest version](https://www.drupal.org/proj
 Note that Drupal core has a known [issue](https://www.drupal.org/node/3204271) and a [patch](https://www.drupal.org/files/issues/2023-07-16/3204271-20-missing-layout-exception.patch) would need to be installed on your site.
 {% endhint %}
 
+## Install Contrib modules
+
+CivicTheme has required dependencies on [contrib modules](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme.info.yml#L11) and optional dependencies on
+search_api.
+
+These dependencies need to be downloaded and installed before you are able to install CivicTheme.
+
+### GovCMS SaaS specific installation instructions
+
+See [Using in GovCMS SaaS](using-in-govcms-saas.md) for specific GovCMS SaaS instructions.
+
 ### Usage
 
 CivicTheme can be used as a no-code Drupal theme with some of the configurations done on theme settings page.
 
-Enable required modules (Drupal [allows themes to declare module dependencies](https://www.drupal.org/node/2937955), but [does not yet allow those modules to be enabled automatically](https://www.drupal.org/project/drupal/issues/3100374)):
+
+### Enabling contrib modules
+
+Due to Drupal [allowing themes to declare module dependencies](https://www.drupal.org/node/2937955), but [does not yet allow those modules to be enabled automatically](https://www.drupal.org/project/drupal/issues/3100374)).
+
+The contrib module dependencies need to enabled manually or with an automated script:
+
+#### Enable required modules only
+
+```sh
+drush ev "require_once dirname(\Drupal::getContainer()->get('theme_handler')->rebuildThemeData()['civictheme']->getPathname()) . '/theme-settings.provision.inc'; civictheme_enable_modules(FALSE);"
+```
+
+#### Enable required and optional modules
 
 ```sh
 drush ev "require_once dirname(\Drupal::getContainer()->get('theme_handler')->rebuildThemeData()['civictheme']->getPathname()) . '/theme-settings.provision.inc'; civictheme_enable_modules();"
 ```
 
-Clear caches
+### Clear caches
 
 ```sh
 drush cr
 ```
+
+### Enable CivicTheme
 
 Enable the theme in UI or with Drush:
 
 ```sh
 drush then civictheme
 ```
+
+### Setting up a sub-theme
 
 See [Sub-theme](sub-theme.md) section to create a sub-theme and use CivicTheme as a base theme.
