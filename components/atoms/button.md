@@ -6,179 +6,144 @@ description: >-
 
 # Button
 
-Example image:&#x20;
-
-<figure><img src="../../.gitbook/assets/Screenshot 2024-10-01 at 11.25.25 am.png" alt=""><figcaption></figcaption></figure>
+Buttons provide users with the ability to submit an action or follow a link to another location.
 
 ### When to use
 
-Use buttons to enable user interactions and initiate actions within your interface. Buttons are ideal for:
+Use the button component when you need users to:
 
-* Submitting forms
-* Triggering modal dialogs
-* Navigating between pages
-* Applying changes or settings
-* Initiating processes or transactions
+* Submit a form
+* Trigger an action like opening a modal, starting a process, or revealing hidden content
+* Navigate to another page or section of the site
+* Download a file
+* Confirm an action or decision
+
+Buttons are appropriate when the action is a key task or primary user journey on the page.
 
 ### When not to use
 
-Avoid using buttons in the following scenarios:
+Do not use the button component when:
 
-* For non-interactive text or labels (use regular text instead)
-* As a replacement for links within body content (use inline links)
-* To represent toggle states (use checkboxes or toggle switches)
-* When an action is automatic and doesn't require user initiation
+* The action is of secondary importance on the page - consider using a link instead
+* You need to create a link within a paragraph of text - use a text link instead
+* You need to create a complex interactive element - consider using a more specialised component
+* The action would be better represented by a different component like a dropdown menu, toggle switch, or checkbox
+
+***
 
 ### Best practice guidelines
 
-1. Use clear, action-oriented labels that describe what the button does
-2. Ensure buttons are easily clickable/tappable, with appropriate sizing and spacing
-3. Maintain consistent styling for button types across your interface
-4. Use colour and prominence to indicate button hierarchy (primary, secondary, tertiary)
-5. Provide visual feedback for all button states (hover, focus, active, disabled)
-6. Ensure sufficient colour contrast between button text and background
-7. Group related buttons together and align them consistently
-8. Avoid using too many buttons in a single view to prevent overwhelming users
-
-
-
-***
+* **Action-oriented labels**: Use clear, concise, and action-oriented text that describes what will happen when the button is clicked (e.g., "Submit application" rather than "Click here")
+* **Hierarchy**: Use primary buttons for the most important actions, secondary buttons for alternative options, and tertiary buttons for less important functions
+* **Size appropriate to context**: Choose the appropriate button size (large, regular, small) based on the context and importance of the action
+* **Consistent placement**: Place buttons consistently throughout the interface to create predictable patterns for users
+* **Adequate spacing**: Ensure sufficient space between buttons and other elements to prevent accidental clicks, especially on mobile devices
+* **Visual feedback**: Provide clear visual feedback for all interactive states (hover, focus, pressed/active, disabled)
+* **Icons with purpose**: If using icons within buttons, ensure they enhance understanding and provide visual reinforcement of the action
+* **Accessible colour contrast**: Maintain sufficient colour contrast between the button and its background, as well as between the button text and button background
+* **Responsive design**: Ensure buttons work well across all screen sizes and devices
 
 ### Variations
 
-{% embed url="https://www.figma.com/design/pQSOlgXXzzDR8S3KYZNiuo/CivicTheme%3A-Design-System-v1.8.0---DEMIRS?node-id=2871-32604&t=2EC7XuC4KrUbT3qE-1" %}
+{% embed url="https://www.figma.com/design/nXTZFR1mKPLExtEbYtazzD/CivicTheme--Design-System-v1.9.0?node-id=2871-32604&t=mpeAG9TsCSheJs4e-1" %}
+
+* **Primary buttons**: Used for the most important actions on a page
+* **Secondary buttons**: Used for alternative or secondary actions
+* **Tertiary buttons**: Used for less important functions or in space-constrained situations
+* **Button sizes**: Available in large, regular, and small options
+* **Icon placement**: Options include icons to the right, left, or no icon
+* **Button states**: Default, focus, hover, pressed, and disabled
+* **Directional variants**: Forward (right arrow), back (left arrow), and external (external link icon)
 
 ***
-
-
 
 ### Accessibility
 
-Based on the CivicTheme v1.7.0 Accessibility Assessment, the Button component has been evaluated against WCAG 2.2 guidelines. Here's a summary of its compliance:
+This component has been assessed against WCAG 2.2 guidelines with detailed test results available in the CivicTheme accessibility documentation.
 
-Total tests: 12 Passed: 11 Failed: 1
+Summary of the most recent accessibility test results:
 
-| Total tests | Passed | Failed |
-| ----------- | ------ | ------ |
-| 11          | 10     | 1      |
+<table><thead><tr><th width="256.22265625">WCAG Criterion</th><th width="78.24609375">Level</th><th width="95.73828125">Status</th><th>Notes</th></tr></thead><tbody><tr><td>1.4.3 Contrast (Minimum)</td><td>AA</td><td>Pass</td><td></td></tr><tr><td>1.4.4 Resize text</td><td>AA</td><td>Pass</td><td></td></tr><tr><td>1.4.11 Non-text Contrast</td><td>AA</td><td>Pass</td><td></td></tr><tr><td>1.4.12 Text Spacing</td><td>AA</td><td>Pass</td><td></td></tr><tr><td>2.1.1 Keyboard</td><td>A</td><td>Pass</td><td></td></tr><tr><td>2.4.4 Link Purpose (In Context)</td><td>A</td><td>Pass</td><td></td></tr><tr><td>2.4.7 Focus Visible</td><td>AA</td><td>Pass</td><td></td></tr><tr><td>2.5.8 Target Size (Minimum)</td><td>AA</td><td>Fail</td><td>The size of targets for pointer inputs does not meet the minimum 24×24 CSS pixel requirement</td></tr><tr><td>3.2.2 On Input</td><td>A</td><td>Pass</td><td></td></tr><tr><td>3.2.3 Consistent Navigation</td><td>AA</td><td>Pass</td><td></td></tr><tr><td>3.2.4 Consistent Identification</td><td>AA</td><td>Pass</td><td></td></tr></tbody></table>
 
-Refer to the 'Buttons' accessibility compliance statement for a detailed WCAG 2.2 testing report.
-
-
-
-The Button component passes most accessibility criteria, including contrast ratios, keyboard accessibility, focus visibility, and consistent identification. However, it fails on one criterion:
-
-2.5.8 Target Size (Minimum) (Level AA): The size of the target for pointer inputs is not at least 24 by 24 CSS pixels.
-
-This indicates that while the Button component is largely accessible, there is room for improvement in terms of its target size for better usability, especially for users with motor impairments.
-
-
-
-***
+This component meets most accessibility requirements but needs improvement to meet the WCAG 2.2 target size criteria.
 
 ### Security
 
-\[No specific security considerations for the Button component] / TBD&#x20;
+No specific security considerations have been identified for this component beyond standard web security practices.
 
+### Component inspiration and uplift
 
+This component has been modelled after the Buttons component in the former Australian Government Design System (AGDS). It has been uplifted by Salsa Digital, as the custodian of the CivicTheme Design System, in the following ways:
 
-***
-
-### Existing usage of this component
-
-The Button component is widely used across government, corporate, and educational websites built with CivicTheme. Some examples include:
-
-1. Department of Industry, Science and Resources
-2. Australian Digital Health Agency
-3. Fair Work Ombudsman
-4. University of Technology Sydney
-5. City of Melbourne
-
-\[Disclaimer: Component usage on these sites was accurate at the time of publication. Please verify the current implementation.]
-
-
-
-### Component inspiration and uplift:&#x20;
-
-The Button component was inspired by design work done in the Australian Government Design System (AGDS). CivicTheme has uplifted the element in the following ways:
-
-1. Expanded size options: Added large and small variants to the standard size
-2. Enhanced iconography: Included options for left/right icons and download indicators
-3. Improved states: Refined hover, focus, and disabled states for better visual feedback
-4. Accessibility enhancements: Improved colour contrast and focus indicators
-
-
+* **Size variations**: All CivicTheme buttons come in large, regular and small options. The regular-sized buttons are based on GOLD Design System size guidelines and are intended to be the most commonly used format. The larger-sized button has been included for pages with a single primary goal (e.g., a campaign landing page).
+* **Iconography integration**: Each variant of CivicTheme's call to actions includes the option to add appropriate iconography based on their functionality, such as directional arrows for navigation, external link icons for external destinations, and download icons for downloadable content.
+* **Enhanced states**: The existing disabled states of the Australian Design System's button have been improved to provide better contrast required for WCAG 2.1 standards, ensuring higher visual hierarchy distinction while maintaining legibility.
 
 ***
 
-### Research on this component
+### User research on this component
 
-#### UX Score: ★★★★☆ (4 out of 5 stars)
+★★★★☆ Confidence rating = High (Informed by general design pattern research)
 
-#### Confidence rating: High
+While specific user research data conducted by CivicTheme for this component is not available, the button component is one of the most thoroughly researched UI elements across digital platforms. The implementation in CivicTheme follows established patterns that have been validated through extensive industry research.
 
-The Button component has been extensively researched and tested across multiple CivicTheme projects and other government design systems. Key research findings include:
+General research findings consistently show:
 
-1. Usability testing: Conducted 5 rounds of user testing with a total of 50 participants across various government agencies. Tests focused on button recognition, interaction, and effectiveness in completing tasks.
-2. A/B testing: Performed on button placement, colour, and label text across 3 high-traffic government websites, involving over 10,000 users.
-3. Accessibility audits: Comprehensive audits conducted by external accessibility experts, ensuring WCAG 2.1 AA compliance.
-4. Comparative analysis: Examined button implementations across 10 leading government and corporate design systems to identify best practices and areas for improvement.
+* Users expect buttons to look and behave in familiar ways, with clear visual affordances that indicate they can be clicked
+* Primary buttons with strong visual styling receive higher engagement rates
+* Users prefer buttons with clear, action-oriented labels
+* Buttons with appropriate size and spacing reduce error rates, especially on mobile devices
 
-#### Key insights:
+More specific user research for the CivicTheme button component would be beneficial to validate these general findings within the specific context of government websites.
 
-* Users consistently recognize and understand the purpose of buttons across different visual styles
-* Clear, action-oriented labels significantly improve task completion rates
-* Proper visual hierarchy (primary vs secondary buttons) helps users prioritize actions
-* Consistent button styling across an interface increases user confidence and reduces cognitive load
+### Known issues
 
-For detailed research methodology and findings, please refer to our [Button Component Research Report](https://example.com/button-research).
+* **Target size compliance**: As noted in the accessibility assessment, the button component does not currently meet WCAG 2.2 criterion 2.5.8 for minimum target size (24x24 CSS pixels), which may impact users with motor control difficulties.
+* **Mobile responsiveness**: On very small screens, buttons with lengthy text may break to multiple lines, affecting visual consistency.
+* **Icon alignment**: In certain browser and screen size combinations, icon alignment within buttons may shift slightly from the intended design.
 
-View the [submissions register](https://example.com/button-submissions) for a complete history of research contributions for this component.
+### More research needed
 
-#### Known issues:
+Additional research would be beneficial in the following areas:
 
-1. On some mobile devices, the touch target area for small buttons may be slightly below the recommended size guidelines. This is being addressed in an upcoming release.
+* User preference and effectiveness of different button sizes across various device types
+* Performance of different icon placements (left, right) for specific user tasks
+* Optimal button placement for multi-step processes in government service contexts
+* Button label effectiveness for government-specific actions and terminology
+* Impact of button styling on user trust and confidence when performing critical actions
 
-#### More research needed:
+If you have conducted user research that addresses these areas, you can submit your findings to help improve this component.
 
-1. Long-term impact of button colour schemes on user trust and brand perception
-2. Effectiveness of animated button states in improving user engagement
-3. Cultural differences in button label preferences and understanding
+### Help improve this component
 
-To contribute research on these topics, please review our [research contribution guidelines](https://example.com/contribute-research) and refer to the submissions register to ensure your findings haven't already been submitted.
+To help make this component more useful and up-to-date, you can:
 
-#### Help improve this component:
+* Contribute to our button component discussion on GitHub
+* Submit your user research findings to help improve the button component
+* Propose a change to address the target size accessibility issue
+* Suggest improvements to the component documentation
 
-1. Contribute a design change through the [contribution process](../../contributing/contribution-model.md)
-2. Submit a [GitHub issue](https://github.com/civictheme/civictheme/issues) for bugs or feature requests
-3. Propose changes through a [pull request](https://github.com/civictheme/civictheme/pulls)
-4. Share your user research findings related to the Button component
-
-
+Check out our [contributing section](../../contributing/contribution-model.md) to learn more.
 
 ***
 
 ### Resources
 
-* [Figma Design File](https://example.com/button-figma)
-* [Storybook Documentation](https://example.com/button-storybook)
+* [Figma](https://www.figma.com/design/nXTZFR1mKPLExtEbYtazzD/CivicTheme--Design-System-v1.9.0?node-id=2871-32604\&t=pgR0cOKiZtpSZwCB-1)
+* Storybook
+* GitHub
 
 ### References
 
-1. Nielsen Norman Group. (2023). Button UX Design: Best Practices and Examples. https://www.nngroup.com/articles/button-ux-design/
-2. Whitenton, K. (2022). Beyond Blue Links: Making Clickable Elements Recognizable. Nielsen Norman Group. https://www.nngroup.com/articles/clickable-elements/
-3. W3C. (2023). Web Content Accessibility Guidelines (WCAG) 2.1. https://www.w3.org/TR/WCAG21/
+* W3C Web Content Accessibility Guidelines (WCAG) 2.2
+* Nielsen Norman Group: Button UX Design Best Practices, Types and States
+* Australian Government Design System (AGDS) Button Component Guidelines
+* Web Accessibility Initiative (WAI) ARIA Authoring Practices
 
 ### Changelog
 
-* v1.8.0 (2024-07-23): Added large button variant, improved focus states
-* v1.7.0 (2024-03-15): Enhanced colour contrast for better accessibility
-* v1.6.0 (2023-11-30): Introduced icon support for buttons
+<table><thead><tr><th width="153.56640625">Version</th><th width="156.328125">Date</th><th>Changes</th></tr></thead><tbody><tr><td>1.8.0</td><td>23 Jul 2024</td><td>Renamed Buttons to Button</td></tr><tr><td>1.7.0</td><td>20 Mar 2024</td><td>Updated to WCAG 2.2 compliance testing</td></tr><tr><td>1.6.0</td><td>[Date]</td><td>[Changes]</td></tr></tbody></table>
 
+### Contact us
 
-
-***
-
-## Feedback
-
-We're always looking at ways to improve our model for contributions, and rely on your feedback to ensure an enjoyable contribution experience. The best way to give us feedback is to join our [Slack channel ](https://drupal.slack.com/archives/C039UV0CQBZ)and chat to us there, or contact us via [email](mailto:support@civictheme.io)!
+If you have a question about the CivicTheme design system or need our help, visit the [Getting Help](../../getting-started/getting-help.md) page for guidance.

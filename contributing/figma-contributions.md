@@ -6,12 +6,14 @@ description: >-
 
 # Figma contributions
 
+
+
 <figure><img src="../.gitbook/assets/Figma and CivicTheme.png" alt=""><figcaption></figcaption></figure>
 
 ## Contributing in Figma
 
 {% hint style="info" %}
-See the latest Figma file: [CivicTheme v1.10 Figma](https://www.figma.com/design/7vl6Aobg7G8gBCcRriNegr/CivicTheme--Design-System-v1.10?node-id=0-1\&p=f\&t=XbVYFyI28w7GU7Vw-0)
+See the latest Figma file: [CivicTheme v1.11 Figma](https://www.figma.com/design/7vl6Aobg7G8gBCcRriNegr/CivicTheme--Design-System-v1.10?node-id=0-1\&p=f\&t=XbVYFyI28w7GU7Vw-0)
 {% endhint %}
 
 ### Contribution criteria

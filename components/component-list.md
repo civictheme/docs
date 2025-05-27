@@ -106,7 +106,7 @@ Organisms are **highly structured, composite components** consisting of multiple
 * Carousel
 * Footer
 * Header
-* List
+* **Li**st
 * Message
 * Mobile navigation
 * Navigation
@@ -114,7 +114,7 @@ Organisms are **highly structured, composite components** consisting of multiple
 * Side navigation
 * Skip link
 * Slider
-* Social links
+* Social lnks
 
 ***
 
