@@ -13,7 +13,7 @@ description: >-
 ## Contributing in Figma
 
 {% hint style="info" %}
-See the latest Figma file: [CivicTheme v1.11 Figma](https://www.figma.com/design/7vl6Aobg7G8gBCcRriNegr/CivicTheme--Design-System-v1.10?node-id=0-1\&p=f\&t=XbVYFyI28w7GU7Vw-0)
+See the latest Figma file: [CivicTheme v1.11 Figma](https://www.figma.com/design/HwfKa9eD0oq474wffZYzg4/CivicTheme--Design-System-v1.11?node-id=0-1\&p=f\&t=6cPqnINOz9SUHxvW-0)
 {% endhint %}
 
 ### Contribution criteria
