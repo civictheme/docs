@@ -75,11 +75,7 @@ CivicTheme comes with pre-set Block Content blocks configuration. Since Drupal d
 ahoy drush cex -y
 ```
 
-6. Commit and push to remote
-7. Wait for deployment to finish and login to the Drupal instance.
-8. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`.
-9. Press "Provision content" button.
-10. Navigate to the homepage and observe that all blocks and menus are present.
+Depending on your deployment workflow, you may need to repeat this step after deployment to your hosting provider environment.
 
 {% hint style="info" %}
 After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.&#x20;
