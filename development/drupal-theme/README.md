@@ -62,13 +62,6 @@ Enable the theme in UI or with Drush:
 
 CivicTheme comes with pre-set Block Content blocks configuration. Since Drupal does not support running install hooks in themes, a custom content provisioning script has to be used.
 
-The provisioning **needs to be run twice**:
-
-1. Locally - to capture created configuration for config entities (blocks, menus etc.)
-2. In production - to populate the configuration with the default content. This step will be covered in the “Deployment” section below.
-
-#### Run locally
-
 1. Login to the local instance of your site.
 2. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`\\
 
