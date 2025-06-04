@@ -62,7 +62,7 @@ You can add the following components to the bottom of the banner.
 
 * [Content](../../components/content/)
 * [Accordion](../../components/accordion.md)
-* [Automated list](../../../development/drupal-theme/automated-list.md)
+* [Automated list](broken-reference)
 * [Callout](../../components/callout.md)
 * [Campaign](../../components/campaign.md)
 * [iFrame](../../components/iframe.md)

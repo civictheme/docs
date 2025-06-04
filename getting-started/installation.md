@@ -8,7 +8,7 @@ description: >-
 
 ### Frameworks supported
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (5).png" alt="" data-size="line"></td><td></td><td>Drupal Theme</td><td><a href="../development/drupal-theme/">drupal-theme</a></td><td></td></tr><tr><td><img src="../.gitbook/assets/image (3).png" alt="" data-size="line"></td><td></td><td>Vue JS (coming soon)</td><td></td><td></td></tr><tr><td><img src="../.gitbook/assets/image (4).png" alt="" data-size="line"></td><td></td><td>React (coming soon)</td><td></td><td></td></tr><tr><td></td><td></td><td>Angular (coming soon)</td><td></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (5).png" alt="" data-size="line"></td><td></td><td>Drupal Theme</td><td><a href="broken-reference">Broken link</a></td><td></td></tr><tr><td><img src="../.gitbook/assets/image (3).png" alt="" data-size="line"></td><td></td><td>Vue JS (coming soon)</td><td></td><td></td></tr><tr><td><img src="../.gitbook/assets/image (4).png" alt="" data-size="line"></td><td></td><td>React (coming soon)</td><td></td><td></td></tr><tr><td></td><td></td><td>Angular (coming soon)</td><td></td><td></td></tr></tbody></table>
 
 ***
 

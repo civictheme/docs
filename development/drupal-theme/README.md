@@ -1,4 +1,4 @@
-# Drupal theme Installation and Setup
+# Drupal theme
 
 ## Install CivicTheme
 
@@ -14,8 +14,8 @@ Note that Drupal core has a known [issue](https://www.drupal.org/node/3204271) a
 
 ## Install Contrib modules
 
-CivicTheme has required dependencies on [contrib modules](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme.info.yml#L11) and optional dependencies on
-search_api.
+CivicTheme has required dependencies on [contrib modules](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme.info.yml#L11) and optional dependencies on\
+search\_api.
 
 These dependencies need to be downloaded and installed before you are able to install CivicTheme.
 
@@ -26,7 +26,6 @@ See [Using in GovCMS SaaS](using-in-govcms-saas.md) for specific GovCMS SaaS ins
 ### Usage
 
 CivicTheme can be used as a no-code Drupal theme with some of the configurations done on theme settings page.
-
 
 ### Enabling contrib modules
 
@@ -56,9 +55,42 @@ drush cr
 
 Enable the theme in UI or with Drush:
 
+<pre class="language-sh"><code class="lang-sh"><strong>drush then civictheme
+</strong></code></pre>
+
+### Provision content
+
+CivicTheme comes with pre-set Block Content blocks configuration. Since Drupal does not support running install hooks in themes, a custom content provisioning script has to be used.
+
+The provisioning **needs to be run twice**:
+
+1. Locally - to capture created configuration for config entities (blocks, menus etc.)
+2. In production - to populate the configuration with the default content. This step will be covered in the “Deployment” section below.
+
+#### Run locally
+
+1. Login to the local instance of your site.
+2. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`\\
+
+<figure><img src="../../.gitbook/assets/provision-content.png" alt=""><figcaption></figcaption></figure>
+
+3. Press "Provision content" button.
+4. Navigate to the homepage and observe that all blocks and menus are present.
+5. Export config for created entities:
+
 ```sh
-drush then civictheme
+ahoy drush cex -y
 ```
+
+6. Commit and push to remote
+7. Wait for deployment to finish and login to the Drupal instance.
+8. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`.
+9. Press "Provision content" button.
+10. Navigate to the homepage and observe that all blocks and menus are present.
+
+{% hint style="info" %}
+After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.&#x20;
+{% endhint %}
 
 ### Setting up a sub-theme
 
