@@ -12,6 +12,20 @@ Alternatively, you can download the [latest version](https://www.drupal.org/proj
 Note that Drupal core has a known [issue](https://www.drupal.org/node/3204271) and a [patch](https://www.drupal.org/files/issues/2023-07-16/3204271-20-missing-layout-exception.patch) would need to be installed on your site.
 {% endhint %}
 
+### **v1.11 Bug - Remove examples from civictheme\_starter\_kit**
+
+There is a known bug in CivicTheme 1.11 related to the namespace change that came with converting to Single Directory components.
+
+The existing example components need to be removed so that civictheme sub-themes built with this tool work correctly. We will address this issue in code soon.&#x20;
+
+As a workaround, please delete the following directories from your new sub-theme manually (unless you have added some code changes):
+
+* `/components/01-atoms/demo-button`
+* `/components/01-atoms/demo-button`
+* `/components/03-organisms/header`
+
+See the issue at [Drupal.org](https://www.drupal.org/project/civictheme/issues/3527182).
+
 ## Install Contrib modules
 
 CivicTheme has required dependencies on [contrib modules](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme.info.yml#L11) and optional dependencies on\
