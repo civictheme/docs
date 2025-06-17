@@ -4,7 +4,7 @@
 
 * [Drupal theme issue queue](https://www.drupal.org/project/issues/civictheme)
 * [CivicTheme Github repository](https://github.com/civictheme)
-* [Drupal Slack channel](https://drupal.slack.com/archives/C039UV0CQBZ) <mark style="color:blue;">#civictheme-designsystem</mark>
+* [Drupal Slack channel](https://drupal.slack.com/archives/C039UV0CQBZ) <mark style="color:blue;">#civictheme-designsystem</mark> (**note:** you need to first [join Drupal Slack](https://www.drupal.org/join-slack))
 * Send an email to <mark style="color:blue;">civictheme@salsa.digital</mark>
 
 ### Where to submit issues and PRs <a href="#where-to-submit-issues-and-prs" id="where-to-submit-issues-and-prs"></a>
