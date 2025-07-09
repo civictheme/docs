@@ -7,7 +7,7 @@ CivicTheme has several unique architectural approaches for developing themes tha
 CivicTheme's development approach is built around these core systems:
 
 - **Component-centric architecture** - Organised folders for styles, JavaScript, and templates
-- **Template separation** - Component Twig templates separated from Drupal `*html.twig` files
+- **Template separation** - Component Twig templates separated from Drupal `*.html.twig` files
 - **Preprocess functions** - Custom functions to populate component template properties
 - **Color system** - Custom color overrides and theming capabilities
 - **Build system** - Custom asset compilation and development workflow
@@ -19,17 +19,11 @@ Each system has detailed documentation that explains implementation patterns and
 ### [Build System](build.md)
 Learn about CivicTheme's custom build system, including asset compilation, configuration, and development workflows.
 
-### [Components](components.md)
-Understand the component-centric approach, including template separation, preprocess functions, and how to map Drupal data to component properties.
-
 ### [Colors](colors.md)
 Explore the color override system and how to customise CivicTheme's design tokens.
 
-### [Styles](styles.md)
-Learn about the styling system, including SASS architecture and component-specific styles.
-
-### [Scripts](scripts.md)
-Understand JavaScript organisation and how to extend component behaviours.
+### [Components](components.md)
+Understand the component-centric approach, including template separation, preprocess functions, and how to map Drupal data to component properties.
 
 ### [Mapping](mapping.md)
 Discover how Drupal entities are mapped to component templates and properties.
@@ -40,11 +34,6 @@ Discover how Drupal entities are mapped to component templates and properties.
 - [Templates](../templates.md) - How to use CivicTheme UI Kit components in Drupal
 - [Namespaces](../namespaces.md) - Component namespace system and organisation
 - [Assets](../assets.md) - Asset management and component structure
-- [UI Kit Components](../../uikit/extending-components.md) - Extending and customising components
-
-### Content Authoring
-- [Component List](../../components/component-list.md) - Complete component library
-- [Content Components](../../content-authoring/components/README.md) - Using components in content
 
 ## Learning Path
 
@@ -53,8 +42,7 @@ To effectively work with CivicTheme systems:
 1. **Start with the basics**: Read [Templates](../templates.md) to understand component separation
 2. **Understand the build system**: Review [Build System](build.md) for development workflow
 3. **Learn component mapping**: Study [Components](components.md) for data flow patterns
-4. **Customise appearance**: Explore [Colors](colors.md) and [Styles](styles.md) for theming
-5. **Extend functionality**: Use [Scripts](scripts.md) for custom behaviours
+4. **Customise appearance**: Explore [Colors](colors.md) for theming
 
 ## Key Benefits
 
@@ -68,6 +56,6 @@ Learning these systems enables you to:
 
 ## Getting Help
 
-- [Getting Help](../../getting-started/getting-help.md) - Community resources and support
-- [Contribution Model](../../contributing/contribution-model.md) - How to contribute to the ecosystem
+- [Getting Help](../../../getting-started/getting-help.md) - Community resources and support
+- [Contribution Model](../../../contributing/contribution-model.md) - How to contribute to the ecosystem
 - [GitHub Organisation](https://github.com/civictheme/) - Source code and issues
