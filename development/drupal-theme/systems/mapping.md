@@ -32,7 +32,7 @@ CivicTheme provides utilities to simplify preprocess function development:
 
 ## Implementation Example
 
-The following example demonstrates how to map a Drupal field to display as a CivicTheme tag component. This covers the fundamentals of gathering data from an entity in a preprocess function, passing it through the `*html.twig` template, and setting it on the `civictheme:tag` component.
+The following example demonstrates how to map a Drupal field to display as a CivicTheme tag component. This covers the fundamentals of gathering data from an entity in a preprocess function, passing it through the `*.html.twig` template, and setting it on the `civictheme:tag` component.
 
 ### Step 1: Theme File
 
@@ -100,7 +100,7 @@ function _civictheme_preprocess_custom_field(array &$variables): void {
 
 ### Template Structure
 
-Drupal templates placed in the `/templates/` folder should reference the Twig files in components. It's common to find `templates/**/*.html.twig` files containing only component includes like `{% include 'civictheme:button' %}`.
+As much HTML as possible should live in the components. The Drupal Twig templates should act as connectors to the components. It should be common for Drupal `*.html.twig` templates to contain only an include of a component Twig file.
 
 ### Data Processing
 

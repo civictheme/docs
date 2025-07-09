@@ -56,6 +56,5 @@ To effectively work with CivicTheme:
 2. Review [systems/build](systems/build.md) for development workflow
 3. Study [systems/components](systems/components.md) for data flow patterns
 4. Explore [systems/colors](systems/colors.md) and [assets](assets.md) for theming
-5. Use [systems/README](systems/README.md) as your reference guide
 
 This documentation provides everything needed to build maintainable, component-centric Drupal sites using CivicTheme's ecosystem.
