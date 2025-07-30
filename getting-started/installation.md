@@ -16,5 +16,5 @@ description: >-
 
 ### Supported browsers
 
-<table><thead><tr><th width="223.33333333333331">Browser</th><th>Latest supported version</th><th>Supported version n-1</th></tr></thead><tbody><tr><td>Chrome</td><td>131.x</td><td>117.x</td></tr><tr><td>Firefox</td><td>130.x</td><td>119.x</td></tr><tr><td>Microsoft Edge</td><td>129.x</td><td>118.x</td></tr><tr><td>Safari</td><td>18.x</td><td>16.x</td></tr></tbody></table>
+<table><thead><tr><th width="223.33333333333331">Browser</th><th>Latest supported version</th><th>Supported version n-1</th></tr></thead><tbody><tr><td>Chrome</td><td>138.x</td><td>117.x</td></tr><tr><td>Firefox</td><td>141.x</td><td>119.x</td></tr><tr><td>Microsoft Edge</td><td>138.x</td><td>118.x</td></tr><tr><td>Safari</td><td>18.x</td><td>16.x</td></tr></tbody></table>
 
