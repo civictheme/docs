@@ -13,8 +13,8 @@ We follow a N and N-1 supported version model.
 We support the current and prior minor release of CivicTheme and their accompanying UI Kit.\
 This means that if the latest release is 1.8.1 we are supporting the following:
 
-* 1.11.0 (latest release)
-* 1.10.0 (last release)
+* 1.8.1 (latest release)
+* 1.7.4 (last minor release)
 
 But we are not supporting 1.8.0 or 1.7.3 and below.\
 \
