@@ -15,7 +15,91 @@ See [Getting help](../../getting-started/getting-help.md) section
 
 ## Steps overview
 
-### 1. Generic GovCMS setup
+### 1. Setting up CivicTheme on a *new* GovCMS scaffold
+
+CivicTheme has developed a script to help you automatically install, configure and setup CivicTheme on a new
+scaffold for GovCMS SaaS.
+
+#### Script Prerequisites
+
+- GovCMS Project: You must have a GovCMS project / scaffold already set up.
+- Ahoy: ahoy must be installed and configured for your project (i.e., you can run ahoy commands).
+- Docker: Docker must be running, as ahoy typically interacts with Docker containers.
+- tar and curl: These command-line utilities must be available in your shell environment where you run the script.
+- Bash: The script is written for Bash.
+
+#### What the Script Does
+
+The script will perform the following actions:
+
+- Download and extract the specified CivicTheme version into themes/custom/civictheme.
+- Run initial CivicTheme provisioning commands.
+- Clear Drupal caches.
+- Enable CivicTheme and set it as the default theme temporarily.
+- Download, install, configure, and then uninstall and remove the civictheme_govcms module (as per the specified workflow).
+- Generate a new subtheme based on CivicTheme using the provided names and description.
+- Enable the new subtheme and set it as the site's default theme.
+
+After the script completes successfully, your new subtheme will be active and ready for customisation in themes/custom/<your_subtheme_machine_name>.
+
+#### Download the script
+
+Running the script and setting up CivicTheme for your GovCMS SaaS installation
+Download and Setup the Script: From your GovCMS project root directory, run:
+
+```bash
+curl -o setup_civictheme.sh \
+https://raw.githubusercontent.com/civictheme/civictheme_govcms/refs/heads/main/scripts/setup_civictheme.sh \
+&& chmod +x setup_civictheme.sh
+```
+
+*Note*: Download the script to your GovCMS project root directory on your host machine (not inside a Docker container).
+How to Use
+
+
+#### Run the script
+
+Run the Script: Execute the script from your GovCMS project's root directory. You'll need to provide values for all the required arguments.
+
+Command Structure:
+```bash
+./setup_civictheme.sh -c <civictheme_version> \
+-g <govcms_module_ref> \
+-m <subtheme_machine_name> \
+-u "<subtheme_human_name>" \
+-d "<subtheme_description>" \
+[-p]
+
+```
+
+
+Note: Make sure to run the script from your GovCMS project root directory on your host machine (not inside a Docker container).
+
+    After completing installation, delete the setup_civictheme.sh file from your repository.
+
+```bash
+Arguments:
+    -c <civictheme_version>: (Required) The version of the CivicTheme base theme to download (e.g., "1.11.0").
+    -g <govcms_module_ref>: (Required) The Git reference (branch or tag) for the civictheme_govcms module.
+        For a branch: e.g., "main"
+        For a tag: e.g., "1.0.1" or "v1.0.1"
+    -m <subtheme_machine_name>: (Required) The machine-readable name for your new subtheme. Use lowercase letters, numbers, and hyphens/underscores (e.g., "my_custom_site_theme").
+    -u "<subtheme_human_name>": (Required) The human-readable name for your new subtheme. Enclose in quotes if it contains spaces (e.g., "My Custom Site Theme").
+    -d "<subtheme_description>": (Required) A short description for your new subtheme. Enclose in quotes (e.g., "A custom theme for My Awesome GovCMS Project").
+    -p: (Optional) Apply Drupal cache backend patch (drupal.org issue). This patches LayoutPluginManager to add cache tags for better cache invalidation.
+
+```
+
+    Example:
+```bash
+    ./setup_civictheme.sh -c "{{ CIVICTHEME VERSION - see project page }}" \
+                          -g "main" \
+                          -m "my_gov_project_theme" \
+                          -u "My Gov Project Theme" \
+                          -d "Custom theme for the My Gov Project website on GovCMS."
+```
+
+### 2. Generic / Advanced GovCMS setup
 
 #### 1.1 Setup local
 
