@@ -36,7 +36,7 @@ These dependencies need to be downloaded and installed before you are able to in
 ### GovCMS SaaS specific installation instructions
 
 {% hint style="info" %}
-See [Using in GovCMS SaaS](using-in-govcms-saas.md) for specific GovCMS SaaS instructions.
+See [Using in GovCMS SaaS](/installation/govcms-saas.md) for specific GovCMS SaaS instructions.
 {% endhint %}
 
 ### Usage

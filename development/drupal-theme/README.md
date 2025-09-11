@@ -35,7 +35,7 @@ The systems section contains CivicTheme's unique architectural approaches:
 
 ## Platform-Specific Guides
 
-- [using-in-govcms-saas](using-in-govcms-saas.md) - GovCMS SaaS implementation guide
+- [using-in-govcms-saas](/installation/govcms-saas.md) - GovCMS SaaS implementation guide
 - [updating-civitheme-govcms-sass](updating-civitheme-govcms-sass.md) - SASS update procedures for GovCMS
 
 ## Key Concepts
