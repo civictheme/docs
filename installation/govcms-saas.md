@@ -11,7 +11,7 @@
 
 ## Where to get help
 
-See [Getting help](../../getting-started/getting-help.md) section
+See [Getting help](../getting-started/getting-help.md) section
 
 ## Steps overview
 
