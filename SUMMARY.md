@@ -11,6 +11,7 @@
 ## Installation
 
 * [Drupal theme](installation/drupal-theme.md)
+* [GovCMS SaaS](installation/govcms-saas.md)
 
 ## Development
 
