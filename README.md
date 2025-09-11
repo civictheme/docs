@@ -97,7 +97,8 @@ To explore CivicTheme in action, you can view a variety of demo sites tailored t
 * [CivicTheme official site](https://www.civictheme.io/)
 * [CivicTheme Figma file](https://www.figma.com/design/i5NTcjBsg2zVjAxUvOl5oU/CivicTheme%3A-Design-System-v1.8.0?node-id=0-1\&t=8Ku5pqx9XeNMv3s1-0)
 * [UI Kit GitHub repository](https://github.com/civictheme/civictheme-ui-kit)
-* [Drupal Theme GitHub repository](https://github.com/civictheme/civictheme-drupal)
+* [Drupal Theme Project Page](https://www.drupal.org/project/civictheme/)
+* [Drupal Theme Development repository](https://github.com/civictheme/monorepo-drupal)
 * [CivicTheme slack channel](https://drupal.slack.com/archives/C039UV0CQBZ)
 * [CivicTheme Storybook](https://uikit.civictheme.io/?path=/story/welcome--welcome)
 
