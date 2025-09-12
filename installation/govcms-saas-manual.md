@@ -21,7 +21,7 @@ If you haven't set up your GovCMS local environment yet, refer to the [GovCMS do
 
 ## Where to get help
 
-See [Getting help](../getting-started/getting-help.md) section
+See [Getting help](../getting-started/getting-help) section
 
 ## 1. CivicTheme setup
 
@@ -161,7 +161,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 
 ### 1.10 Provision content
 
-See [Content Provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions on provisioning content blocks and menus.
+See [Content Provisioning for CivicTheme](govcms-content-provisioning) for detailed instructions on provisioning content blocks and menus.
 
 {% hint style="success" %}
 After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.
@@ -198,13 +198,13 @@ Only run this step once everything is working and looking as expected.
 ## 3. Customising CivicTheme
 
 1. Replace sub-theme logos in repository `themes/<SUBTHEME_MACHINE_NAME>/assets/logos` with site-specific versions.
-2. [Update the colour palette](../../content-authoring/site-wide-configuration/colours.md) with your sub-theme.
+2. [Update the colour palette](../../content-authoring/site-wide-configuration/colours) with your sub-theme.
 3. Update sub-theme `screenshot.png` with something more appropriate (optional).
 4. `npm run build` and commit changes.
 
 ## 4. Updating CivicTheme
 
-See [Version update](/development/drupal-theme/updating-civitheme-govcms-sass.md)
+See [Version update](/development/drupal-theme/updating-civitheme-govcms-sass)
 
 ## Resolving issues with roles
 

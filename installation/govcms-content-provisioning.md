@@ -86,6 +86,6 @@ If you want to avoid doing a full content migration (forklift) from local to pro
 
 ## Related documentation
 
-- [Automated Installation](govcms-saas-automated.md)
-- [Manual Installation](govcms-saas-manual.md)
-- [Theme Settings](../content-authoring/site-wide-configuration/README.md)
+- [Automated Installation](govcms-saas-automated)
+- [Manual Installation](govcms-saas-manual)
+- [Theme Settings](../content-authoring/site-wide-configuration/)

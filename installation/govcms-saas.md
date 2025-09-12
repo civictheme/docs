@@ -4,7 +4,7 @@ CivicTheme can be installed on GovCMS SaaS using either an automated script or m
 
 ## Installation Methods
 
-### [Automated Installation (Recommended)](govcms-saas-automated.md)
+### [Automated Installation (Recommended)](govcms-saas-automated)
 
 The automated installation script is the preferred method for setting up CivicTheme on new GovCMS SaaS project. It handles most of the setup process automatically, including:
 
@@ -15,7 +15,7 @@ The automated installation script is the preferred method for setting up CivicTh
 
 [**Start with Automated Installation →**](govcms-saas-automated)
 
-### [Manual Installation](govcms-saas-manual.md)
+### [Manual Installation](govcms-saas-manual)
 
 For those who prefer more control over the installation process or cannot use the automated script, the manual installation guide provides step-by-step instructions for:
 
@@ -24,11 +24,11 @@ For those who prefer more control over the installation process or cannot use th
 - Creating and configuring your subtheme
 - Building and deploying assets
 
-[**View Manual Installation Guide →**](govcms-saas-manual.md)
+[**View Manual Installation Guide →**](govcms-saas-manual)
 
 ## Post-Installation Steps
 
-### [Content Provisioning](govcms-content-provisioning.md)
+### [Content Provisioning](govcms-content-provisioning)
 
 Instructions on how to provision CivicTheme's default content blocks and menus, whether you're using automated or manual installation.
 
@@ -45,12 +45,12 @@ Regardless of which installation method you choose, ensure you have:
 
 ## Where to get help
 
-See [Getting help](../getting-started/getting-help.md) section for support options and resources.
+See [Getting help](../getting-started/getting-help) section for support options and resources.
 
 ## Next steps
 
 After installation, it is recommended that you read the documents on how CivicTheme works and how to customise your
 sub-theme installation:
 
-- [Customising your sub-theme](/development/drupal-theme.md)
-- [Update CivicTheme versions](/development/drupal-theme/updating-civitheme-govcms-sass.md)
+- [Customising your sub-theme](/development/drupal-theme)
+- [Update CivicTheme versions](/development/drupal-theme/updating-civitheme-govcms-sass)
