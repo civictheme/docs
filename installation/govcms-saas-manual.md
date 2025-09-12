@@ -2,88 +2,40 @@
 
 This guide provides step-by-step instructions for manually installing CivicTheme on GovCMS SaaS. Use this method if you prefer not to use the automated installation script.
 
-## Before you begin
+## Prerequisites
 
-* [ ] Get access to GitLab project
-* [ ] Check that support ticket to enable config imports was actioned
-* [ ] Check that production has your user added with administrator role
-* [ ] Check that you have all [GovCMS SaaS required software](https://github.com/govCMS/GovCMS/wiki/1.1-Local-setup#dependencies) available on your machine
-* [ ] Check that you have NPM 10+ and NodeJS 22+ available on your machine
-* [ ] Read this whole page to make sure you understand the steps
+Before beginning the manual installation, ensure you have:
+
+* [ ] Access to GitLab project
+* [ ] Support ticket to enable config imports actioned
+* [ ] Production has your user added with administrator role
+* [ ] All [GovCMS SaaS required software](https://github.com/govCMS/GovCMS/wiki/1.1-Local-setup#dependencies) installed
+* [ ] NPM 10+ and NodeJS 22+ available on your machine
+* [ ] **GovCMS project set up locally with:**
+* [ ] Local environment running (`ahoy up`)
+* [ ] Database installed
+
+{% hint style="info" %}
+If you haven't set up your GovCMS local environment yet, refer to the [GovCMS documentation](https://github.com/govCMS/GovCMS/wiki/1.1-Local-setup) for instructions on setting up your local development environment.
+{% endhint %}
 
 ## Where to get help
 
 See [Getting help](../getting-started/getting-help.md) section
 
-## 1. Setup local environment
-
-1. Clone the GitLab project locally.
-2. Create a new branch `develop` from `master`.
-3. ```sh
-   # Login to GovCMS image repository
-   docker login gitlab-registry-production.govcms.amazee.io -u <username>
-   ```
-4. ```sh
-   ahoy up
-   ```
-5. Uncomment `MARIADB_DATA_IMAGE` line in `.env` file.
-6. ```sh
-   ahoy refresh-db
-   ```
-7.  Add the following file exclusions to `.gitignore`:
-
-    ```gitignore
-    .data
-    *.sql
-    *.tar.gz
-    *.sql.gz
-
-    themes/civictheme/civictheme_starter_kit
-    themes/civictheme/civictheme-create-subtheme.php
-    themes/civictheme/civictheme_govcms
-    ```
-8. ```sh
-   # Unblock admin user (user 1 or generate a new one).
-   ahoy drush user:unblock [username]
-   ```
-
-You can lookup username by logging into production site or by running:
-
-```
-ahoy drush uinf $(drush sqlq "SELECT GROUP_CONCAT(name) FROM users_field_data")
-```
-
-Now, if you run `ahoy login` you should be able to login to your local version of the site as an admin user.
-
-## 2. Export active configuration
-
-1. ```sh
-   # Pull latest production DB.
-   ahoy refresh-db
-   ```
-2. If the above did not work OR hasn't been updated nightly - download a raw database file from [GovCMS Lagoon Projects](https://dashboard.govcms.gov.au/projects?=) from the "Backups" tab and import with `ahoy mysql-import .data/db.sql`
-3. Run `ahoy drush cex` and commit configuration changes.
-4. Push to remote and wait for deployment to complete.
-5. Upon successful deploy, create a new Merge Request against `master` branch . This will get the active configuration into the main branch.
-6. When merged, update your local branch against the latest `master`.
-
-{% hint style="success" %}
-At this point, you should have a GovCMS project running in `master` environment in GovCMS SaaS with the default theme.
-{% endhint %}
-
-## 3. CivicTheme setup
+## 1. CivicTheme setup
 
 {% hint style="info" %}
 It is advised to perform all changes in a dedicated (feature) branch to test this part before applying any customisations.
 {% endhint %}
 
-### 3.1 Download CivicTheme theme
+### 1.1 Download CivicTheme theme
 
 Since GovCMS SaaS does not allow to install themes via Composer, CivicTheme source must be installed as a custom theme.
 
 1. [Download the latest CivicTheme release](https://www.drupal.org/project/civictheme/releases) and extract into `themes/custom` directory, rename the directory to `civictheme`.
 
-### 3.2 Enable required modules
+### 1.2 Enable required modules
 
 Using an automated script to discover required modules from theme dependencies (Drupal does not support this OOTB):
 
@@ -91,7 +43,7 @@ Using an automated script to discover required modules from theme dependencies (
 ahoy drush ev "require_once dirname(\Drupal::getContainer()->get('theme_handler')->rebuildThemeData()['civictheme']->getPathname()) . '/theme-settings.provision.inc'; civictheme_enable_modules();"
 ```
 
-### 3.3 Clear caches
+### 1.3 Clear caches
 
 {% hint style="warning" %}
 Do not skip this step
@@ -101,7 +53,7 @@ Do not skip this step
 ahoy drush cr
 ```
 
-### 3.4 Enable admin and CivicTheme
+### 1.4 Enable admin and CivicTheme
 
 {% hint style="warning" %}
 CivicTheme MUST be enabled before your custom theme is enabled
@@ -120,7 +72,7 @@ ahoy drush theme:enable adminimal_theme
 ahoy drush config-set -y system.theme admin adminimal_theme
 ```
 
-### 3.5 Remove GovCMS content types
+### 1.5 Remove GovCMS content types
 
 CivicTheme GovCMS helper module `civictheme_govcms` serves the purpose to remove unnecessary entities and configuration that ships with GovCMS.
 
@@ -154,7 +106,7 @@ Install it locally to automatically remove the configuration from DB to later ha
     ahoy drush cex -y
     ```
 
-### 3.6 Generate a sub-theme
+### 1.6 Generate a sub-theme
 
 {% hint style="info" %}
 Consider naming your theme as close as possible to the name of the site. Do not include `civic` or `civictheme` into name to avoid confusions in code when maintaining a theme in the future.
@@ -176,7 +128,7 @@ themes/civictheme
 themes/<SUBTHEME_MACHINE_NAME>
 ```
 
-### 3.7 Install sub-theme and set as default
+### 1.7 Install sub-theme and set as default
 
 ```sh
 # Enable sub-theme.
@@ -185,7 +137,7 @@ ahoy drush theme:enable <SUBTHEME_MACHINE_NAME> -y
 ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 ```
 
-### 3.8 Build front-end assets
+### 1.8 Build front-end assets
 
 1.  Run on your host:
 
@@ -198,7 +150,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 2. Check that directory `themes/<SUBTHEME_MACHINE_NAME>/dist` was created.
 3. Navigate to your site and assert that default styling was applied.
 
-### 3.9 Commit built assets
+### 1.9 Commit built assets
 
 1.  Modify `.gitignore` file in your new theme and remove the following line:
 
@@ -207,7 +159,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
     ```
 2. Commit built assets.
 
-### 3.10 Provision content
+### 1.10 Provision content
 
 See [Content Provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions on provisioning content blocks and menus.
 
@@ -215,9 +167,9 @@ See [Content Provisioning for CivicTheme](govcms-content-provisioning.md) for de
 After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.
 {% endhint %}
 
-## 4. Deployment
+## 2. Deployment
 
-### 4.1 Deploy to (pre-)production
+### 2.1 Deploy to (pre-)production
 
 1. Merge feature branch to `master` (or `develop` and then to `master`).
 2. Commit and push to remote.
@@ -230,7 +182,7 @@ After deployment and provisioning your remote **feature environment** should loo
 After deployment and provisioning your remote **(pre-)production** environment should look like a [default CivicTheme](https://default.civictheme.io/)[ site](https://default.civictheme.io/) without homepage content
 {% endhint %}
 
-### 4.2 Cleanup
+### 2.2 Cleanup
 
 {% hint style="warning" %}
 Only run this step once everything is working and looking as expected.
@@ -243,16 +195,16 @@ Only run this step once everything is working and looking as expected.
    ```
 2. Commit and push to remote.
 
-## 5. Customising CivicTheme
+## 3. Customising CivicTheme
 
 1. Replace sub-theme logos in repository `themes/<SUBTHEME_MACHINE_NAME>/assets/logos` with site-specific versions.
 2. [Update the colour palette](../../content-authoring/site-wide-configuration/colours.md) with your sub-theme.
 3. Update sub-theme `screenshot.png` with something more appropriate (optional).
 4. `npm run build` and commit changes.
 
-## 6. Updating CivicTheme
+## 4. Updating CivicTheme
 
-See [Version update](broken-reference)
+See [Version update](/development/drupal-theme/updating-civitheme-govcms-sass.md)
 
 ## Resolving issues with roles
 
