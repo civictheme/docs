@@ -90,7 +90,7 @@ The `-n` flag allows you to skip the automatic provisioning of content blocks du
 4. Deploy the configuration to production
 5. Provision the content in production through theme settings
 
-For detailed instructions on content provisioning, see [Content Provisioning for CivicTheme](govcms-content-provisioning.md).
+For detailed instructions on content provisioning, see [Content Provisioning for CivicTheme](govcms-content-provisioning).
 
 ### Example Commands:
 
@@ -131,16 +131,16 @@ For detailed instructions on content provisioning, see [Content Provisioning for
    - Commit the built assets to your repository
 
 3. **Content Provisioning** (if skipped during installation):
-   - See [Content Provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions
+   - See [Content Provisioning for CivicTheme](govcms-content-provisioning) for detailed instructions
 
 ## Deployment
 
 1. Push your changes to the remote repository
 2. Wait for deployment to complete
-3. If you used the `-n` flag, provision content in production following the [Content Provisioning guide](govcms-content-provisioning.md)
+3. If you used the `-n` flag, provision content in production following the [Content Provisioning guide](govcms-content-provisioning)
 
 ## Next Steps
 
-- [Customising CivicTheme / SubTheme Development](/development/drupal-theme/README.md)
-- [Manual Installation Guide](govcms-saas-manual.md) (alternative method)
-- [Content Provisioning](govcms-content-provisioning.md)
+- [Customising CivicTheme / SubTheme Development](/development/drupal-theme/)
+- [Manual Installation Guide](govcms-saas-manual) (alternative method)
+- [Content Provisioning](govcms-content-provisioning)
