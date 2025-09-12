@@ -12,7 +12,9 @@
 
 * [Drupal theme](installation/drupal-theme.md)
 * [GovCMS SaaS](installation/govcms-saas.md)
-
+  * [GovCMS Automated Installation](installation/govcms-saas-automated.md)
+  * [GovCMS Manual Installation](installation/govcms-saas-automated.md)
+  * [GovCMS Content Provisioning](installation/govcms-content-provisioning.md)
 ## Development
 
 * [UI kit](development/uikit/README.md)
