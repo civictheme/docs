@@ -1,34 +1,34 @@
-# Using in GovCMS SaaS
+# GovCMS SaaS
 
 CivicTheme can be installed on GovCMS SaaS using either an automated script or manual installation process.
 
 ## Installation Methods
 
-### [Automated Installation (Recommended)](govcms-saas-automated)
+### [Automated Installation (Recommended)](govcms-saas-manual.md)
 
 The automated installation script is the preferred method for setting up CivicTheme on new GovCMS SaaS project. It handles most of the setup process automatically, including:
 
-- Downloading and extracting CivicTheme
-- Configuring required modules
-- Creating your custom subtheme
-- Optionally provisioning content blocks
+* Downloading and extracting CivicTheme
+* Configuring required modules
+* Creating your custom subtheme
+* Optionally provisioning content blocks
 
-[**Start with Automated Installation →**](govcms-saas-automated)
+[**Start with Automated Installation →**](govcms-saas-automated.md)
 
-### [Manual Installation](govcms-saas-manual)
+### [Manual Installation](govcms-saas-manual.md)
 
 For those who prefer more control over the installation process or cannot use the automated script, the manual installation guide provides step-by-step instructions for:
 
-- Setting up your local environment
-- Installing CivicTheme and dependencies
-- Creating and configuring your subtheme
-- Building and deploying assets
+* Setting up your local environment
+* Installing CivicTheme and dependencies
+* Creating and configuring your subtheme
+* Building and deploying assets
 
-[**View Manual Installation Guide →**](govcms-saas-manual)
+[**View Manual Installation Guide →**](govcms-saas-manual.md)
 
 ## Post-Installation Steps
 
-### [Content Provisioning](govcms-content-provisioning)
+### [Content Provisioning](govcms-content-provisioning.md)
 
 Instructions on how to provision CivicTheme's default content blocks and menus, whether you're using automated or manual installation.
 
@@ -45,12 +45,10 @@ Regardless of which installation method you choose, ensure you have:
 
 ## Where to get help
 
-See [Getting help](../getting-started/getting-help) section for support options and resources.
+See [Getting help](../getting-started/getting-help/) section for support options and resources.
 
 ## Next steps
 
-After installation, it is recommended that you read the documents on how CivicTheme works and how to customise your
-sub-theme installation:
+After installation, it is recommended that you read the documents on how CivicTheme works and how to customise your sub-theme installation:
 
-- [Customising your sub-theme](/development/drupal-theme)
-- [Update CivicTheme versions](/development/drupal-theme/updating-civitheme-govcms-sass)
+* [Customising your sub-theme](../development/drupal-theme/)
