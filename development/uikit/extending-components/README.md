@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # Components
 
 CivicTheme [UI kit](https://uikit.civictheme.io/) provides 50+ components out of the box with a comprehensive system to modify, extend and create new components to fit your needs.

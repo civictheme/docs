@@ -1,4 +1,4 @@
-# Manual Installation for GovCMS SaaS
+# GovCMS Manual Installation
 
 This guide provides step-by-step instructions for manually installing CivicTheme on GovCMS SaaS. Use this method if you prefer not to use the automated installation script.
 
@@ -21,7 +21,7 @@ If you haven't set up your GovCMS local environment yet, refer to the [GovCMS do
 
 ## Where to get help
 
-See [Getting help](../getting-started/getting-help) section
+See [Getting help](../getting-started/getting-help.md) section
 
 ## 1. CivicTheme setup
 
@@ -81,7 +81,7 @@ Install it locally to automatically remove the configuration from DB to later ha
 1.  Run in CLI container (`ahoy cli`):
 
     ```sh
-    
+
     # If `web/modules/contrib` is not writable, you can use an alternative directory `web/themes/custom/civictheme` etc.
     mkdir -p /app/web/themes/custom/civictheme/modules
     cd /app/web/themes/custom/civictheme/modules
@@ -90,7 +90,7 @@ Install it locally to automatically remove the configuration from DB to later ha
     # Ensure to use the latest tag (not Release) https://github.com/civictheme/civictheme_govcms/tags
     wget https://github.com/civictheme/civictheme_govcms/archive/refs/tags/<latest-tag>.tar.gz && tar -xvf <latest-tag>.tar.gz && rm <latest-tag>.tar.gz && mv civictheme_govcms-<latest-tag> civictheme_govcms
 
-    
+
     # Enable module, run the command to remove entities and uninstall a module.
     drush cr
     drush pm-enable -y civictheme_govcms
@@ -161,7 +161,7 @@ ahoy drush config-set system.theme default <SUBTHEME_MACHINE_NAME> -y
 
 ### 1.10 Provision content
 
-See [Content Provisioning for CivicTheme](govcms-content-provisioning) for detailed instructions on provisioning content blocks and menus.
+See [Content Provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions on provisioning content blocks and menus.
 
 {% hint style="success" %}
 After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.
@@ -198,13 +198,11 @@ Only run this step once everything is working and looking as expected.
 ## 3. Customising CivicTheme
 
 1. Replace sub-theme logos in repository `themes/<SUBTHEME_MACHINE_NAME>/assets/logos` with site-specific versions.
-2. [Update the colour palette](../../content-authoring/site-wide-configuration/colours) with your sub-theme.
+2. [Update the colour palette](../content-authoring/site-wide-configuration/colours.md) with your sub-theme.
 3. Update sub-theme `screenshot.png` with something more appropriate (optional).
 4. `npm run build` and commit changes.
 
-## 4. Updating CivicTheme
 
-See [Version update](/development/drupal-theme/updating-civitheme-govcms-sass)
 
 ## Resolving issues with roles
 

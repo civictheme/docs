@@ -1,4 +1,4 @@
-# Content Provisioning for CivicTheme
+# GovCMS Content Provisioning
 
 CivicTheme comes with pre-set Block Content blocks configuration. Since Drupal does not support running install hooks in themes, a custom content provisioning script has to be used.
 
@@ -21,39 +21,32 @@ The provisioning needs to be run twice:
 ### 1. Local provisioning
 
 1. Login to the local instance of your site.
+2.  Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`
 
-2. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`
-
-   <figure><img src="../../.gitbook/assets/fff86df5-0dcb-4c88-9e8d-c6f3ea17eb21.png" alt=""><figcaption></figcaption></figure>
-
+    <figure><img src="../.gitbook/assets/fff86df5-0dcb-4c88-9e8d-c6f3ea17eb21.png" alt=""><figcaption></figcaption></figure>
 3. Press "Provision content" button.
-
 4. Navigate to the homepage and observe that all blocks and menus are present.
+5.  Export config for created entities:
 
-5. Export config for created entities:
-   ```sh
-   ahoy drush cex -y
-   ```
-
+    ```sh
+    ahoy drush cex -y
+    ```
 6. Commit and push to remote.
 
 ### 2. Production provisioning
 
 1. Wait for deployment to finish and login to the Drupal instance.
-
 2. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`.
-
 3. Press "Provision content" button.
-
 4. Navigate to the homepage and observe that all blocks and menus are present.
 
 ## What gets provisioned
 
 The content provisioning creates:
 
-- **Block Content blocks** - Pre-configured content blocks for common page elements
-- **Menu items** - Default menu structure
-- **Configuration entities** - Required configuration for the theme to function properly
+* **Block Content blocks** - Pre-configured content blocks for common page elements
+* **Menu items** - Default menu structure
+* **Configuration entities** - Required configuration for the theme to function properly
 
 ## Avoiding content forklift
 
@@ -69,23 +62,24 @@ If you want to avoid doing a full content migration (forklift) from local to pro
 
 ### Content not appearing after provisioning
 
-- Ensure caches are cleared: `ahoy drush cr`
-- Check that the correct theme is set as default
-- Verify that all required modules are enabled
+* Ensure caches are cleared: `ahoy drush cr`
+* Check that the correct theme is set as default
+* Verify that all required modules are enabled
 
 ### Provisioning button not available
 
-- Ensure you're logged in as an administrator
-- Check that the theme is properly installed and enabled
-- Clear caches and try again
+* Ensure you're logged in as an administrator
+* Check that the theme is properly installed and enabled
+* Clear caches and try again
 
 ### Configuration export issues
 
-- Make sure you have the correct permissions to export configuration
-- Ensure that config imports are enabled (check with your GovCMS support ticket)
+* Make sure you have the correct permissions to export configuration
+* Ensure that config imports are enabled (check with your GovCMS support ticket)
 
 ## Related documentation
 
-- [Automated Installation](govcms-saas-automated)
-- [Manual Installation](govcms-saas-manual)
-- [Theme Settings](../content-authoring/site-wide-configuration/)
+* [Automated Installation](govcms-saas-automated.md)
+* [Manual Installation](govcms-saas-manual.md)
+* [Theme Settings](../content-authoring/site-wide-configuration/)
+
