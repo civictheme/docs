@@ -92,7 +92,7 @@ The `-n` flag allows you to skip the automatic provisioning of content blocks du
 4. Deploy the configuration to production
 5. Provision the content in production through theme settings
 
-For detailed instructions on content provisioning, see [Content Provisioning for CivicTheme](govcms-content-provisioning/).
+For detailed instructions on content provisioning, see [Content Provisioning for CivicTheme](govcms-content-provisioning.md).
 
 ### Example Commands:
 
