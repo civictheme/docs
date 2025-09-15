@@ -45,7 +45,7 @@ Regardless of which installation method you choose, ensure you have:
 
 ## Where to get help
 
-See [Getting help](../getting-started/getting-help/) section for support options and resources.
+See [Getting help](../getting-started/getting-help.md) section for support options and resources.
 
 ## Next steps
 
