@@ -1,63 +1,17 @@
 # Namespaces
 
-Component namespaces mirror the namespaces in CivicTheme library as defined in `civictheme.info.yml`.
+Component namespaces have changed with the release of CivicTheme 1.11 which migrated CivicTheme components to use Single Directory Components.
 
-CivicTheme defines two sets of namespaces: atomic component namespaces and civictheme atomic namespaces.
+## Current Namespace Format
 
-### CivicTheme namespace definitions
+All CivicTheme components now use the format `civictheme:<component_name>` for example `civictheme:button` or `civictheme:accordion`. There is no longer nesting of components into their atomic directories.
 
-```yml
+## Sub-theme Namespacing
 
-components:
-  namespaces:
-    ct-base:
-      - components/00-base
-    base:
-      - components/00-base
-    ct-atoms:
-      - components/01-atoms
-    atoms:
-      - components/01-atoms
-    ct-molecules:
-      - components/02-molecules
-    molecules:
-      - components/02-molecules
-    ct-organisms:
-      - components/03-organisms
-    organisms:
-      - components/03-organisms
-    ct-templates:
-      - components/04-templates
-    templates:
-      - components/04-templates
-    ct-pages:
-      - components/05-pages
-    pages:
-      - components/05-pages
+In a sub-theme, a new component is namespaced with the sub-theme's machine name. For example: `civictheme_subtheme:new_button`
 
-```
+However, when overriding a CivicTheme component, the sub-theme uses the original CivicTheme namespace `civictheme:button` to refer to this overridden component. This ensures that the override properly replaces the base theme's component.
 
-### Sub-theme namespaces
+## Single Directory Components
 
-Any sub-theme of CivicTheme must implement the following component namespaces (note how they are also contained in `civictheme.info.yml`). These namespaces allow the overriding of CivicTheme components.
-
-```yaml
-
-components:
-  namespaces:
-    base:
-      - components/00-base
-    atoms:
-      - components/01-atoms
-    molecules:
-      - components/02-molecules
-    organisms:
-      - components/03-organisms
-    templates:
-      - components/04-templates
-    pages:
-      - components/05-pages
-
-```
-
-The CivicTheme namespaces (`ct-base`, `ct-atoms`, `ct-molecules` etc.) are used to provide access to the unaltered CivicTheme namespaces so the original civictheme component can be extended and then overridden by a sub-theme.
+For more information about the Single Directory Components specification, see the [Drupal documentation on SDC](https://www.drupal.org/docs/develop/theming-drupal/using-single-directory-components).
