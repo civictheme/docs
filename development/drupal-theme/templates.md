@@ -14,11 +14,23 @@ Read more about [Components](../uikit/extending-components/) to understand how t
 
 After setting up a component and structuring the twig file (see [Demo button example](https://github.com/civictheme/monorepo-drupal/tree/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button)), you can include this new component in a Drupal template with an `include` statement. See the `civictheme/templates` directory for how CivicTheme components have been included.
 
-#### Overriding CivicTheme templates
+#### Overriding CivicTheme SDC Components
 
-For example, if you want to utilise the new [demo button](https://github.com/civictheme/monorepo-drupal/tree/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button) in your theme as a submit button, you may override CivicTheme submit button template `civictheme/templates/input--submit.html.twig`, changing the include in the template file to `@atoms/demo-button/demo-button.twig`.
+Only themes can override components (modules cannot override). For a theme to override a component, use the `replaces` key within the `mytheme.component.yml` file.
 
-If you need to provide custom variables to your component, you derive these variables through the preprocess hook system Drupal provides. Look at the files in `civictheme/includes` directory for how the CivicTheme components are preprocesed in Drupal.
+Both components must have schemas defined within their YML files, and the schemas' props and slots must match.
+
+The value of the `replaces` key must refer to the other component using the machine name of the module/theme and the machine name of the component, delimited with a colon (`:`). For example:
+
+```yaml
+replaces: 'civictheme:button'
+```
+
+In this example, `civictheme` is the name of the theme that contains the component to be replaced, and `button` is the machine name of that component.
+
+**Best Practice:** Copy the entire component directory from CivicTheme to your sub-theme as a starting point for the CSS and Twig files you'll be modifying. Ensure you keep the same directory name as the original component.
+
+If you need to provide custom variables to your component, you derive these variables through the preprocess hook system Drupal provides. Look at the files in `civictheme/includes` directory for how the CivicTheme components are preprocessed in Drupal.
 
 
 
