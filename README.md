@@ -40,7 +40,7 @@ CivicTheme is comprised of three key components:
 
 CivicTheme is built around the principles of **atomic design**, meaning it provides a scalable, reusable set of components that can be combined to build digital interfaces. The **Design System** exists as both a **visual guide in Figma** and a **component library in Storybook**.
 
-* [**Figma**:](https://www.figma.com/design/i5NTcjBsg2zVjAxUvOl5oU/CivicTheme%3A-Design-System-v1.8.0?node-id=0-1\&t=8Ku5pqx9XeNMv3s1-0) The Figma file is a visual representation of CivicTheme's components and design templates, allowing designers to work directly with pre-built UI elements.
+* [**Figma**:](https://www.figma.com/design/HwfKa9eD0oq474wffZYzg4/CivicTheme--Design-System-v1.11) The Figma file is a visual representation of CivicTheme's components and design templates, allowing designers to work directly with pre-built UI elements.
 * [**UI Kit**](https://github.com/orgs/civictheme/projects/1): The UI Kit is a collection of components built with **HTML, CSS, and JavaScript**, aiming for **WCAG 2.2 AA accessibility standards** out-of-the-box. This ensures accessibility compliance across all digital services that use CivicTheme.
 * [**Storybook**](https://uikit.civictheme.io/?path=/story/welcome--welcome): Storybook provides a live, interactive environment for developers and designers to explore components, understand their behaviour, and integrate them into different projects.
 
@@ -95,8 +95,8 @@ To explore CivicTheme in action, you can view a variety of demo sites tailored t
 ### Resources
 
 * [CivicTheme official site](https://www.civictheme.io/)
-* [CivicTheme Figma file](https://www.figma.com/design/i5NTcjBsg2zVjAxUvOl5oU/CivicTheme%3A-Design-System-v1.8.0?node-id=0-1\&t=8Ku5pqx9XeNMv3s1-0)
-* [UI Kit GitHub repository](https://github.com/civictheme/civictheme-ui-kit)
+* [CivicTheme Figma file](https://www.figma.com/design/HwfKa9eD0oq474wffZYzg4/CivicTheme--Design-System-v1.11)
+* [UI Kit GitHub repository](https://github.com/civictheme/uikit)
 * [Drupal Theme Project Page](https://www.drupal.org/project/civictheme/)
 * [Drupal Theme Development repository](https://github.com/civictheme/monorepo-drupal)
 * [CivicTheme slack channel](https://drupal.slack.com/archives/C039UV0CQBZ)
