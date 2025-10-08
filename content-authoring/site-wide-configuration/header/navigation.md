@@ -49,26 +49,7 @@ To show a menu link item in the navigation the `Enabled` checkbox must be filled
 
 If you want to hide the link from the menu, uncheck the box. If you hide a menu link, any child menu links will also be hidden from the menu.
 
-### Configuring the menu style
 
-CivicTheme has three menu styles:
-
-* None
-* Dropdown
-* Drawer
-
-**Note:** at the time of writing, the styles `None` and `Dropdown` are broken. Examples will be added when these are fixed.&#x20;
-
-To configure the menu style:
-
-1. Go to the Primary navigation setting at `/admin/appearance/settings/[site-name]`
-2. Scroll down and click to open `Navigation`
-3. In the `Dropdown type`  select the desired style
-4. Save the configuration
-
-#### Drawer
-
-<figure><img src="../../../.gitbook/assets/Drawer.png" alt=""><figcaption><p>Drawer style menu displaying child menu links. Note: news &#x26; events has no child menu links.</p></figcaption></figure>
 
 ### Editing menu settings from the node (page) itself
 
@@ -82,3 +63,25 @@ You can also access menu settings for an individual page from the page itself.&#
 6. Assign a weight. Again, if the menu is large it might be easier to go to the Primary navigation settings and use the handles to drag it to the right position or view the row weights for the entire menu to know which weight to assign.&#x20;
 
 <div align="left"><figure><img src="../../../.gitbook/assets/in-page-menu-settings.png" alt="In page menu link settings screenshot" width="375"><figcaption></figcaption></figure></div>
+
+### Configuring the navigation style
+
+CivicTheme has three menu styles:
+
+* None
+* Dropdown
+* Drawer
+
+**Note:** at the time of writing, the styles `None` and `Dropdown` are broken. Examples will be added when these are fixed in release 1.12.
+
+To configure the navigation style:
+
+1. Log in as a Site Administrator
+2. In the admin menu, go to Appeareance > Settings > \[Site name]
+3. Scroll down and click to open `Navigation`
+4. In the `Dropdown type`  (for Primary or Secondary navigation) select the desired style
+5. Save the configuration
+
+#### Drawer navigation style
+
+<figure><img src="../../../.gitbook/assets/Drawer.png" alt=""><figcaption><p>Drawer style menu displaying child menu links. Note: news &#x26; events has no child menu links.</p></figcaption></figure>
