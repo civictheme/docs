@@ -29,5 +29,5 @@ npm run build
 ```
 
 {% hint style="info" %}
-NodeJS version >=18.14 is required to compile front-end assets.
+NodeJS version >=22 is required to compile front-end assets.
 {% endhint %}
