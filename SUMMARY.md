@@ -6,6 +6,7 @@
 * [Installation](getting-started/installation.md)
 * [Getting help](getting-started/getting-help.md)
 * [Security policy](getting-started/security-policy.md)
+* [Security Update - 1.12.0](development/maintenance/civictheme-1.12.0-manual-update-instructions.md)
 * [Partnerships](getting-started/partnerships.md)
 
 ## Installation
