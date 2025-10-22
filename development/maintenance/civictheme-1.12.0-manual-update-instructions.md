@@ -355,6 +355,33 @@ Update the function with the below:
   return strip_tags($content, $supported_svg_tags);  
 }
 ```
+
+
+## Update  `civictheme_preprocess_paragraph__civictheme_manual_list`
+Update preprocessing of manual list to only render paragraphs that have a field value.
+With the access checking in `civictheme_get_field_referenced_entities` you need to check to see if the card
+is a reference card and if it is check to see whether the user has access to the referenced entity before adding.
+Without this you will have empty columns if the user does not have access to the referenced entity.
+
+```php
+  /** @var \Drupal\Core\Entity\ContentEntityInterface[] $items */
+  $items = civictheme_get_field_referenced_entities($paragraph, 'field_c_p_list_items', $variables);
+  $builder = \Drupal::entityTypeManager()->getViewBuilder('paragraph');
+  if ($items) {
+    foreach ($items as $item) {
+      if (!$item->hasField('field_c_p_reference')) {
+        $variables['rows'][] = $builder->view($item);
+        continue;
+      }
+      $referenced_item = civictheme_get_field_referenced_entity($item, 'field_c_p_reference', $variables);
+      if ($referenced_item instanceof EntityInterface) {
+        $variables['rows'][] = $builder->view($item);
+      }
+    }
+  }
+
+
+```
 ### Updating the retrieving of entity reference fields and referenced entities within CivicTheme and sub-themes
 
 CivicTheme was not correctly managing cacheable metadata within its preprocess functions. We have updated the CivicTheme API to manage this at the field getter level.
