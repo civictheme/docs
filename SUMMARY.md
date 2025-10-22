@@ -37,6 +37,7 @@
     * [Components](development/drupal-theme/systems/components.md)
     * [Mapping](development/drupal-theme/systems/mapping.md)
 * [Maintenance](development/maintenance/README.md)
+  * [Security Update - 1.12.0](development/maintenance/civictheme-1.12.0-manual-update-instructions.md)
   * [Code naming conventions](development/maintenance/code-naming-conventions.md)
   * [Requirements and constraints](development/maintenance/requirements-and-constraints.md)
   * [Authoring documentation](development/maintenance/authoring-documentation/README.md)
