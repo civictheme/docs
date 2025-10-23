@@ -7,7 +7,25 @@ and manually update their older projects.
 
 It is also for those checking their sub-theme for XSS and information disclosure issues.
 
-Manual Instructions:
+## Manual Instructions
+
+
+## Key Information
+
+CivicTheme provides a field API system for retrieving commonly used field values specific to CivicTheme.
+
+*We strongly recommend that you use this system solely to retrieve field data for use within components.*
+Not using this API will mean that the developer is reliant on implementing mitigations for XSS.
+
+The following functions are available for use:
+
+- `civictheme_get_field_value` - retrieves field values from fields that CivicTheme regularly uses. All field types within CivicTheme are supported and several more. Raise an issue if you require other field types supported.
+- `civictheme_get_field_referenced_entities` - retrieves and checks access to referenced entities in a field of an entity. Also manages the cacheability metadata for the referenced entities.
+- `civictheme_get_field_referenced_entity` - retrieves the first referenced entity in a field of an entity.
+- `civictheme_get_referenced_entity_labels` - retrieves labels of the referenced entities.
+- `civictheme_embed_svg` - embeds SVG from provided URL. This function does not protect against XSS and relies on appropriate level of user managing SVG Icons.
+
+We recommend revieewing the `web/themes/contrib/`civictheme/includes/utilities.inc` for these utility functions.
 
 ## Updates to components
 
