@@ -8,21 +8,7 @@ description: >-
 
 ### Supported versions <a href="#supported-versions" id="supported-versions"></a>
 
-We follow a N and N-1 supported version model.
-
-We support the current and prior minor release of CivicTheme and their accompanying UI Kit.\
-This means that if the latest release is 1.8.1 we are supporting the following:
-
-* 1.8.1 (latest release)
-* 1.7.4 (last minor release)
-
-But we are not supporting 1.8.0 or 1.7.3 and below.\
-\
-In addition to the above model, we will also make available security release patches for the 1.4 version of CivicTheme and 0.9 version due to the difficulty in updating from these models.
-
-
-
-***
+We support the current release of CivicTheme and the accompanying UI Kit.
 
 ### Reporting a vulnerability <a href="#reporting-a-vulnerability" id="reporting-a-vulnerability"></a>
 
