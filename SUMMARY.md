@@ -5,8 +5,8 @@
 * [Introduction](README.md)
 * [Installation](getting-started/installation.md)
 * [Getting help](getting-started/getting-help.md)
-* [Security policy](getting-started/security-policy.md)
-* [Security Update - 1.12.0](development/maintenance/civictheme-1.12.0-manual-update-instructions.md)
+* [Security framework](getting-started/security-policy.md)
+* [Security update - 1.12.0](development/maintenance/civictheme-1.12.0-manual-update-instructions.md)
 * [Partnerships](getting-started/partnerships.md)
 
 ## Installation
@@ -16,6 +16,7 @@
   * [GovCMS Automated Installation](installation/govcms-saas-automated.md)
   * [GovCMS Manual Installation](installation/govcms-saas-manual.md)
   * [GovCMS Content Provisioning](installation/govcms-content-provisioning.md)
+
 ## Development
 
 * [UI kit](development/uikit/README.md)

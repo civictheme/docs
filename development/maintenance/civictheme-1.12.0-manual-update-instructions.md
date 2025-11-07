@@ -1,33 +1,32 @@
+# Security update - 1.12.0
+
 Instructions for manual mitigation
 
 These instructions require an experienced developer to implement, to be able to test XSS protections and remove the information disclosure issues on entity reference fields.
 
-The purpose of these instructions is for users that wish to mitigate the security issues found in CivicTheme (<1.12.0)
-and manually update their older projects. 
+The purpose of these instructions is for users that wish to mitigate the security issues found in CivicTheme (<1.12.0) and manually update their older projects.
 
 It is also for those checking their sub-theme for XSS and information disclosure issues.
 
-## Manual Instructions
+### Manual instructions
 
-
-## Key Information
+### Key information
 
 CivicTheme provides a field API system for retrieving commonly used field values specific to CivicTheme.
 
-*We strongly recommend that you use this system solely to retrieve field data for use within components.*
-Not using this API will mean that the developer is reliant on implementing mitigations for XSS.
+_We strongly recommend that you use this system solely to retrieve field data for use within components._ Not using this API will mean that the developer is reliant on implementing mitigations for XSS.
 
 The following functions are available for use:
 
-- `civictheme_get_field_value` - retrieves field values from fields that CivicTheme regularly uses. All field types within CivicTheme are supported and several more. Raise an issue if you require other field types supported.
-- `civictheme_get_field_referenced_entities` - retrieves and checks access to referenced entities in a field of an entity. Also manages the cacheability metadata for the referenced entities.
-- `civictheme_get_field_referenced_entity` - retrieves the first referenced entity in a field of an entity.
-- `civictheme_get_referenced_entity_labels` - retrieves labels of the referenced entities.
-- `civictheme_embed_svg` - embeds SVG from provided URL. This function does not protect against XSS and relies on appropriate level of user managing SVG Icons.
+* `civictheme_get_field_value` - retrieves field values from fields that CivicTheme regularly uses. All field types within CivicTheme are supported and several more. Raise an issue if you require other field types supported.
+* `civictheme_get_field_referenced_entities` - retrieves and checks access to referenced entities in a field of an entity. Also manages the cacheability metadata for the referenced entities.
+* `civictheme_get_field_referenced_entity` - retrieves the first referenced entity in a field of an entity.
+* `civictheme_get_referenced_entity_labels` - retrieves labels of the referenced entities.
+* `civictheme_embed_svg` - embeds SVG from provided URL. This function does not protect against XSS and relies on appropriate level of user managing SVG Icons.
 
-We recommend revieewing the `web/themes/contrib/`civictheme/includes/utilities.inc` for these utility functions.
+We recommend revieewing the `web/themes/contrib/`civictheme/includes/utilities.inc\` for these utility functions.
 
-## Updates to components
+### Updates to components
 
 We have implemented updates to `heading.twig` and `button.twig` by removing the `raw` filter from the content outputs in these components.
 
@@ -72,31 +71,32 @@ index 708bd62a..332d6ef2 100644
 
 These components have changed over time but the intent is to remove raw from content entered data.
 
-### Remove attributes field from iframe paragraph
-- Create a view to see whether you have any values in Attributes field for Iframe paragraph
-- Remove the Attributes field (`field_c_p_attributes`)
-- Delete field.field.paragraph.civictheme_iframe.field_c_p_attributes
-- Delete field.storage.paragraph.field_c_p_attributes
-- Update `\civictheme_preprocess_paragraph__civictheme_iframe` to add any required iframe attributes to the preprocess
+#### Remove attributes field from iframe paragraph
 
-### Update Content Author and Approver permission
+* Create a view to see whether you have any values in Attributes field for Iframe paragraph
+* Remove the Attributes field (`field_c_p_attributes`)
+* Delete field.field.paragraph.civictheme\_iframe.field\_c\_p\_attributes
+* Delete field.storage.paragraph.field\_c\_p\_attributes
+* Update `\civictheme_preprocess_paragraph__civictheme_iframe` to add any required iframe attributes to the preprocess
 
-- Remove permission to create, edit Icons media type
+#### Update Content Author and Approver permission
 
-## CivicTheme API updates
+* Remove permission to create, edit Icons media type
+
+### CivicTheme API updates
 
 It is the intention of CivicTheme sub-themes that all values used in CivicTheme components should be retrieved using the CivicTheme API and `civictheme_get_field_value` or `civictheme_get_field_referenced_entities` rather than through the Drupal entity field API.
 
 CivicTheme uses this API for retrieving all field values for components.
 
-- `civictheme_get_field_referenced_entities`
-- `civictheme_get_field_referenced_entity`
-- `civictheme_get_field_value`
-- `civictheme_get_referenced_entity_labels`
+* `civictheme_get_field_referenced_entities`
+* `civictheme_get_field_referenced_entity`
+* `civictheme_get_field_value`
+* `civictheme_get_referenced_entity_labels`
 
 These changes are adding the build array argument so CivicTheme can manage cacheable metadata but it is easiest to replace each function completely rather than patch in changes.
 
-### Replace `civictheme_get_field_referenced_entities` with updated version
+#### Replace `civictheme_get_field_referenced_entities` with updated version
 
 ```php
 /**  
@@ -140,7 +140,7 @@ These changes are adding the build array argument so CivicTheme can manage cache
 }
 ```
 
-### Replace `civictheme_get_field_value` with updated version
+#### Replace `civictheme_get_field_value` with updated version
 
 ```php
 /**  
@@ -230,7 +230,7 @@ These changes are adding the build array argument so CivicTheme can manage cache
 
 ```
 
-## Replace `civictheme_get_field_referenced_entity` function
+### Replace `civictheme_get_field_referenced_entity` function
 
 Update the function with the below:
 
@@ -261,7 +261,7 @@ Update the function with the below:
 
 ```
 
-## Replace `civictheme_get_referenced_entity_labels` function
+### Replace `civictheme_get_referenced_entity_labels` function
 
 ```php
 /**  
@@ -285,7 +285,7 @@ Update the function with the below:
 
 ```
 
-## Replace `civictheme_embed_svg`
+### Replace `civictheme_embed_svg`
 
 ```php
 /**  
@@ -374,12 +374,9 @@ Update the function with the below:
 }
 ```
 
+### Update `civictheme_preprocess_paragraph__civictheme_manual_list`
 
-## Update  `civictheme_preprocess_paragraph__civictheme_manual_list`
-Update preprocessing of manual list to only render paragraphs that have a field value.
-With the access checking in `civictheme_get_field_referenced_entities` you need to check to see if the card
-is a reference card and if it is check to see whether the user has access to the referenced entity before adding.
-Without this you will have empty columns if the user does not have access to the referenced entity.
+Update preprocessing of manual list to only render paragraphs that have a field value. With the access checking in `civictheme_get_field_referenced_entities` you need to check to see if the card is a reference card and if it is check to see whether the user has access to the referenced entity before adding. Without this you will have empty columns if the user does not have access to the referenced entity.
 
 ```php
   /** @var \Drupal\Core\Entity\ContentEntityInterface[] $items */
@@ -400,39 +397,38 @@ Without this you will have empty columns if the user does not have access to the
 
 
 ```
-### Updating the retrieving of entity reference fields and referenced entities within CivicTheme and sub-themes
+
+#### Updating the retrieving of entity reference fields and referenced entities within CivicTheme and sub-themes
 
 CivicTheme was not correctly managing cacheable metadata within its preprocess functions. We have updated the CivicTheme API to manage this at the field getter level.
 
-This requires updates to CivicTheme and sub-theme implementations to pass the build array
-into the CivicTheme API functions.
+This requires updates to CivicTheme and sub-theme implementations to pass the build array into the CivicTheme API functions.
 
-- Firstly find a list of entity reference fields in your project, run the following command:
+*   Firstly find a list of entity reference fields in your project, run the following command:
 
-  `grep -l "type: entity_reference" <path-to-your-config-directory>field.storage*.yml | xargs grep "^field_name:" | awk '{print $2}'`
+    `grep -l "type: entity_reference" <path-to-your-config-directory>field.storage*.yml | xargs grep "^field_name:" | awk '{print $2}'`
+* This will return a list of field names, now with this list you will need to update how you access the field data
+* Firstly, you need to ensure you are using either `civictheme_get_field_value` or `civictheme_get_field_referenced_entities` - (if you do not then you are responsible for ensuring users have adequate access to these entities in your subtheme)
+* Then for each of these reference fields update the API getter functions.
+* For `civictheme_get_field_referenced_entities` search for the following usages for each reference field and add the missing `$variabes` build argument
+  * Examples:
+    * From: `civictheme_get_field_referenced_entities($entity, 'field_c_b_social_icons');`
+    * To: `civictheme_get_field_referenced_entities($entity, 'field_c_b_social_icons', $variables);`
+* For each `civictheme_get_field_value`:
+  * From: `$featured_image = civictheme_get_field_value($block, 'field_c_b_featured_image', TRUE);`
+  * To: `$featured_image = civictheme_get_field_value($block, 'field_c_b_featured_image', TRUE, build: $variables);`
+* For each `civictheme_get_field_referenced_entity`:
+  * From: `$referenced_item = civictheme_get_field_referenced_entity($item, 'field_c_p_reference');`
+  * To: `$referenced_item = civictheme_get_field_referenced_entity($item, 'field_c_p_reference', $variables);`
+* If you do not get all the references, if you turn on `error_reporting` to `verbose` you will see errors being logged.
+* We have created a backward compatible function but this will be removed in future versions of CivicTheme - this error will tell you what field you should search for in your codebase. `'Calling civictheme_get_field_referenced_entities without the $build argument is deprecated in civictheme:1.12.0 It will be required in civictheme:1.13.0. Triggered when getting entity for <your field name>. See https://www.drupal.org/node/3552745'`
 
-- This will return a list of field names, now with this list you will need to update how you access the field data
-- Firstly, you need to ensure you are using either `civictheme_get_field_value` or `civictheme_get_field_referenced_entities` - (if you do not then you are responsible for ensuring users have adequate access to these entities in your subtheme)
-- Then for each of these reference fields update the API getter functions.
-- For `civictheme_get_field_referenced_entities` search for the following usages for each reference field and add the missing `$variabes` build argument
-    - Examples:
-        - From: `civictheme_get_field_referenced_entities($entity, 'field_c_b_social_icons');`
-        - To: `civictheme_get_field_referenced_entities($entity, 'field_c_b_social_icons', $variables);`
-- For each `civictheme_get_field_value`:
-    - From: `$featured_image = civictheme_get_field_value($block, 'field_c_b_featured_image', TRUE);`
-    - To: `$featured_image = civictheme_get_field_value($block, 'field_c_b_featured_image', TRUE, build: $variables);`
-- For each `civictheme_get_field_referenced_entity`:
-    - From: `$referenced_item = civictheme_get_field_referenced_entity($item, 'field_c_p_reference');`
-    - To: `$referenced_item = civictheme_get_field_referenced_entity($item, 'field_c_p_reference', $variables);`
-- If you do not get all the references, if you turn on `error_reporting` to `verbose` you will see errors being logged.
-- We have created a backward compatible function but this will be removed in future versions of CivicTheme - this error will tell you what field you should search for in your codebase.
-  `'Calling civictheme_get_field_referenced_entities without the $build argument is deprecated in civictheme:1.12.0 It will be required in civictheme:1.13.0. Triggered when getting entity for <your field name>. See https://www.drupal.org/node/3552745'`
-## Updates to accessing node titles and other labels
+### Updates to accessing node titles and other labels
 
 We need to update to filter node titles and other entity labels. CivicTheme uses node titles in the following places, that need their own update:
 
-- `_civictheme_preprocess_block__civictheme_banner`
-- `_civictheme_preprocess_node__civictheme_page__full`
+* `_civictheme_preprocess_block__civictheme_banner`
+* `_civictheme_preprocess_node__civictheme_page__full`
 
 We need to ensure we are filtering title fields - this is the change we employed in `_civictheme_preprocess_block__civictheme_banner`:
 
@@ -445,7 +441,7 @@ We need to ensure we are filtering title fields - this is the change we employed
 
 ```
 
-## Updates to outputting link text
+### Updates to outputting link text
 
 In link fields with link title enabled, we also need to provide filtering of the link title, searching for use of `getText` should find the areas that need attention within the themes:
 
@@ -459,31 +455,30 @@ In link fields with link title enabled, we also need to provide filtering of the
   }
 ```
 
-## Updates to menu link preprocessing
+### Updates to menu link preprocessing
 
 We have added filtering of menu link titles to `_civictheme_preprocess_menu_items`:
 
 The menu link title field needs to be correctly filtered:
+
 ```
 $item['title'] = isset($item['title']) ? Xss::filter($item['title']) : '';
 ```
 
-## Update to render arrays in some cases
+### Update to render arrays in some cases
 
 We have removed raw from `button.twig` and `heading.twig` - if you were relying on html to being outputted within these properties you will need to carry out additional work to implement these changes.
 
-## Updates in sub-themes
+### Updates in sub-themes
 
-The above gives a good summary of the changes made in CivicTheme. This process of updating the CivicTheme API and potentially updating to *use* the CivicTheme API should be carried out.
-If any additional components have been added or modifications to menus etc, then XSS filtering should be applied to titles.
+The above gives a good summary of the changes made in CivicTheme. This process of updating the CivicTheme API and potentially updating to _use_ the CivicTheme API should be carried out. If any additional components have been added or modifications to menus etc, then XSS filtering should be applied to titles.
 
-
-## How to test / test instructions
+### How to test / test instructions
 
 1. When `<script>alert('`☠️');`</script>` is entered in:
-    1. Textfields of CivicTheme components
-    2. Title fields for nodes and taxonomy terms
-    3. Link text fields
-    4. Menu links
+   1. Textfields of CivicTheme components
+   2. Title fields for nodes and taxonomy terms
+   3. Link text fields
+   4. Menu links
 2. It should not generate an alert
 3. If you have access to behat and behat-steps (what CivicTheme relies) upon, look to adapt and add the XSS tests from CivicTheme to test your own components and custom components
