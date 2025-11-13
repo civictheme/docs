@@ -32,6 +32,7 @@
   * [Templates](development/drupal-theme/templates.md)
   * [Assets](development/drupal-theme/assets.md)
   * [Layout builder](development/drupal-theme/layout-builder.md)
+  * [Menus](development/drupal-theme/menus.md)
   * [Automated list](development/drupal-theme/automated-list.md)
   * [Systems](development/drupal-theme/systems/README.md)
     * [Build System](development/drupal-theme/systems/build.md)
