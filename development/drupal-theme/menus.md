@@ -24,6 +24,12 @@ The secondary navigation is a menu block placed in the top right of the page.
 For this menu to be themed correctly the menu block must be configured with `menu__civictheme_secondary_navigation` theme hook suggestion in the HTML and style options of the Block configuration form.
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/secondary-navigation-menu-hook.png" alt="HTML and style options - Theme hook suggestion: civictheme_secondary_navigation"><figcaption><p>Secondary Navigation Theme Suggestion Hook Configuration. HTML and style options - Theme hook suggestion: civictheme_secondary_navigation. Click on the image to zoom in.</p></figcaption></figure></div>
 
+## Mobile Navigation
+
+The mobile navigation is a content block type. This block once created is placed is in the Header Middle 3 region.
+
+There is no configuration needed for this block.
+
 ## Side Navigation
 
 The side navigation is a menu block placed in the Side bar top left region of the page.
