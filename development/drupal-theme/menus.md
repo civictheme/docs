@@ -101,3 +101,22 @@ The default setup for the footer navigation is a menu block placed in each of th
 
 For this menu to be themed correctly the menu block must be configured with `menu__civictheme_footer` theme hook suggestion in the HTML and style options of the Block configuration form.
 <div data-full-width="true"><figure><img src="../../.gitbook/assets/footer-menu-theme-hook.png" alt="HTML and style options - Theme hook suggestion: civictheme_footer"><figcaption><p>Footer Theme Suggestion Hook Configuration. HTML and style options - Theme hook suggestion: civictheme_footer. Click on the image to zoom in.</p></figcaption></figure></div>
+
+The settings for each footer menu are:
+
+```yaml
+settings:
+  id: 'menu_block:civictheme-footer'
+  label: 'Footer menu 1'
+  label_display: visible
+  provider: menu_block
+  follow: false
+  follow_parent: child
+  label_link: false
+  label_type: fixed
+  level: 1
+  depth: 1
+  expand_all_items: false
+  parent: '<set the parent>'
+  suggestion: civictheme_footer
+```
