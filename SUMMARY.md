@@ -3,7 +3,6 @@
 ## Getting started
 
 * [Introduction](README.md)
-* [Installation](getting-started/installation.md)
 * [Getting help](getting-started/getting-help.md)
 * [Security framework](getting-started/security-policy.md)
 * [Security update - 1.12.0](development/maintenance/civictheme-1.12.0-manual-update-instructions.md)
