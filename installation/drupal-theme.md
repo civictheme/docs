@@ -12,20 +12,6 @@ Alternatively, you can download the [latest version](https://www.drupal.org/proj
 Note that Drupal core has a known [issue](https://www.drupal.org/node/3204271) and a [patch](https://www.drupal.org/files/issues/2023-07-16/3204271-20-missing-layout-exception.patch) would need to be installed on your site.
 {% endhint %}
 
-### **v1.11 Bug - Remove examples from civictheme\_starter\_kit**
-
-There is a known bug in CivicTheme 1.11 related to the namespace change that came with converting to Single Directory components.
-
-The existing example components need to be removed so that civictheme sub-themes built with this tool work correctly. We will address this issue in code soon.&#x20;
-
-As a workaround, please delete the following directories from your new sub-theme manually (unless you have added some code changes):
-
-* `/components/01-atoms/demo-button`
-* `/components/01-atoms/demo-button`
-* `/components/03-organisms/header`
-
-See the issue at [Drupal.org](https://www.drupal.org/project/civictheme/issues/3527182).
-
 ## Install Contrib modules
 
 CivicTheme has required dependencies on [contrib modules](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme.info.yml#L11) and optional dependencies on\
@@ -36,7 +22,7 @@ These dependencies need to be downloaded and installed before you are able to in
 ### GovCMS SaaS specific installation instructions
 
 {% hint style="info" %}
-See [Using in GovCMS SaaS](/installation/govcms-saas.md) for specific GovCMS SaaS instructions.
+See [Using in GovCMS SaaS](govcms-saas.md) for specific GovCMS SaaS instructions.
 {% endhint %}
 
 ### Usage
@@ -81,7 +67,7 @@ CivicTheme comes with pre-set Block Content blocks configuration. Since Drupal d
 1. Login to the local instance of your site.
 2. Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`\\
 
-<figure><img src="../../.gitbook/assets/provision-content.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/provision-content (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Press "Provision content" button.
 4. Navigate to the homepage and observe that all blocks and menus are present.
@@ -94,7 +80,7 @@ ahoy drush cex -y
 Depending on your deployment workflow, you may need to repeat this step after deployment to your hosting provider environment.
 
 {% hint style="info" %}
-After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.&#x20;
+After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.
 {% endhint %}
 
 ### Setting up a sub-theme

@@ -23,7 +23,7 @@ The provisioning needs to be run twice:
 1. Login to the local instance of your site.
 2.  Navigate to `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`
 
-    <figure><img src="../.gitbook/assets/fff86df5-0dcb-4c88-9e8d-c6f3ea17eb21.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/provision-content (1).png" alt=""><figcaption></figcaption></figure>
 3. Press "Provision content" button.
 4. Navigate to the homepage and observe that all blocks and menus are present.
 5.  Export config for created entities:
@@ -82,4 +82,3 @@ If you want to avoid doing a full content migration (forklift) from local to pro
 * [Automated Installation](govcms-saas-automated.md)
 * [Manual Installation](govcms-saas-manual.md)
 * [Theme Settings](../content-authoring/site-wide-configuration/)
-
