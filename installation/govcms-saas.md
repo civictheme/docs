@@ -2,9 +2,9 @@
 
 CivicTheme can be installed on GovCMS SaaS using either an automated script or manual installation process.
 
-## Installation Methods
+## Installation methods
 
-### [Automated Installation (Recommended)](govcms-saas-manual.md)
+### [Automated installation (recommended)](govcms-saas-manual.md)
 
 The automated installation script is the preferred method for setting up CivicTheme on new GovCMS SaaS project. It handles most of the setup process automatically, including:
 
@@ -13,9 +13,9 @@ The automated installation script is the preferred method for setting up CivicTh
 * Creating your custom subtheme
 * Optionally provisioning content blocks
 
-[**Start with Automated Installation →**](govcms-saas-automated.md)
+[**Start with automated installation →**](govcms-saas-automated.md)
 
-### [Manual Installation](govcms-saas-manual.md)
+### [Manual installation](govcms-saas-manual.md)
 
 For those who prefer more control over the installation process or cannot use the automated script, the manual installation guide provides step-by-step instructions for:
 
@@ -24,11 +24,11 @@ For those who prefer more control over the installation process or cannot use th
 * Creating and configuring your subtheme
 * Building and deploying assets
 
-[**View Manual Installation Guide →**](govcms-saas-manual.md)
+[**View manual installation guide →**](govcms-saas-manual.md)
 
-## Post-Installation Steps
+## Post-installation steps
 
-### [Content Provisioning](govcms-content-provisioning.md)
+### [Content provisioning](govcms-content-provisioning.md)
 
 Instructions on how to provision CivicTheme's default content blocks and menus, whether you're using automated or manual installation.
 

@@ -1,4 +1,4 @@
-# GovCMS Automated Installation
+# GovCMS automated installation
 
 This is the preferred installation method for setting up CivicTheme on GovCMS SaaS. The automated script handles most of the setup process for you.
 
@@ -19,7 +19,7 @@ This is the preferred installation method for setting up CivicTheme on GovCMS Sa
 * **tar and curl**: These command-line utilities must be available in your shell environment where you run the script.
 * **Bash**: The script is written for Bash.
 
-## What the Script Does
+## What the script does
 
 The script will perform the following actions:
 
@@ -50,7 +50,7 @@ _Note_: Download the script to your GovCMS project root directory on your host m
 
 Execute the script from your GovCMS project's root directory. You'll need to provide values for all the required arguments.
 
-### Command Structure:
+### Command structure
 
 ```bash
 ./setup_civictheme.sh -c <civictheme_version> \
@@ -62,7 +62,7 @@ Execute the script from your GovCMS project's root directory. You'll need to pro
 [-n]
 ```
 
-### Arguments:
+### Arguments
 
 | Argument                      | Required | Description                                                                                                                           | Example                                                                                  |
 | ----------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
@@ -74,7 +74,7 @@ Execute the script from your GovCMS project's root directory. You'll need to pro
 | `-p`                          | No       | Apply Drupal cache backend patch (drupal.org issue). This patches LayoutPluginManager to add cache tags for better cache invalidation | -                                                                                        |
 | `-n`                          | No       | Skip content provisioning. By default, content provisioning is enabled                                                                | -                                                                                        |
 
-### Content Provisioning Option (`-n` flag)
+### Content provisioning option (`-n` flag)
 
 The `-n` flag allows you to skip the automatic provisioning of content blocks during installation. This is particularly useful when you want to avoid performing a content forklift with GovCMS.
 
@@ -92,9 +92,9 @@ The `-n` flag allows you to skip the automatic provisioning of content blocks du
 4. Deploy the configuration to production
 5. Provision the content in production through theme settings
 
-For detailed instructions on content provisioning, see [Content Provisioning for CivicTheme](govcms-content-provisioning.md).
+For detailed instructions on content provisioning, see [Content provisioning for CivicTheme](govcms-content-provisioning.md).
 
-### Example Commands:
+### Example commands:
 
 **Standard installation (with content provisioning):**
 
@@ -117,9 +117,9 @@ For detailed instructions on content provisioning, see [Content Provisioning for
                       -n
 ```
 
-## Post-Installation Steps
+## Post-installation steps
 
-1.  **Build front-end assets**:
+1.  **Build front-end assets**
 
     ```bash
     cd themes/<SUBTHEME_MACHINE_NAME>
@@ -127,7 +127,7 @@ For detailed instructions on content provisioning, see [Content Provisioning for
     npm install
     npm run build
     ```
-2. **Commit built assets**:
+2. **Commit built assets**
    *   Modify `.gitignore` file in your new theme and remove the following line:
 
        ```
@@ -135,16 +135,16 @@ For detailed instructions on content provisioning, see [Content Provisioning for
        ```
    * Commit the built assets to your repository
 3. **Content Provisioning** (if skipped during installation):
-   * See [Content Provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions
+   * See [Content provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions
 
 ## Deployment
 
 1. Push your changes to the remote repository
 2. Wait for deployment to complete
-3. If you used the `-n` flag, provision content in production following the [Content Provisioning guide](govcms-content-provisioning/)
+3. If you used the `-n` flag, provision content in production following the [Content provisioning guide](govcms-content-provisioning/)
 
-## Next Steps
+## Next steps
 
-* [Customising CivicTheme / SubTheme Development](../development/drupal-theme/)
-* [Manual Installation Guide](govcms-saas-manual.md) (alternative method)
-* [Content Provisioning](govcms-content-provisioning.md)
+* [Customising CivicTheme / SubTheme development](../development/drupal-theme/)
+* [Manual installation guide](govcms-saas-manual.md) (alternative method)
+* [Content provisioning](govcms-content-provisioning.md)
