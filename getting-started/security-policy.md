@@ -1,5 +1,9 @@
 # Security framework
 
+{% hint style="info" %}
+**Need to report a vulnerability?** Find out how on the [Drupal CivicTheme Design System](https://www.drupal.org/project/civictheme) page.
+{% endhint %}
+
 The CivicTheme security framework outlines the CivicTheme approach to developing, reviewing, and maintaining CivicTheme and its related assets in accordance with secure-by-design principles.&#x20;
 
 It describes the measures, tools, and governance processes used to protect our codebase, users, and community from potential security threats.
@@ -47,4 +51,24 @@ By participating in this program, we commit to following the Drupal Security Tea
 
 ### Reporting a vulnerability
 
-Find out how to report a vulnerability  on the [Drupal CivicTheme Design System](https://www.drupal.org/project/civictheme) page.<br>
+Find out how to report a vulnerability on the [Drupal CivicTheme Design System](https://www.drupal.org/project/civictheme) page.
+
+### Future security enhancements
+
+We are continually improving our security processes.&#x20;
+
+Planned future developments include deeper static analysis, expanded communication channels for security advisories, and enhanced automation in our CI/CD pipeline for proactive testing and vulnerability detection.
+
+These initiatives reinforce our commitment to maintaining a robust, secure, and transparent open-source ecosystem.
+
+### Ongoing commitment
+
+CivicTheme commits to:
+
+* Supporting the current version
+* Responding quickly to valid vulnerability reports
+* Adopting industry best practices in security scanning and review
+* Maintaining transparency through public changelogs and advisories
+* Encouraging community contributions to improve security
+
+<br>
