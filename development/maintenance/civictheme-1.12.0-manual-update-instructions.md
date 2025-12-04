@@ -33,38 +33,38 @@ We have implemented updates to `heading.twig` and `button.twig` by removing the 
 Patches below for what change was required of each component:
 
 ```
-diff --git a/components/01-atoms/heading/heading.twig b/components/01-atoms/heading/heading.twig  
-index a6f95bf4..ab245f70 100644  
---- a/components/01-atoms/heading/heading.twig  
-+++ b/components/01-atoms/heading/heading.twig  
-@@ -19,6 +19,6 @@  
-   
-{% if content %}  
-  <h{{ level }} class="ct-heading {{ modifier_class -}}" {% if attributes is not empty %}{{- attributes|raw -}}{% endif %}>  
--    {{- content|raw -}}  
-+    {{- content -}}  
-  </h{{ level }}>  
+diff --git a/components/01-atoms/heading/heading.twig b/components/01-atoms/heading/heading.twig
+index a6f95bf4..ab245f70 100644
+--- a/components/01-atoms/heading/heading.twig
++++ b/components/01-atoms/heading/heading.twig
+@@ -19,6 +19,6 @@
+ 
+{% if content %}
+  <h{{ level }} class="ct-heading {{ modifier_class -}}" {% if attributes is not empty %}{{- attributes|raw -}}{% endif %}>
+-    {{- content|raw -}}
++    {{- content -}}
+  </h{{ level }}>
 {% endif %}
 ```
 
 In the latest change this looks like this for `button.twig`:
 
 ```
-diff --git a/components/01-atoms/button/button.twig b/components/01-atoms/button/button.twig  
-index 708bd62a..332d6ef2 100644  
---- a/components/01-atoms/button/button.twig  
-+++ b/components/01-atoms/button/button.twig  
-@@ -45,9 +45,9 @@  
-      } only -%}  
-    {% endset %}  
-    {% if icon_placement == 'before' %}  
--      {{- icon_markup -}}{{ text|raw }}  
-+      {{- icon_markup -}}{{ text }}  
-    {% else %}  
--      {{ text|raw }}{{- icon_markup -}}  
-+      {{ text }}{{- icon_markup -}}  
-    {% endif %}  
-  {%- else -%}  
+diff --git a/components/01-atoms/button/button.twig b/components/01-atoms/button/button.twig
+index 708bd62a..332d6ef2 100644
+--- a/components/01-atoms/button/button.twig
++++ b/components/01-atoms/button/button.twig
+@@ -45,9 +45,9 @@
+      } only -%}
+    {% endset %}
+    {% if icon_placement == 'before' %}
+-      {{- icon_markup -}}{{ text|raw }}
++      {{- icon_markup -}}{{ text }}
+    {% else %}
+-      {{ text|raw }}{{- icon_markup -}}
++      {{ text }}{{- icon_markup -}}
+    {% endif %}
+  {%- else -%}
     {%- include 'civictheme:text-icon' with {
 
 ```
@@ -99,135 +99,156 @@ These changes are adding the build array argument so CivicTheme can manage cache
 #### Replace `civictheme_get_field_referenced_entities` with updated version
 
 ```php
-/**  
- * Gets the referenced entities in a field of an entity. * * @param \Drupal\Core\Entity\FieldableEntityInterface $entity  
- *   The host entity.  
- * @param string $field_name  
- *   The entity reference field.  
- * @param array<string, mixed> $build  
- *   Render array to apply cacheability metadata to.  
- * * @return array<int|string, \Drupal\Core\Entity\EntityInterface>  
- *   Referenced entities. */function civictheme_get_field_referenced_entities(FieldableEntityInterface $entity, string $field_name, array &$build = []): array {  
-  $trigger_bc = empty($build);  
-  if ($trigger_bc) {  
-    @trigger_error('Calling ' . __FUNCTION__ . ' without the $build argument is deprecated in civictheme:1.12.0 It will be required in civictheme:1.13.0. Triggered when getting entity for ' . $field_name . '. See https://www.drupal.org/node/3552745', E_USER_DEPRECATED);  
-  }  
-  if (civictheme_field_has_value($entity, $field_name)) {  
-    /** @var \Drupal\Core\Entity\EntityInterface[] $referenced_entities */  
-    $referenced_entities = $entity->get($field_name)->referencedEntities();  
-    if (empty($referenced_entities)) {  
-      return [];  
-    }  
-    $access_checked_referenced_entities = [];  
-    foreach ($referenced_entities as $referenced_entity) {  
-      $access = $referenced_entity->access('view', NULL, TRUE);  
-      $cacheability = $cacheability ?? CacheableMetadata::createFromRenderArray($build);  
-      $cacheability->addCacheableDependency($access);  
-      $cacheability->addCacheableDependency($referenced_entity);  
-  
-      if ($access->isAllowed()) {  
-        $access_checked_referenced_entities[$referenced_entity->id()] = $referenced_entity;  
-      }  
-    }  
-    $cacheability->applyTo($build);  
-    if ($trigger_bc && \Drupal::service('renderer')->hasRenderContext()) {  
-      // The calling code didn't pass a render array that we can attach  
-      // cacheable metadata to. There is a render context and $build has had      // cacheability metadata added, so we can simply render it, and it will      // bubble up to the current theme hook.      \Drupal::service('renderer')->render($build);  
-    }  
-  }  
-  
-  return $access_checked_referenced_entities ?? [];  
+/**
+ * Gets the referenced entities in a field of an entity.
+ *
+ * @param \Drupal\Core\Entity\FieldableEntityInterface $entity
+ *   The host entity.
+ * @param string $field_name
+ *   The entity reference field.
+ * @param array<string, mixed> $build
+ *   Render array to apply cacheability metadata to.
+ * * @return array<int|string, \Drupal\Core\Entity\EntityInterface>
+ *   Referenced entities.
+ */
+function civictheme_get_field_referenced_entities(FieldableEntityInterface $entity, string $field_name, array &$build = []): array {
+  $trigger_bc = empty($build);
+  if ($trigger_bc) {
+    @trigger_error('Calling ' . __FUNCTION__ . ' without the $build argument is deprecated in civictheme:1.12.0 It will be required in civictheme:1.13.0. Triggered when getting entity for ' . $field_name . '. See https://www.drupal.org/node/3552745', E_USER_DEPRECATED);
+  }
+  if (civictheme_field_has_value($entity, $field_name)) {
+    /** @var \Drupal\Core\Entity\EntityInterface[] $referenced_entities */
+    $referenced_entities = $entity->get($field_name)->referencedEntities();
+    if (empty($referenced_entities)) {
+      return [];
+    }
+    $access_checked_referenced_entities = [];
+    foreach ($referenced_entities as $referenced_entity) {
+      $access = $referenced_entity->access('view', NULL, TRUE);
+      $cacheability = $cacheability ?? CacheableMetadata::createFromRenderArray($build);
+      $cacheability->addCacheableDependency($access);
+      $cacheability->addCacheableDependency($referenced_entity);
+
+      if ($access->isAllowed()) {
+        $access_checked_referenced_entities[$referenced_entity->id()] = $referenced_entity;
+      }
+    }
+    $cacheability->applyTo($build);
+    if ($trigger_bc && \Drupal::service('renderer')->hasRenderContext()) {
+      // The calling code didn't pass a render array that we can attach
+      // cacheable metadata to. There is a render context and $build has had
+      // cacheability metadata added, so we can simply render it, and it will
+      // bubble up to the current theme hook.
+      \Drupal::service('renderer')->render($build);
+    }
+  }
+
+  return $access_checked_referenced_entities ?? [];
 }
 ```
 
 #### Replace `civictheme_get_field_value` with updated version
 
 ```php
-/**  
- * Gets values from fields that CivicTheme regularly uses. * * This function complements the field API system, providing a convenient way to * retrieve commonly used field values specific to CivicTheme. * * If a field type is not listed, and you need to retrieve its value, consider * using the field API system directly. * * @param \Drupal\Core\Entity\FieldableEntityInterface $entity  
- *   Entity to check field existence.  
- * @param string $field_name  
- *   Field name to get the value for.  
- * @param bool $only_first  
- *   Return only the first value of a multi-value field.  
- * @param mixed $default  
- *   Default value to return.  
- * @param array<string, mixed> $build  
- *   Render array to apply cacheability metadata to.  
- *   (required for entity reference fields). * * @return mixed|null  
- *   Whether the field exists and is not empty. * * @SuppressWarnings(PHPMD.BooleanArgumentFlag)  
- * @SuppressWarnings(PHPMD.CyclomaticComplexity)  
- * @SuppressWarnings(PHPMD.ElseExpression)  
- * @SuppressWarnings(PHPMD.StaticAccess)  
- */function civictheme_get_field_value(FieldableEntityInterface $entity, string $field_name, bool $only_first = FALSE, mixed $default = NULL, array &$build = []): mixed {  
-  $value = $default;  
-  
-  if (!civictheme_field_has_value($entity, $field_name)) {  
-    return $value;  
-  }  
-  
-  $field = $entity->get($field_name);  
-  $field_type = $field->getFieldDefinition()->getType();  
-  
-  switch ($field_type) {  
-    case 'boolean':  
-      $value = (bool) $field->getString();  
-      break;  
-  
-    case 'integer':  
-  
-    case 'list_integer':  
-      $value = (int) $field->getString();  
-      break;  
-  
-    case 'list_string':  
-    case 'string':  
-    case 'string_long':  
-      $value = $field->getString();  
-      $value = Xss::filter($value);  
-      break;  
-  
-    // Field types where we want to return field item.  
-    case 'datetime':  
-    case 'daterange':  
-    case 'image':  
-    case 'link':  
-      $list = $field;  
-      if (!$list->isEmpty()) {  
-        $value = $only_first ? $list->first() : $list;  
-      }  
-      break;  
-  
-    // Field types where we want to return entities.  
-    case 'entity_reference':  
-    case 'entity_reference_revisions':  
-      if ($only_first) {  
-        $value = civictheme_get_field_referenced_entity($entity, $field_name, $build);  
-      }  
-      else {  
-        $value = civictheme_get_field_referenced_entities($entity, $field_name, $build);  
-      }  
-      break;  
-  
-    case 'text_long':  
-    case 'text_with_summary':  
-    case 'text':  
-      // Opinionated.  
-      // This implementation renders the field if it has a single value.      // If the field contains multiple values, it relies on view() to handle      // the rendering.      if ($only_first) {  
-        $field = $field->first();  
-        $field_value = $field->get('value')->getString();  
-        $field_format = $field->get('format')->getString();  
-        $value = empty($field_format) ? $field_value : check_markup($field_value, $field_format);  
-        break;  
-      }  
-  
-      $value = $field->view();  
-      break;  
-  }  
-  
-  return $value;  
-}
+/**
+ * Gets values from fields that CivicTheme regularly uses.
+ *
+ * This function complements the field API system, providing a convenient way to
+ * retrieve commonly used field values specific to CivicTheme.
+ *
+ * If a field type is not listed, and you need to retrieve its value, consider
+ * using the field API system directly.
+ *
+ * @param \Drupal\Core\Entity\FieldableEntityInterface $entity
+ *   Entity to check field existence.
+ * @param string $field_name
+ *   Field name to get the value for.
+ * @param bool $only_first
+ *   Return only the first value of a multi-value field.
+ * @param mixed $default
+ *   Default value to return.
+ * @param array<string, mixed> $build
+ *   Render array to apply cacheability metadata to.
+ *   (required for entity reference fields).
+ * @return mixed|null
+ *   Whether the field exists and is not empty.
+ *
+ * @SuppressWarnings(PHPMD.BooleanArgumentFlag)
+ * @SuppressWarnings(PHPMD.CyclomaticComplexity)
+ * @SuppressWarnings(PHPMD.ElseExpression)
+ * @SuppressWarnings(PHPMD.StaticAccess)
+ */
+function civictheme_get_field_value(FieldableEntityInterface $entity, string $field_name, bool $only_first = FALSE, mixed $default = NULL, array &$build = []): mixed {
+  $value = $default;
 
+  if (!civictheme_field_has_value($entity, $field_name)) {
+    return $value;
+  }
+
+  $field = $entity->get($field_name);
+  $field_type = $field->getFieldDefinition()->getType();
+
+  switch ($field_type) {
+    case 'boolean':
+      $value = (bool) $field->getString();
+      break;
+
+    case 'integer':
+
+    case 'list_integer':
+      $value = (int) $field->getString();
+      break;
+
+    case 'list_string':
+    case 'string':
+    case 'string_long':
+      $value = $field->getString();
+      $value = Xss::filter($value);
+      break;
+
+    // Field types where we want to return field item.
+    case 'datetime':
+    case 'daterange':
+    case 'image':
+    case 'link':
+      $list = $field;
+      if (!$list->isEmpty()) {
+        $value = $only_first ? $list->first() : $list;
+      }
+      break;
+
+    // Field types where we want to return entities.
+    case 'entity_reference':
+    case 'entity_reference_revisions':
+      if ($only_first) {
+        $value = civictheme_get_field_referenced_entity($entity, $field_name, $build);
+      }
+      else {
+        $value = civictheme_get_field_referenced_entities($entity, $field_name, $build);
+      }
+      break;
+
+    case 'text_long':
+    case 'text_with_summary':
+    case 'text':
+      // Opinionated.
+      // This implementation renders the field if it has a single value.
+      // If the field contains multiple values, it relies on view() to handle
+      // the rendering.
+      if ($only_first) {
+        $field = $field->first();
+        $field_value = $field->get('value')->getString();
+        $field_format = $field->get('format')->getString();
+        $value = empty($field_format) ? $field_value : check_markup($field_value, $field_format);
+        break;
+      }
+
+      $value = $field->view();
+      break;
+  }
+
+  return $value;
+}
 ```
 
 ### Replace `civictheme_get_field_referenced_entity` function
@@ -235,142 +256,156 @@ These changes are adding the build array argument so CivicTheme can manage cache
 Update the function with the below:
 
 ```php
+/**
+ * Gets the first referenced entity in a field of an entity.
+ *
+ * @param \Drupal\Core\Entity\FieldableEntityInterface $entity
+ *   The host entity.
+ * @param string $field_name
+ *   The entity reference field.
+ * @param array<string, mixed> $build
+ *   Render array to apply cacheability metadata to.
+ *
+ * @return \Drupal\Core\Entity\EntityInterface|null
+ *   Referenced entity.
+ */
+function civictheme_get_field_referenced_entity(FieldableEntityInterface $entity, string $field_name, array &$build = []): ?EntityInterface {
+  $referenced_entity = NULL;
 
-/**  
- * Gets the first referenced entity in a field of an entity. * * @param \Drupal\Core\Entity\FieldableEntityInterface $entity  
- *   The host entity.  
- * @param string $field_name  
- *   The entity reference field.  
- * @param array<string, mixed> $build  
- *   Render array to apply cacheability metadata to.  
- * * @return \Drupal\Core\Entity\EntityInterface|null  
- *   Referenced entity. */function civictheme_get_field_referenced_entity(FieldableEntityInterface $entity, string $field_name, array &$build = []): ?EntityInterface {  
-  $referenced_entity = NULL;  
-  
-  $entities = civictheme_get_field_referenced_entities($entity, $field_name, $build);  
-  if (!empty($entities)) {  
-    $referenced_entity = reset($entities);  
-    if (!$referenced_entity instanceof EntityInterface) {  
-      $referenced_entity = NULL;  
-    }  
-  }  
-  
-  return $referenced_entity;  
+  $entities = civictheme_get_field_referenced_entities($entity, $field_name, $build);
+  if (!empty($entities)) {
+    $referenced_entity = reset($entities);
+    if (!$referenced_entity instanceof EntityInterface) {
+      $referenced_entity = NULL;
+    }
+  }
+
+  return $referenced_entity;
 }
-
-
 ```
 
 ### Replace `civictheme_get_referenced_entity_labels` function
 
 ```php
-/**  
- * Get labels of the referenced entities. * * @param \Drupal\Core\Entity\FieldableEntityInterface $entity  
- *   The host entity.  
- * @param string $field_name  
- *   The entity reference field.  
- * * @return array<int,string>  
- *   The label(s). * * @SuppressWarnings(PHPMD.StaticAccess)  
- */function civictheme_get_referenced_entity_labels(FieldableEntityInterface $entity, string $field_name): array {  
-  $labels = [];  
-  $referenced_entities = civictheme_get_field_value($entity, $field_name) ?? [];  
-  foreach ($referenced_entities as $referenced_entity) {  
-    if ($referenced_entity instanceof EntityInterface) {  
-      $labels[] = Xss::filter((string) $referenced_entity->label());  
-    }  
-  }  
-  
-  return $labels;  
-}
+/**
+ * Get labels of the referenced entities.
+ *
+ * @param \Drupal\Core\Entity\FieldableEntityInterface $entity
+ *   The host entity.
+ * @param string $field_name
+ *   The entity reference field.
+ * @return array<int,string>
+ *   The label(s).
+ *
+ * @SuppressWarnings(PHPMD.StaticAccess)
+ */
+function civictheme_get_referenced_entity_labels(FieldableEntityInterface $entity, string $field_name): array {
+  $labels = [];
+  $referenced_entities = civictheme_get_field_value($entity, $field_name) ?? [];
+  foreach ($referenced_entities as $referenced_entity) {
+    if ($referenced_entity instanceof EntityInterface) {
+      $labels[] = Xss::filter((string) $referenced_entity->label());
+    }
+  }
 
+  return $labels;
+}
 ```
 
 ### Replace `civictheme_embed_svg`
 
 ```php
-/**  
- * Embed SVG from provided URL. * * @param string $url  
- *   Local URL or local path to retrieve SVG from.  
- * @param array $css_classes  
- *   Array of CSS classes to add.  
- * * @return string|null  
- *   Loaded SVG or NULL if unable to load SVG. */function civictheme_embed_svg(string $url, array $css_classes = []): ?string {  
-  $svg_path = DRUPAL_ROOT . (str_starts_with($url, 'http') ? parse_url(str_replace('.png', '.svg', $url), PHP_URL_PATH) : str_replace('.png', '.svg', $url));  
-  if (!file_exists($svg_path)) {  
-    return NULL;  
-  }  
-  
-  $content = (string) file_get_contents($svg_path);  
-  
-  if (!empty($css_classes)) {  
-    $content = str_replace('<svg ', '<svg class="' . implode(' ', $css_classes) . '" ', $content);  
-  }  
-  
-  // Tag list taken from  
-  // https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element.  // Excludes <a>, <script> and <style>.  $supported_svg_tags = implode('', [  
-    '<animate>',  
-    '<animateMotion>',  
-    '<animateTransform>',  
-    '<circle>',  
-    '<clipPath>',  
-    '<defs>',  
-    '<desc>',  
-    '<ellipse>',  
-    '<feBlend>',  
-    '<feColorMatrix>',  
-    '<feComponentTransfer>',  
-    '<feComposite>',  
-    '<feConvolveMatrix>',  
-    '<feDiffuseLighting>',  
-    '<feDisplacementMap>',  
-    '<feDistantLight>',  
-    '<feDropShadow>',  
-    '<feFlood>',  
-    '<feFuncA>',  
-    '<feFuncB>',  
-    '<feFuncG>',  
-    '<feFuncR>',  
-    '<feGaussianBlur>',  
-    '<feImage>',  
-    '<feMerge>',  
-    '<feMergeNode>',  
-    '<feMorphology>',  
-    '<feOffset>',  
-    '<fePointLight>',  
-    '<feSpecularLighting>',  
-    '<feSpotLight>',  
-    '<feTile>',  
-    '<feTurbulence>',  
-    '<filter>',  
-    '<foreignObject>',  
-    '<g>',  
-    '<image>',  
-    '<line>',  
-    '<linearGradient>',  
-    '<marker>',  
-    '<mask>',  
-    '<metadata>',  
-    '<mpath>',  
-    '<path>',  
-    '<pattern>',  
-    '<polygon>',  
-    '<polyline>',  
-    '<radialGradient>',  
-    '<rect>',  
-    '<set>',  
-    '<stop>',  
-    '<svg>',  
-    '<switch>',  
-    '<symbol>',  
-    '<text>',  
-    '<textPath>',  
-    '<title>',  
-    '<tspan>',  
-    '<use>',  
-    '<view>',  
-  ]);  
-  
-  return strip_tags($content, $supported_svg_tags);  
+/**
+ * Embed SVG from provided URL.
+ *
+ * @param string $url
+ *   Local URL or local path to retrieve SVG from.
+ * @param array $css_classes
+ *   Array of CSS classes to add.
+ *
+ * @return string|null
+ *   Loaded SVG or NULL if unable to load SVG.
+ */
+function civictheme_embed_svg(string $url, array $css_classes = []): ?string {
+  $svg_path = DRUPAL_ROOT . (str_starts_with($url, 'http') ? parse_url(str_replace('.png', '.svg', $url), PHP_URL_PATH) : str_replace('.png', '.svg', $url));
+  if (!file_exists($svg_path)) {
+    return NULL;
+  }
+
+  $content = (string) file_get_contents($svg_path);
+
+  if (!empty($css_classes)) {
+    $content = str_replace('<svg ', '<svg class="' . implode(' ', $css_classes) . '" ', $content);
+  }
+
+  // Tag list taken from
+  // https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element.
+  // // Excludes <a>, <script> and <style>.
+
+  $supported_svg_tags = implode('', [
+    '<animate>',
+    '<animateMotion>',
+    '<animateTransform>',
+    '<circle>',
+    '<clipPath>',
+    '<defs>',
+    '<desc>',
+    '<ellipse>',
+    '<feBlend>',
+    '<feColorMatrix>',
+    '<feComponentTransfer>',
+    '<feComposite>',
+    '<feConvolveMatrix>',
+    '<feDiffuseLighting>',
+    '<feDisplacementMap>',
+    '<feDistantLight>',
+    '<feDropShadow>',
+    '<feFlood>',
+    '<feFuncA>',
+    '<feFuncB>',
+    '<feFuncG>',
+    '<feFuncR>',
+    '<feGaussianBlur>',
+    '<feImage>',
+    '<feMerge>',
+    '<feMergeNode>',
+    '<feMorphology>',
+    '<feOffset>',
+    '<fePointLight>',
+    '<feSpecularLighting>',
+    '<feSpotLight>',
+    '<feTile>',
+    '<feTurbulence>',
+    '<filter>',
+    '<foreignObject>',
+    '<g>',
+    '<image>',
+    '<line>',
+    '<linearGradient>',
+    '<marker>',
+    '<mask>',
+    '<metadata>',
+    '<mpath>',
+    '<path>',
+    '<pattern>',
+    '<polygon>',
+    '<polyline>',
+    '<radialGradient>',
+    '<rect>',
+    '<set>',
+    '<stop>',
+    '<svg>',
+    '<switch>',
+    '<symbol>',
+    '<text>',
+    '<textPath>',
+    '<title>',
+    '<tspan>',
+    '<use>',
+    '<view>',
+  ]);
+
+  return strip_tags($content, $supported_svg_tags);
 }
 ```
 
