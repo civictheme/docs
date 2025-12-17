@@ -31,17 +31,3 @@ npm run build
 {% hint style="info" %}
 NodeJS version >=22 is required to compile front-end assets.
 {% endhint %}
-
-
-
-### Remove examples from civictheme_starter_kit
-
-CivicTheme 1.11 saw the upgrade to SDCs which came with a namespace change.
-
-The existing example components need to be removed so that civictheme sub-themes built with this tool work correctly.
-
-We will address this issue in CivicTheme 1.12. As a workaround, please delete the following directories from your new sub-theme manually (unless you have added some code changes):
-
-    /components/01-atoms/demo-button
-    /components/01-atoms/demo-button
-    /components/03-organisms/header
