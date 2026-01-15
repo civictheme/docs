@@ -8,17 +8,17 @@ This section shows you how to add a Subject reference card to a Manual list comp
 
 Below you can see a Subject reference card.
 
-<figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a Subject reference card
 
 Step 1: Within the Manual list component under List items, click on the dropdown and select Subject reference card.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 Step 2: Fill in the fields as per below.
 
-<figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 1. Reference - Start typing the page title of the content you want to link to and then select the correct content/page.
 2. Theme - Select light or dark theme.

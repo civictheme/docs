@@ -49,7 +49,7 @@ Go to the [Components](../../../development/uikit/extending-components/) section
 You can add the following components to the banner and they will display within the banner itself:
 
 * [Content](../../components/content/)
-* [Manual list](../../components/manual-list.md)
+* [Manual list](../../components/list-components-and-cards/manual-list.md)
 * [iFrame](../../components/iframe.md)
 * [Map](../../components/map.md)
 * [Slider](../../components/slider.md)
@@ -62,13 +62,13 @@ You can add the following components to the bottom of the banner.
 
 * [Content](../../components/content/)
 * [Accordion](../../components/accordion.md)
-* [Automated list](broken-reference)
+* [Automated list](broken-reference/)
 * [Callout](../../components/callout.md)
 * [Campaign](../../components/campaign.md)
 * [iFrame](../../components/iframe.md)
-* [Manual list](../../components/manual-list.md)
+* [Manual list](../../components/list-components-and-cards/manual-list.md)
 * [Map](../../components/map.md)
-* [Promo](../../components/promo-card.md)
+* [Promo](../../components/list-components-and-cards/cards-for-lists/promo-card.md)
 * [Slider](../../components/slider.md)
 * [Webform](../../components/webform.md)
 

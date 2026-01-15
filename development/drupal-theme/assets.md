@@ -9,7 +9,7 @@ This section explains working with assets in the context of your custom sub-them
 All assets are compiled using `npm run dist` based on the supplied [Webpack configuration](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme_starter_kit/webpack/webpack.common.js).
 
 {% hint style="info" %}
-The Webpack and Storybook configuration may change between versions, so make sure to follow instructions in [Version update](broken-reference) section.
+The Webpack and Storybook configuration may change between versions, so make sure to follow instructions in [Version update](broken-reference/) section.
 {% endhint %}
 
 Assets are served from the `dist` directory and are inter-linked within your sub-theme.
@@ -83,12 +83,12 @@ See the [Fonts addition example](https://github.com/civictheme/monorepo-drupal/b
 
 #### Backgrounds and logos
 
-Backgrounds and Logos are content uploaded through the [theme settings ](broken-reference)form for you sub-theme, therefore files placed in `assets/backgrounds` and `assets/logos` are used only in your sub-theme's Storybook for visual representation.
+Backgrounds and Logos are content uploaded through the [theme settings ](broken-reference/)form for you sub-theme, therefore files placed in `assets/backgrounds` and `assets/logos` are used only in your sub-theme's Storybook for visual representation.
 
 #### Icons
 
 {% hint style="info" %}
-Icons discussed here are the icons used in the UI elements and not the icons that can be uploaded as content in components such as [Navigation card](../../content-authoring/components/navigation-card.md) or [Social links](broken-reference/)
+Icons discussed here are the icons used in the UI elements and not the icons that can be uploaded as content in components such as [Navigation card](../../content-authoring/components/list-components-and-cards/cards-for-lists/navigation-card.md) or [Social links](broken-reference/)
 {% endhint %}
 
 CivicTheme UI kit provides several icons out of the box.

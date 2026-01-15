@@ -6,19 +6,19 @@ Event cards are used to highlight events and are created within the Manual list 
 
 This section shows you how to add an Event card.
 
-![](../../.gitbook/assets/2650308729.png)
+![](../../../../.gitbook/assets/2650308729.png)
 
 ### Step 1 - Add the Event card <a href="#eventcardcomponent-step1-addtheeventcard" id="eventcardcomponent-step1-addtheeventcard"></a>
 
 Within the Manual list component under List items, click on the dropdown and select Event card.
 
-<figure><img src="../../.gitbook/assets/2650210496.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2650210496.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Add details to the Event card <a href="#eventcardcomponent-step1-addtheeventcard" id="eventcardcomponent-step1-addtheeventcard"></a>
 
 You can see the fields in the screenshot below.
 
-<figure><img src="../../.gitbook/assets/2650243193.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/2650243193.png" alt=""><figcaption></figcaption></figure>
 
 Most of the highlighted fields are simple, self-explanatory text fields. Some of the non-text fields are explained below.
 
@@ -26,4 +26,4 @@ Most of the highlighted fields are simple, self-explanatory text fields. Some of
 
 5\. URL - This is an autocomplete field. Start by typing the title of the internal page or enter an external URL.
 
-6\. Topic (optional) - This is an autocomplete field. Terms must first exist in your [Topics](../vocabularies/topics.md) vocabulary.
+6\. Topic (optional) - This is an autocomplete field. Terms must first exist in your [Topics](../../../vocabularies/topics.md) vocabulary.

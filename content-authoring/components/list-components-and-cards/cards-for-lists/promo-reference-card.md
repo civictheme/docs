@@ -8,19 +8,19 @@ This article shows you how to add a Promo reference card to a Manual list compon
 
 Below you can see an example of a Promo reference card.
 
-<figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 1 - Add the Promo reference card <a href="#promoreferencecardcomponent-step1-addthepromoreferencecard" id="promoreferencecardcomponent-step1-addthepromoreferencecard"></a>
 
 Within your Manual list component under List items, click on the dropdown and select Promo reference card as shown below.
 
-<figure><img src="../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (38).png" alt=""><figcaption></figcaption></figure>
 
 ### Step 2 - Fill in the various fields <a href="#promoreferencecardcomponent-step2-fillinthevariousfields" id="promoreferencecardcomponent-step2-fillinthevariousfields"></a>
 
 There are only 2 fields as shown below.
 
-<figure><img src="../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
 Reference - This is an autocomplete text field that will suggest **Page content** titles to link to as you type.
 
