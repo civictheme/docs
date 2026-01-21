@@ -85,4 +85,4 @@ After deployment and provisioning your remote **feature environment** should loo
 
 ### Setting up a sub-theme
 
-See [Sub-theme](sub-theme.md) section to create a sub-theme and use CivicTheme as a base theme.
+See [Sub-theme](../development/drupal-theme/sub-theme.md) section to create a sub-theme and use CivicTheme as a base theme.
