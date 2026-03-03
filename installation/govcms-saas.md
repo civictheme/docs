@@ -27,7 +27,7 @@ For those who prefer more control over the installation process or cannot use th
 [**View manual installation guide →**](govcms-saas-manual.md)
 
 ## Post-installation steps
-
+### [Post Installation Cleanup](govcms-post-installation-cleanup.md)
 ### [Content provisioning](govcms-content-provisioning.md)
 
 Instructions on how to provision CivicTheme's default content blocks and menus, whether you're using automated or manual installation.
