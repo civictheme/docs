@@ -142,7 +142,7 @@ For detailed instructions on content provisioning, see [Content provisioning for
 3. **Content Provisioning** (if skipped during installation):
    * See [Content provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions
 4. **Post Installation cleanup**:
-   * See [Post Installation Cleanup](installation/govcms-post-installation-cleanup.md) for only including required files in the repository (security and code hygiene)
+   * See [Post Installation Cleanup](govcms-post-installation-cleanup.md) for only including required files in the repository (security and code hygiene)
 ## Deployment
 
 1. Push your changes to the remote repository
