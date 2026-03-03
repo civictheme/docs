@@ -133,10 +133,18 @@ For detailed instructions on content provisioning, see [Content provisioning for
        ```
        dist
        ```
+   * Add the following to `.gitignore` in both sub-theme and CivicTheme:
+       ```
+       .components-civictheme
+       components_combined
+       node_modules
+       ```
    * Commit the built assets to your repository
 3. **Content Provisioning** (if skipped during installation):
    * See [Content provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions
-
+4. Delete the following from CivicTheme:
+   - `civictheme_create_subtheme.php`
+   - `civictheme_starter_kit` directory
 ## Deployment
 
 1. Push your changes to the remote repository
