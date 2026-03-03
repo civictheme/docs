@@ -17,6 +17,7 @@
    * Add the following to `.gitignore` in both sub-theme and CivicTheme:
        ```
        .components-civictheme
+       .storybook-static
        components_combined
        node_modules
        ```
