@@ -43,6 +43,26 @@ Regardless of which installation method you choose, ensure you have:
 * [ ] NPM 10+ and NodeJS 22+ available on your machine
 * [ ] A GovCMS project already set up and installed locally
 
+## Troubleshooting
+
+### Content not appearing after provisioning
+
+- Clear caches: `ahoy drush cr`
+- Check that your sub-theme (not the base CivicTheme theme) is set as the default
+- Verify all required modules are enabled
+
+### Styling not applied
+
+- Confirm the `dist` directory exists in your sub-theme
+- Check that `.gitignore` is not excluding `dist`
+- Clear caches and hard-refresh the browser
+
+### Provisioning button not available
+
+- Ensure you are logged in as an administrator
+- Verify the theme is properly installed and enabled
+- Clear caches and reload the theme settings page
+
 ## Where to get help
 
 See [Getting help](../getting-started/getting-help.md) section for support options and resources.

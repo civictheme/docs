@@ -19,11 +19,13 @@
 ## Development
 
 * [UI kit](development/uikit/README.md)
-  * [Components](development/uikit/extending-components/README.md)
-    * [Variables](development/uikit/extending-components/variables.md)
-    * [Spacing](development/uikit/extending-components/spacing.md)
-    * [Grid](development/uikit/extending-components/grid.md)
-    * [Typography](development/uikit/extending-components/typography.md)
+  * [Components](development/uikit/components/variables.md)
+    * [Variables](development/uikit/components/variables.md)
+    * [Spacing](development/uikit/components/spacing.md)
+    * [Grid](development/uikit/components/grid.md)
+    * [Typography](development/uikit/components/typography.md)
+    * [Overriding components](development/uikit/components/overriding-components.md)
+    * [Creating components](development/uikit/components/creating-components.md)
 * [Drupal theme](development/drupal-theme/README.md)
   * [Sub-theme](development/drupal-theme/sub-theme.md)
   * [Color selector](development/drupal-theme/color-selector.md)

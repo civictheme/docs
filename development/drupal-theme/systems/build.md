@@ -12,9 +12,11 @@ The system is engineered to handle the unique requirements of government digital
 
 The build system processes multiple asset types through a unified pipeline:
 
-- **SCSS Processing**: Compiles theme stylesheets including main styles, editor styles, admin styles, layout styles, variables, and Storybook-specific styles
-- **JavaScript Bundling**: Combines JavaScript files with appropriate Drupal behaviour wrappers or DOM-ready listeners
-- **Asset Synchronisation**: Copies static assets (images, fonts, etc.) to output directories with proper path management
+1. **Combines component directories** — uses rsync to merge CivicTheme's components with your sub-theme's components into a temporary `components_combined/` directory. This combined directory is used by Storybook so it can render all components together. SDC components ship their own compiled CSS alongside their component files in the `components/` directory.
+2. **Compiles SCSS** — processes theme-level stylesheets (theme styles, layout styles, editor styles, admin styles, variables) into CSS in `dist/` using `sass-embedded`. Component-level SCSS is compiled to `.css` files within each component's own directory.
+3. **Bundles JavaScript** — wraps component JavaScript in Drupal behavior patterns.
+4. **Copies assets** — moves fonts, icons, images, and other static assets to `dist/assets/`.
+5. **Generates constants** — exports SCSS variables, icon names, backgrounds, and logos to `dist/constants.json` for use in Storybook.
 
 ### Component System Integration
 
@@ -32,7 +34,7 @@ The system generates optimised outputs for different contexts:
 - **Storybook Support**: Creates separate builds for the Storybook development environment
 - **Editor/Admin Styles**: Generates specialised stylesheets for different Drupal interfaces
 
-## Build Modes
+## Build Modes and Commands
 
 The build system supports multiple operational modes:
 
@@ -40,6 +42,36 @@ The build system supports multiple operational modes:
 - **Watch Mode**: File system monitoring with automatic rebuilds for development
 - **Selective Building**: Targeted compilation of specific asset types (styles, JavaScript, assets)
 - **CLI Integration**: Parallel execution of npm scripts for improved performance
+
+### Commands
+
+```bash
+# Full build (assets + Storybook static site)
+npm run build
+
+# Compile assets only (faster, no Storybook)
+npm run dist
+
+# Watch mode (recompiles on file changes)
+npm run dist:watch
+
+# Lint SCSS and JavaScript
+npm run lint
+npm run lint-fix
+
+# Start Storybook dev server (runs dist first, then watches)
+npm run storybook
+```
+
+### Key output files
+
+| File | Purpose |
+|------|---------|
+| `dist/styles.base.css` | Base component styles |
+| `dist/styles.theme.css` | Theme-specific styles |
+| `dist/styles.variables.css` | CSS custom properties (color variables) |
+| `dist/scripts.drupal.base.js` | JavaScript wrapped in Drupal behaviors |
+| `dist/constants.json` | SCSS variables, icon names, backgrounds, and logos for Storybook |
 
 ## Configuration and Constants
 
