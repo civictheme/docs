@@ -71,6 +71,44 @@ drush cr
 - [ ] **Responsive layout** — site looks correct at mobile, tablet, and desktop breakpoints
 - [ ] **Content authoring** — paragraphs can be added and edited in the content editor
 
+### Visual regression testing
+
+Before applying any update, capture a visual baseline of your site so you can compare it against the upgraded version. This makes it possible to identify exactly what changed and work through each difference methodically.
+
+**1. Capture a baseline**
+
+Use a visual regression tool (such as BackstopJS, Percy, or Playwright's screenshot comparison) to take screenshots of key pages and components before the update. Cover:
+
+- Homepage and major landing pages
+- Content pages using each content type
+- Pages with custom component overrides
+- Header, footer, and navigation in both desktop and mobile viewports
+- Light and dark theme variants
+
+**2. Apply the update and capture again**
+
+After updating and rebuilding, run the same screenshot suite against the updated site.
+
+**3. Compare and triage**
+
+Review the visual diff report and categorise each difference:
+
+- **Expected changes** — improvements or intentional design changes documented in the release notes
+- **Broken components** — components that no longer render correctly due to schema changes, removed variables, or markup updates
+- **Page errors** — pages that fail to render or show PHP/Twig errors
+- **Subtle regressions** — spacing, color, or typography shifts that may indicate a changed variable or mixin
+
+**4. Work through differences methodically**
+
+For each broken component or regression:
+
+1. Check if the component has an override in your sub-theme — compare your override against the updated base component
+2. Look for changes to the `.component.yml` schema (new required props, renamed props, changed enums)
+3. Check for renamed or removed SCSS variables and mixins in the release notes
+4. Update your sub-theme's override to match the new interface, rebuild, and verify
+
+Visual regression testing is particularly valuable for CivicTheme updates because component changes can cascade through the site in ways that are difficult to catch with manual spot-checking alone.
+
 ### Handling breaking changes
 
 If the update breaks something:
