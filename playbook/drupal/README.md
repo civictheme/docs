@@ -35,8 +35,8 @@ The playbook provides the task-oriented workflow — the sequencing, decisions, 
 | Role | What you will get from this playbook |
 |------|--------------------------------------|
 | **Tech lead** | End-to-end process for setting up and customising a CivicTheme site, including component architecture and override patterns |
-| **Project manager** | Understanding of the build phases, dependencies between steps, and what the team needs at each stage |
-| **Site manager** | Maintenance procedures for keeping the site secure and up to date after the initial build |
+| **Project manager** | Understanding of the process of installing and managing a CivicTheme site, dependencies between steps, and what the team needs at each stage |
+| **Site manager** | Understanding of the maintenance process for keeping the site secure and up to date after the initial build |
 
 ## Getting help
 

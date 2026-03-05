@@ -27,7 +27,9 @@ Navigate to your component in Storybook and verify all props work correctly acro
 
 ## Step 4: Integrate with Drupal
 
-To use your component in Drupal's content authoring workflow, you need to connect it to Drupal's data layer. This typically involves three pieces:
+To use your component in Drupal's content authoring workflow, you need to connect it to Drupal's data layer. SDC components can be included in any Drupal Twig template — not just paragraph templates. Look at the `templates` directory in CivicTheme to see how components are integrated into Drupal's theme system (nodes, blocks, fields, pages, etc.).
+
+A common pattern for content-authorable components involves three pieces:
 
 1. **A paragraph type** — often a component needs multiple fields to be grouped together. CivicTheme in many instances uses a paragraph type in Drupal with fields to match to a component's props. Field names follow CivicTheme's naming convention (`field_c_p_` prefix for CivicTheme paragraph fields, `field_p_` for custom paragraph fields).
 

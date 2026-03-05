@@ -86,10 +86,9 @@ If the update breaks something:
 | What | Frequency | Why |
 |------|-----------|-----|
 | Drupal security updates | Within 1 week of release | Security advisories have public disclosure timelines |
-| CivicTheme patch releases | Monthly | Bug fixes and minor improvements |
-| CivicTheme minor releases | Quarterly review | New features and component improvements |
-| Node.js package updates | Monthly | Security patches for build tools |
-| CivicTheme major releases | As released (plan migration) | May require sub-theme changes |
+| CivicTheme patch releases | Quarterly | Bug fixes and minor improvements |
+| CivicTheme minor releases | Annual | New features and component improvements |
+| Node.js package updates | Quarterly | Security patches for build tools |
 
 ## Next step
 

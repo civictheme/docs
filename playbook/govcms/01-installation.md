@@ -55,14 +55,14 @@ Verify that the `themes/<SUBTHEME_MACHINE_NAME>/dist` directory was created. Nav
 
 ### Commit built assets
 
-GovCMS SaaS requires built assets to be committed to the repository. But it is important not to commmit your `node_modules` and other deveoloper tools.
+GovCMS SaaS requires built assets to be committed to the repository. But it is important not to commit your `node_modules` and other developer tools.
 
 **Review [committing built assets](../../installation/govcms-saas-manual.md#commit-built-assets) for managing your code repository.**
 
 ## Step 4: Provision content
 
 CivicTheme includes pre-configured blocks, menus, and configuration entities that set up the default site structure (header, footer, navigation, etc.). 
-The provisioning needs to happen **twice** — once locally to capture the configuration, and once in production to populate it with content. 
+Unless a database forklift is being undertaken, the provisioning needs to happen **twice** — once locally to capture the configuration, and once in production to populate it with content. 
 Both are triggered via the **Provision content** button at `/admin/appearance/settings/<SUBTHEME_MACHINE_NAME>`.
 
 The full provisioning workflow, what gets created, how to avoid content forklifts, and troubleshooting are documented in the [GovCMS content provisioning guide](../../installation/govcms-content-provisioning.md).
