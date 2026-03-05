@@ -83,6 +83,25 @@ Depending on your deployment workflow, you may need to repeat this step after de
 After deployment and provisioning your remote **feature environment** should look like a [default CivicTheme site](https://default.civictheme.io/) without homepage content.
 {% endhint %}
 
+## Troubleshooting
+
+### Content not appearing after provisioning
+
+- Clear caches: `drush cr`
+- Check that your sub-theme (not the base CivicTheme theme) is set as the default
+- Verify all required modules are enabled: check the module dependencies in the [theme info.yml](https://github.com/civictheme/monorepo-drupal/blob/develop/web/themes/contrib/civictheme/civictheme.info.yml#L11)
+
+### Styling not applied
+
+- Confirm the `dist` directory exists in your sub-theme
+- Clear caches and hard-refresh the browser
+- Check the browser console for 404 errors on CSS/JS files
+
+### Module dependency errors
+
+- Run `composer require` for any missing packages
+- Ensure you enabled module dependencies before enabling the theme
+
 ### Setting up a sub-theme
 
 See [Sub-theme](../development/drupal-theme/sub-theme.md) section to create a sub-theme and use CivicTheme as a base theme.

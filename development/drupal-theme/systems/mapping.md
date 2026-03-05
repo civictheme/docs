@@ -90,6 +90,28 @@ function _civictheme_preprocess_custom_field(array &$variables): void {
 
 ***
 
+## Field Naming Conventions
+
+CivicTheme uses field prefixes to indicate scope and determine how much built-in support is available:
+
+| Prefix | Scope | What it means |
+|--------|-------|---------------|
+| `field_c_n_*` | CivicTheme node fields | CivicTheme already has preprocess functions and templates. Less custom code needed. |
+| `field_c_p_*` | CivicTheme paragraph fields | Same as above, but for paragraph entities. |
+| `field_n_*` | Custom node fields | No built-in support. You must write your own preprocess functions and templates. |
+| `field_p_*` | Custom paragraph fields | Same as above, but for paragraph entities. |
+
+The most common approach is to mix both — use CivicTheme standard fields where they fit and custom fields where they don't.
+
+## Drupal Integration via Paragraph Types
+
+To use a component in Drupal's content authoring workflow, create a paragraph type that matches the component's props. For example, a feature card component would have:
+
+- Paragraph type: `feature_card`
+- Fields: `field_c_p_title` (Text), `field_c_p_summary` (Text, long), `field_c_p_icon` (Text), `field_c_p_link` (Link), `field_c_p_theme` (List — light/dark)
+
+Then create a preprocess include to extract field values and a Drupal Twig template that includes the component. See the [Implementation Example](#implementation-example) above.
+
 ## Best Practices
 
 ### File Organisation

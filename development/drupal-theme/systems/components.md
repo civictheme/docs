@@ -8,24 +8,38 @@ Each component follows a consistent file structure with specific purposes for ea
 
 ## File Types and Purposes
 
-### `*.component.yml` - Component Metadata and Schema
+### `*.component.yml` - Component Metadata and Schema (SDC)
 
-**Purpose**: Defines the component's properties, validation rules, and documentation for the design system.
+**Purpose**: Defines the component's properties, validation rules, and documentation as a Drupal Single Directory Component (SDC).
+
+CivicTheme components are SDCs — each component lives in its own directory with all related files (Twig, SCSS, JS, stories, and this metadata file). Drupal's SDC system uses the `.component.yml` file to register the component and validate the props passed to it at render time.
 
 **Characteristics**:
-- Uses JSON Schema format with Drupal's metadata schema
+- Uses JSON Schema format with Drupal's metadata schema for prop validation
 - Defines all available props with types, descriptions, and validation rules
 - Includes enums for constrained values (e.g., theme options, size variants)
 - Provides default values where appropriate
 - Serves as the single source of truth for component configuration
 - Enables automatic form generation in Storybook and Drupal
+- Drupal validates incoming props against this schema at render time — missing required props or invalid types will raise errors
 
 **Key sections**:
-- `$schema`: References Drupal's metadata schema
+- `$schema`: References Drupal's metadata schema (`https://git.drupalcode.org/...metadata.schema.json`)
 - `name`: Human-readable component name
-- `status`: Component stability status
+- `status`: Component stability status (e.g., `stable`, `experimental`)
 - `description`: Component purpose and usage
-- `props`: Detailed property definitions with validation
+- `props`: Detailed property definitions with JSON Schema validation (types, enums, defaults)
+- `slots`: Named content areas that accept rendered markup (used instead of props for rich content)
+
+To see how CivicTheme structures its components, examine the [CivicTheme UI Kit SDC components](https://github.com/civictheme/uikit/tree/main/packages/sdc/components).
+
+**Standard enums**: CivicTheme defines standard enum values for commonly used props such as `theme` (`light`, `dark`), `spacing` (`top`, `bottom`, `both`, `none`), and other widely shared properties. When creating or overriding components in your sub-theme, use the same enum values to ensure your component schemas remain compatible with CivicTheme's base components. Mismatched enums may cause incompatibilities with CivicTheme and Drupal. Review the base theme's `.component.yml` files to see which standard values are expected.
+
+**SDC component referencing**: Components are referenced by their namespace and machine name (e.g., `civictheme:button`). In sub-themes, use the `replaces` key to override a base theme component:
+
+```yaml
+replaces: civictheme:button
+```
 
 ### `*.twig` - Template File
 
@@ -41,10 +55,41 @@ Each component follows a consistent file structure with specific purposes for ea
 - Supports both static and dynamic content rendering
 
 **Key patterns**:
-- Prop validation and default value assignment
-- Conditional rendering based on component state
-- CSS class generation using BEM methodology
-- Integration with other components via includes
+
+**Prop validation** — validate props at the top of the template using ternary operators:
+
+```twig
+{% set kind = kind in ['button', 'link', 'reset', 'submit'] ? kind : 'button' %}
+{% set type = type in ['primary', 'secondary', 'tertiary'] ? type : null %}
+{% set theme = theme in ['light', 'dark'] ? theme : 'light' %}
+```
+
+**Class construction** — build modifier classes dynamically:
+
+```twig
+{% set type_class = type ? 'ct-button--%s'|format(type) : '' %}
+{% set size_class = size ? 'ct-button--%s'|format(size) : '' %}
+{% set modifier_class = '%s %s %s'|format(type_class, size_class, modifier_class|default('')) %}
+```
+
+**Nested component includes** — use `only` to limit the scope of variables passed to child components:
+
+```twig
+{% include 'civictheme:icon' with {
+  symbol: icon,
+  size: 'small',
+} only %}
+```
+
+**Blocks for extensibility** — use Twig blocks to allow further overriding by child templates:
+
+```twig
+{% block content_block %}
+  <div class="ct-card__content">
+    {{ content }}
+  </div>
+{% endblock %}
+```
 
 ### `*.stories.js` - Storybook Configuration
 
@@ -110,6 +155,45 @@ Each component follows a consistent file structure with specific purposes for ea
 - Supports light and dark theme variants
 - Uses CivicTheme's color palette system for consistent theming
 
+**Key patterns**:
+
+**BEM naming** — all classes use the pattern `ct-<component>__<element>--<modifier>`:
+
+```scss
+.ct-button {              // Block
+  $root: &;               // Store root selector for complex selectors
+
+  &__icon {               // Element
+    margin-right: ct-spacing(1);
+  }
+
+  &--primary {            // Modifier
+    @include ct-button-type('primary');
+  }
+}
+```
+
+**Design tokens** — use token functions instead of hardcoded values:
+
+```scss
+padding: ct-spacing(3);             // 24px (3 * 8px particle)
+border-width: ct-particle(0.125);
+@include ct-typography('heading-4');
+@include ct-breakpoint(m) { }       // Mobile-first breakpoint
+```
+
+**Theme support** — use the component theme mixin for light/dark theme support:
+
+```scss
+@include ct-component-theme($root) using($root, $theme) {
+  @include ct-component-property($root, $theme, background-color);
+
+  #{$root}__title {
+    @include ct-component-property($root, $theme, title, color);
+  }
+}
+```
+
 **Key features**:
 - Design system integration via variables and mixins
 - Responsive breakpoints and media queries
@@ -171,3 +255,21 @@ Each component follows a consistent file structure with specific purposes for ea
 - Include proper error handling and validation
 
 This structure ensures components are maintainable, reusable, and properly integrated with the CivicTheme design system while providing excellent developer experience through comprehensive documentation and testing tools.
+
+## Common Pitfalls
+
+### Forgetting to rebuild
+
+Changes to SCSS, JavaScript, or Twig files require running `npm run dist`. Storybook's watch mode handles this automatically, but if you are testing in Drupal you need to rebuild and clear caches.
+
+### Namespace conflicts
+
+Your overridden component must use `replaces: 'civictheme:component_name'` in its `.component.yml` file. Without this, Drupal will see two components with conflicting names.
+
+### Breaking the prop schema
+
+When overriding a component's `.component.yml`, ensure existing props remain compatible. Adding new props is safe; removing or changing the type of existing props will break templates that depend on them.
+
+### Preprocess hook dependencies
+
+Some components receive their data from preprocess hooks in the base CivicTheme theme's `includes/` directory. If your override adds new props, you will need to provide data for them through your sub-theme's own preprocess hooks. The [mapping system](mapping.md) explains how Drupal entities are connected to component templates through preprocess functions.

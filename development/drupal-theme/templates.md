@@ -9,7 +9,7 @@ We access these components via component namespaces.
 The idea of separating the CivicTheme UI kit and Drupal templates is to create a reusable set of components that can be used in multiple CMS systems.
 
 {% hint style="info" %}
-Read more about [Components](../uikit/extending-components/) to understand how to create or extend components before reading how to connect these components with Drupal.
+Read more about [Components](../uikit/components/creating-components.md) to understand how to create components before reading how to connect these components with Drupal.
 {% endhint %}
 
 After setting up a component and structuring the twig file (see [Demo button example](https://github.com/civictheme/monorepo-drupal/tree/develop/web/themes/contrib/civictheme/civictheme\_starter\_kit/components/01-atoms/demo-button)), you can include this new component in a Drupal template with an `include` statement. See the `civictheme/templates` directory for how CivicTheme components have been included.

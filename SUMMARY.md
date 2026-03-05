@@ -8,6 +8,25 @@
 * [Security update - 1.12.0](development/maintenance/civictheme-1.12.0-manual-update-instructions.md)
 * [Partnerships](getting-started/partnerships.md)
 
+## Playbook
+
+* [GovCMS SaaS](playbook/govcms/README.md)
+  * [Installation](playbook/govcms/01-installation.md)
+  * [Setting Up Your Sub-Theme](playbook/shared/02-sub-theme-setup.md)
+  * [Configuring Colors and Theme Settings](playbook/shared/03-colors-and-settings.md)
+  * [Overriding Existing Components](playbook/shared/04-overriding-components.md)
+  * [Creating New Components](playbook/shared/05-creating-components.md)
+  * [Updating Packages](playbook/shared/06-updating-packages.md)
+  * [Security Updates](playbook/shared/07-security-updates.md)
+* [Drupal Community](playbook/drupal/README.md)
+  * [Installation](playbook/drupal/01-installation.md)
+  * [Setting Up Your Sub-Theme](playbook/shared/02-sub-theme-setup.md)
+  * [Configuring Colors and Theme Settings](playbook/shared/03-colors-and-settings.md)
+  * [Overriding Existing Components](playbook/shared/04-overriding-components.md)
+  * [Creating New Components](playbook/shared/05-creating-components.md)
+  * [Updating Packages](playbook/shared/06-updating-packages.md)
+  * [Security Updates](playbook/shared/07-security-updates.md)
+
 ## Installation
 
 * [Drupal theme](installation/drupal-theme.md)
@@ -20,11 +39,13 @@
 ## Development
 
 * [UI kit](development/uikit/README.md)
-  * [Components](development/uikit/extending-components/README.md)
-    * [Variables](development/uikit/extending-components/variables.md)
-    * [Spacing](development/uikit/extending-components/spacing.md)
-    * [Grid](development/uikit/extending-components/grid.md)
-    * [Typography](development/uikit/extending-components/typography.md)
+  * [Components](development/uikit/components/variables.md)
+    * [Variables](development/uikit/components/variables.md)
+    * [Spacing](development/uikit/components/spacing.md)
+    * [Grid](development/uikit/components/grid.md)
+    * [Typography](development/uikit/components/typography.md)
+    * [Overriding components](development/uikit/components/overriding-components.md)
+    * [Creating components](development/uikit/components/creating-components.md)
 * [Drupal theme](development/drupal-theme/README.md)
   * [Sub-theme](development/drupal-theme/sub-theme.md)
   * [Color selector](development/drupal-theme/color-selector.md)
