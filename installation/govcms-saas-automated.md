@@ -116,7 +116,6 @@ For detailed instructions on content provisioning, see [Content provisioning for
                       -d "Custom theme for the My Gov Project website on GovCMS." \
                       -n
 ```
-
 ## Post-installation steps
 
 1.  **Build front-end assets**
@@ -133,10 +132,17 @@ For detailed instructions on content provisioning, see [Content provisioning for
        ```
        dist
        ```
+   * Add the following to `.gitignore` in both sub-theme and CivicTheme:
+       ```
+       .components-civictheme
+       components_combined
+       node_modules
+       ```
    * Commit the built assets to your repository
 3. **Content Provisioning** (if skipped during installation):
    * See [Content provisioning for CivicTheme](govcms-content-provisioning.md) for detailed instructions
-
+4. **Post Installation cleanup**:
+   * See [Post Installation Cleanup](govcms-post-installation-cleanup.md) for only including required files in the repository (security and code hygiene)
 ## Deployment
 
 1. Push your changes to the remote repository

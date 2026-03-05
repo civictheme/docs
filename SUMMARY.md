@@ -15,6 +15,7 @@
   * [GovCMS automated installation](installation/govcms-saas-automated.md)
   * [GovCMS manual installation](installation/govcms-saas-manual.md)
   * [GovCMS content provisioning](installation/govcms-content-provisioning.md)
+  * [GovCMS post installation cleanup](installation/govcms-post-installation-cleanup.md)
 
 ## Development
 
