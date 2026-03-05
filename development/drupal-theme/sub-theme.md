@@ -134,16 +134,16 @@ The build system uses rsync to merge component directories. Ensure rsync is inst
 
 ### Node version mismatch
 
-The sub-theme includes an `.nvmrc` file specifying the required Node version (22.6.0). Use `nvm use` to switch to the correct version before running any npm commands.
+The sub-theme includes an `.nvmrc` file specifying the required Node version. Use `nvm use` to switch to the correct version before running any npm commands.
 
-## Remove examples from civictheme_starter_kit
+{% hint style="warning" %}
+**Remove examples from civictheme_starter_kit**
 
-CivicTheme 1.11 saw the upgrade to SDCs which came with a namespace change.
-
-The existing example components need to be removed so that civictheme sub-themes built with this tool work correctly.
+CivicTheme 1.11 saw the upgrade to SDCs which came with a namespace change. The existing example components need to be removed so that civictheme sub-themes built with this tool work correctly.
 
 We will address this issue in CivicTheme 1.12. As a workaround, please delete the following directories from your new sub-theme manually (unless you have added some code changes):
 
     /components/01-atoms/demo-button
     /components/01-atoms/demo-button
     /components/03-organisms/header
+{% endhint %}

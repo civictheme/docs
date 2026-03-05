@@ -110,7 +110,7 @@ To use a component in Drupal's content authoring workflow, create a paragraph ty
 - Paragraph type: `feature_card`
 - Fields: `field_c_p_title` (Text), `field_c_p_summary` (Text, long), `field_c_p_icon` (Text), `field_c_p_link` (Link), `field_c_p_theme` (List — light/dark)
 
-Then create a preprocess include to extract field values and a Drupal Twig template that includes the component. See the [Implementation Example](#implementation-example) below.
+Then create a preprocess include to extract field values and a Drupal Twig template that includes the component. See the [Implementation Example](#implementation-example) above.
 
 ## Best Practices
 

@@ -17,19 +17,27 @@ Determine where your component fits in the hierarchy:
 - If it includes other CivicTheme atoms or molecules via `{% include %}`, it is a molecule or organism
 - If it represents a major page section, it is an organism
 
+## Single Directory Components (SDC)
+
+CivicTheme uses Drupal's Single Directory Component (SDC) architecture. Each component lives in its own directory containing all related files. The `.component.yml` file registers the component with Drupal and defines its props schema using JSON Schema. Drupal validates props against this schema at render time, so incorrect prop types or missing required values will raise errors.
+
+Components are referenced by namespace and machine name (e.g., `civictheme:feature-card`). In your sub-theme, new components are automatically registered under your sub-theme's namespace. To override a base theme component, add `replaces: civictheme:component_name` to your `.component.yml`.
+
 ## Required Files
 
 Create a directory for your component in the appropriate atomic level (e.g., `your_theme/components/02-molecules/feature-card`). Each component needs these files:
 
 | File | Purpose |
 |------|---------|
-| `feature-card.component.yml` | Metadata and props schema (JSON Schema format with Drupal's metadata schema) |
+| `feature-card.component.yml` | SDC metadata: name, status, description, props schema (JSON Schema with Drupal's metadata schema), and slots for rich content areas |
 | `feature-card.twig` | HTML template with prop validation, BEM class construction, and nested includes |
 | `feature-card.scss` | Styles using BEM naming, design tokens, and the `ct-component-theme` mixin |
 | `feature-card.stories.js` | Storybook story with interactive controls for all props |
 | `feature-card.js` | JavaScript using constructor pattern (only if the component has interactive behavior) |
 
-The conventions for each file type — Twig prop validation, SCSS theme mixins, JavaScript constructor patterns, and Storybook controls — are documented in the [components system reference](../../drupal-theme/systems/components.md).
+The `.component.yml` file is the starting point — it defines the component's interface. Props use JSON Schema types (`string`, `boolean`, `object`, `array`) with optional `enum` constraints and `default` values. Slots are used for content areas that accept rendered markup rather than simple values.
+
+The conventions for each file type — Twig prop validation, SCSS theme mixins, JavaScript constructor patterns, Storybook controls, and the full `.component.yml` schema — are documented in the [components system reference](../../drupal-theme/systems/components.md).
 
 ## Registering Component Variables
 

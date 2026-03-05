@@ -8,24 +8,38 @@ Each component follows a consistent file structure with specific purposes for ea
 
 ## File Types and Purposes
 
-### `*.component.yml` - Component Metadata and Schema
+### `*.component.yml` - Component Metadata and Schema (SDC)
 
-**Purpose**: Defines the component's properties, validation rules, and documentation for the design system.
+**Purpose**: Defines the component's properties, validation rules, and documentation as a Drupal Single Directory Component (SDC).
+
+CivicTheme components are SDCs — each component lives in its own directory with all related files (Twig, SCSS, JS, stories, and this metadata file). Drupal's SDC system uses the `.component.yml` file to register the component and validate the props passed to it at render time.
 
 **Characteristics**:
-- Uses JSON Schema format with Drupal's metadata schema
+- Uses JSON Schema format with Drupal's metadata schema for prop validation
 - Defines all available props with types, descriptions, and validation rules
 - Includes enums for constrained values (e.g., theme options, size variants)
 - Provides default values where appropriate
 - Serves as the single source of truth for component configuration
 - Enables automatic form generation in Storybook and Drupal
+- Drupal validates incoming props against this schema at render time — missing required props or invalid types will raise errors
 
 **Key sections**:
-- `$schema`: References Drupal's metadata schema
+- `$schema`: References Drupal's metadata schema (`https://git.drupalcode.org/...metadata.schema.json`)
 - `name`: Human-readable component name
-- `status`: Component stability status
+- `status`: Component stability status (e.g., `stable`, `experimental`)
 - `description`: Component purpose and usage
-- `props`: Detailed property definitions with validation
+- `props`: Detailed property definitions with JSON Schema validation (types, enums, defaults)
+- `slots`: Named content areas that accept rendered markup (used instead of props for rich content)
+
+To see how CivicTheme structures its components, examine the [CivicTheme UI Kit SDC components](https://github.com/civictheme/uikit/tree/main/packages/sdc/components).
+
+**Standard enums**: CivicTheme defines standard enum values for commonly used props such as `theme` (`light`, `dark`), `spacing` (`top`, `bottom`, `both`, `none`), and other widely shared properties. When creating or overriding components in your sub-theme, use the same enum values to ensure your component schemas remain compatible with CivicTheme's base components. Mismatched enums may cause incompatibilities with CivicTheme and Drupal. Review the base theme's `.component.yml` files to see which standard values are expected.
+
+**SDC component referencing**: Components are referenced by their namespace and machine name (e.g., `civictheme:button`). In sub-themes, use the `replaces` key to override a base theme component:
+
+```yaml
+replaces: civictheme:button
+```
 
 ### `*.twig` - Template File
 
