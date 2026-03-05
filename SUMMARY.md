@@ -8,6 +8,25 @@
 * [Security update - 1.12.0](development/maintenance/civictheme-1.12.0-manual-update-instructions.md)
 * [Partnerships](getting-started/partnerships.md)
 
+## Playbook
+
+* [GovCMS SaaS](playbook/govcms/README.md)
+  * [Installation](playbook/govcms/01-installation.md)
+  * [Setting Up Your Sub-Theme](playbook/shared/02-sub-theme-setup.md)
+  * [Configuring Colors and Theme Settings](playbook/shared/03-colors-and-settings.md)
+  * [Overriding Existing Components](playbook/shared/04-overriding-components.md)
+  * [Creating New Components](playbook/shared/05-creating-components.md)
+  * [Updating Packages](playbook/shared/06-updating-packages.md)
+  * [Security Updates](playbook/shared/07-security-updates.md)
+* [Drupal Community](playbook/drupal/README.md)
+  * [Installation](playbook/drupal/01-installation.md)
+  * [Setting Up Your Sub-Theme](playbook/shared/02-sub-theme-setup.md)
+  * [Configuring Colors and Theme Settings](playbook/shared/03-colors-and-settings.md)
+  * [Overriding Existing Components](playbook/shared/04-overriding-components.md)
+  * [Creating New Components](playbook/shared/05-creating-components.md)
+  * [Updating Packages](playbook/shared/06-updating-packages.md)
+  * [Security Updates](playbook/shared/07-security-updates.md)
+
 ## Installation
 
 * [Drupal theme](installation/drupal-theme.md)
