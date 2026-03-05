@@ -16,7 +16,9 @@ Your site has three layers of dependencies, each updated independently:
 |-------|---------|-----------------|
 | CivicTheme base theme | Composer (Drupal) or manual download (GovCMS) | Component library, preprocess hooks, Drupal config |
 | Sub-theme Node packages | npm | Build system, Storybook, SCSS compilation, linting |
-| Drupal core + contrib modules | Composer | CivicTheme's module dependencies |
+| Drupal core + contrib modules | Composer (Drupal) or managed by platform team (GovCMS SaaS) | CivicTheme's module dependencies |
+
+On GovCMS SaaS, Drupal core and contributed module updates are managed by the GovCMS platform team — you do not update these yourself. The platform team applies security patches and version upgrades on a managed schedule. Your responsibility on GovCMS SaaS is limited to the CivicTheme base theme and your sub-theme's Node packages. On standalone Drupal sites, you manage all three layers via Composer.
 
 Updates should flow top-down: update the base theme first, then sub-theme packages, then rebuild and test.
 
