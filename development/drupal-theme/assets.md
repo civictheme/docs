@@ -36,7 +36,7 @@ This distinction is made to provide a clear separation between UI kit-specific s
 
 These reside in `components` directory and repeat the structure of the UI kit library. This allows you to create new or extend existing UI kit components.
 
-See the [Demo button example](https://github.com/civictheme/monorepo-drupal/tree/develop/web/themes/contrib/civictheme/civictheme_starter_kit/components/01-atoms/demo-button) for more details.
+See the [Demo button example](https://github.com/civictheme/uikit/tree/main/packages/sdc/components/01-atoms/button) for more details.
 
 #### Drupal styles
 
@@ -63,7 +63,7 @@ This distinction is made to provide a clear separation between UI kit-specific J
 
 These reside in `components` directory and repeat the structure of the UI kit library. This allows to create new or extend existing UI kit components.
 
-See the [Demo button example](https://github.com/civictheme/monorepo-drupal/tree/develop/web/themes/contrib/civictheme/civictheme_starter_kit/components/01-atoms/demo-button) for more details.
+See the [Demo button example](https://github.com/civictheme/uikit/tree/main/packages/sdc/components/01-atoms/button) for more details.
 
 #### Drupal JS files
 

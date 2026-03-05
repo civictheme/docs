@@ -49,6 +49,8 @@
 * [Drupal theme](development/drupal-theme/README.md)
   * [Sub-theme](development/drupal-theme/sub-theme.md)
   * [Color selector](development/drupal-theme/color-selector.md)
+  * [Header](configuration/header.md)
+  * [Footer](configuration/footer.md)
   * [Namespaces](development/drupal-theme/namespaces.md)
   * [Templates](development/drupal-theme/templates.md)
   * [Assets](development/drupal-theme/assets.md)
