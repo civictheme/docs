@@ -65,7 +65,11 @@ settings:
 
 The mobile navigation is a content block type. This block once created is placed is in the Header Middle 3 region.
 
-There is no configuration needed for this block.
+Configuration is managed within the content block system located in your site in /admin/content/block. There is a mobile navigation block and a search block. 
+The search block has a checkbox for setting to mobile navigation block once this is set you will need to clear cache for search to appear in the mobile navigation.
+
+Configuration for mobile navigation is shown below:
+<div data-full-width="true"><figure><img src="../../.gitbook/assets/mobile-menu-block-configuration.png" alt="Mobile Navigation Block Configuration" style="width: 100%;"><figcaption><p>Mobile Menu Block Configuration. Click on the image to zoom in.</p></figcaption></figure></div>
 
 ## Side Navigation
 
