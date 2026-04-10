@@ -48,5 +48,5 @@ Interact with the [Message component](https://uikit.civictheme.io/?path=/story/o
 
 #### UX evidence framework
 
-Read the [UX evidence behind the Message component](message.md).&#x20;
+Read the [UX evidence behind the Message component](../../components/organisms/message.md).&#x20;
 

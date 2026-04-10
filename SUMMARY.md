@@ -144,7 +144,6 @@
   * [Skip link](components/organisms/skip-link.md)
   * [Slider](components/organisms/slider.md)
   * [Social links](components/organisms/social-links.md)
-  * [Message](components/organisms/message-1.md)
 
 ## Content Authoring
 
@@ -199,6 +198,7 @@
       * [Subject card](content-authoring/components/list-components-and-cards/cards-for-lists/subject-card.md)
       * [Subject reference card](content-authoring/components/list-components-and-cards/cards-for-lists/subject-reference-card.md)
   * [Map](content-authoring/components/map.md)
+  * [Message](content-authoring/components/message.md)
   * [Next step](content-authoring/components/next-step.md)
   * [Promo](content-authoring/components/promo.md)
   * [Slider](content-authoring/components/slider.md)
