@@ -144,6 +144,7 @@
   * [Skip link](components/organisms/skip-link.md)
   * [Slider](components/organisms/slider.md)
   * [Social links](components/organisms/social-links.md)
+  * [Message](components/organisms/message-1.md)
 
 ## Content Authoring
 
