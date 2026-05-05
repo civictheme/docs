@@ -1,5 +1,7 @@
 # Automated list
 
+For developer reference on the underlying paragraph, view and hooks, see [Automated list (developer reference)](../../../development/drupal-theme/automated-list.md).
+
 ### Summary
 
 The Automated List Component displays content that is automatically curated according to predefined criteria and presented in various "teaser" variants: Promo card, Navigation card, Snippet.

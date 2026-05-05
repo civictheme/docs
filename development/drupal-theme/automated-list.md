@@ -1,5 +1,7 @@
 # Automated list
 
+For content authoring guidance on how to add and configure an Automated list (including debugging sort order), see [Automated list (content authoring)](../../content-authoring/components/list-components-and-cards/automated-list.md).
+
 The Automated List Component enables editors to create content lists and embed them on any page.&#x20;
 
 It uses a `civictheme_automated_list` paragraph, whose field values are processed by a View preprocessing function. This function maps these values as arguments to a pre-configured `civictheme_automated_list` view.
