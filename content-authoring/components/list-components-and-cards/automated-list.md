@@ -49,3 +49,13 @@ The screenshot above shows an automated list limited to three results, with the 
 3. Background colour - Check the box to apply a default background colour from your colour palette.
 4. Columns - Select how many columns to display (e.g. the screenshot above of 'Latest news' has three columns)
 5. Items - Choose whether to display the list items as Navigation cards or Promo cards, and whether the cards will use the light or dark theme.
+
+### Debugging sort order
+
+If your automated list is returning content in an order you don't expect, the cause is the default sort order of the underlying view.
+
+The first sort order applied to an automated list is **Promoted to front page**. This is intentional - it allows content authors to "stick" items to the top of an automated list for a particular area by promoting those items to the front page. Any promoted content will appear above non-promoted content, regardless of the secondary sort (e.g. authored date).
+
+**If only one (or a few) nodes are out of order**, the first thing to try is editing the offending node, unticking **Promoted to front page** in the node form, and saving. This should fix the issue.
+
+**If you want to change this behaviour across the board**, the systematic fix is to edit the underlying `civictheme_automated_list` view and remove the **Promoted to front page** sort criterion. After saving the view, your automated list will fall through to the next sort criterion (e.g. most recent first).
