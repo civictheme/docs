@@ -72,12 +72,12 @@
 
 ## Contributing
 
+* [Code of conduct](contributing/code-of-conduct.md)
 * [Contribution model](contributing/contribution-model.md)
 * [Contribution basics](contributing/contribution-basics.md)
 * [Small contribution spec](contributing/small-contribution-spec.md)
 * [Medium contribution spec](contributing/medium-contribution-spec.md)
 * [Major (RFC-level) contribution spec](contributing/major-rfc-level-contribution-spec.md)
-* [Code of conduct](contributing/code-of-conduct.md)
 * [Figma contributions](contributing/figma-contributions.md)
 
 ## Components

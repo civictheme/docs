@@ -6,33 +6,29 @@ description: >-
 
 # Figma contributions
 
-
-
 <figure><img src="../.gitbook/assets/Figma and CivicTheme.png" alt=""><figcaption></figcaption></figure>
 
 ## Contributing in Figma
 
 {% hint style="info" %}
-See the latest Figma file: [CivicTheme v1.12 Figma](https://www.figma.com/design/dPfjcko7zOM1nfOxEsFzrE/CivicTheme--Design-System-v1.13--WIP-?node-id=1009-19330\&p=f\&t=FMemctIs1Jfb5xHE-0)
+See the latest Figma file: [CivicTheme v1.13 Figma](https://www.figma.com/design/dPfjcko7zOM1nfOxEsFzrE/CivicTheme--Design-System-v1.13--WIP-?node-id=1009-19330\&p=f\&t=FMemctIs1Jfb5xHE-0)
 {% endhint %}
 
 ### Contribution criteria
 
 The CivicTheme atomic design system is built on a set of UI building blocks. All of the CivicTheme components, patterns, icons and solutions are:
 
-* Compliant with Australian Government design system&#x20;
+* Compliant with Australian Government design system
 * Built with WCAG 2.2 AA compliance in mind to meet accessibility standards
-* &#x20;Adaptable with GovCMS Drupal 10 out-of-the box&#x20;
-* Responsive&#x20;
+* Adaptable with GovCMS Drupal 10 out-of-the box
+* Responsive
 
-Consider the criteria below before submitting your contribution for consideration: &#x20;
+Consider the criteria below before submitting your contribution for consideration: 
 
-* **Purpose:** New designs should address specific needs, enhance user experience, and add value. They should either extend existing patterns or create new ones.&#x20;
+* **Purpose:** New designs should address specific needs, enhance user experience, and add value. They should either extend existing patterns or create new ones.
 * **User researched and tested:** Your contribution should be backed by user research and testing.
-* **Accessibility tested:** Your design should meet WCAG 2.2 AA  accessibility standards or higher.
+* **Accessibility tested:** Your design should meet WCAG 2.2 AA accessibility standards or higher.
 * **Atomic design:** Contributions should comply with atomic design principles to maintain consistency and modularity whilst aligning to existing design direction.
-
-
 
 ***
 
@@ -54,8 +50,6 @@ With that in mind, the CivicTheme team will consider contributions in many forma
 * **Illustration file**: If you are adding illustrations or iconography to the UI kit, please provide an illustration file (.svg, .png, or .jpg).
 * **Wireframe or sketches**: This can be a photo of that napkin you sketched your ideas on when inspiration hit.
 
-
-
 ***
 
 ### Working with Figma
@@ -65,8 +59,6 @@ If you’re working with a copy of the CivicTheme Figma file, once you’ve fini
 When saving the file, please use the prefix <mark style="color:blue;">CivicTheme\_Design\_</mark> then add your name to the end of the file name as shown below.
 
 **Example**: CivicTheme\_Design\_\[<mark style="color:blue;">YourName</mark>].fig
-
-
 
 ***
 
@@ -85,22 +77,18 @@ When saving the file, please use the prefix <mark style="color:blue;">CivicTheme
    * Fill out the "User Story" section in the issue template to describe the context and reasoning for your contribution. Be clear about the **problem** you're addressing and the **proposed solution**.
 4. **Description**:
    * Provide a **detailed description** of your contribution. Include:
-     * **Page and name**: Reference the page and component name from the Figma file where changes have been made. For example:&#x20;
+     * **Page and name**: Reference the page and component name from the Figma file where changes have been made. For example:
        * _Page 05 Mobile Templates | Template - Homepage - Mobile_.
      * **Rationale**: Explain the reasoning behind your change. Why is it necessary? How does it improve CivicTheme's design system?
      * **Supporting evidence**: If your contribution is research-backed (e.g., user testing, accessibility standards), provide relevant links or documentation.
      * **Testing**: Indicate whether the change has been tested and provide results if applicable (e.g., design QA, browser/device testing).
-5.  **Contribution type**:
-
-    * For **small contributions**, provide a brief summary of changes.
-    * For **medium contributions**, specify if the component can be reused or extended.
-    * For **major contributions**, ensure the description aligns with the broader CivicTheme design principles and can be applied across multiple contexts.
-
-
+5. **Contribution type**:
+   * For **small contributions**, provide a brief summary of changes.
+   * For **medium contributions**, specify if the component can be reused or extended.
+   * For **major contributions**, ensure the description aligns with the broader CivicTheme design principles and can be applied across multiple contexts.
 
 ***
 
 ## Feedback
 
 We're always looking at ways to improve our model for contributions, and rely on your feedback to ensure an enjoyable contribution experience. The best way to give us feedback is to join our [Slack channel ](https://drupal.slack.com/archives/C039UV0CQBZ)and chat to us there, or contact us via [email](mailto:support@civictheme.io)!
-
