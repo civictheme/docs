@@ -47,6 +47,23 @@ npm run build
 
 Verify that the `dist` directory was created. Navigate to your site in the browser and confirm that default CivicTheme styling is applied.
 
+### Commit built assets
+
+The generated sub-theme ignores the compiled `dist/` directory by default. Unless your deployment pipeline runs `npm run build`, the deployed site needs the built assets committed to the repository — otherwise it loads with no CivicTheme styling.
+
+1. Edit the `.gitignore` in your sub-theme and remove the `dist` line.
+2. Add the build's temporary directories so they are not committed:
+
+   ```
+   .components-civictheme
+   components_combined
+   node_modules
+   ```
+
+3. Run `npm run build` and commit the contents of `dist/`.
+
+For the full explanation and the build-during-deployment alternative, see [Committing built assets](../../development/drupal-theme/sub-theme.md#committing-built-assets).
+
 ## Step 4: Provision content
 
 CivicTheme includes pre-configured blocks, menus, and configuration entities that set up the default site structure. 

@@ -40,6 +40,32 @@ npm run build
 NodeJS version >=22 is required to compile front-end assets.
 {% endhint %}
 
+## Committing built assets
+
+The compiled output lives in `dist/`, and the generated sub-theme's `.gitignore` ignores that directory by default. A deployed site still needs those compiled assets, so every project has to make `dist/` available in the deployed environment one of two ways:
+
+- **Commit the built assets** — remove `dist` from your sub-theme's `.gitignore`, run `npm run build`, and commit the result. Choose this when your hosting does not run the front-end build during deployment.
+- **Build during deployment** — keep `dist` ignored and run `npm run build` as part of your CI/CD pipeline so the assets are compiled on each deploy.
+
+If you forget to do either, the deployed site loads with no CivicTheme styling because the `dist/` files are missing.
+
+When committing built assets, edit the sub-theme's `.gitignore`:
+
+1. Remove the `dist` line.
+2. Add the build's temporary directories so they are not committed:
+
+   ```
+   .components-civictheme
+   components_combined
+   node_modules
+   ```
+
+3. Run `npm run build` and commit the contents of `dist/`.
+
+{% hint style="info" %}
+GovCMS SaaS does not build front-end assets on deploy, so committing built assets is **required** there. See [Commit built assets](../../installation/govcms-saas-manual.md#commit-built-assets).
+{% endhint %}
+
 ## Directory structure
 
 The sub-theme creation script generates the following project scaffold:
