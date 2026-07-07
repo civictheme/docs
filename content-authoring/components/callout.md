@@ -4,10 +4,6 @@
 
 The Callout component can be used to highlight some content (usually better for shorter content blocks).
 
-This section shows you how to add a Callout.
-
-Below is an Callout.
-
 <figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a callout
