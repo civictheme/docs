@@ -4,10 +4,6 @@
 
 The Slider component allows your users to move through multiple panels that include images and content.
 
-This section shows you how to add the Slider component.
-
-Below is an example of the Slider component.
-
 <figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a Slider

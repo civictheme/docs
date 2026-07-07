@@ -2,11 +2,7 @@
 
 ### Summary
 
-The Webform component allows you to add a webform into a content page - from a basic contact us form to a more comprehensive webform. &#x20;
-
-This section shows you how to add a Webform component into  page. &#x20;
-
-Below you can see an example webform.&#x20;
+The Webform component allows you to add a webform into a content page - from a basic contact us form to a more comprehensive webform.
 
 <img src="../../.gitbook/assets/image (42).png" alt="" data-size="original">
 
@@ -20,8 +16,8 @@ Step 2: Fill in the fields as per below.
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-1. Webform - Select a webform from the dropdown (note, before adding webforms to a page you'll need to create the webform).&#x20;
+1. Webform - Select a webform from the dropdown (note, before adding webforms to a page you'll need to create the webform).
 2. Webform settings - choose the status (Open, Closed or Scheduled) and add default submission data if desired.
-3. Theme - Select light or dark theme.&#x20;
+3. Theme - Select light or dark theme.
 4. Vertical spacing - Add vertical spacing on the component (above, below or above AND below).
 5. Background - Check this box to apply a background colour.

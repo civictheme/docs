@@ -4,10 +4,6 @@
 
 The Accordion component allows you to add collapsible sections of content. You can specify the default state (expanded or collapsed) in the Accordion settings.
 
-This section shows you how to add accordions.
-
-Below you can see two accordions, one in its expanded form, and the other one collapsed.
-
 <figure><img src="../../.gitbook/assets/2639724594.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 1 - Add the Accordion component <a href="#accordioncomponent-step1-addtheaccordioncomponent" id="accordioncomponent-step1-addtheaccordioncomponent"></a>

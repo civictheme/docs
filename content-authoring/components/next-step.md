@@ -2,10 +2,6 @@
 
 The Next Step component allows you to add a visual element that represents the next step for a user (or a series of steps).
 
-This section shows you how to add the Next Step component.
-
-Below is an example of the Next Step component.
-
 <figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a Next Step
