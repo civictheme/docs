@@ -4,10 +4,6 @@
 
 The campaign component lets you highlight content with an image, which can be displayed on the left or the right.
 
-This section shows you how to add a Campaign.
-
-Below is an Campaign with the image on the left.
-
 <figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### How to add a Campaign
